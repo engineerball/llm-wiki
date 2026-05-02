@@ -82,6 +82,8 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 
 ## Anthropic's Perspective (2026)
 
+### Multi-agent orchestration for long-running tasks (early 2026)
+
 [[Anthropic]] extended the harness concept to multi-agent orchestration for long-running tasks. Their harness = specialized agent roles + feedback loops:
 
 - **Planner** → expands intent into spec
@@ -89,6 +91,18 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 - **Evaluator** → tests against [[Sprint Contracts]]
 
 Key insight from [[Harness Design for Long-Running Application Development]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
+
+### Effective harnesses for long-running agents (mid 2026)
+
+Anthropic's follow-up research focused specifically on enabling the Claude Agent SDK to work across many context windows. [[Effective harnesses for long-running agents]] identified four failure modes and a two-role architecture:
+
+- **[[Initializer-Coding Agent Architecture]]** — split between one-time environment setup (initializer) and incremental per-session progress (coding agent)
+- **[[Feature List Pattern]]** — comprehensive JSON enumeration of all features, initially all "failing", to defeat one-shotting and premature completion
+- Session continuity artifacts: `init.sh`, `claude-progress.txt`, git commits with descriptive messages
+- Browser automation (Puppeteer MCP) for end-to-end testing — dramatically improved bug detection vs code-level testing alone
+- Key failure modes: one-shotting, premature completion, buggy/undocumented state, premature test passing
+
+This work complements the earlier [[Generator-Evaluator Architecture]] and [[Sprint Contracts]] patterns, but focuses specifically on the cross-context-window problem rather than quality-assurance within a single session.
 
 ## Stripe's Production Implementation (2026)
 
@@ -126,7 +140,10 @@ See [[Guides and Sensors]].
 - [[Generator-Evaluator Architecture]] — multi-agent pattern for quality via separation of roles
 - [[Sprint Contracts]] — pre-negotiated success criteria between generator and evaluator
 - [[Context Management for Agents]] — handling context degradation in long-running agent tasks
+- [[Initializer-Coding Agent Architecture]] — two-role split for cross-context continuity (Anthropic, 2026)
+- [[Feature List Pattern]] — JSON feature enumeration to prevent one-shotting and premature completion
 - [[Guides and Sensors]] — feedforward/feedback control framework for harness design
 - [[Harnessability]] — codebase property determining how effective harness controls can be
+- [[One-Shot Agent]] — contrasted with Anthropic's incremental agent architecture
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)

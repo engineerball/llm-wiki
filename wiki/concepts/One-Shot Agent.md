@@ -52,3 +52,4 @@ One-shot agents represent a high-trust point on the human-oversight spectrum. Th
 - [[Harness Engineering]] — the design discipline that makes one-shot viable
 - [[Guides and Sensors]] — the control framework underpinning one-shot verification
 - [[Generator-Evaluator Architecture]] — alternative multi-agent pattern; involves more internal steps but also minimal human checkpoints during execution
+- [[Initializer-Coding Agent Architecture]] — Anthropic's contrasting pattern: rather than one-shot per session, agents make incremental progress across many context windows with explicit session continuity artifacts

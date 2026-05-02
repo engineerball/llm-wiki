@@ -18,6 +18,7 @@ Catalog of all pages, organized by category.
 | [[Harness Design for Long-Running Application Development]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
 | [[Harness Engineering for Coding Agent Users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler) |
 | [[Minions: Stripe's One-Shot End-to-End Coding Agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
+| [[Effective harnesses for long-running agents]] | 2026-05-02 | Anthropic's two-role architecture for long-running agents (initializer + coding agent) |
 
 ---
 
@@ -29,6 +30,8 @@ Catalog of all pages, organized by category.
 | [[Generator-Evaluator Architecture]] | Multi-agent pattern: separate generator from evaluator to overcome self-evaluation blindness |
 | [[Sprint Contracts]] | Pre-negotiated success criteria between generator and evaluator agents |
 | [[Context Management for Agents]] | Handling context degradation and anxiety in long-running agent tasks |
+| [[Initializer-Coding Agent Architecture]] | Anthropic's two-role pattern for cross-session continuity (initializer + coding agent) |
+| [[Feature List Pattern]] | JSON feature enumeration to prevent one-shotting and premature completion |
 | [[Guides and Sensors]] | Feedforward (guides) vs feedback (sensors) controls in a harness; requires both for closed-loop reliability |
 | [[Harnessability]] | Codebase property: degree to which a codebase enables effective harness controls |
 
@@ -50,6 +53,7 @@ Catalog of all pages, organized by category.
 |------|------|
 | [[Birgitta Böckeler]] | ThoughtWorks principal technologist; harness engineering researcher |
 | [[Prithvi Rajasekaran]] | Anthropic engineer; multi-agent harness researcher |
+| [[Justin Young]] | Anthropic engineer; author of "Effective harnesses for long-running agents" (2026) |
 
 ---
 

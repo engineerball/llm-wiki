@@ -86,3 +86,21 @@ Chronological record of ingests, queries, and maintenance.
 - `index.md` — added source and Stripe entity entries
 
 **Key topics ingested:** one-shot coding agents, blueprint system as guides, pre-push hooks as sensors, parallel worktree isolation, monorepo harnessability, end-to-end agent loop (plan → implement → verify → PR)
+
+## 2026-05-02 | ingest | anthropic-effective-harnesses
+
+**Source:** https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+**Authors:** Justin Young, Anthropic Engineering team
+
+**Pages created:**
+- `sources/anthropic-effective-harnesses.md` — full source summary
+- `concepts/initializer-coding-agent-architecture.md` — new concept: two-role split (initializer + coding agent) for cross-session continuity
+- `concepts/feature-list-pattern.md` — new concept: JSON feature enumeration to prevent one-shotting and premature completion
+
+**Pages updated:**
+- `concepts/harness-engineering.md` — added Anthropic's mid-2026 research on long-running agent harnesses (initializer-coding architecture, feature list pattern, browser automation testing)
+- `concepts/One-Shot Agent.md` — added cross-reference to Initializer-Coding Agent Architecture
+- `index.md` — added 3 new entries (1 source, 2 concepts)
+- `raw/text/anthropic-effective-harnesses.md` — full article text source
+
+**Key topics ingested:** two-part agent architecture (initializer + coding agent), four failure modes (one-shotting, premature completion, buggy state, premature test passing), feature list JSON pattern, claude-progress.txt, session continuity, browser automation testing (Puppeteer MCP), multi-agent future directions
