@@ -16,6 +16,7 @@ Catalog of all pages, organized by category.
 |------|------|-------|
 | [[Harness Engineering - Leveraging Codex in an Agent-First World]] | 2026-02-11 | Agent-first software development with Codex |
 | [[Harness Design for Long-Running Application Development]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
+| [[Harness Engineering for Coding Agent Users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler) |
 
 ---
 
@@ -27,6 +28,8 @@ Catalog of all pages, organized by category.
 | [[Generator-Evaluator Architecture]] | Multi-agent pattern: separate generator from evaluator to overcome self-evaluation blindness |
 | [[Sprint Contracts]] | Pre-negotiated success criteria between generator and evaluator agents |
 | [[Context Management for Agents]] | Handling context degradation and anxiety in long-running agent tasks |
+| [[Guides and Sensors]] | Feedforward (guides) vs feedback (sensors) controls in a harness; requires both for closed-loop reliability |
+| [[Harnessability]] | Codebase property: degree to which a codebase enables effective harness controls |
 
 ---
 
@@ -38,6 +41,12 @@ Catalog of all pages, organized by category.
 |------|------|
 | [[OpenAI]] | AI research lab |
 | [[Anthropic]] | AI safety research lab, creator of Claude |
+
+### People
+
+| Page | Role |
+|------|------|
+| [[Birgitta Böckeler]] | ThoughtWorks principal technologist; harness engineering researcher |
 
 ### Tools
 

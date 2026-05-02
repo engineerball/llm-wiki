@@ -90,10 +90,31 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 
 Key insight from [[Harness Design for Long-Running Application Development]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
 
+## Böckeler's Framework (ThoughtWorks, 2026)
+
+[[Birgitta Böckeler]] extended harness engineering into a structured taxonomy in [[Harness Engineering for Coding Agent Users]] (martinfowler.com, 2026):
+
+**Control types by timing:**
+- **Guides (feedforward)** — steer agents before action (AGENTS.md, rules, templates)
+- **Sensors (feedback)** — observe after action and enable self-correction (tests, linters, AI review)
+
+See [[Guides and Sensors]].
+
+**Three harness domains:**
+1. **Maintainability** — internal code quality; most mature
+2. **Architecture Fitness** — structural rules, performance, dependency validation
+3. **Behaviour** — functional correctness; currently underdeveloped
+
+**Key property:** Not all codebases support harnesses equally. See [[Harnessability]].
+
+**Critical limit:** High-impact problems (misdiagnosis, overengineering) remain hard to automate. Human engineers carry implicit harnesses — experience, accountability, organizational awareness — that are currently irreplaceable.
+
 ## Related Concepts
 
 - [[Generator-Evaluator Architecture]] — multi-agent pattern for quality via separation of roles
 - [[Sprint Contracts]] — pre-negotiated success criteria between generator and evaluator
 - [[Context Management for Agents]] — handling context degradation in long-running agent tasks
+- [[Guides and Sensors]] — feedforward/feedback control framework for harness design
+- [[Harnessability]] — codebase property determining how effective harness controls can be
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)

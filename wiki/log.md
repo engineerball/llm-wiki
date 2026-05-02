@@ -10,6 +10,24 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-02 | ingest | fowler-harness-engineering
+
+**Source:** https://martinfowler.com/articles/harness-engineering.html
+**Author:** Birgitta Böckeler (ThoughtWorks), published on martinfowler.com
+**Pages created:**
+- `sources/fowler-harness-engineering.md` — full source summary
+- `concepts/guides-and-sensors.md` — new concept: feedforward guides vs feedback sensors in harness design
+- `concepts/harnessability.md` — new concept: codebase property enabling effective harness controls
+- `entities/birgitta-bockeler.md` — entity: Böckeler (author, ThoughtWorks)
+
+**Pages updated:**
+- `concepts/harness-engineering.md` — added Böckeler's framework (guides/sensors, three harness categories, harnessability, human implicit harness)
+- `index.md` — added 4 new entries (1 source, 2 concepts, 1 person entity; added People section)
+
+**Key topics ingested:** guides vs sensors (feedforward/feedback), computational vs inferential execution, maintainability/architecture-fitness/behaviour harness categories, harnessability, ambient affordances (Ned Letcher), Ashby's Law applied to harness coverage, harness templates, human implicit harness
+
+---
+
 ## 2026-05-02 | ingest | harness-design-long-running-apps
 
 **Source:** https://www.anthropic.com/engineering/harness-design-long-running-apps
