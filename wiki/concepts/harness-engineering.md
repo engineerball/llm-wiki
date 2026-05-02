@@ -80,8 +80,20 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 - ~3.5 PRs per engineer per day
 - Estimated 10x throughput vs traditional development
 
+## Anthropic's Perspective (2026)
+
+[[Anthropic]] extended the harness concept to multi-agent orchestration for long-running tasks. Their harness = specialized agent roles + feedback loops:
+
+- **Planner** → expands intent into spec
+- **Generator** → implements iteratively
+- **Evaluator** → tests against [[Sprint Contracts]]
+
+Key insight from [[Harness Design for Long-Running Application Development]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
+
 ## Related Concepts
 
-- Agent-first development (broader paradigm)
+- [[Generator-Evaluator Architecture]] — multi-agent pattern for quality via separation of roles
+- [[Sprint Contracts]] — pre-negotiated success criteria between generator and evaluator
+- [[Context Management for Agents]] — handling context degradation in long-running agent tasks
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)
