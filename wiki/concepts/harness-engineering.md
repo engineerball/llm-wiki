@@ -90,6 +90,18 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 
 Key insight from [[Harness Design for Long-Running Application Development]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
 
+## Stripe's Production Implementation (2026)
+
+[[Stripe]] built **Minions** — a one-shot end-to-end coding agent system operating at production scale in a large monorepo. Key harness elements:
+
+- **Blueprints** — service-level feedforward guides encoding architectural rules and conventions; described in [[Minions: Stripe's One-Shot End-to-End Coding Agents]]
+- **Pre-push hooks** — sensor controls that run linting, type checking, and tests; agent self-corrects on failures before any human sees the output
+- **One-shot execution** — engineers submit one task description and review one PR; all iteration is internal to the agent loop
+
+The Minions system demonstrates that one-shot autonomous coding is viable at scale when the codebase has sufficient [[Harnessability]] (typed, topologically defined, rule-enforced).
+
+See [[One-Shot Agent]] and [[Blueprints]].
+
 ## Böckeler's Framework (ThoughtWorks, 2026)
 
 [[Birgitta Böckeler]] extended harness engineering into a structured taxonomy in [[Harness Engineering for Coding Agent Users]] (martinfowler.com, 2026):
