@@ -145,5 +145,6 @@ See [[guides-and-sensors]].
 - [[guides-and-sensors]] — feedforward/feedback control framework for harness design
 - [[harnessability]] — codebase property determining how effective harness controls can be
 - [[one-shot-agent]] — contrasted with Anthropic's incremental agent architecture
+- [[finops]] — shared patterns: centralized enablement + decentralized execution; cost as a first-class metric is a harness constraint
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)

@@ -104,3 +104,21 @@ Chronological record of ingests, queries, and maintenance.
 - `raw/text/anthropic-effective-harnesses.md` — full article text source
 
 **Key topics ingested:** two-part agent architecture (initializer + coding agent), four failure modes (one-shotting, premature completion, buggy state, premature test passing), feature list JSON pattern, claude-progress.txt, session continuity, browser automation testing (Puppeteer MCP), multi-agent future directions
+
+---
+
+## 2026-05-02 | ingest | finops-framework-principles
+
+**Source:** https://www.finops.org/framework/principles/
+**Org:** FinOps Foundation
+
+**Pages created:**
+- `sources/finops-framework-principles.md` — full source summary of six FinOps principles
+- `concepts/finops.md` — new concept: FinOps as operating model for cloud financial accountability
+
+**Pages updated:**
+- `concepts/harness-engineering.md` — added cross-reference to FinOps (shared patterns: centralized enablement + decentralized execution)
+- `index.md` — added 1 source + 1 concept entry
+- `raw/text/finops-framework-principles.md` — full source text
+
+**Key topics ingested:** six FinOps principles (collaboration, business value, ownership, data transparency, central enablement, variable cost model), centralized enablement + decentralized execution model, cost as first-class metric, FOCUS data normalization
