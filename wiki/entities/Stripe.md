@@ -12,7 +12,7 @@ Payments and financial infrastructure company. Operates a large production engin
 
 ## Relevant Work in This Wiki
 
-- [[Minions: Stripe's One-Shot End-to-End Coding Agents]] — Stripe's production coding agent system: one-shot end-to-end task execution (plan → implement → verify → PR) with blueprint-based guidance and pre-push sensor hooks
+- [[Minions - Stripe's One-Shot End-to-End Coding Agents]] — Stripe's production coding agent system: one-shot end-to-end task execution (plan → implement → verify → PR) with blueprint-based guidance and pre-push sensor hooks
 
 ## Engineering Context
 

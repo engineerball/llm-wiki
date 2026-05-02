@@ -108,7 +108,7 @@ This work complements the earlier [[Generator-Evaluator Architecture]] and [[Spr
 
 [[Stripe]] built **Minions** — a one-shot end-to-end coding agent system operating at production scale in a large monorepo. Key harness elements:
 
-- **Blueprints** — service-level feedforward guides encoding architectural rules and conventions; described in [[Minions: Stripe's One-Shot End-to-End Coding Agents]]
+- **Blueprints** — service-level feedforward guides encoding architectural rules and conventions; described in [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
 - **Pre-push hooks** — sensor controls that run linting, type checking, and tests; agent self-corrects on failures before any human sees the output
 - **One-shot execution** — engineers submit one task description and review one PR; all iteration is internal to the agent loop
 

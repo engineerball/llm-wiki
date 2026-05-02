@@ -48,7 +48,7 @@ One-shot agents represent a high-trust point on the human-oversight spectrum. Th
 
 ## See Also
 
-- [[Minions: Stripe's One-Shot End-to-End Coding Agents]] — source and reference implementation
+- [[Minions - Stripe's One-Shot End-to-End Coding Agents]] — source and reference implementation
 - [[Harness Engineering]] — the design discipline that makes one-shot viable
 - [[Guides and Sensors]] — the control framework underpinning one-shot verification
 - [[Generator-Evaluator Architecture]] — alternative multi-agent pattern; involves more internal steps but also minimal human checkpoints during execution

@@ -49,7 +49,7 @@ Coding agents are instructed with strongly-worded rules:
 |----------|---------|
 | Defines all required features | [[Guides and Sensors]] — feedforward guide |
 | Test criteria for each feature | [[Sprint Contracts]] — success criteria |
-| Pass/fail tracking | Progress meter for [[Initializer-Coding Agent Architecture\|coding agents]] |
+| Pass/fail tracking | Progress meter for [[Initializer-Coding Agent Architecture|coding agents]] |
 | Prevents premature completion | Anti-one-shotting mechanism |
 
 ## Relationship to Other Concepts

@@ -17,7 +17,7 @@ Catalog of all pages, organized by category.
 | [[Harness Engineering - Leveraging Codex in an Agent-First World]] | 2026-02-11 | Agent-first software development with Codex |
 | [[Harness Design for Long-Running Application Development]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
 | [[Harness Engineering for Coding Agent Users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler) |
-| [[Minions: Stripe's One-Shot End-to-End Coding Agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
+| [[Minions - Stripe's One-Shot End-to-End Coding Agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
 | [[Effective harnesses for long-running agents]] | 2026-05-02 | Anthropic's two-role architecture for long-running agents (initializer + coding agent) |
 
 ---

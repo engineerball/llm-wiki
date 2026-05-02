@@ -10,7 +10,7 @@ date: 2026-05-02
 
 Stripe's structured documentation system for describing service contracts, expected code patterns, architectural rules, and interface specifications. Blueprints are the primary [[Guides and Sensors|guide]] mechanism in the [[Stripe]] Minions system — feedforward controls that orient coding agents before they begin implementing.
 
-Introduced in [[Minions: Stripe's One-Shot End-to-End Coding Agents]].
+Introduced in [[Minions - Stripe's One-Shot End-to-End Coding Agents]].
 
 ## What Blueprints Contain
 

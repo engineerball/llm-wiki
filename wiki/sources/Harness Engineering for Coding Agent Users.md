@@ -89,7 +89,7 @@ Higher-impact problems — misdiagnosis, overengineering — remain hard to auto
 ## Real-World Implementations Cited
 
 - **[[OpenAI]]**: Layered architecture enforced through custom linters and structural tests
-- **[[Stripe]] "Minions"**: Pre-push hooks and blueprint-integrated feedback — see [[Minions: Stripe's One-Shot End-to-End Coding Agents]]
+- **[[Stripe]] "Minions"**: Pre-push hooks and blueprint-integrated feedback — see [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
 - **ThoughtWorks teams**: Architecture drift detection using computational + inferential sensors
 
 ## Open Questions
@@ -108,6 +108,6 @@ Higher-impact problems — misdiagnosis, overengineering — remain hard to auto
 
 - [[Birgitta Böckeler]] — author, ThoughtWorks principal technologist
 - Ned Letcher — coined "Ambient Affordances"
-- [[Stripe]] — cited for "minions" with pre-push hooks; see [[Minions: Stripe's One-Shot End-to-End Coding Agents]]
+- [[Stripe]] — cited for "minions" with pre-push hooks; see [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
 - [[OpenAI]] — cited for layered architecture enforcement
 - ThoughtWorks — cited for architecture drift detection work
