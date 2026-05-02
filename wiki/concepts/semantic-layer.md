@@ -100,3 +100,4 @@ This is the key insight: **ad-hoc queries need semantic flexibility**. Someone m
 - **[[guides-and-sensors]]** — Semantic dimensions are feedforward **guides**; the resulting metrics are feedback **sensors**
 - **[[finops-getting-started-gcp|FinOps Inform phase]]** — "Report KPI & cost" Epic maps directly to semantic layer: unified metric definitions across reporting tools
 - **[[finops]]** — FinOps KPIs defined once in a semantic layer, queried by multiple BI tools — the exact use case semantic layers solve
+- **[[naming-conventions-for-semantic-layers]]** — gold-layer design principles for AI-friendly semantics: entity-oriented tables, star schema, business names, AI documentation

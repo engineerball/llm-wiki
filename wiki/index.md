@@ -23,6 +23,8 @@ Catalog of all pages, organized by category.
 | [[stripe-minions-one-shot-coding-agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
 | [[anthropic-effective-harnesses]] | 2026-05-02 | Anthropic's two-role architecture for long-running agents (initializer + coding agent) |
 | [[semantic-layer-duckdb-tutorial]] | 2026-05-02 | Why semantic layers matter and how to build one with DuckDB + Ibis |
+| [[naming-conventions-for-semantic-layers]] | 2026-05-02 | Gold-layer design principles for AI Copilot consumption (Microsoft Fabric) |
+| [[dbt-semantic-layer-introduction]] | 2026-05-02 | What a semantic layer is, five use cases, and the hub-and-spoke pattern (dbt blog) |
 
 ---
 
