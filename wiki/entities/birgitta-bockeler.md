@@ -1,6 +1,8 @@
 ---
 title: "Birgitta Böckeler"
+type: person
 tags: [entity, person, author, thoughtworks]
+sources: [https://martinfowler.com/articles/harness-engineering.html]
 date: 2026-05-02
 ---
 

@@ -33,22 +33,25 @@ Catalog of all pages, organized by category.
 
 ---
 
-## Entities
-
-### Organizations
+## Organizations
 
 | Page | Type |
 |------|------|
 | [[OpenAI]] | AI research lab |
 | [[Anthropic]] | AI safety research lab, creator of Claude |
 
-### People
+---
+
+## People
 
 | Page | Role |
 |------|------|
 | [[Birgitta Böckeler]] | ThoughtWorks principal technologist; harness engineering researcher |
+| [[Prithvi Rajasekaran]] | Anthropic engineer; multi-agent harness researcher |
 
-### Tools
+---
+
+## Tools
 
 | Page | Type |
 |------|------|

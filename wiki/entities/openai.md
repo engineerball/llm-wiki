@@ -1,5 +1,6 @@
 ---
 title: "OpenAI"
+type: organization
 tags: [entity, organization, ai-lab]
 sources: []
 date: 2026-02-11

@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-02 | lint | fix warnings W1–W5
+
+**Issues fixed:**
+- W1: Added `sources:` and `type: person` to `entities/birgitta-bockeler.md` frontmatter
+- W2: Added `type: organization` to `entities/openai.md` and `entities/anthropic.md`
+- W3: Promoted `### Organizations/People/Tools` to H2 in `index.md`; removed redundant `## Entities`
+- W4: Created `entities/prithvi-rajasekaran.md`; wikilinked his name in `harness-design-long-running-apps.md`, `generator-evaluator-architecture.md`, `anthropic.md`; added to index
+- W5: Added `aliases: ["Self-Evaluation Blindness"]` to `generator-evaluator-architecture.md`; wikilinked "self-evaluation blindness" in `harness-design-long-running-apps.md`
+
+---
+
 ## 2026-05-02 | ingest | fowler-harness-engineering
 
 **Source:** https://martinfowler.com/articles/harness-engineering.html

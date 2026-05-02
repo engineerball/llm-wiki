@@ -8,13 +8,13 @@ date: 2026-03-24
 
 # Harness Design for Long-Running Application Development
 
-**Author:** Prithvi Rajasekaran (Anthropic Labs)
+**Author:** [[Prithvi Rajasekaran]] ([[Anthropic]] Labs)
 **Published:** March 24, 2026
 **URL:** https://www.anthropic.com/engineering/harness-design-long-running-apps
 
 ## Summary
 
-Anthropic engineer describes building multi-agent harnesses to enable [[Claude]] to do extended frontend design and autonomous software engineering. Naive single-agent approaches fail at long tasks due to context degradation and self-evaluation blindness. The solution: specialize agents into Planner / Generator / Evaluator roles with explicit [[Sprint Contracts]] and [[Generator-Evaluator Architecture]] inspired by GANs.
+Anthropic engineer describes building multi-agent harnesses to enable [[Claude]] to do extended frontend design and autonomous software engineering. Naive single-agent approaches fail at long tasks due to context degradation and [[Generator-Evaluator Architecture|self-evaluation blindness]]. The solution: specialize agents into Planner / Generator / Evaluator roles with explicit [[Sprint Contracts]] and [[Generator-Evaluator Architecture]] inspired by GANs.
 
 ## Core Failure Modes of Naive Single-Agent Approaches
 

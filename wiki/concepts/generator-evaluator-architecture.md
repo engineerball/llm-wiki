@@ -1,5 +1,6 @@
 ---
 title: "Generator-Evaluator Architecture"
+aliases: ["Self-Evaluation Blindness"]
 tags: [concept, multi-agent, harness, evaluation, gan-inspired]
 sources: [https://www.anthropic.com/engineering/harness-design-long-running-apps]
 date: 2026-03-24
@@ -9,7 +10,7 @@ date: 2026-03-24
 
 A multi-agent pattern where one agent generates output and a separate agent evaluates it, creating a feedback loop. Inspired by Generative Adversarial Networks (GANs). Addresses the fundamental problem of **self-evaluation blindness**: agents reliably praise their own outputs even when quality is mediocre.
 
-Described in [[Harness Design for Long-Running Application Development]] by Prithvi Rajasekaran ([[Anthropic]], 2026).
+Described in [[Harness Design for Long-Running Application Development]] by [[Prithvi Rajasekaran]] ([[Anthropic]], 2026).
 
 ## Why Separate Generation from Evaluation
 
