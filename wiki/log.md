@@ -71,3 +71,18 @@ Chronological record of ingests, queries, and maintenance.
 - `log.md` — this file
 
 **Key topics ingested:** agent-first development, harness engineering, repository legibility, architectural constraints for agents, merge philosophy at high throughput, entropy management
+
+---
+
+## 2026-05-02 | ingest | stripe-minions-one-shot-coding-agents
+
+**Source:** https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents
+
+**Pages created:**
+- `sources/stripe-minions-one-shot-coding-agents.md` — full source summary
+- `entities/Stripe.md` — entity: Stripe (company)
+
+**Pages updated:**
+- `index.md` — added source and Stripe entity entries
+
+**Key topics ingested:** one-shot coding agents, blueprint system as guides, pre-push hooks as sensors, parallel worktree isolation, monorepo harnessability, end-to-end agent loop (plan → implement → verify → PR)
