@@ -179,3 +179,21 @@ Chronological record of ingests, queries, and maintenance.
 - `concepts/finops.md` — added cross-reference to semantic-layer
 
 **Key topics ingested:** semantic layer definition (virtual translation layer between DB and consumers), 5 use cases (unified metrics, caching/federation, unified security, dynamic query rewriting, LLM context), when NOT to use one, Boring Semantic Layer (BSL) + Ibis + DuckDB example, NYC Taxi dataset (20M records), YAML metric definitions, physical vs logical distinction, enterprise tools (Cube, dbt SL, GoodData, AtScale)
+
+---
+
+## 2026-05-02 | ingest | dbt-semantic-layer-introduction
+
+**Source:** https://www.getdbt.com/blog/semantic-layer-introduction
+**Author:** dbt Labs blog
+
+**Pages created:**
+- `sources/dbt-semantic-layer-introduction.md` — source summary of semantic layer overview and use cases
+- `sources/naming-conventions-for-semantic-layers.md` — source summary of gold-layer design for AI (Microsoft Fabric)
+
+**Pages updated:**
+- `wiki/index.md` — added 2 source entries
+- `wiki/log.md` — appended this ingest record
+
+**Key topics (dbt blog):** hub-and-spoke architecture, five use cases (BI reporting, embedded analytics, AI/LLMs, self-serve analytics, exploratory analytics), data explosion problem (61% orgs use 4+ BI tools), DRY principle for metrics, dbt Semantic Layer codifying metrics alongside models
+**Key topics (Microsoft gold layers):** entity-oriented table design, star schema, business-friendly naming, AI documentation (descriptions truncated at 200 chars), hiding technical columns, linguistic modeling (synonyms + relationships)
