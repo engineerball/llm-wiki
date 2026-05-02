@@ -10,5 +10,7 @@ quartz/.quartz-cache/
 # macOS
 .DS_Store
 
-# Obsidian
-wiki/.obsidian/
+# Obsidian — ignore ephemeral state, track config files
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/cache
