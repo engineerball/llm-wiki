@@ -122,3 +122,24 @@ Chronological record of ingests, queries, and maintenance.
 - `raw/text/finops-framework-principles.md` — full source text
 
 **Key topics ingested:** six FinOps principles (collaboration, business value, ownership, data transparency, central enablement, variable cost model), centralized enablement + decentralized execution model, cost as first-class metric, FOCUS data normalization
+
+---
+
+## 2026-05-02 | ingest | finops-getting-started-gcp
+
+**Source:** Google Cloud Technical Paper — "Getting Started with FinOps on GCP" (PDF)
+**Authors:** Sam Moss, Kinjal Tanna, Tan-Minh Truong (Google Cloud)
+**Date:** May 2021
+
+**Pages created:**
+- `sources/finops-getting-started-gcp.md` — full source summary of Google Cloud FinOps framework
+- `raw/finops-getting-started-gcp.pdf` — original PDF source
+- `raw/text/finops-getting-started-gcp.md` — extracted text from PDF
+
+**Pages updated:**
+- `sources/finops-getting-started-gcp.md` — updated with full content
+- `concepts/finops.md` — added GCP FinOps lifecycle (inform, optimize, operate) with Epics and cultural principles
+- `wiki/index.md` — added new source entry for FinOps GCP framework
+- `wiki/log.md` — appended this ingest record
+
+**Key topics ingested:** seven cultural principles (variable nature of cloud, business-value decisions, accountability, collaboration, blamelessness, data democratization, agility), FinOps Central Team structure (anti-pattern: becoming cost optimization team), three-phase lifecycle (inform → optimize → operate) with GCP-specific Epics, GCP tools (BigQuery billing export, Recommender API, budgets & alerts), unit economics for value measurement

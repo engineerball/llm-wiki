@@ -2,7 +2,7 @@
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management]
 date: 2026-05-02
-sources: ["sources/finops-framework-principles.md"]
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md"]
 ---
 
 # FinOps
@@ -13,7 +13,7 @@ FinOps is not about reducing cloud spend — it's about **getting more value** f
 
 ## Core Principles
 
-Six north-star principles ([[sources/finops-framework-principles|source]]):
+Six north-star principles ([[finops-framework-principles|source]]):
 
 1. **Teams collaborate** — finance, engineering, product, leadership work together
 2. **Business value drives decisions** — unit economics > aggregate spend
@@ -34,7 +34,7 @@ Six north-star principles ([[sources/finops-framework-principles|source]]):
 
 ## FinOps Framework Components
 
-From the [[sources/finops-framework-principles|FinOps Framework]]:
+From the [[finops-framework-principles|FinOps Framework]]:
 - **[[finops-principles]]** — six guiding principles
 - **[[finops-personas]]** — roles and responsibilities
 - **[[finops-phases]]** — inform → optimize → operate
@@ -43,7 +43,30 @@ From the [[sources/finops-framework-principles|FinOps Framework]]:
 - **[[finops-capabilities]]** — functional areas within domains
 - **[[finops-scopes]]** — defined segments of technology spending
 
+## Implementation: GCP Example
+
+Google provides a detailed GCP-specific implementation in [[finops-getting-started-gcp|Getting Started with FinOps on GCP]]:
+
+**Organizational structure:** Central FinOps team enables but doesn't own optimization work. Anti-pattern: central team becomes the optimization team and bottlenecks the org.
+
+**Three-phase approach:**
+1. **Inform** — cost allocation (GCP labels), shared cost handling, reporting, forecasting
+2. **Optimize** — product efficiency (rightsizing, refactoring), pricing (CUDs, preemptibles), guardrails (budgets, quotas)
+3. **Operate** — onboarding, education & enablement, incentives, value measurement, funding alignment
+
+## Cultural Principles
+
+Key cultural enablers from Google's practice:
+- **Variable nature of cloud** — accept and optimize for fluctuating costs
+- **Business-value decisions** — don't just optimize for cost; optimize for value
+- **Accountability** — cost ownership at the edge, not centralized
+- **Collaboration** — break silos between finance, engineering, product
+- **Blamelessness** — postmortems for cost spikes, not finger-pointing
+- **Democratization of data** — single source of truth, open visibility into spend
+- **Agility** — iterative improvement, don't wait for perfection
+
 ## Relationship to Other Concepts
 
-- **[[harness-engineering]]** — FinOps principles parallel harness design: centralized enablement with decentralized execution, guides and sensors, cost as constraint
-- **[[guides-and-sensors]]** — budgets and policies as feedforward guides; cost data and alerts as feedback sensors
+- **[[harness-engineering]]** — FinOps principles parallel harness design: centralized enablement + decentralized execution, [[guides-and-sensors]] pattern (budgets as guides, reports as sensors), cost as a first-class metric
+- **[[guides-and-sensors]]** — budgets/policies as feedforward guides; cost data/alerts as feedback sensors
+- **[[initializer-coding-agent-architecture]]** — similar pattern: initializer sets up constraints and tracking, agents/teams work incrementally within them
