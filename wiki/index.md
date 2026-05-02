@@ -15,6 +15,7 @@ Catalog of all pages, organized by category.
 | Page | Date | Topic |
 |------|------|-------|
 | [[finops-getting-started-gcp]] | 2026-05-02 | Google Cloud FinOps implementation framework (Inform/Optimize/Operate with GCP Epics) |
+| [[agentic-ai-reference-architecture]] | 2026-05-02 | 9-layer reference architecture for goal-driven multi-agent AI systems |
 | [[finops-framework-principles]] | 2026-05-02 | Six principles of the FinOps Framework (FinOps Foundation) |
 | [[harness-engineering-leveraging-codex]] | 2026-02-11 | Agent-first software development with Codex |
 | [[harness-design-long-running-apps]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
@@ -38,6 +39,7 @@ Catalog of all pages, organized by category.
 | [[harnessability]] | Codebase property: degree to which a codebase enables effective harness controls |
 | [[finops]] | Financial Operations for cloud — getting maximum value from technology spend through collaboration and ownership |
 | [[finops-lifecycle]] | Three-stage iterative process: Inform → Optimize → Operate |
+| [[agentic-ai-system]] | 9-layer system: user/clients, orchestration, agents, tools, memory, monitoring, reliability, governance, infrastructure |
 
 ---
 

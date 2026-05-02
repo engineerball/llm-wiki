@@ -143,3 +143,20 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/log.md` — appended this ingest record
 
 **Key topics ingested:** seven cultural principles (variable nature of cloud, business-value decisions, accountability, collaboration, blamelessness, data democratization, agility), FinOps Central Team structure (anti-pattern: becoming cost optimization team), three-phase lifecycle (inform → optimize → operate) with GCP-specific Epics, GCP tools (BigQuery billing export, Recommender API, budgets & alerts), unit economics for value measurement
+
+---
+
+## 2026-05-02 | ingest | agentic-ai-reference-architecture
+
+**Source:** Architecture reference diagram (PNG image)
+**Image:** `raw/agentic-ai-reference-architecture.jpg`
+
+**Pages created:**
+- `sources/agentic-ai-reference-architecture.md` — full source summary of 9-layer architecture
+- `concepts/agentic-ai-system.md` — concept page: agentic AI system architecture with harness engineering relationships
+
+**Pages updated:**
+- `wiki/index.md` — added 1 source + 1 concept entry
+- `wiki/log.md` — appended this ingest record
+
+**Key topics ingested:** 9-layer architecture (user/client, orchestration, specialized agents, tools/integrations, memory/knowledge, monitoring/observability, reliability/failure management, governance/security, infrastructure), 5 agent roles (research, reasoning, action, data, communication), 5-step data flow, orchestrator pattern mirrors initializer-coding-agent architecture, specialized agents mirror generator-evaluator architecture, memory layer addresses context management for agents, observability + reliability layers mirror guides-and-sensors pattern
