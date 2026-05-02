@@ -70,3 +70,4 @@ Key cultural enablers from Google's practice:
 - **[[harness-engineering]]** — FinOps principles parallel harness design: centralized enablement + decentralized execution, [[guides-and-sensors]] pattern (budgets as guides, reports as sensors), cost as a first-class metric
 - **[[guides-and-sensors]]** — budgets/policies as feedforward guides; cost data/alerts as feedback sensors
 - **[[initializer-coding-agent-architecture]]** — similar pattern: initializer sets up constraints and tracking, agents/teams work incrementally within them
+- **[[semantic-layer]]** — semantic layer as a guide pattern for business metrics across tools

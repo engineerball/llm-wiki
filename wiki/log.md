@@ -160,3 +160,22 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/log.md` — appended this ingest record
 
 **Key topics ingested:** 9-layer architecture (user/client, orchestration, specialized agents, tools/integrations, memory/knowledge, monitoring/observability, reliability/failure management, governance/security, infrastructure), 5 agent roles (research, reasoning, action, data, communication), 5-step data flow, orchestrator pattern mirrors initializer-coding-agent architecture, specialized agents mirror generator-evaluator architecture, memory layer addresses context management for agents, observability + reliability layers mirror guides-and-sensors pattern
+
+---
+
+## 2026-05-02 | ingest | semantic-layer-duckdb-tutorial
+
+**Source:** https://motherduck.com/blog/semantic-layer-duckdb-tutorial/
+**Author:** Stefan Späti (MotherDuck Blog)
+**Topic:** Why Semantic Layers Matter — and How to Build One with DuckDB
+
+**Pages created:**
+- `sources/semantic-layer-duckdb-tutorial.md` — full source summary
+- `concepts/semantic-layer.md` — new concept: semantic layer as virtual translation layer
+
+**Pages updated:**
+- `wiki/index.md` — added 1 source + 1 concept entry
+- `log.md` — appended this ingest record
+- `concepts/finops.md` — added cross-reference to semantic-layer
+
+**Key topics ingested:** semantic layer definition (virtual translation layer between DB and consumers), 5 use cases (unified metrics, caching/federation, unified security, dynamic query rewriting, LLM context), when NOT to use one, Boring Semantic Layer (BSL) + Ibis + DuckDB example, NYC Taxi dataset (20M records), YAML metric definitions, physical vs logical distinction, enterprise tools (Cube, dbt SL, GoodData, AtScale)

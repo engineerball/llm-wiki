@@ -22,6 +22,7 @@ Catalog of all pages, organized by category.
 | [[harness-engineering-coding-agent-users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler) |
 | [[stripe-minions-one-shot-coding-agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
 | [[anthropic-effective-harnesses]] | 2026-05-02 | Anthropic's two-role architecture for long-running agents (initializer + coding agent) |
+| [[semantic-layer-duckdb-tutorial]] | 2026-05-02 | Why semantic layers matter and how to build one with DuckDB + Ibis |
 
 ---
 
@@ -40,6 +41,7 @@ Catalog of all pages, organized by category.
 | [[finops]] | Financial Operations for cloud — getting maximum value from technology spend through collaboration and ownership |
 | [[finops-lifecycle]] | Three-stage iterative process: Inform → Optimize → Operate |
 | [[agentic-ai-system]] | 9-layer system: user/clients, orchestration, agents, tools, memory, monitoring, reliability, governance, infrastructure |
+| [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers — unified business metrics |
 
 ---
 
