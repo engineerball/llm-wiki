@@ -21,16 +21,16 @@ Stripe describes their production coding agent system called **Minions** — aut
 A Minion runs a complete end-to-end coding task:
 
 1. **Task intake** — engineer provides a natural-language task description
-2. **Planning** — agent reads relevant context from the [[Stripe Blueprints|blueprint]] system and formulates a plan
+2. **Planning** — agent reads relevant context from the [[blueprints|blueprint]] system and formulates a plan
 3. **Implementation** — agent writes code across files, using repo conventions
 4. **Verification** — pre-push hooks run linting, type checking, and tests; agent self-corrects on failures
 5. **Pull request** — agent opens a PR with changes and description; engineer reviews output, not steps
 
-This aligns with the [[Harness Engineering]] pattern: engineers design the environment rather than write the code.
+This aligns with the [[harness-engineering]] pattern: engineers design the environment rather than write the code.
 
 ## Blueprint System
 
-Stripe uses **blueprints** — structured documentation files that describe service contracts, expected patterns, architectural rules, and interface specifications for subsystems. Blueprints serve as [[Guides and Sensors|guides]]: feedforward controls that orient the agent before it starts writing code.
+Stripe uses **blueprints** — structured documentation files that describe service contracts, expected patterns, architectural rules, and interface specifications for subsystems. Blueprints serve as [[guides-and-sensors|guides]]: feedforward controls that orient the agent before it starts writing code.
 
 Key properties of blueprints:
 - Describe *how* services are structured, not just what they do
@@ -41,7 +41,7 @@ The blueprint system is Stripe's operationalization of repository legibility for
 
 ## Pre-Push Hooks as Sensors
 
-Stripe's pre-push hooks function as [[Guides and Sensors|sensors]] in the [[Harness Engineering]] framework: they observe post-action results and enable self-correction before code enters review.
+Stripe's pre-push hooks function as [[guides-and-sensors|sensors]] in the [[harness-engineering]] framework: they observe post-action results and enable self-correction before code enters review.
 
 What the hooks run:
 - Linters and formatters
@@ -49,7 +49,7 @@ What the hooks run:
 - Unit tests
 - Integration tests (where applicable)
 
-If a hook fails, the Minion receives the error output and iterates. The human engineer does not see the intermediate failures — only the final result. This is the closed-loop sensor pattern described in [[Guides and Sensors]].
+If a hook fails, the Minion receives the error output and iterates. The human engineer does not see the intermediate failures — only the final result. This is the closed-loop sensor pattern described in [[guides-and-sensors]].
 
 ## One-Shot Philosophy
 
@@ -62,7 +62,7 @@ This inverts the traditional model where humans are active in the middle (writin
 
 ## Parallel Execution
 
-Minions run tasks in parallel across isolated worktrees, allowing multiple coding tasks to proceed simultaneously. This is the same isolation pattern described in the [[Harness Engineering - Leveraging Codex in an Agent-First World|OpenAI Codex harness experiment]]: per-worktree isolation prevents agents from interfering with each other.
+Minions run tasks in parallel across isolated worktrees, allowing multiple coding tasks to proceed simultaneously. This is the same isolation pattern described in the [[harness-engineering-leveraging-codex|OpenAI Codex harness experiment]]: per-worktree isolation prevents agents from interfering with each other.
 
 ## Codebase Context
 
@@ -72,19 +72,19 @@ Stripe operates a large monorepo with strict architectural rules. Properties tha
 - Strict layering rules (enforced by the harness, not convention)
 - Comprehensive test infrastructure (hooks have real signal to act on)
 
-These are precisely the [[Harnessability]] properties identified by [[Birgitta Böckeler]]: the codebase structure makes comprehensive harness coverage tractable.
+These are precisely the [[harnessability]] properties identified by [[birgitta-bockeler]]: the codebase structure makes comprehensive harness coverage tractable.
 
 ## Relationship to Harness Engineering Literature
 
-The Stripe Minions system is cited in [[Harness Engineering for Coding Agent Users]] (Böckeler, martinfowler.com) as a real-world example of:
+The Stripe Minions system is cited in [[harness-engineering-coding-agent-users]] (Böckeler, martinfowler.com) as a real-world example of:
 - Pre-push hooks as sensor controls
 - Blueprint-integrated feedforward guidance
 
-This makes Stripe one of three production-scale implementations referenced in the harness engineering literature alongside [[OpenAI]] (Codex experiment) and [[Anthropic]] (multi-agent harness).
+This makes Stripe one of three production-scale implementations referenced in the harness engineering literature alongside [[openai]] (Codex experiment) and [[anthropic]] (multi-agent harness).
 
 ## Key Entities
 
-- [[Stripe]] — company that built and operates Minions
-- [[Harness Engineering]] — methodology Minions instantiates
-- [[Guides and Sensors]] — control framework that describes blueprints (guides) and pre-push hooks (sensors)
-- [[Harnessability]] — codebase properties that make Minions work effectively at Stripe
+- [[stripe]] — company that built and operates Minions
+- [[harness-engineering]] — methodology Minions instantiates
+- [[guides-and-sensors]] — control framework that describes blueprints (guides) and pre-push hooks (sensors)
+- [[harnessability]] — codebase properties that make Minions work effectively at Stripe

@@ -8,7 +8,7 @@ author: Birgitta Böckeler
 
 # Harness Engineering for Coding Agent Users
 
-Summary of article by [[Birgitta Böckeler]], published on martinfowler.com.
+Summary of article by [[birgitta-bockeler]], published on martinfowler.com.
 
 **URL:** https://martinfowler.com/articles/harness-engineering.html
 
@@ -25,7 +25,7 @@ Two types of harness controls, distinguished by *when* they act:
 
 Using only feedback → agents repeat the same mistakes. Using only feedforward → rules never get validated. Both are required for a closed-loop system.
 
-See [[Guides and Sensors]].
+See [[guides-and-sensors]].
 
 ## Computational vs Inferential Execution
 
@@ -44,7 +44,7 @@ Regulates internal code quality. The most mature category — uses existing tool
 
 ### Architecture Fitness Harness
 
-Validates architecture characteristics — dependency rules, performance, module boundaries. Implemented via fitness functions and custom structural tests. Aligns with [[OpenAI]]'s layer enforcement via custom linters (from [[Harness Engineering - Leveraging Codex in an Agent-First World]]).
+Validates architecture characteristics — dependency rules, performance, module boundaries. Implemented via fitness functions and custom structural tests. Aligns with [[openai]]'s layer enforcement via custom linters (from [[harness-engineering-leveraging-codex]]).
 
 ### Behaviour Harness
 
@@ -59,7 +59,7 @@ Not all codebases are equally amenable to harness controls. Properties that incr
 - Defined service topologies
 - Established frameworks
 
-See [[Harnessability]].
+See [[harnessability]].
 
 ## Ambient Affordances
 
@@ -88,8 +88,8 @@ Higher-impact problems — misdiagnosis, overengineering — remain hard to auto
 
 ## Real-World Implementations Cited
 
-- **[[OpenAI]]**: Layered architecture enforced through custom linters and structural tests
-- **[[Stripe]] "Minions"**: Pre-push hooks and blueprint-integrated feedback — see [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
+- **[[openai]]**: Layered architecture enforced through custom linters and structural tests
+- **[[stripe]] "Minions"**: Pre-push hooks and blueprint-integrated feedback — see [[stripe-minions-one-shot-coding-agents]]
 - **ThoughtWorks teams**: Architecture drift detection using computational + inferential sensors
 
 ## Open Questions
@@ -101,13 +101,13 @@ Higher-impact problems — misdiagnosis, overengineering — remain hard to auto
 
 ## Connections to Other Sources
 
-- [[Harness Engineering - Leveraging Codex in an Agent-First World]] — OpenAI's concrete implementation (linters, layer enforcement, entropy management)
-- [[Harness Design for Long-Running Application Development]] — Anthropic's multi-agent harness; evaluator role = sensor pattern in action
+- [[harness-engineering-leveraging-codex]] — OpenAI's concrete implementation (linters, layer enforcement, entropy management)
+- [[harness-design-long-running-apps]] — Anthropic's multi-agent harness; evaluator role = sensor pattern in action
 
 ## Key Entities
 
-- [[Birgitta Böckeler]] — author, ThoughtWorks principal technologist
+- [[birgitta-bockeler]] — author, ThoughtWorks principal technologist
 - Ned Letcher — coined "Ambient Affordances"
-- [[Stripe]] — cited for "minions" with pre-push hooks; see [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
-- [[OpenAI]] — cited for layered architecture enforcement
+- [[stripe]] — cited for "minions" with pre-push hooks; see [[stripe-minions-one-shot-coding-agents]]
+- [[openai]] — cited for layered architecture enforcement
 - ThoughtWorks — cited for architecture drift detection work

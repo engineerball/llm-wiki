@@ -7,7 +7,7 @@ date: 2026-02-11
 
 # Codex
 
-[[OpenAI]]'s AI-powered coding agent, powered by GPT-5. Executes software engineering tasks autonomously inside a repository environment.
+[[openai]]'s AI-powered coding agent, powered by GPT-5. Executes software engineering tasks autonomously inside a repository environment.
 
 ## Capabilities (as of Feb 2026)
 
@@ -22,7 +22,7 @@ date: 2026-02-11
 
 ## Codex CLI
 
-A CLI interface for Codex. Used by [[OpenAI]] to generate the initial repository scaffold for the harness engineering experiment, using GPT-5 as the backend.
+A CLI interface for Codex. Used by [[openai]] to generate the initial repository scaffold for the harness engineering experiment, using GPT-5 as the backend.
 
 ## Usage in Harness Engineering Experiment
 
@@ -33,5 +33,5 @@ A CLI interface for Codex. Used by [[OpenAI]] to generate the initial repository
 
 ## See Also
 
-- [[Harness Engineering]] — the methodology developed around running Codex at scale
-- [[Harness Engineering - Leveraging Codex in an Agent-First World]] — source article
+- [[harness-engineering]] — the methodology developed around running Codex at scale
+- [[harness-engineering-leveraging-codex]] — source article

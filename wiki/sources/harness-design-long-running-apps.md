@@ -8,13 +8,13 @@ date: 2026-03-24
 
 # Harness Design for Long-Running Application Development
 
-**Author:** [[Prithvi Rajasekaran]] ([[Anthropic]] Labs)
+**Author:** [[prithvi-rajasekaran]] ([[anthropic]] Labs)
 **Published:** March 24, 2026
 **URL:** https://www.anthropic.com/engineering/harness-design-long-running-apps
 
 ## Summary
 
-Anthropic engineer describes building multi-agent harnesses to enable [[Claude]] to do extended frontend design and autonomous software engineering. Naive single-agent approaches fail at long tasks due to context degradation and [[Generator-Evaluator Architecture|self-evaluation blindness]]. The solution: specialize agents into Planner / Generator / Evaluator roles with explicit [[Sprint Contracts]] and [[Generator-Evaluator Architecture]] inspired by GANs.
+Anthropic engineer describes building multi-agent harnesses to enable [[claude]] to do extended frontend design and autonomous software engineering. Naive single-agent approaches fail at long tasks due to context degradation and [[generator-evaluator-architecture|self-evaluation blindness]]. The solution: specialize agents into Planner / Generator / Evaluator roles with explicit [[sprint-contracts]] and [[generator-evaluator-architecture]] inspired by GANs.
 
 ## Core Failure Modes of Naive Single-Agent Approaches
 
@@ -46,11 +46,11 @@ Criteria explicitly penalized "AI slop" patterns. Weighting design and originali
 |-------|------|
 | **Planner** | Expands brief prompts → comprehensive product specs; focuses on scope not implementation |
 | **Generator** | Implements features iteratively; stack: React, Vite, FastAPI, SQLite/PostgreSQL; uses version control |
-| **Evaluator** | Uses Playwright to interact with running app; tests against [[Sprint Contracts]] |
+| **Evaluator** | Uses Playwright to interact with running app; tests against [[sprint-contracts]] |
 
 ## Sprint Contracts
 
-Before implementation, Generator and Evaluator negotiate explicit agreements defining what "done" means — specific, measurable success criteria bridging high-level specs and testable details. See [[Sprint Contracts]].
+Before implementation, Generator and Evaluator negotiate explicit agreements defining what "done" means — specific, measurable success criteria bridging high-level specs and testable details. See [[sprint-contracts]].
 
 ## Context Management Strategy
 
@@ -58,7 +58,7 @@ Two approaches evaluated:
 - **Context reset**: completely clear history, pass structured handoffs to fresh context
 - **Context compaction**: summarize and compress context, continue same session
 
-Context resets outperformed compaction for Claude Sonnet 4.5 (strong context anxiety). Opus 4.6 handled continuous sessions well — model-specific assumption. See [[Context Management for Agents]].
+Context resets outperformed compaction for Claude Sonnet 4.5 (strong context anxiety). Opus 4.6 handled continuous sessions well — model-specific assumption. See [[context-management-for-agents]].
 
 ## Quantitative Results
 

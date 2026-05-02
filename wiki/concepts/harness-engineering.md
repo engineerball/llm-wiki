@@ -9,7 +9,7 @@ date: 2026-02-11
 
 A software engineering discipline where the primary job is no longer writing code, but designing the **environments, feedback loops, and scaffolding** that allow AI coding agents to do reliable, consistent work.
 
-Coined/used by [[OpenAI]] to describe the methodology behind their agent-first [[Codex]] experiment (Feb 2026).
+Coined/used by [[openai]] to describe the methodology behind their agent-first [[codex]] experiment (Feb 2026).
 
 ## Definition
 
@@ -74,7 +74,7 @@ The engineer's role shifts from author to architect:
 
 ## Evidence
 
-From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
+From [[harness-engineering-leveraging-codex]] (2026):
 - 1M LOC, 1,500 PRs, 3→7 engineers, 5 months
 - Zero manually-written code
 - ~3.5 PRs per engineer per day
@@ -84,66 +84,66 @@ From [[Harness Engineering - Leveraging Codex in an Agent-First World]] (2026):
 
 ### Multi-agent orchestration for long-running tasks (early 2026)
 
-[[Anthropic]] extended the harness concept to multi-agent orchestration for long-running tasks. Their harness = specialized agent roles + feedback loops:
+[[anthropic]] extended the harness concept to multi-agent orchestration for long-running tasks. Their harness = specialized agent roles + feedback loops:
 
 - **Planner** → expands intent into spec
 - **Generator** → implements iteratively
-- **Evaluator** → tests against [[Sprint Contracts]]
+- **Evaluator** → tests against [[sprint-contracts]]
 
-Key insight from [[Harness Design for Long-Running Application Development]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
+Key insight from [[harness-design-long-running-apps]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing." The harness must be redesigned as models improve.
 
 ### Effective harnesses for long-running agents (mid 2026)
 
-Anthropic's follow-up research focused specifically on enabling the Claude Agent SDK to work across many context windows. [[Effective harnesses for long-running agents]] identified four failure modes and a two-role architecture:
+Anthropic's follow-up research focused specifically on enabling the Claude Agent SDK to work across many context windows. [[anthropic-effective-harnesses]] identified four failure modes and a two-role architecture:
 
-- **[[Initializer-Coding Agent Architecture]]** — split between one-time environment setup (initializer) and incremental per-session progress (coding agent)
-- **[[Feature List Pattern]]** — comprehensive JSON enumeration of all features, initially all "failing", to defeat one-shotting and premature completion
+- **[[initializer-coding-agent-architecture]]** — split between one-time environment setup (initializer) and incremental per-session progress (coding agent)
+- **[[feature-list-pattern]]** — comprehensive JSON enumeration of all features, initially all "failing", to defeat one-shotting and premature completion
 - Session continuity artifacts: `init.sh`, `claude-progress.txt`, git commits with descriptive messages
 - Browser automation (Puppeteer MCP) for end-to-end testing — dramatically improved bug detection vs code-level testing alone
 - Key failure modes: one-shotting, premature completion, buggy/undocumented state, premature test passing
 
-This work complements the earlier [[Generator-Evaluator Architecture]] and [[Sprint Contracts]] patterns, but focuses specifically on the cross-context-window problem rather than quality-assurance within a single session.
+This work complements the earlier [[generator-evaluator-architecture]] and [[sprint-contracts]] patterns, but focuses specifically on the cross-context-window problem rather than quality-assurance within a single session.
 
 ## Stripe's Production Implementation (2026)
 
-[[Stripe]] built **Minions** — a one-shot end-to-end coding agent system operating at production scale in a large monorepo. Key harness elements:
+[[stripe]] built **Minions** — a one-shot end-to-end coding agent system operating at production scale in a large monorepo. Key harness elements:
 
-- **Blueprints** — service-level feedforward guides encoding architectural rules and conventions; described in [[Minions - Stripe's One-Shot End-to-End Coding Agents]]
+- **Blueprints** — service-level feedforward guides encoding architectural rules and conventions; described in [[stripe-minions-one-shot-coding-agents]]
 - **Pre-push hooks** — sensor controls that run linting, type checking, and tests; agent self-corrects on failures before any human sees the output
 - **One-shot execution** — engineers submit one task description and review one PR; all iteration is internal to the agent loop
 
-The Minions system demonstrates that one-shot autonomous coding is viable at scale when the codebase has sufficient [[Harnessability]] (typed, topologically defined, rule-enforced).
+The Minions system demonstrates that one-shot autonomous coding is viable at scale when the codebase has sufficient [[harnessability]] (typed, topologically defined, rule-enforced).
 
-See [[One-Shot Agent]] and [[Blueprints]].
+See [[one-shot-agent]] and [[blueprints]].
 
 ## Böckeler's Framework (ThoughtWorks, 2026)
 
-[[Birgitta Böckeler]] extended harness engineering into a structured taxonomy in [[Harness Engineering for Coding Agent Users]] (martinfowler.com, 2026):
+[[birgitta-bockeler]] extended harness engineering into a structured taxonomy in [[harness-engineering-coding-agent-users]] (martinfowler.com, 2026):
 
 **Control types by timing:**
 - **Guides (feedforward)** — steer agents before action (AGENTS.md, rules, templates)
 - **Sensors (feedback)** — observe after action and enable self-correction (tests, linters, AI review)
 
-See [[Guides and Sensors]].
+See [[guides-and-sensors]].
 
 **Three harness domains:**
 1. **Maintainability** — internal code quality; most mature
 2. **Architecture Fitness** — structural rules, performance, dependency validation
 3. **Behaviour** — functional correctness; currently underdeveloped
 
-**Key property:** Not all codebases support harnesses equally. See [[Harnessability]].
+**Key property:** Not all codebases support harnesses equally. See [[harnessability]].
 
 **Critical limit:** High-impact problems (misdiagnosis, overengineering) remain hard to automate. Human engineers carry implicit harnesses — experience, accountability, organizational awareness — that are currently irreplaceable.
 
 ## Related Concepts
 
-- [[Generator-Evaluator Architecture]] — multi-agent pattern for quality via separation of roles
-- [[Sprint Contracts]] — pre-negotiated success criteria between generator and evaluator
-- [[Context Management for Agents]] — handling context degradation in long-running agent tasks
-- [[Initializer-Coding Agent Architecture]] — two-role split for cross-context continuity (Anthropic, 2026)
-- [[Feature List Pattern]] — JSON feature enumeration to prevent one-shotting and premature completion
-- [[Guides and Sensors]] — feedforward/feedback control framework for harness design
-- [[Harnessability]] — codebase property determining how effective harness controls can be
-- [[One-Shot Agent]] — contrasted with Anthropic's incremental agent architecture
+- [[generator-evaluator-architecture]] — multi-agent pattern for quality via separation of roles
+- [[sprint-contracts]] — pre-negotiated success criteria between generator and evaluator
+- [[context-management-for-agents]] — handling context degradation in long-running agent tasks
+- [[initializer-coding-agent-architecture]] — two-role split for cross-context continuity (Anthropic, 2026)
+- [[feature-list-pattern]] — JSON feature enumeration to prevent one-shotting and premature completion
+- [[guides-and-sensors]] — feedforward/feedback control framework for harness design
+- [[harnessability]] — codebase property determining how effective harness controls can be
+- [[one-shot-agent]] — contrasted with Anthropic's incremental agent architecture
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)

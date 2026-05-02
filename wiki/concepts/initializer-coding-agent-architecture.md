@@ -69,10 +69,10 @@ The initializer agent creates the constraints (feature list, progress tracking) 
 
 ## Relationship to Other Patterns
 
-- **[[Generator-Evaluator Architecture]]** — different pattern: gen/eval loop for quality; initializer-coding is about session continuity
-- **[[Guides and Sensors]]** — the feature list acts as a guide; tests act as sensors
-- **[[Sprint Contracts]]** — the feature list serves as a form of sprint contract between initializer and coding agents
-- **[[Context Management for Agents]]** — the architecture solves context degradation across sessions
+- **[[generator-evaluator-architecture]]** — different pattern: gen/eval loop for quality; initializer-coding is about session continuity
+- **[[guides-and-sensors]]** — the feature list acts as a guide; tests act as sensors
+- **[[sprint-contracts]]** — the feature list serves as a form of sprint contract between initializer and coding agents
+- **[[context-management-for-agents]]** — the architecture solves context degradation across sessions
 
 ## Source
 

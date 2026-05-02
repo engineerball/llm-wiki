@@ -9,7 +9,7 @@ date: 2026-05-02
 
 A framework for categorizing harness controls by *when* they act relative to agent execution.
 
-Introduced by [[Birgitta Böckeler]] in *Harness Engineering for Coding Agent Users* (martinfowler.com, 2026).
+Introduced by [[birgitta-bockeler]] in *Harness Engineering for Coding Agent Users* (martinfowler.com, 2026).
 
 ## Definition
 
@@ -50,6 +50,6 @@ Guides and sensors operate at different delivery phases:
 
 ## Relation to Other Concepts
 
-- [[Harness Engineering]] — the broader discipline these controls belong to
-- [[Harnessability]] — how amenable a codebase is to effective guides/sensors
-- [[Generator-Evaluator Architecture]] — the evaluator role is a sensor in a multi-agent context; the sprint contract acts as a guide
+- [[harness-engineering]] — the broader discipline these controls belong to
+- [[harnessability]] — how amenable a codebase is to effective guides/sensors
+- [[generator-evaluator-architecture]] — the evaluator role is a sensor in a multi-agent context; the sprint contract acts as a guide

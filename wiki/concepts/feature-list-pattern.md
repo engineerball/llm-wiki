@@ -7,7 +7,7 @@ sources: ["sources/anthropic-effective-harnesses.md", "raw/text/anthropic-effect
 
 # Feature List Pattern
 
-A scaffolding pattern used in the [[Initializer-Coding Agent Architecture]] where a comprehensive JSON file enumerates all required features for a project, each with test criteria and a pass/fail status.
+A scaffolding pattern used in the [[initializer-coding-agent-architecture]] where a comprehensive JSON file enumerates all required features for a project, each with test criteria and a pass/fail status.
 
 ## Structure
 
@@ -47,17 +47,17 @@ Coding agents are instructed with strongly-worded rules:
 
 | Function | Acts As |
 |----------|---------|
-| Defines all required features | [[Guides and Sensors]] — feedforward guide |
-| Test criteria for each feature | [[Sprint Contracts]] — success criteria |
-| Pass/fail tracking | Progress meter for [[Initializer-Coding Agent Architecture|coding agents]] |
+| Defines all required features | [[guides-and-sensors]] — feedforward guide |
+| Test criteria for each feature | [[sprint-contracts]] — success criteria |
+| Pass/fail tracking | Progress meter for [[initializer-coding-agent-architecture|coding agents]] |
 | Prevents premature completion | Anti-one-shotting mechanism |
 
 ## Relationship to Other Concepts
 
-- **[[Guides and Sensors]]** — the feature list is the definitive guide; test execution provides sensor feedback
-- **[[Sprint Contracts]]** — each feature entry is a mini-contract between initializer and coding agent
-- **[[One-Shot Agent]]** — the feature list is the primary mechanism to break one-shot behavior into incremental steps
-- **[[Initializer-Coding Agent Architecture]]** — core component created by the initializer, consumed by coding agents
+- **[[guides-and-sensors]]** — the feature list is the definitive guide; test execution provides sensor feedback
+- **[[sprint-contracts]]** — each feature entry is a mini-contract between initializer and coding agent
+- **[[one-shot-agent]]** — the feature list is the primary mechanism to break one-shot behavior into incremental steps
+- **[[initializer-coding-agent-architecture]]** — core component created by the initializer, consumed by coding agents
 
 ## Source
 

@@ -13,7 +13,7 @@ date: 2026-02-11
 
 ## Summary
 
-OpenAI's internal team built a ~1-million-line software product in 5 months using [[Codex]] agents with zero manually-written code. The experiment showed that the primary engineering challenge shifts from writing code to designing the environments, feedback loops, and scaffolding that let AI agents work reliably — what OpenAI calls [[Harness Engineering]].
+OpenAI's internal team built a ~1-million-line software product in 5 months using [[codex]] agents with zero manually-written code. The experiment showed that the primary engineering challenge shifts from writing code to designing the environments, feedback loops, and scaffolding that let AI agents work reliably — what OpenAI calls [[harness-engineering]].
 
 ## Key Metrics
 

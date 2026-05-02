@@ -75,9 +75,9 @@ Anthropic's research on enabling the Claude Agent SDK to work effectively across
 
 ## Related Wiki Pages
 
-- [[Harness Engineering]] — overarching methodology
-- [[Guides and Sensors]] — feedforward vs feedback controls (feature list = guide, tests = sensors)
-- [[Generator-Evaluator Architecture]] — related multi-agent pattern
-- [[One-Shot Agent]] — contrasted with incremental approach
-- [[Codex]] — agent harness that benefits from these patterns
-- [[Claude]] — the model being harnessed in this research
+- [[harness-engineering]] — overarching methodology
+- [[guides-and-sensors]] — feedforward vs feedback controls (feature list = guide, tests = sensors)
+- [[generator-evaluator-architecture]] — related multi-agent pattern
+- [[one-shot-agent]] — contrasted with incremental approach
+- [[codex]] — agent harness that benefits from these patterns
+- [[claude]] — the model being harnessed in this research

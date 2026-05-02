@@ -9,7 +9,7 @@ date: 2026-05-02
 
 A coding agent design pattern where the agent receives a single task description and autonomously completes the full development cycle — planning, implementation, verification, and pull request creation — with no human intervention during execution.
 
-Introduced as a production design principle by [[Stripe]] in their Minions system.
+Introduced as a production design principle by [[stripe]] in their Minions system.
 
 ## What "One-Shot" Means
 
@@ -34,22 +34,22 @@ The agent may iterate many times internally (writing code, running checks, corre
 
 One-shot execution requires a harness that replaces human checkpoints with automated equivalents:
 
-- **[[Guides and Sensors|Guides]]** (feedforward): blueprints, AGENTS.md, architectural rules — give the agent correct initial orientation
-- **[[Guides and Sensors|Sensors]]** (feedback): pre-push hooks, linters, tests, type checkers — catch errors and enable self-correction without human involvement
+- **[[guides-and-sensors|Guides]]** (feedforward): blueprints, AGENTS.md, architectural rules — give the agent correct initial orientation
+- **[[guides-and-sensors|Sensors]]** (feedback): pre-push hooks, linters, tests, type checkers — catch errors and enable self-correction without human involvement
 
 Without both, the agent either produces low-quality output (no sensors) or fails to understand the codebase's conventions (no guides).
 
-## Relationship to [[Harness Engineering]]
+## Relationship to [[harness-engineering]]
 
 One-shot agents represent a high-trust point on the human-oversight spectrum. They are only viable when:
 1. The harness provides sufficient guides and sensors to substitute for human checkpoints
-2. The codebase has adequate [[Harnessability]] (types, topology, structure)
+2. The codebase has adequate [[harnessability]] (types, topology, structure)
 3. The task scope is well-bounded (one-shot is harder for large, ambiguous tasks)
 
 ## See Also
 
-- [[Minions - Stripe's One-Shot End-to-End Coding Agents]] — source and reference implementation
-- [[Harness Engineering]] — the design discipline that makes one-shot viable
-- [[Guides and Sensors]] — the control framework underpinning one-shot verification
-- [[Generator-Evaluator Architecture]] — alternative multi-agent pattern; involves more internal steps but also minimal human checkpoints during execution
-- [[Initializer-Coding Agent Architecture]] — Anthropic's contrasting pattern: rather than one-shot per session, agents make incremental progress across many context windows with explicit session continuity artifacts
+- [[stripe-minions-one-shot-coding-agents]] — source and reference implementation
+- [[harness-engineering]] — the design discipline that makes one-shot viable
+- [[guides-and-sensors]] — the control framework underpinning one-shot verification
+- [[generator-evaluator-architecture]] — alternative multi-agent pattern; involves more internal steps but also minimal human checkpoints during execution
+- [[initializer-coding-agent-architecture]] — Anthropic's contrasting pattern: rather than one-shot per session, agents make incremental progress across many context windows with explicit session continuity artifacts

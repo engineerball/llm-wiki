@@ -7,7 +7,7 @@ date: 2026-03-24
 
 # Claude
 
-[[Anthropic]]'s family of large language models. Used across a range of agent and assistant tasks. Key models referenced in this wiki:
+[[anthropic]]'s family of large language models. Used across a range of agent and assistant tasks. Key models referenced in this wiki:
 
 ## Models
 
@@ -23,7 +23,7 @@ date: 2026-03-24
 
 ## Agent Capabilities (from harness experiments)
 
-When embedded in a [[Generator-Evaluator Architecture]] with [[Sprint Contracts]] and [[Context Management for Agents]]:
+When embedded in a [[generator-evaluator-architecture]] with [[sprint-contracts]] and [[context-management-for-agents]]:
 - End-to-end autonomous software engineering
 - Frontend design with graded aesthetic criteria
 - UI validation via Playwright
@@ -31,5 +31,5 @@ When embedded in a [[Generator-Evaluator Architecture]] with [[Sprint Contracts]
 
 ## See Also
 
-- [[Harness Design for Long-Running Application Development]] — source article on harness design for long-running Claude tasks
-- [[Harness Engineering]] — broader agent scaffolding methodology
+- [[harness-design-long-running-apps]] — source article on harness design for long-running Claude tasks
+- [[harness-engineering]] — broader agent scaffolding methodology

@@ -9,7 +9,7 @@ date: 2026-03-24
 
 How long-running AI agent tasks handle the finite context window. Two primary failure modes and two primary mitigation strategies.
 
-Evidence from [[Harness Design for Long-Running Application Development]] ([[Anthropic]], 2026).
+Evidence from [[harness-design-long-running-apps]] ([[anthropic]], 2026).
 
 ## Failure Modes
 
@@ -56,6 +56,6 @@ Effective handoffs for context resets include:
 
 ## Related
 
-- [[Generator-Evaluator Architecture]] — context management is critical within long generator-evaluator loops
-- [[Harness Engineering]] — context management is a key harness design concern
-- [[Sprint Contracts]] — sprint boundaries are natural reset points
+- [[generator-evaluator-architecture]] — context management is critical within long generator-evaluator loops
+- [[harness-engineering]] — context management is a key harness design concern
+- [[sprint-contracts]] — sprint boundaries are natural reset points

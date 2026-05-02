@@ -10,7 +10,7 @@ date: 2026-03-24
 
 A multi-agent pattern where one agent generates output and a separate agent evaluates it, creating a feedback loop. Inspired by Generative Adversarial Networks (GANs). Addresses the fundamental problem of **self-evaluation blindness**: agents reliably praise their own outputs even when quality is mediocre.
 
-Described in [[Harness Design for Long-Running Application Development]] by [[Prithvi Rajasekaran]] ([[Anthropic]], 2026).
+Described in [[harness-design-long-running-apps]] by [[prithvi-rajasekaran]] ([[anthropic]], 2026).
 
 ## Why Separate Generation from Evaluation
 
@@ -35,13 +35,13 @@ Prompt → Generator → Output → Evaluator → Score + Feedback
 |-------|---------------|
 | **Planner** | Expands brief → comprehensive spec; scope not implementation |
 | **Generator** | Implements iteratively; owns version control |
-| **Evaluator** | Tests running app (Playwright); judges against [[Sprint Contracts]] |
+| **Evaluator** | Tests running app (Playwright); judges against [[sprint-contracts]] |
 
 The Planner decouples intent specification from implementation so the Generator works against a stable, detailed target.
 
 ## Sprint Contracts
 
-Generator and Evaluator pre-negotiate [[Sprint Contracts]]: explicit, measurable definitions of "done" before implementation begins. Prevents the evaluator from applying arbitrary or shifting standards.
+Generator and Evaluator pre-negotiate [[sprint-contracts]]: explicit, measurable definitions of "done" before implementation begins. Prevents the evaluator from applying arbitrary or shifting standards.
 
 ## Evaluation Design
 
@@ -79,6 +79,6 @@ Harness design encodes assumptions about model limitations — those assumptions
 
 ## Related
 
-- [[Harness Engineering]] — broader concept of building scaffolding/environments for agents
-- [[Sprint Contracts]] — the negotiation mechanism between Generator and Evaluator
-- [[Context Management for Agents]] — how to handle context across long generator-evaluator loops
+- [[harness-engineering]] — broader concept of building scaffolding/environments for agents
+- [[sprint-contracts]] — the negotiation mechanism between Generator and Evaluator
+- [[context-management-for-agents]] — how to handle context across long generator-evaluator loops

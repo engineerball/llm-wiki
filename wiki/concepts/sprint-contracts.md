@@ -7,9 +7,9 @@ date: 2026-03-24
 
 # Sprint Contracts
 
-A coordination mechanism in multi-agent [[Generator-Evaluator Architecture]] where the Generator and Evaluator pre-negotiate explicit, measurable definitions of "done" before implementation begins.
+A coordination mechanism in multi-agent [[generator-evaluator-architecture]] where the Generator and Evaluator pre-negotiate explicit, measurable definitions of "done" before implementation begins.
 
-Introduced in [[Harness Design for Long-Running Application Development]] ([[Anthropic]], 2026).
+Introduced in [[harness-design-long-running-apps]] ([[anthropic]], 2026).
 
 ## Problem Solved
 
@@ -46,5 +46,5 @@ Analogous to sprint planning in human agile teams: scope and acceptance criteria
 
 ## Related
 
-- [[Generator-Evaluator Architecture]] — the multi-agent pattern that uses sprint contracts
-- [[Harness Engineering]] — broader context of agent scaffolding
+- [[generator-evaluator-architecture]] — the multi-agent pattern that uses sprint contracts
+- [[harness-engineering]] — broader context of agent scaffolding

@@ -12,11 +12,11 @@ Principal technologist at ThoughtWorks. Author of *Harness Engineering for Codin
 
 ## Contributions to Harness Engineering
 
-- Introduced the [[Guides and Sensors]] framework: categorizing harness controls as feedforward (guides) vs feedback (sensors)
-- Defined [[Harnessability]] as a measurable codebase property affecting harness effectiveness
+- Introduced the [[guides-and-sensors]] framework: categorizing harness controls as feedforward (guides) vs feedback (sensors)
+- Defined [[harnessability]] as a measurable codebase property affecting harness effectiveness
 - Categorized harnesses into three domains: Maintainability, Architecture Fitness, and Behaviour
 - Applied Ashby's Law to reasoning about harness coverage and topology constraints
 
 ## Sources
 
-- [[Harness Engineering for Coding Agent Users]] — martinfowler.com (2026)
+- [[harness-engineering-coding-agent-users]] — martinfowler.com (2026)
