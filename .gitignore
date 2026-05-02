@@ -1,0 +1,14 @@
+# Quartz build output
+quartz/public/
+
+# Node dependencies
+quartz/node_modules/
+
+# Quartz cache
+quartz/.quartz-cache/
+
+# macOS
+.DS_Store
+
+# Obsidian
+wiki/.obsidian/
