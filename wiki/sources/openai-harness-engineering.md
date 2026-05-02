@@ -1,5 +1,6 @@
 ---
 title: "Harness Engineering - Leveraging Codex in an Agent-First World"
+aliases: ["Harness Engineering - Leveraging Codex in an Agent-First World"]
 tags: [source, openai, codex, agent-engineering, software-development]
 sources: [https://openai.com/index/harness-engineering/]
 date: 2026-02-11

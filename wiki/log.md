@@ -18,7 +18,7 @@ Chronological record of ingests, queries, and maintenance.
 - `sources/harness-design-long-running-apps.md` — full source summary
 - `concepts/generator-evaluator-architecture.md` — new concept: GAN-inspired gen/eval loop
 - `concepts/sprint-contracts.md` — new concept: pre-negotiated agent success criteria
-- `concepts/context-management-agents.md` — new concept: context degradation, anxiety, resets
+- `concepts/context-management-for-agents.md` — new concept: context degradation, anxiety, resets
 - `entities/anthropic.md` — entity: Anthropic
 - `entities/claude.md` — entity: Claude (Sonnet 4.5, Opus 4.6)
 
@@ -34,7 +34,7 @@ Chronological record of ingests, queries, and maintenance.
 
 **Source:** https://openai.com/index/harness-engineering/
 **Pages created:**
-- `sources/harness-engineering.md` — full source summary
+- `sources/openai-harness-engineering.md` — full source summary
 - `concepts/harness-engineering.md` — concept: harness engineering methodology
 - `entities/openai.md` — entity: OpenAI
 - `entities/codex.md` — entity: Codex (OpenAI coding agent)

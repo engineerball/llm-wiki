@@ -1,5 +1,6 @@
 ---
 title: "Harness Design for Long-Running Application Development"
+aliases: ["Harness Design for Long-Running Application Development"]
 tags: [source, anthropic, claude, multi-agent, harness, frontend-engineering]
 sources: [https://www.anthropic.com/engineering/harness-design-long-running-apps]
 date: 2026-03-24
