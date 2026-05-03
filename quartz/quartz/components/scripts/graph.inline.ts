@@ -184,6 +184,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     "--dark",
     "--darkgray",
     "--bodyFont",
+    "--graph-sources",
+    "--graph-entities",
+    "--graph-concepts",
   ] as const
   const computedStyleMap = cssVars.reduce(
     (acc, key) => {
@@ -193,16 +196,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
-  // calculate color
+  // calculate color — current node uses --secondary; other nodes colored by wiki folder
   const color = (d: NodeData) => {
-    const isCurrent = d.id === slug
-    if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
-    }
+    if (d.id === slug) return computedStyleMap["--secondary"]
+    if (d.id.startsWith("sources/")) return computedStyleMap["--graph-sources"]
+    if (d.id.startsWith("entities/")) return computedStyleMap["--graph-entities"]
+    if (d.id.startsWith("concepts/")) return computedStyleMap["--graph-concepts"]
+    if (visited.has(d.id)) return computedStyleMap["--tertiary"]
+    return computedStyleMap["--gray"]
   }
 
   function nodeRadius(d: NodeData) {

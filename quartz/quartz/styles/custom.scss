@@ -1,3 +1,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Graph node colors by wiki section
+:root {
+  --graph-sources: #3b82f6;
+  --graph-entities: #f97316;
+  --graph-concepts: #a855f7;
+}
+
+:root[saved-theme="dark"] {
+  --graph-sources: #60a5fa;
+  --graph-entities: #fb923c;
+  --graph-concepts: #c084fc;
+}
