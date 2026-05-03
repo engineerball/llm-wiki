@@ -53,6 +53,9 @@ Catalog of all pages, organized by category.
 | [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers — unified business metrics |
 | [[customer-data-platform]] | Managed database that unifies customer data across touchpoints — system of intelligence for identity, segmentation, and activation |
 | [[one-shot-agent]] | Agent pattern that completes a task in a single step without iteration or feedback loop |
+| [[agentic-protocol-stack]] | 4-layer protocol architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments) |
+| [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
+| [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
 
 ---
 

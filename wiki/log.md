@@ -243,6 +243,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-04 | rebuild concept | UCP + agentic commerce
+
+**3 concept pages created:**
+- `concepts/ucp.md` — Universal Commerce Protocol: N×N problem, capability negotiation, `/.well-known/ucp`, checkout flow, transport agnosticism, strategic timeline
+- `concepts/agentic-commerce.md` — AI agents executing purchases autonomously; the shift from human UX to agent experience; $500B projection; UCP vs ACP competition; 5-point readiness checklist
+- `concepts/agentic-protocol-stack.md` — 4-layer architecture (L1 A2A / L2 MCP / L3 UCP / L4 AP2); layer composition diagram; end-to-end business trip example; governance table
+
+**Index updated:** added 3 new concept entries
+
+---
+
 ## 2026-05-03 | ingest + lint | UCP + agentic protocols
 
 **3 new pages added:**
