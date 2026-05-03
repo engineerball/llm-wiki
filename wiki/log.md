@@ -197,3 +197,32 @@ Chronological record of ingests, queries, and maintenance.
 
 **Key topics (dbt blog):** hub-and-spoke architecture, five use cases (BI reporting, embedded analytics, AI/LLMs, self-serve analytics, exploratory analytics), data explosion problem (61% orgs use 4+ BI tools), DRY principle for metrics, dbt Semantic Layer codifying metrics alongside models
 **Key topics (Microsoft gold layers):** entity-oriented table design, star schema, business-friendly naming, AI documentation (descriptions truncated at 200 chars), hiding technical columns, linguistic modeling (synonyms + relationships)
+
+---
+
+## 2026-05-02 | ingest | thoughtworks-five-differences-cloud-cost-finops
+
+**Source:** https://www.thoughtworks.com/en-us/insights/blog/cloud/5_cloud_cost_management_finops
+**Author:** ThoughtWorks Blog
+
+**Pages created:**
+- `sources/thoughtworks-five-differences-cloud-cost-finops.md` — source summary of 5 differences between cost management and FinOps
+- `wiki/index.md` — added source entry
+- `wiki/log.md` — appended ingest record
+
+**Key topics ingested:** 5 differences (goals, scope, approach, focus, breadth of optimization), cloud cost management = reactive/siloed/financial-only, FinOps = proactive/collaborative/financial + non-financial, cultural difference (everyone collectively owns cost management), metrics comparison (cost reduction vs. optimization for business value)
+
+---
+
+## 2026-05-03 | ingest | harness-engineering-claude-code-book
+
+**Source:** https://harness-books.agentway.dev/en/book1-claude-code/
+**Published:** 2026-04-01
+**Format:** Online book — 9 chapters + 3 appendices
+
+**Pages created:**
+- `sources/harness-engineering-claude-code-book.md` — full book summary with chapter analysis, five harness layers, prompt control plane, query loop skeleton, ten principles
+- `wiki/index.md` — added source entry
+- `wiki/log.md` — appended ingest record
+
+**Key topics ingested:** models as unstable components, prompt as control plane/constitution not persona, query loop as heartbeat with stateful execution, tool scheduling discipline, context governance (memory/CLAUDE.md/compact), recovery as main path (not afterthought), multi-agent for partitioning uncertainty, independent verification, team institutions over personal tricks. Five harness layers: constrained conversation, continuous loop, tool scheduling, high-risk rules, errors as main path. Three distilled conclusions: harness over excitement, institutions over cleverness, verification over confidence.
