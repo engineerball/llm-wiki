@@ -154,8 +154,8 @@ UCP runs on: **REST API** (primary), **JSON-RPC**, **GraphQL**, **MCP**, **A2A**
 
 ## Key References
 
-- Google UCP blog: `wiki/ucp-universal-commerce-protocol.md`
-- Fountain City overview: `wiki/agentic-protocols-for-websites-2026.md`
+- Google UCP blog: [[ucp-universal-commerce-protocol]]
+- Fountain City overview: [[agentic-protocols-for-websites-2026]]
 - Google Developer Blog: <https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/>
 - AP2 Protocol: <https://ap2-protocol.org/>
 - A2A Protocol: <https://a2a-protocol.org/>

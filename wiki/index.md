@@ -1,7 +1,7 @@
 ---
 title: "Wiki Index"
 tags: [meta, index]
-date: 2026-05-02
+date: 2026-05-03
 ---
 
 # Wiki Index
@@ -28,6 +28,9 @@ Catalog of all pages, organized by category.
 | [[dbt-semantic-layer-introduction]] | 2026-05-02 | What a semantic layer is, five use cases, and the hub-and-spoke pattern (dbt blog) |
 | [[thoughtworks-five-differences-cloud-cost-finops]] | 2026-05-02 | Five differences between cloud cost management and FinOps (ThoughtWorks) |
 | [[cdp-comparison-2026]] | 2026-05-03 | 9 Best Customer Data Platforms (CDPs) in 2026 — market review and comparison (Medium / Modern Data 101) |
+| [[ucp-universal-commerce-protocol]] | 2026-01-11 | Universal Commerce Protocol (UCP) — open-source standard for agentic commerce (Google blog) |
+| [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | UCP interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
+| [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
 
 ---
 
@@ -49,6 +52,7 @@ Catalog of all pages, organized by category.
 | [[agentic-ai-system]] | 9-layer system: user/clients, orchestration, agents, tools, memory, monitoring, reliability, governance, infrastructure |
 | [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers — unified business metrics |
 | [[customer-data-platform]] | Managed database that unifies customer data across touchpoints — system of intelligence for identity, segmentation, and activation |
+| [[one-shot-agent]] | Agent pattern that completes a task in a single step without iteration or feedback loop |
 
 ---
 

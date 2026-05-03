@@ -240,3 +240,17 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/index.md` — added source and concept entries
 
 **Key topics ingested:** CDP definition (unification + identity resolution + activation), CDP vs CRM vs DMP, packaged vs composable (warehouse-native), 5 selection criteria (IDR strength, real-time <300ms, silo test, governance, AI readiness), 9 platforms (Twilio Segment, DataOS, Salesforce Data Cloud, Adobe Real-Time CDP, Tealium, ActionIQ, Amperity, Treasure Data, Insider), pitfalls (vendor lock-in, GIGO, compliance risk), ROI measurement (incremental revenue, not "profiles created"), trends (AI copilot, embedded activation, composability, zero-party data)
+
+---
+
+## 2026-05-03 | ingest + lint | UCP + agentic protocols
+
+**3 new pages added:**
+- `ucp-universal-commerce-protocol.md` — Google UCP overview (source: Google Developers Blog, Jan 2026)
+- `ucp-interoperability-mcp-a2a-ap2.md` — 4-layer protocol stack (A2A/MCP/UCP/AP2), end-to-end travel use case (source: LinkedIn/Vijayaraghavan)
+- `agentic-protocols-for-websites-2026.md` — protocol readiness guide for websites, 5-point checklist (source: Fountain City Tech)
+
+**Lint actions:**
+- Updated `index.md` — added all 3 UCP pages, added missing `[[one-shot-agent]]` concept, updated date
+- Fixed cross-references in `ucp-interoperability-mcp-a2a-ap2.md` — raw paths → wikilinks
+- Verified: no broken wikilinks (only false positives from code blocks), no orphan pages in wiki/ directory
