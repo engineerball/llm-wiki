@@ -27,6 +27,7 @@ Catalog of all pages, organized by category.
 | [[naming-conventions-for-semantic-layers]] | 2026-05-02 | Gold-layer design principles for AI Copilot consumption (Microsoft Fabric) |
 | [[dbt-semantic-layer-introduction]] | 2026-05-02 | What a semantic layer is, five use cases, and the hub-and-spoke pattern (dbt blog) |
 | [[thoughtworks-five-differences-cloud-cost-finops]] | 2026-05-02 | Five differences between cloud cost management and FinOps (ThoughtWorks) |
+| [[cdp-comparison-2026]] | 2026-05-03 | 9 Best Customer Data Platforms (CDPs) in 2026 — market review and comparison (Medium / Modern Data 101) |
 
 ---
 
@@ -47,6 +48,7 @@ Catalog of all pages, organized by category.
 | [[finops-lifecycle]] | Three-stage iterative process: Inform → Optimize → Operate |
 | [[agentic-ai-system]] | 9-layer system: user/clients, orchestration, agents, tools, memory, monitoring, reliability, governance, infrastructure |
 | [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers — unified business metrics |
+| [[customer-data-platform]] | Managed database that unifies customer data across touchpoints — system of intelligence for identity, segmentation, and activation |
 
 ---
 

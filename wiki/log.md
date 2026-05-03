@@ -226,3 +226,17 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/log.md` — appended ingest record
 
 **Key topics ingested:** models as unstable components, prompt as control plane/constitution not persona, query loop as heartbeat with stateful execution, tool scheduling discipline, context governance (memory/CLAUDE.md/compact), recovery as main path (not afterthought), multi-agent for partitioning uncertainty, independent verification, team institutions over personal tricks. Five harness layers: constrained conversation, continuous loop, tool scheduling, high-risk rules, errors as main path. Three distilled conclusions: harness over excitement, institutions over cleverness, verification over confidence.
+
+---
+
+## 2026-05-03 | ingest | cdp-comparison-2026
+
+**Source:** https://medium.com/@community_md101/9-best-customer-data-platforms-cdps-in-2026-in-depth-look-3983adabf759
+**Author:** Swami Achari (Modern Data 101)
+
+**Pages created:**
+- `concepts/customer-data-platform.md` — CDP concept page: what is a CDP, 3 core functions (unification, IDR, activation), CDP vs CRM vs DMP comparison, packaged vs composable, 5 selection criteria, 9 platforms reviewed, pitfalls, ROI measurement, future trends
+- `sources/cdp-comparison-2026.md` — source summary of 9 best CDPs in 2026
+- `wiki/index.md` — added source and concept entries
+
+**Key topics ingested:** CDP definition (unification + identity resolution + activation), CDP vs CRM vs DMP, packaged vs composable (warehouse-native), 5 selection criteria (IDR strength, real-time <300ms, silo test, governance, AI readiness), 9 platforms (Twilio Segment, DataOS, Salesforce Data Cloud, Adobe Real-Time CDP, Tealium, ActionIQ, Amperity, Treasure Data, Insider), pitfalls (vendor lock-in, GIGO, compliance risk), ROI measurement (incremental revenue, not "profiles created"), trends (AI copilot, embedded activation, composability, zero-party data)
