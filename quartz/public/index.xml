@@ -6,23 +6,65 @@
       <description>Last 10 notes on TK Personal Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>agentic-protocols-for-websites-2026</title>
+    <link>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</guid>
+    <description><![CDATA[ Agentic Protocols for Your Website in 2026 Source: Fountain City Tech — fountaincity.tech/resources/blog/agentic-protocols-for-your-website-2026/ Key reference: Backlinko 6-protocol primer, Addy Osmani’s Agentic SEO audit, Conductor 2026 AEO/GEO benchmark Core Thesis Agentic protocols (MCP, A2A, UCP... ]]></description>
+    <pubDate>Sun, 03 May 2026 17:48:42 GMT</pubDate>
+  </item><item>
     <title>ucp-interoperability-mcp-a2a-ap2</title>
     <link>https://https://engineerball.github.io/llm-wiki/ucp-interoperability-mcp-a2a-ap2</link>
     <guid>https://https://engineerball.github.io/llm-wiki/ucp-interoperability-mcp-a2a-ap2</guid>
     <description><![CDATA[ UCP Interoperability with MCP / A2A / AP2 Source: LinkedIn — V. ]]></description>
-    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+    <pubDate>Sun, 03 May 2026 17:48:42 GMT</pubDate>
   </item><item>
     <title>ucp-universal-commerce-protocol</title>
     <link>https://https://engineerball.github.io/llm-wiki/ucp-universal-commerce-protocol</link>
     <guid>https://https://engineerball.github.io/llm-wiki/ucp-universal-commerce-protocol</guid>
     <description><![CDATA[ Universal Commerce Protocol (UCP) Source: Google Developers Blog, Jan 11, 2026 — Amit Handa &amp; Ashish Gupta URL: developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/ Website: ucp.dev/ GitHub: github.com/universal-commerce-protocol/ucp 1. ]]></description>
-    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+    <pubDate>Sun, 03 May 2026 17:48:42 GMT</pubDate>
   </item><item>
-    <title>agentic-protocols-for-websites-2026</title>
-    <link>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</guid>
-    <description><![CDATA[ Agentic Protocols for Your Website in 2026 Source: Fountain City Tech — fountaincity.tech/resources/blog/agentic-protocols-for-your-website-2026/ Key reference: Backlinko 6-protocol primer, Addy Osmani’s Agentic SEO audit, Conductor 2026 AEO/GEO benchmark Core Thesis Agentic protocols (MCP, A2A, UCP... ]]></description>
-    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+    <title>Customer Data Platform (CDP)</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/customer-data-platform</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/customer-data-platform</guid>
+    <description><![CDATA[ Customer Data Platform (CDP) A CDP is a data platform that unifies a business’s customer data across all touchpoints. ]]></description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>9 Best Customer Data Platforms (CDPs) in 2026: In-depth Look</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/cdp-comparison-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/cdp-comparison-2026</guid>
+    <description><![CDATA[ 9 Best Customer Data Platforms (CDPs) in 2026: In-depth Look Source: Medium — Modern Data 101 Author: Swami Achari Published: Dec 30, 2025 Core CDP Functions A CDP does three non-negotiable things: Unification — inhaled data from every touchpoint into one persistent database Identity Resolution (IDR... ]]></description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Harness Engineering: A Design Guide to Claude Code</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/harness-engineering-claude-code-book</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/harness-engineering-claude-code-book</guid>
+    <description><![CDATA[ Harness Engineering: A Design Guide to Claude Code Source: Harness Books — Online Edition URL: harness-books.agentway.dev/en/book1-claude-code/ Author: @wquguru Date: 2026-04-01 Overview A design analysis of how Claude Code constrains an unstable model into a sustainable engineering order. ]]></description>
+    <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Agentic AI System Reference Architecture</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/agentic-ai-system</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/agentic-ai-system</guid>
+    <description><![CDATA[ Agentic AI System — Reference Architecture A comprehensive 9-layer reference architecture for building goal-driven, multi-agent, orchestrated, observable, reliable AI systems. ]]></description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Blueprints</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/blueprints</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/blueprints</guid>
+    <description><![CDATA[ Blueprints Stripe’s structured documentation system for describing service contracts, expected code patterns, architectural rules, and interface specifications. ]]></description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Feature List Pattern</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/feature-list-pattern</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/feature-list-pattern</guid>
+    <description><![CDATA[ Feature List Pattern A scaffolding pattern used in the initializer-coding-agent-architecture where a comprehensive JSON file enumerates all required features for a project, each with test criteria and a pass/fail status. ]]></description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>FinOps Lifecycle</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/finops-lifecycle</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/finops-lifecycle</guid>
+    <description><![CDATA[ FinOps Lifecycle The three-stage iterative process for implementing FinOps practices: Inform → Optimize → Operate. ]]></description>
+    <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
