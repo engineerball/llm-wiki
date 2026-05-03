@@ -243,6 +243,24 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-04 | rebuild entities | 8 new entity pages
+
+**Organizations created:**
+- `entities/google.md` — UCP/A2A creator, Google AI Mode/Gemini, GCP FinOps author
+- `entities/thoughtworks.md` — Böckeler's employer; harness engineering + FinOps blog
+- `entities/finops-foundation.md` — defines FinOps framework, lifecycle, FOCUS standard
+- `entities/microsoft.md` — Microsoft Fabric gold-layer naming, MCP co-governance, WebMCP
+- `entities/dbt-labs.md` — creator of dbt and dbt Semantic Layer; hub-and-spoke model
+- `entities/fountain-city.md` — agentic protocol readiness guidance, AEO/GEO data
+
+**People created:**
+- `entities/vijayaraghavan-v.md` — UCP interoperability article (LinkedIn, Jan 2026); 4-layer stack diagram
+- `entities/swami-achari.md` — CDP comparison article (Modern Data 101, 2026)
+
+**Index updated:** added 6 org entries + 2 people entries
+
+---
+
 ## 2026-05-04 | rebuild concept | UCP + agentic commerce
 
 **3 concept pages created:**

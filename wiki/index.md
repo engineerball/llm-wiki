@@ -66,6 +66,12 @@ Catalog of all pages, organized by category.
 | [[openai]] | AI research lab |
 | [[anthropic]] | AI safety research lab, creator of Claude |
 | [[stripe]] | Payments infrastructure company; operator of Minions coding agent system |
+| [[google]] | Tech company; UCP + A2A creator, Google AI Mode/Gemini, GCP FinOps |
+| [[thoughtworks]] | Global tech consultancy; Böckeler's employer; harness engineering + FinOps research |
+| [[finops-foundation]] | Vendor-neutral non-profit; defines FinOps framework and principles |
+| [[microsoft]] | Tech company; Microsoft Fabric semantic layers, MCP co-governance, WebMCP |
+| [[dbt-labs]] | Data transformation company; creator of dbt and dbt Semantic Layer |
+| [[fountain-city]] | AI agents company; agentic protocol readiness guidance |
 
 ---
 
@@ -76,6 +82,8 @@ Catalog of all pages, organized by category.
 | [[birgitta-bockeler]] | ThoughtWorks principal technologist; harness engineering researcher |
 | [[prithvi-rajasekaran]] | Anthropic engineer; multi-agent harness researcher |
 | [[justin-young]] | Anthropic engineer; author of "Effective harnesses for long-running agents" (2026) |
+| [[vijayaraghavan-v]] | Author; UCP 4-layer protocol stack analysis (LinkedIn, 2026) |
+| [[swami-achari]] | Author (Modern Data 101); 9 best CDPs in 2026 comparison |
 
 ---
 
