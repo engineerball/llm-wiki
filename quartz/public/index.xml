@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>TK Personal Wiki</title>
+      <link>https://https://engineerball.github.io/llm-wiki/</link>
+      <description>Last 10 notes on TK Personal Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>ucp-interoperability-mcp-a2a-ap2</title>
+    <link>https://https://engineerball.github.io/llm-wiki/ucp-interoperability-mcp-a2a-ap2</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/ucp-interoperability-mcp-a2a-ap2</guid>
+    <description><![CDATA[ UCP Interoperability with MCP / A2A / AP2 Source: LinkedIn — V. ]]></description>
+    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+  </item><item>
+    <title>ucp-universal-commerce-protocol</title>
+    <link>https://https://engineerball.github.io/llm-wiki/ucp-universal-commerce-protocol</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/ucp-universal-commerce-protocol</guid>
+    <description><![CDATA[ Universal Commerce Protocol (UCP) Source: Google Developers Blog, Jan 11, 2026 — Amit Handa &amp; Ashish Gupta URL: developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/ Website: ucp.dev/ GitHub: github.com/universal-commerce-protocol/ucp 1. ]]></description>
+    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+  </item><item>
+    <title>agentic-protocols-for-websites-2026</title>
+    <link>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</guid>
+    <description><![CDATA[ Agentic Protocols for Your Website in 2026 Source: Fountain City Tech — fountaincity.tech/resources/blog/agentic-protocols-for-your-website-2026/ Key reference: Backlinko 6-protocol primer, Addy Osmani’s Agentic SEO audit, Conductor 2026 AEO/GEO benchmark Core Thesis Agentic protocols (MCP, A2A, UCP... ]]></description>
+    <pubDate>Sun, 03 May 2026 16:39:42 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
