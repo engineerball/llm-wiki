@@ -31,6 +31,7 @@ Catalog of all pages, organized by category.
 | [[ucp-universal-commerce-protocol]] | 2026-01-11 | Universal Commerce Protocol (UCP) — open-source standard for agentic commerce (Google blog) |
 | [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | UCP interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
 | [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
+| [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
 
 ---
 
@@ -56,6 +57,7 @@ Catalog of all pages, organized by category.
 | [[agentic-protocol-stack]] | 4-layer protocol architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments) |
 | [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
 | [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
+| [[ap2-agent-payments-protocol]] | Agent Payments Protocol (Google) — cryptographic proof of intent, 3 VCs, role architecture, payment methods |
 
 ---
 

@@ -270,6 +270,17 @@ Chronological record of ingests, queries, and maintenance.
 
 **Index updated:** added 3 new concept entries
 
+## 2026-05-04 | ingest | ap2-protocol.net
+
+**Source:** https://ap2-protocol.net/en/ (Google Agentic Commerce)
+**Cross-ref:** [[ucp-interoperability-mcp-a2a-ap2]], [[agentic-commerce]], [[agentic-protocol-stack]]
+
+**Pages created:**
+- `sources/ap2-agent-payments-protocol-2026.md` — full source: what is AP2, core principles, 3 VC types (Intent Mandate, Cart Mandate, Payment Mandate), role-based architecture, L4 in protocol stack, samples (cards/x402/Android), key URLs
+- `concepts/ap2-agent-payments-protocol.md` — concept page distilled from source + existing UCP/AP2 interop page: why AP2 exists, VC types, role architecture diagram, payment methods (current vs roadmap), AP2 vs ACP comparison
+
+**Key topics ingested:** Verifiable Intent vs Inferred Action, non-repudiable cryptographic signatures, 3 VC types with distinct scenarios/contents, 6 roles (User/UA/CP/ME/MPP/Network+Issuer), human-present vs human-not-present flows, pull vs push payments, AP2 vs ACP strategic comparison, Google samples (cards/x402/Android DPC)
+
 ---
 
 ## 2026-05-03 | ingest + lint | UCP + agentic protocols
