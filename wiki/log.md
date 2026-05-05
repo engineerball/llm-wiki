@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Two-Tower Deep Dive (Shaped.ai)
+
+- Source: `.raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md`
+- Summary: [[shaped-ai-two-tower-deep-dive]]
+- Pages created: [[shaped-ai-two-tower-deep-dive]], [[negative-sampling]]
+- Pages updated: [[two-tower-architecture]], [[recommendation-systems]], `index.md`
+- Key insight: In-batch negatives are the efficient default for contrastive two-tower training — other items in the same batch are free negatives, naturally pairing with InfoNCE loss and temperature scaling; the temperature τ controls how hard the training signal is without changing which negatives are used.
+
+---
+
 ## 2026-05-05 | ingest | Two-Tower Movie Recommender in PyTorch (Greenquist)
 
 - Source: `.raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md`

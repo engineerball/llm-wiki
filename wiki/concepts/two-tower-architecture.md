@@ -2,7 +2,7 @@
 title: "Two-Tower Architecture"
 type: concept
 tags: [concept, ml, retrieval, embeddings, recommendation-systems, neural-networks]
-sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md"]
+sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md"]
 date: 2026-05-05
 ---
 
@@ -69,9 +69,30 @@ Each tower is typically:
 
 ## Training
 
-Trained on positive `<query, candidate>` pairs with in-batch negative sampling. Loss: maximizing dot product similarity for positive pairs.
+Trained on positive `<query, candidate>` pairs with negative sampling. The model learns to score positive pairs higher than negatives.
 
-**Training data determines embedding geometry.** If trained on `<playlist title, track title>` pairs, the embedding space reflects title similarity. If trained on `<audio features, audio features>`, it reflects audio similarity. Feature selection = implicit geometry selection.
+**Training data determines embedding geometry.** Feature selection = implicit geometry selection. See [[two-towers-deep-retrieval-google-cloud]] for examples.
+
+### Loss Functions
+
+Three families:
+- **Pointwise** — Log Loss (binary cross-entropy on pos/neg pairs) or MSE (rating regression)
+- **Pairwise** — BPR (Bayesian Personalized Ranking): maximize P(positive ranked above negative)
+- **Contrastive** — InfoNCE with in-batch negatives: `L = -log[exp(u·v_pos/τ) / Σᵢ exp(u·vᵢ/τ)]`; τ = temperature
+
+### Sequential Features
+
+User history sequences (watch history, purchase sequence) processed via:
+- LSTM / GRU — recurrent; captures order
+- Attention / Transformers — parallel; captures long-range dependencies
+- Output fed into user tower as one input among others
+
+### Negative Sampling
+
+See [[negative-sampling]] for full taxonomy. Common strategies:
+- **In-batch negatives** — other items in batch = negatives; efficient, natural fit for InfoNCE
+- **Hard negative mining** — items ranked high but not interacted; strongest signal, risk false negatives
+- **Popularity-based** — sample ∝ item popularity; corrects popularity bias
 
 Loss function in TFRS:
 ```python
@@ -143,5 +164,7 @@ Standard two-tower uses a user ID embedding. Feature-based alternative represent
 - [[approximate-nearest-neighbors]] — how to serve two-tower embeddings at scale
 - [[vertex-ai-matching-engine]] — Google's managed ANN service
 - [[tensorflow-recommenders]] — TFRS library for training two-tower models
+- [[negative-sampling]] — negative sampling strategies for training
 - [[two-towers-deep-retrieval-google-cloud]] — Google Cloud source article
 - [[two-tower-movie-recommender-pytorch]] — PyTorch three-tower implementation
+- [[shaped-ai-two-tower-deep-dive]] — loss functions + negative sampling deep dive

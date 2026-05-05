@@ -44,6 +44,20 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md": {
+      "hash": "5cb404dd7747ae81d6d95c4de2cb82c0",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/shaped-ai-two-tower-deep-dive.md",
+        "wiki/concepts/negative-sampling.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/two-tower-architecture.md",
+        "wiki/concepts/recommendation-systems.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}

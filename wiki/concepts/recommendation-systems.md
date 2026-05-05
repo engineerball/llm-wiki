@@ -2,7 +2,7 @@
 title: "Recommendation Systems"
 type: concept
 tags: [concept, ml, retrieval, recommendation-systems, embeddings]
-sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md"]
+sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md"]
 date: 2026-05-05
 ---
 
@@ -27,6 +27,12 @@ All candidates (billions)
 ```
 
 **Retrieval** is the bottleneck. Must be fast enough (milliseconds) while still capturing relevant candidates. This is where [[two-tower-architecture]] and [[approximate-nearest-neighbors]] operate.
+
+**Named ranking models** used at the ranking stage (after two-tower retrieval):
+- **Deep & Wide** (Google) — wide memorization + deep generalization
+- **DCN / Deep & Cross Network** (Google) — explicit feature cross terms via cross layers
+- **DeepFM** — combines factorization machines with deep networks
+- **LightGBM** — gradient boosting; popular for production ranking pipelines
 
 ## Retrieval Approaches
 

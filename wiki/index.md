@@ -35,6 +35,7 @@ Catalog of all pages, organized by category.
 | [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
 | [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
 | [[two-tower-movie-recommender-pytorch]] | 2026-05-05 | Three-tower PyTorch movie recommender on MovieLens — feature-based users, debiased ratings, cold start solution (Greenquist blog) |
+| [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
 
 ---
 
@@ -66,6 +67,7 @@ Catalog of all pages, organized by category.
 | [[approximate-nearest-neighbors]] | ANN indexing for fast vector similarity search; Tree-AH, HNSW, PQ; trade accuracy for speed at billion-vector scale |
 | [[recommendation-systems]] | Multi-stage retrieval/ranking pipeline; collaborative vs content-based filtering; token → factorization → NDR evolution |
 | [[cold-start-problem]] | New user/item has no interaction history; ID embeddings fail; feature-based representation solves user cold start |
+| [[negative-sampling]] | Training technique for retrieval models — random, popularity-based, hard negative mining, in-batch negatives; false negative problem |
 
 ---
 
