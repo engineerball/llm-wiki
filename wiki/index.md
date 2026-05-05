@@ -49,6 +49,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Date | Topic |
 |------|------|-------|
+| [[the-semantic-movement-modern-data-101-2026-05-05]] | 2026-05-05 | The Semantic Layer Movement: Rise, workarounds (Cubes/BI-traps), semantic mistrust, and the Reliable Semantic Stack (Animesh Kumar) |
 | [[running-openclaw-safely]] | 2026-05-05 | Microsoft security analysis of OpenClaw — identity isolation, three primary risks, runtime vs platform (Moltbook), end-to-end attack scenario, minimum safe operating posture (Microsoft) |
 | [[nebius-openclaw-security]] | 2026-05-05 | OpenClaw security: architecture, sandboxing tiers, skill supply chain risk, memory poisoning, hardening checklist (Nebius) |
 | [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer 5-era history, traditional vs platform-native, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
@@ -87,6 +88,8 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Type |
 |------|------|
+| [[animesh-kumar]] | Data strategist; author of the "Semantic Movement" and "Reliable Semantic Stack" frameworks |
+| [[modern-data-101]] | Substack publication focused on semantic layer evolution and data engineering |
 | [[airbyte]] | Open-source data integration (ELT + CDC); foundation for real-time semantic layers |
 | [[snowflake]] | Cloud-based data platform; semantic views for AI-powered conversational interfaces |
 | [[atscale]] | Enterprise semantic layer platform; Semantic Modeling Language (SML) |
@@ -134,4 +137,6 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |
 | [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH, up to 1B vectors, incremental updates |
 | [[cube]] | Open-source headless semantic layer; API-first (REST/GraphQL/SQL); pre-aggregation engine |
+| [[airbyte]] | Open-source data integration; 600+ connectors; CDC for real-time semantic layers |
+ (REST/GraphQL/SQL); pre-aggregation engine |
 | [[airbyte]] | Open-source data integration; 600+ connectors; CDC for real-time semantic layers |

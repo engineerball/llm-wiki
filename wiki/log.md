@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | THE SEMANTIC LAYER MOVEMENT: THE RISE & CURRENT STATE (Modern Data 101)
+
+- Source: `raw/articles/the-semantic-movement-modern-data-101-2026-05-05.md`
+- URL: <https://moderndata101.substack.com/p/the-semantic-movement-the-story-of>
+- Summary: [[the-semantic-movement-modern-data-101-2026-05-05]]
+- Pages created: [[the-semantic-movement-modern-data-101-2026-05-05]], [[animesh-kumar]], [[modern-data-101]], [[semantic-mistrust]], [[reliable-semantic-stack]], [[data-products]]
+- Pages updated: [[semantic-layer]], `index.md`
+- Key insight: The "Semantic Movement" represents the shift to a decoupled, must-have layer in the data stack. Success requires a [[reliable-semantic-stack]] to avoid [[semantic-mistrust]] (masking poor physical data). Data APIs (GraphQL) are identified as the critical bridge for powering LLMs and modern data applications.
+
+---
+
 ## 2026-05-05 | ingest | The Rise of the Semantic Layer: Metrics on the Fly (Airbyte)
 
 - Source: `raw/articles/rise-of-semantic-layer-airbyte-2026-05-05.md`
