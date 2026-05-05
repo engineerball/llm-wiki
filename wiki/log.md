@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | MoE for Recommendation Systems (Sumit Kumar / reachsumit)
+
+- Source: `.raw/articles/moe-for-recsys-2026-05-05.md`
+- Summary: [[moe-for-recsys-reachsumit]]
+- Pages created: [[moe-for-recsys-reachsumit]], [[mixture-of-experts]], [[multi-task-learning-recsys]], [[youtube]], [[kuaishou]]
+- Pages updated: [[recommendation-systems]], `index.md`
+- Key insight: MMoE solves multi-objective ranking by giving each task its own gate over a shared expert pool — YouTube uses this to separate engagement (clickbait-prone) from satisfaction (quality) objectives without gradient interference.
+
+---
+
 ## 2026-05-05 | ingest | Two-Tower Architecture Survey (Sumit Kumar / reachsumit)
 
 - Source: `.raw/articles/reachsumit-two-tower-model-2026-05-05.md`

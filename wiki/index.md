@@ -37,6 +37,7 @@ Catalog of all pages, organized by category.
 | [[two-tower-movie-recommender-pytorch]] | 2026-05-05 | Three-tower PyTorch movie recommender on MovieLens — feature-based users, debiased ratings, cold start solution (Greenquist blog) |
 | [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
 | [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
+| [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
 
 ---
 
@@ -69,6 +70,8 @@ Catalog of all pages, organized by category.
 | [[recommendation-systems]] | Multi-stage retrieval/ranking pipeline; collaborative vs content-based filtering; token → factorization → NDR evolution |
 | [[cold-start-problem]] | New user/item has no interaction history; ID embeddings fail; feature-based representation solves user cold start |
 | [[negative-sampling]] | Training technique for retrieval models — random, popularity-based, hard negative mining, in-batch negatives; false negative problem |
+| [[mixture-of-experts]] | MoE ensemble technique: HME, DMoE, Sparsely-Gated, MMoE; shared experts + task-specific gating for multi-objective ranking |
+| [[multi-task-learning-recsys]] | Joint optimization of competing recsys objectives (engagement vs satisfaction); MMoE as the dominant MTL architecture |
 
 ---
 
@@ -86,6 +89,8 @@ Catalog of all pages, organized by category.
 | [[dbt-labs]] | Data transformation company; creator of dbt and dbt Semantic Layer |
 | [[fountain-city]] | AI agents company; agentic protocol readiness guidance |
 | [[linux-foundation]] | Non-profit; governs MCP, A2A, Agent Gateway (Apache 2.0) |
+| [[youtube]] | Google-owned video platform; MMoE for next-video recommendation (engagement vs satisfaction) |
+| [[kuaishou]] | Chinese short-video platform; MMoE-based personalized cold start modules |
 
 ---
 

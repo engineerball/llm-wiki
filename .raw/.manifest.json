@@ -70,6 +70,22 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/moe-for-recsys-2026-05-05.md": {
+      "hash": "51d62cbc2e8ad3aa20153a94666e4ff9",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/moe-for-recsys-reachsumit.md",
+        "wiki/concepts/mixture-of-experts.md",
+        "wiki/concepts/multi-task-learning-recsys.md",
+        "wiki/entities/youtube.md",
+        "wiki/entities/kuaishou.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/recommendation-systems.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}

@@ -2,7 +2,7 @@
 title: "Recommendation Systems"
 type: concept
 tags: [concept, ml, retrieval, recommendation-systems, embeddings]
-sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md"]
+sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md", ".raw/articles/moe-for-recsys-2026-05-05.md"]
 date: 2026-05-05
 ---
 
@@ -68,6 +68,18 @@ Feature pair examples and their effect:
 - `<audio features, audio features>` → audio-profile embedding space
 - `<user history, item features>` → collaborative embedding space
 
+## Multi-Objective Ranking with MoE
+
+Production systems rarely optimize a single objective. Ranking models must balance engagement (clicks, watchtime) against satisfaction (likes, ratings) and business metrics. Single shared-bottom models suffer from gradient interference between conflicting objectives.
+
+**Multi-Gate MoE (MMoE)** is the dominant solution: a pool of shared expert networks with task-specific gating, so each objective selects a different expert mixture. See [[mixture-of-experts]] and [[multi-task-learning-recsys]].
+
+Real deployments:
+- **YouTube**: MMoE at ranking stage; engagement vs satisfaction objective groups
+- **Kuaishou**: MMoE after sequential attention for cold-start ranking
+
+MMoE sits at the **ranking stage** — after [[two-tower-architecture]] retrieval narrows candidates.
+
 ## Tools and Services
 
 - [[tensorflow-recommenders]] (TFRS) — TF library for building two-tower retrieval models
@@ -82,3 +94,6 @@ Feature pair examples and their effect:
 - [[tensorflow-recommenders]] — TFRS implementation library
 - [[vertex-ai-matching-engine]] — Google's managed ANN index
 - [[two-towers-deep-retrieval-google-cloud]] — source article
+- [[mixture-of-experts]] — MoE/MMoE for multi-objective ranking
+- [[multi-task-learning-recsys]] — multi-task ranking patterns
+- [[moe-for-recsys-reachsumit]] — MoE survey source article
