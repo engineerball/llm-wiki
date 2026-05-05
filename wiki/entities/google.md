@@ -25,6 +25,12 @@ Technology company (Alphabet subsidiary). Major AI platform, cloud provider, and
 - **Google Cloud** — [[finops-getting-started-gcp]] — Published FinOps framework for GCP (Inform/Optimize/Operate lifecycle, GCP-specific Epics, tools: BigQuery billing export, Recommender API)
 - **Merchant Center** — Required for businesses integrating UCP via Google
 
+### ML / Retrieval
+
+- **TensorFlow Recommenders (TFRS)** — Google-developed open-source library for building [[two-tower-architecture]] retrieval models. See [[tensorflow-recommenders]].
+- **Vertex AI Matching Engine** — Managed ANN service for serving two-tower embeddings at scale (up to 1B vectors). Uses Tree-AH algorithm. See [[vertex-ai-matching-engine]].
+- **Vertex AI** — ML platform on GCP; includes Model Registry, Batch Prediction, Training, and Matching Engine.
+
 ## Key People
 
 - **Amit Handa** — co-author of the UCP Google Developers Blog post (Jan 2026)

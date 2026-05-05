@@ -33,6 +33,7 @@ Catalog of all pages, organized by category.
 | [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
 | [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
 | [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
+| [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
 
 ---
 
@@ -60,6 +61,9 @@ Catalog of all pages, organized by category.
 | [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
 | [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
 | [[ap2-agent-payments-protocol]] | Agent Payments Protocol (Google) — cryptographic proof of intent, 3 VCs, role architecture, payment methods |
+| [[two-tower-architecture]] | Two-tower DNN retrieval: separate query + candidate towers, shared embedding space, dot product similarity, decoupled serving |
+| [[approximate-nearest-neighbors]] | ANN indexing for fast vector similarity search; Tree-AH, HNSW, PQ; trade accuracy for speed at billion-vector scale |
+| [[recommendation-systems]] | Multi-stage retrieval/ranking pipeline; collaborative vs content-based filtering; token → factorization → NDR evolution |
 
 ---
 
@@ -99,3 +103,5 @@ Catalog of all pages, organized by category.
 | [[codex]] | AI coding agent (OpenAI, GPT-5) |
 | [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
 | [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |
+| [[tensorflow-recommenders]] | TensorFlow library (Google) for two-tower retrieval models — tfrs.tasks.Retrieval, FactorizedTopK, Keras integration |
+| [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH algorithm, up to 1B vectors, incremental updates, autoscaling |

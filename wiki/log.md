@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Scaling Deep Retrieval — Two Towers (Google Cloud)
+
+- Source: `.raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md`
+- Summary: [[two-towers-deep-retrieval-google-cloud]]
+- Pages created: [[two-towers-deep-retrieval-google-cloud]], [[two-tower-architecture]], [[approximate-nearest-neighbors]], [[recommendation-systems]], [[tensorflow-recommenders]], [[vertex-ai-matching-engine]]
+- Pages updated: [[google]], `index.md`
+- Key insight: Two-tower's core advantage is decoupled inference — candidate embeddings precomputed offline, serving = query embedding + ANN lookup; training data feature choice directly determines the geometry of the embedding space (title pairs → title similarity, audio pairs → audio similarity).
+
+---
+
 ## 2026-05-05 | ingest | Agent Gateway — Kubernetes Docs
 
 - Source: `.raw/articles/agentgateway-kubernetes-latest-2026-05-05.md`

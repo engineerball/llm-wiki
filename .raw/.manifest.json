@@ -14,6 +14,23 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md": {
+      "hash": "427218706fca4a6e633f8f0790d72900",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/two-towers-deep-retrieval-google-cloud.md",
+        "wiki/concepts/two-tower-architecture.md",
+        "wiki/concepts/approximate-nearest-neighbors.md",
+        "wiki/concepts/recommendation-systems.md",
+        "wiki/entities/tensorflow-recommenders.md",
+        "wiki/entities/vertex-ai-matching-engine.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/google.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}
