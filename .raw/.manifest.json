@@ -58,6 +58,18 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/reachsumit-two-tower-model-2026-05-05.md": {
+      "hash": "1aaba3b7e5b269e6cb04b5fdec510b42",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/reachsumit-two-tower-model.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/two-tower-architecture.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}

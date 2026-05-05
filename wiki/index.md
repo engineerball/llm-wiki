@@ -36,6 +36,7 @@ Catalog of all pages, organized by category.
 | [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
 | [[two-tower-movie-recommender-pytorch]] | 2026-05-05 | Three-tower PyTorch movie recommender on MovieLens — feature-based users, debiased ratings, cold start solution (Greenquist blog) |
 | [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
+| [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
 
 ---
 

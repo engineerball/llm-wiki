@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Two-Tower Architecture Survey (Sumit Kumar / reachsumit)
+
+- Source: `.raw/articles/reachsumit-two-tower-model-2026-05-05.md`
+- Summary: [[reachsumit-two-tower-model]]
+- Pages created: [[reachsumit-two-tower-model]]
+- Pages updated: [[two-tower-architecture]], `index.md`
+- Key insight: Two-tower sits at the maximum-efficiency end of a 4-paradigm spectrum (representation-based → late-interaction → interaction-focused → cross-encoder); DAT injects cross-tower signal at input (not serving time), preserving offline precomputation while bridging the interaction gap.
+
+---
+
 ## 2026-05-05 | ingest | Two-Tower Deep Dive (Shaped.ai)
 
 - Source: `.raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md`

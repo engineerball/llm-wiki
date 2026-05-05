@@ -2,7 +2,7 @@
 title: "Two-Tower Architecture"
 type: concept
 tags: [concept, ml, retrieval, embeddings, recommendation-systems, neural-networks]
-sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md"]
+sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md", ".raw/articles/shaped-ai-two-tower-model-deep-dive-2026-05-05.md", ".raw/articles/reachsumit-two-tower-model-2026-05-05.md"]
 date: 2026-05-05
 ---
 
@@ -101,6 +101,28 @@ self.task = tfrs.tasks.Retrieval(
 )
 ```
 
+## DNN Retrieval Paradigm Taxonomy
+
+Four paradigms along the interaction-depth spectrum:
+
+| Paradigm | Examples | Interaction | Serving |
+|---|---|---|---|
+| Representation-based | **Two-Tower** | Output only (dot product) | Highest (ANN precompute) |
+| Late-interaction | ColBERT | Token-level, decoupled | Medium |
+| Interaction-focused | DRMM, KNRM | Word/phrase interaction matrices | Low |
+| Cross-encoder | BERT | Full cross-sequence | Lowest |
+
+Two-tower trades interaction depth for serving efficiency — the offline precomputation is the core tradeoff. ColBERT is the middle ground: decoupled encoding (ANN-compatible) with richer token-level scoring.
+
+## Siamese vs Asymmetric Dual Encoders
+
+Two variants by parameter sharing:
+
+- **Siamese Dual Encoder (SDE)** — shared parameters for both towers; often used in symmetric retrieval (document–document)
+- **Asymmetric Dual Encoder (ADE)** — distinct parameters per tower; standard for recommenders where user ≠ item domain
+
+Research: SDEs outperform ADEs unless ADE adds shared projection layers (ADE-SPL), which can match or exceed SDE performance.
+
 ## Retrieval Evolution: Where Two-Tower Fits
 
 | Generation | Method | Recall | Expressivity |
@@ -150,6 +172,27 @@ Standard two-tower uses a user ID embedding. Feature-based alternative represent
 
 **Trade-off:** ID embeddings give higher accuracy for known users; feature vectors generalize to new users ([[cold-start-problem]]). Three-tower approach on both sides captures both benefits.
 
+## Research Extensions
+
+Architectures that inject cross-tower information while preserving serving efficiency:
+
+### DAT — Dual Augmented Two-Tower (Yu et al.)
+Augments each tower's **input** with interaction vectors from the other side:
+- User tower input: user features + $a_u$ (aggregated item interaction info)
+- Item tower input: item features + $a_v$ (aggregated user interaction info)
+
+Interaction vectors are static aggregates — candidate embeddings still precomputable. Also adds category alignment loss for item category imbalance.
+
+### IntTower — Interaction Enhanced Two Tower (Li et al.)
+Three stacked enhancements:
+1. **Light-SE Block** — channel attention within each tower; single FC layer identifies feature importance
+2. **FE-Block** — ColBERT-inspired fine-grained interaction between multi-layer user reps and final item rep
+3. **CIR** — auxiliary InfoNCE loss (contrastive interaction regularization) + standard log loss
+
+Claims to outperform other pre-ranking algorithms at comparable latency to standard two-tower.
+
+Source: [[reachsumit-two-tower-model]]
+
 ## Known Implementations
 
 - **TensorFlow Recommenders (TFRS)** — `tfrs.models.Model` base class with `tfrs.tasks.Retrieval` loss; see [[tensorflow-recommenders]]
@@ -168,3 +211,4 @@ Standard two-tower uses a user ID embedding. Feature-based alternative represent
 - [[two-towers-deep-retrieval-google-cloud]] — Google Cloud source article
 - [[two-tower-movie-recommender-pytorch]] — PyTorch three-tower implementation
 - [[shaped-ai-two-tower-deep-dive]] — loss functions + negative sampling deep dive
+- [[reachsumit-two-tower-model]] — DNN taxonomy, SDE/ADE, DAT/IntTower extensions
