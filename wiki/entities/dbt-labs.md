@@ -14,7 +14,7 @@ Data transformation company; creator of dbt (data build tool) and the dbt Semant
 
 - **dbt** — SQL-based transformation framework; the dominant tool for analytics engineering
 - **dbt Semantic Layer** — codifies business metrics (revenue, churn, etc.) alongside dbt models so metrics stay DRY and consistent across all consumers (BI, AI, embedded analytics)
-- **MetricFlow** — the metric query framework underlying the dbt Semantic Layer
+- **MetricFlow** — the metric query framework underlying the dbt Semantic Layer; supports both **batch and real-time calculations** (2026)
 
 ## Relevant Work in This Wiki
 

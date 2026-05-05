@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | The Rise of the Semantic Layer: Metrics on the Fly (Airbyte)
+
+- Source: `raw/articles/rise-of-semantic-layer-airbyte-2026-05-05.md`
+- URL: <https://airbyte.com/blog/the-rise-of-the-semantic-layer-metrics-on-the-fly>
+- Summary: [[rise-of-semantic-layer-airbyte-2026-05-05]]
+- Pages created: [[rise-of-semantic-layer-airbyte-2026-05-05]], [[airbyte]], [[snowflake]], [[atscale]], [[headless-bi]], [[graph-rag]]
+- Pages updated: [[semantic-layer]], [[cube]], [[dbt-labs]], `index.md`
+- Key insight: The semantic layer has transitioned from an optional abstraction to a non-negotiable foundation for Generative AI (Gartner 2025). Modern architectures are evolving beyond static repositories into dynamic systems supporting Graph-RAG (leveraging explicit relationships to eliminate hallucinations) and streaming materialization (real-time metric calculations via CDC), establishing a "data interpretation contract" for AI agents.
+
+---
+
 ## 2026-05-05 | ingest | Running OpenClaw safely: identity, isolation, and runtime risk (Microsoft)
 
 - Source: `raw/text/running-openclaw-safely.md`

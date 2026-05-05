@@ -17,7 +17,8 @@ Open-source **headless semantic layer** — an API-first standalone service that
 | **Query interface** | REST API, GraphQL, SQL, JDBC/ODBC |
 | **Pre-aggregation** | Yes — pre-computation engine for sub-second responses |
 | **Open source** | Yes (Cube.js / Cube) |
-| **Best for** | Embedded analytics, SaaS platforms, multi-consumer metric APIs |
+| **Specialized Capabilities** | **Semantic caching** and native **vector database support** (2026) |
+| **Best for** | Embedded analytics, SaaS platforms, multi-consumer metric APIs, AI grounding |
 
 ## Headless Model
 

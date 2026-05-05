@@ -1,127 +1,244 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/agentic-protocols-for-websites-2026</loc>
-    <lastmod>2026-05-03T17:48:42.830Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/agentic-ai-system</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/blueprints</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/context-management-for-agents</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/customer-data-platform</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/feature-list-pattern</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/finops-lifecycle</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/finops</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/generator-evaluator-architecture</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/guides-and-sensors</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/harness-engineering</loc>
-    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/harnessability</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/initializer-coding-agent-architecture</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/one-shot-agent</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/semantic-layer</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/concepts/sprint-contracts</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/anthropic</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/birgitta-bockeler</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/claude</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/codex</loc>
-    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/justin-young</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/openai</loc>
-    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/prithvi-rajasekaran</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/entities/stripe</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-02T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/log</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/agentic-ai-system</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/agentic-commerce</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/agentic-protocol-stack</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/blueprints</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/context-management-for-agents</loc>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/customer-data-platform</loc>
+    <lastmod>2026-05-02T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/feature-list-pattern</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/finops-lifecycle</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/finops</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/generator-evaluator-architecture</loc>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/guides-and-sensors</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/harness-engineering</loc>
+    <lastmod>2026-02-10T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/harnessability</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/initializer-coding-agent-architecture</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/one-shot-agent</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/semantic-layer</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/sprint-contracts</loc>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/ucp</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/agentic-ai-reference-architecture</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/agentic-protocols-for-websites-2026</loc>
+    <lastmod>2026-05-03T17:59:35.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/anthropic-effective-harnesses</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/cdp-comparison-2026</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-02T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/dbt-semantic-layer-introduction</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/finops-framework-principles</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/finops-getting-started-gcp</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/harness-design-long-running-apps</loc>
-    <lastmod>2026-03-24T00:00:00.000Z</lastmod>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/harness-engineering-claude-code-book</loc>
-    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-02T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/harness-engineering-coding-agent-users</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/harness-engineering-leveraging-codex</loc>
-    <lastmod>2026-02-11T00:00:00.000Z</lastmod>
+    <lastmod>2026-02-10T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/naming-conventions-for-semantic-layers</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/semantic-layer-duckdb-tutorial</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/stripe-minions-one-shot-coding-agents</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
     <loc>https://https://engineerball.github.io/llm-wiki/sources/thoughtworks-five-differences-cloud-cost-finops</loc>
-    <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/ucp-interoperability-mcp-a2a-ap2</loc>
-    <lastmod>2026-05-03T17:48:42.830Z</lastmod>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/ucp-interoperability-mcp-a2a-ap2</loc>
+    <lastmod>2026-05-03T17:59:35.000Z</lastmod>
   </url><url>
-    <loc>https://https://engineerball.github.io/llm-wiki/ucp-universal-commerce-protocol</loc>
-    <lastmod>2026-05-03T17:48:42.830Z</lastmod>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/ucp-universal-commerce-protocol</loc>
+    <lastmod>2026-05-03T17:59:35.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/anthropic</loc>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/birgitta-bockeler</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/claude</loc>
+    <lastmod>2026-03-23T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/codex</loc>
+    <lastmod>2026-02-10T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/dbt-labs</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/finops-foundation</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/fountain-city</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/google</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/justin-young</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/microsoft</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/openai</loc>
+    <lastmod>2026-02-10T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/prithvi-rajasekaran</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/stripe</loc>
+    <lastmod>2026-05-01T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/swami-achari</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/thoughtworks</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/vijayaraghavan-v</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/ap2-agent-payments-protocol</loc>
+    <lastmod>2026-05-03T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/ap2-agent-payments-protocol-2026</loc>
+    <lastmod>2026-05-04T05:54:08.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/agentgateway-kubernetes-docs</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/agentgateway</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/linux-foundation</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/llm-gateway</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/two-towers-deep-retrieval-google-cloud</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/two-tower-architecture</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/approximate-nearest-neighbors</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/recommendation-systems</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/tensorflow-recommenders</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/vertex-ai-matching-engine</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/two-tower-movie-recommender-pytorch</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/cold-start-problem</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/shaped-ai-two-tower-deep-dive</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/negative-sampling</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/reachsumit-two-tower-model</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/moe-for-recsys-reachsumit</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/mixture-of-experts</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/multi-task-learning-recsys</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/youtube</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/kuaishou</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/ucp-specification-overview</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/ucp-negotiation-protocol</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/concepts/ucp-payment-handlers</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/hot</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/sources/best-open-source-semantic-layer-tools-2026</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://https://engineerball.github.io/llm-wiki/entities/cube</loc>
+    <lastmod>2026-05-04T17:00:00.000Z</lastmod>
   </url></urlset>

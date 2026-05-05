@@ -87,6 +87,9 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Type |
 |------|------|
+| [[airbyte]] | Open-source data integration (ELT + CDC); foundation for real-time semantic layers |
+| [[snowflake]] | Cloud-based data platform; semantic views for AI-powered conversational interfaces |
+| [[atscale]] | Enterprise semantic layer platform; Semantic Modeling Language (SML) |
 | [[databricks]] | Data + AI company; Lakehouse architecture, Unity Catalog, platform-native semantic layer |
 | [[openai]] | AI research lab; creator of GPT series, Codex, DALL-E |
 | [[anthropic]] | AI safety research lab, creator of Claude model family |
@@ -131,3 +134,4 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |
 | [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH, up to 1B vectors, incremental updates |
 | [[cube]] | Open-source headless semantic layer; API-first (REST/GraphQL/SQL); pre-aggregation engine |
+| [[airbyte]] | Open-source data integration; 600+ connectors; CDC for real-time semantic layers |
