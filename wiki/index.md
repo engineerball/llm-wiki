@@ -1,12 +1,48 @@
 ---
 title: "Wiki Index"
 tags: [meta, index]
-date: 2026-05-03
+date: 2026-05-05
 ---
 
 # Wiki Index
 
-Catalog of all pages, organized by category.
+Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
+
+---
+
+## Concepts
+
+| Page | Summary | Since | Sources |
+|------|---------|-------|---------|
+| [[two-tower-architecture]] | Neural retrieval pattern: queries and candidates mapped to shared embedding space via separate towers; dot product similarity serves as candidate relevance ranking | 2026-05-05 | 8 |
+| [[ucp-payment-handlers]] | UCP payment architecture decouples credential acquisition from commerce logic; handlers are specs (not entities) defining how platforms acquire payment tokens | 2026-05-05 | 2 |
+| [[ucp-negotiation-protocol]] | Dynamic capability negotiation between UCP platforms and businesses; intersection algorithm replaces static API contracts with version-aware matching | 2026-05-05 | 2 |
+| [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers; unified business metric definitions prevent metric drift across systems | 2026-05-05 | 7 |
+| [[recommendation-systems]] | ML systems predicting relevant items for users at a given moment; multi-stage retrieval/ranking pipeline powering e-commerce, streaming, search, feeds | 2026-05-05 | 5 |
+| [[negative-sampling]] | Training technique for retrieval models: construct negative examples to teach the model to distinguish relevant from irrelevant items; includes hard negative mining | 2026-05-05 | 4 |
+| [[multi-task-learning-recsys]] | Joint optimization of competing recsys objectives (engagement, satisfaction, revenue); MMoE as dominant architecture for multi-objective ranking | 2026-05-05 | 1 |
+| [[mixture-of-experts]] | Ensemble technique combining specialized sub-networks via learned gating; HME, DMoE, Sparsely-Gated, MMoE enable multi-objective ranking at scale | 2026-05-05 | 1 |
+| [[llm-gateway]] | Unified API proxy for routing LLM requests across multiple providers; handles translation, load balancing, inference routing, and cost optimization | 2026-05-05 | 1 |
+| [[cold-start-problem]] | Difficulty recommending to new users/items with no interaction history; ID-based collaborative filtering fails; feature-based representation solves this | 2026-05-05 | 6 |
+| [[approximate-nearest-neighbors]] | Algorithm class for fast vector similarity search at scale; Tree-AH, HNSW, PQ trade exactness for speed; essential for two-tower retrieval serving | 2026-05-05 | 4 |
+| [[ucp]] | Open-source standard for agentic commerce; common language for AI agents to discover merchant capabilities, negotiate checkout flows, and complete purchases | 2026-05-04 | 2 |
+| [[ap2-agent-payments-protocol]] | Google's open protocol for agent payments with cryptographic proof of user intent; 3 VCs, role architecture, secure authorization without credential sharing | 2026-05-04 | 1 |
+| [[agentic-protocol-stack]] | 4-layer architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments); each layer composes to enable end-to-end agentic workflows | 2026-05-04 | 1 |
+| [[agentic-commerce]] | Commercial transactions executed autonomously by AI agents; product discovery, negotiation, checkout, payment without user opening a shopping app | 2026-05-04 | 1 |
+| [[customer-data-platform]] | Data platform unifying customer data across all touchpoints; system of intelligence for identity resolution, segmentation, and omnichannel activation | 2026-05-03 | 0 |
+| [[one-shot-agent]] | Coding agent pattern: agent receives a single task description and autonomously completes full dev cycle; viable when harness and harnessability are sufficient | 2026-05-02 | 4 |
+| [[initializer-coding-agent-architecture]] | Anthropic's two-role split for cross-session continuity: one-time environment setup (initializer) + incremental per-session progress (coding agent) | 2026-05-02 | 2 |
+| [[harnessability]] | Degree to which a codebase enables effective harness controls; increases with strong typings, clear module boundaries, defined service topologies | 2026-05-02 | 4 |
+| [[guides-and-sensors]] | Harness control taxonomy: Guides (feedforward) steer before action; Sensors (feedback) observe after and enable self-correction; both required for closed-loop reliability | 2026-05-02 | 10 |
+| [[harness-engineering]] | Software engineering discipline shifted from writing code to designing environments, feedback loops, and scaffolding enabling AI coding agents to do reliable work | 2026-02-11 | 10 |
+| [[finops-lifecycle]] | Three-stage iterative process for FinOps: Inform (visibility) → Optimize (cost reduction) → Operate (automation) | 2026-05-02 | 0 |
+| [[finops]] | Financial Operations for cloud; practice and operating model bringing financial accountability to variable cloud spend | 2026-05-02 | 3 |
+| [[feature-list-pattern]] | JSON enumeration of all project features with pass/fail status; prevents agent one-shotting and premature completion in long-running tasks | 2026-05-02 | 1 |
+| [[blueprints]] | Stripe's structured documentation system encoding service contracts, architectural rules, and interface specs; primary feedforward guides for Minions agents | 2026-05-02 | 0 |
+| [[agentic-ai-system]] | 9-layer reference architecture for goal-driven, multi-agent, orchestrated, observable, reliable AI systems (Orchestrator, Agents, Tools, Memory, etc.) | 2026-05-02 | 4 |
+| [[sprint-contracts]] | Pre-negotiated explicit success criteria between Generator and Evaluator agents; defines measurably "done" before implementation begins | 2026-03-24 | 3 |
+| [[generator-evaluator-architecture]] | Multi-agent pattern: separate agent generates output, another evaluates it; addresses LLM self-evaluation blindness with clean role separation | 2026-03-24 | 2 |
+| [[context-management-for-agents]] | How long-running AI agent tasks handle finite context window; two failure modes (context degradation, context anxiety) and two mitigation strategies | 2026-03-24 | 2 |
 
 ---
 
@@ -14,69 +50,34 @@ Catalog of all pages, organized by category.
 
 | Page | Date | Topic |
 |------|------|-------|
-| [[finops-getting-started-gcp]] | 2026-05-02 | Google Cloud FinOps implementation framework (Inform/Optimize/Operate with GCP Epics) |
-| [[agentic-ai-reference-architecture]] | 2026-05-02 | 9-layer reference architecture for goal-driven multi-agent AI systems |
-| [[finops-framework-principles]] | 2026-05-02 | Six principles of the FinOps Framework (FinOps Foundation) |
-| [[harness-engineering-leveraging-codex]] | 2026-02-11 | Agent-first software development with Codex |
-| [[harness-engineering-claude-code-book]] | 2026-04-01 | Comprehensive design analysis of Claude Code as a harness specimen (book) |
-| [[harness-design-long-running-apps]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
-| [[harness-engineering-coding-agent-users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler) |
+| [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer 5-era history, traditional vs platform-native, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
+| [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
+| [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
+| [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
+| [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
+| [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
+| [[two-tower-movie-recommender-pytorch]] | 2026-05-05 | Three-tower PyTorch movie recommender on MovieLens — feature-based users, debiased ratings, cold start solution (Greenquist blog) |
+| [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
+| [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
+| [[trae-definitive-guide-harness-engineering]] | 2026-04-30 | Definitive guide to Harness Engineering — horse & reins metaphor, R.E.S.T. framework, PPAF loop, REPL container, six design principles, sandboxing levels, policy gateway (Trae/ByteDance) |
+| [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
+| [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
+| [[cdp-comparison-2026]] | 2026-05-03 | 9 Best Customer Data Platforms (CDPs) in 2026 — market review and comparison (Medium / Modern Data 101) |
+| [[harness-engineering-coding-agent-users]] | 2026-05-02 | Guides/sensors framework, harnessability, harness categories (Böckeler/Fowler/martinfowler.com) |
 | [[stripe-minions-one-shot-coding-agents]] | 2026-05-02 | Stripe's production one-shot coding agents; blueprints as guides, pre-push hooks as sensors |
 | [[anthropic-effective-harnesses]] | 2026-05-02 | Anthropic's two-role architecture for long-running agents (initializer + coding agent) |
 | [[semantic-layer-duckdb-tutorial]] | 2026-05-02 | Why semantic layers matter and how to build one with DuckDB + Ibis |
 | [[naming-conventions-for-semantic-layers]] | 2026-05-02 | Gold-layer design principles for AI Copilot consumption (Microsoft Fabric) |
 | [[dbt-semantic-layer-introduction]] | 2026-05-02 | What a semantic layer is, five use cases, and the hub-and-spoke pattern (dbt blog) |
 | [[thoughtworks-five-differences-cloud-cost-finops]] | 2026-05-02 | Five differences between cloud cost management and FinOps (ThoughtWorks) |
-| [[cdp-comparison-2026]] | 2026-05-03 | 9 Best Customer Data Platforms (CDPs) in 2026 — market review and comparison (Medium / Modern Data 101) |
+| [[finops-framework-principles]] | 2026-05-02 | Six principles of the FinOps Framework (FinOps Foundation) |
+| [[finops-getting-started-gcp]] | 2026-05-02 | Google Cloud FinOps implementation framework (Inform/Optimize/Operate with GCP Epics) |
+| [[agentic-ai-reference-architecture]] | 2026-05-02 | 9-layer reference architecture for goal-driven multi-agent AI systems |
+| [[harness-engineering-leveraging-codex]] | 2026-02-11 | Agent-first software development with Codex |
+| [[harness-engineering-claude-code-book]] | 2026-04-01 | Comprehensive design analysis of Claude Code as a harness specimen (book) |
+| [[harness-design-long-running-apps]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
 | [[ucp-universal-commerce-protocol]] | 2026-01-11 | Universal Commerce Protocol (UCP) — open-source standard for agentic commerce (Google blog) |
 | [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | UCP interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
-| [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
-| [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
-| [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
-| [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
-| [[two-tower-movie-recommender-pytorch]] | 2026-05-05 | Three-tower PyTorch movie recommender on MovieLens — feature-based users, debiased ratings, cold start solution (Greenquist blog) |
-| [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
-| [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
-| [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
-| [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
-| [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
-| [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer components, 5-era history, traditional vs. platform-native comparison, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
-
----
-
-## Concepts
-
-| Page | Summary |
-|------|---------|
-| [[harness-engineering]] | Designing environments/scaffolding for AI coding agents instead of writing code |
-| [[harness-engineering-claude-code-book]] | Comprehensive design analysis of Claude Code as a harness specimen (book) |
-| [[generator-evaluator-architecture]] | Multi-agent pattern: separate generator from evaluator to overcome self-evaluation blindness |
-| [[sprint-contracts]] | Pre-negotiated success criteria between generator and evaluator agents |
-| [[context-management-for-agents]] | Handling context degradation and anxiety in long-running agent tasks |
-| [[initializer-coding-agent-architecture]] | Anthropic's two-role pattern for cross-session continuity (initializer + coding agent) |
-| [[feature-list-pattern]] | JSON feature enumeration to prevent one-shotting and premature completion |
-| [[guides-and-sensors]] | Feedforward (guides) vs feedback (sensors) controls in a harness; requires both for closed-loop reliability |
-| [[harnessability]] | Codebase property: degree to which a codebase enables effective harness controls |
-| [[finops]] | Financial Operations for cloud — getting maximum value from technology spend through collaboration and ownership |
-| [[finops-lifecycle]] | Three-stage iterative process: Inform → Optimize → Operate |
-| [[agentic-ai-system]] | 9-layer system: user/clients, orchestration, agents, tools, memory, monitoring, reliability, governance, infrastructure |
-| [[semantic-layer]] | Virtual translation layer between physical data warehouse and data consumers — unified business metrics |
-| [[customer-data-platform]] | Managed database that unifies customer data across touchpoints — system of intelligence for identity, segmentation, and activation |
-| [[one-shot-agent]] | Agent pattern that completes a task in a single step without iteration or feedback loop |
-| [[agentic-protocol-stack]] | 4-layer protocol architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments) |
-| [[llm-gateway]] | Proxy layer for unified LLM provider routing — API translation, load balancing, inference routing |
-| [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
-| [[ucp-negotiation-protocol]] | Intersection algorithm, profile structure, extension pruning, permissionless discovery, version resolution |
-| [[ucp-payment-handlers]] | Trust triangle, handler model (spec not entity), 3 payment scenarios (wallet/SCA/AP2), PCI-DSS scope management |
-| [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
-| [[ap2-agent-payments-protocol]] | Agent Payments Protocol (Google) — cryptographic proof of intent, 3 VCs, role architecture, payment methods |
-| [[two-tower-architecture]] | Two-tower DNN retrieval: separate query + candidate towers, shared embedding space, dot product similarity, decoupled serving |
-| [[approximate-nearest-neighbors]] | ANN indexing for fast vector similarity search; Tree-AH, HNSW, PQ; trade accuracy for speed at billion-vector scale |
-| [[recommendation-systems]] | Multi-stage retrieval/ranking pipeline; collaborative vs content-based filtering; token → factorization → NDR evolution |
-| [[cold-start-problem]] | New user/item has no interaction history; ID embeddings fail; feature-based representation solves user cold start |
-| [[negative-sampling]] | Training technique for retrieval models — random, popularity-based, hard negative mining, in-batch negatives; false negative problem |
-| [[mixture-of-experts]] | MoE ensemble technique: HME, DMoE, Sparsely-Gated, MMoE; shared experts + task-specific gating for multi-objective ranking |
-| [[multi-task-learning-recsys]] | Joint optimization of competing recsys objectives (engagement vs satisfaction); MMoE as the dominant MTL architecture |
 
 ---
 
@@ -85,18 +86,20 @@ Catalog of all pages, organized by category.
 | Page | Type |
 |------|------|
 | [[databricks]] | Data + AI company; Lakehouse architecture, Unity Catalog, platform-native semantic layer |
-| [[openai]] | AI research lab |
-| [[anthropic]] | AI safety research lab, creator of Claude |
-| [[stripe]] | Payments infrastructure company; operator of Minions coding agent system |
-| [[google]] | Tech company; UCP + A2A creator, Google AI Mode/Gemini, GCP FinOps |
-| [[thoughtworks]] | Global tech consultancy; Böckeler's employer; harness engineering + FinOps research |
-| [[finops-foundation]] | Vendor-neutral non-profit; defines FinOps framework and principles |
+| [[openai]] | AI research lab; creator of GPT series, Codex, DALL-E |
+| [[anthropic]] | AI safety research lab, creator of Claude model family |
+| [[stripe]] | Payments infrastructure; Minions one-shot coding agent system at production scale |
+| [[google]] | Tech company; UCP + A2A creator, AP2 protocol, GCP FinOps, TensorFlow Recommenders, Vertex AI Matching Engine |
+| [[thoughtworks]] | Global tech consultancy; harness engineering, FinOps research, martinfowler.com |
+| [[finops-foundation]] | Vendor-neutral nonprofit; defines FinOps framework and principles |
 | [[microsoft]] | Tech company; Microsoft Fabric semantic layers, MCP co-governance, WebMCP |
 | [[dbt-labs]] | Data transformation company; creator of dbt and dbt Semantic Layer |
 | [[fountain-city]] | AI agents company; agentic protocol readiness guidance |
-| [[linux-foundation]] | Non-profit; governs MCP, A2A, Agent Gateway (Apache 2.0) |
-| [[youtube]] | Google-owned video platform; MMoE for next-video recommendation (engagement vs satisfaction) |
+| [[linux-foundation]] | Nonprofit; governs MCP, A2A, Agent Gateway (Apache 2.0) |
+| [[youtube]] | Google-owned video platform; MMoE for next-video recommendation pioneer |
 | [[kuaishou]] | Chinese short-video platform; MMoE-based personalized cold start modules |
+| [[trae]] | AI coding agent by ByteDance; published Harness Engineering definitive guide |
+| [[bytedance]] | Parent company of Trae; TikTok, ByteDance AI research |
 
 ---
 
@@ -106,9 +109,10 @@ Catalog of all pages, organized by category.
 |------|------|
 | [[birgitta-bockeler]] | ThoughtWorks principal technologist; harness engineering researcher |
 | [[prithvi-rajasekaran]] | Anthropic engineer; multi-agent harness researcher |
-| [[justin-young]] | Anthropic engineer; author of "Effective harnesses for long-running agents" (2026) |
-| [[vijayaraghavan-v]] | Author; UCP 4-layer protocol stack analysis (LinkedIn, 2026) |
-| [[swami-achari]] | Author (Modern Data 101); 9 best CDPs in 2026 comparison |
+| [[justin-young]] | Anthropic engineer; "Effective harnesses for long-running agents" author |
+| [[vijayaraghavan-v]] | LinkedIn author; UCP 4-layer protocol stack analysis |
+| [[swami-achari]] | Modern Data 101 author; 2026 CDP comparison (9 platforms) |
+| [[mitchell-hashimoto]] | HashiCorp co-founder; coined "Harness Engineering" term |
 
 ---
 
@@ -116,9 +120,9 @@ Catalog of all pages, organized by category.
 
 | Page | Type |
 |------|------|
-| [[codex]] | AI coding agent (OpenAI, GPT-5) |
-| [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
 | [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |
-| [[tensorflow-recommenders]] | TensorFlow library (Google) for two-tower retrieval models — tfrs.tasks.Retrieval, FactorizedTopK, Keras integration |
-| [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH algorithm, up to 1B vectors, incremental updates, autoscaling |
-| [[cube]] | Open-source headless semantic layer — API-first standalone service (REST/GraphQL/SQL); pre-aggregation engine; best for multi-consumer and AI agent metric access |
+| [[codex]] | AI coding agent (OpenAI, GPT-5); autonomous software engineering |
+| [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
+| [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |
+| [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH, up to 1B vectors, incremental updates |
+| [[cube]] | Open-source headless semantic layer; API-first (REST/GraphQL/SQL); pre-aggregation engine |
