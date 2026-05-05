@@ -45,9 +45,18 @@ Build an LLM wiki in Obsidian from the Personal Knowledge Base. Following the pa
 
 ### Architecture
 - `raw/` — immutable source material (PDF + extracted images in `raw/assets/`)
-- `raw/text/` — extracted markdown from PDF (to be created)
-- `wiki/` — LLM-generated interlinked markdown pages (to be created)
+- `raw/text/` — extracted markdown from PDF
+- `wiki/` — LLM-generated interlinked markdown pages
 - `llm-wiki.md` — design doc describing the LLM wiki pattern
+
+## Current State (2026-05-05)
+
+- The wiki is actively populated with content regarding Agentic AI (MCP, A2A, UCP, AP2), Semantic Layers, Recommendation Systems (Two-Tower, MoE), FinOps, and Harness Engineering.
+- ~29 sources have been ingested.
+- The wiki structure follows the defined conventions (`index.md`, `log.md`, `sources/`, `entities/`, `concepts/`).
+- Quartz is configured and used to publish the wiki.
+- Repository-local skills for `llm-wiki` and `quartz-publish` are established.
+- All articles in `.raw/articles/` have been successfully ingested as of 2026-05-05.
 
 
 ### Wiki Structure and Conventions

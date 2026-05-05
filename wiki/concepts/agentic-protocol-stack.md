@@ -113,7 +113,10 @@ See [[agentic-commerce]] for the commerce-specific context. See [[agentic-ai-sys
 
 ## Gateway Infrastructure
 
-Running this protocol stack in production requires a gateway that understands stateful JSON-RPC, SSE push, session fan-out, and per-session authorization — capabilities traditional API gateways lack. [[agentgateway]] is the reference open-source implementation: a single Rust proxy that handles MCP (L2), A2A (L1), and LLM routing under unified security and observability policies.
+Running this protocol stack in production requires a gateway that understands stateful JSON-RPC, SSE push, session fan-out, and per-session authorization — capabilities traditional API gateways lack.
+
+- [[agentgateway]]: Reference open-source implementation — a single Rust proxy that handles MCP (L2), A2A (L1), and LLM routing under unified security and observability policies.
+- [[openclaw]]: Self-hosted, agent-first gateway providing multi-platform integration and tiered sandboxing for tool execution.
 
 See [[llm-gateway]] for the LLM routing layer that sits beneath this stack.
 

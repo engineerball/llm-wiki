@@ -38,4 +38,5 @@ LLM Gateway is the foundation layer that sits below [[agentic-protocol-stack]]. 
 
 ## Implementations
 
-- [[agentgateway]]: open-source, Rust, Kubernetes-native, covers LLM + MCP + A2A in one proxy
+- [[agentgateway]]: open-source, Rust, Kubernetes-native, covers LLM + MCP + A2A in one proxy.
+- [[openclaw]]: self-hosted, agent-first gateway focused on messaging platform integration and transparent memory.

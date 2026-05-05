@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "WebFetch(domain:agentgateway.dev)",
+      "WebFetch(domain:blog.reachsumit.com)"
     ]
   }
 }

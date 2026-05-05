@@ -49,6 +49,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Date | Topic |
 |------|------|-------|
+| [[nebius-openclaw-security]] | 2026-05-05 | OpenClaw security: architecture, sandboxing tiers, skill supply chain risk, memory poisoning, hardening checklist (Nebius) |
 | [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer 5-era history, traditional vs platform-native, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
 | [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
 | [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
@@ -77,7 +78,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[harness-engineering-claude-code-book]] | 2026-04-01 | Comprehensive design analysis of Claude Code as a harness specimen (book) |
 | [[harness-design-long-running-apps]] | 2026-03-24 | Multi-agent harness for long-running app dev with Claude |
 | [[ucp-universal-commerce-protocol]] | 2026-01-11 | Universal Commerce Protocol (UCP) — open-source standard for agentic commerce (Google blog) |
-| [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | UCP interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
+| [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | Universal Commerce Protocol (UCP) interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
 
 ---
 
@@ -122,6 +123,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | Page | Type |
 |------|------|
 | [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |
+| [[openclaw]] | Open-source self-hosted agent gateway; messaging platform integration; transparent memory |
 | [[codex]] | AI coding agent (OpenAI, GPT-5); autonomous software engineering |
 | [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |

@@ -10,32 +10,27 @@ Last ingest context for fast session resumption.
 
 ---
 
-## Last Ingest: A Pattern for Building Personal Knowledge Bases using LLMs (Karpathy)
+## Last Ingest: OpenClaw Security: Architecture and Hardening Guide (Nebius)
 
-**Source:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+**Source:** `.raw/articles/nebius-openclaw-security-2026-05-05.md`
+**URL:** https://nebius.com/blog/posts/openclaw-security
 **Pages created:**
-- `wiki/sources/karpathy-llm-wiki-pattern.md` — the full gist summary: wiki > RAG, 3 layers, 3 workflows (ingest/query/lint), index.md + log.md pattern
-- `wiki/concepts/llm-wiki-pattern.md` — concept page: wiki vs RAG comparison, design philosophy, harness engineering relationship, scale properties
-- `wiki/entities/andrej-karpathy.md` — entity page for Andrej Karpathy
+- `wiki/sources/nebius-openclaw-security.md` — full source summary: architecture, sandboxing tiers, skill risk, memory poisoning, best practices
+- `wiki/entities/openclaw.md` — entity page: overview, multi-platform support, skills system, tiered sandboxing
 
 **Pages updated:**
-- `wiki/concepts/harness-engineering.md` — added llm-wiki-pattern reference to Related Concepts
-- `wiki/concepts/context-management-for-agents.md` — added llm-wiki-pattern reference (externalizing knowledge outside context window)
-- `wiki/index.md` — added concept, source, entity, person entries
+- `wiki/concepts/llm-gateway.md` — added OpenClaw to Implementations
+- `wiki/concepts/agentic-protocol-stack.md` — added OpenClaw to Gateway Infrastructure
+- `wiki/index.md` — added Source and Tool entries
 - `wiki/log.md` — prepended ingest entry
 
 ### Key Facts
-- **Wiki > RAG**: persistent compounding artifact vs retrieval-from-scratch; cross-references, contradictions, synthesis are pre-computed
-- **3 layers**: Raw sources (immutable), Wiki (LLM-owned), Schema (config for LLM conventions)
-- **3 workflows**: Ingest (touch 10-15 pages), Query (synthesize answers, file back as wiki pages), Lint (health check)
-- **Scale**: index.md works at ~100 sources; beyond that use qmd or similar local search
-- **Division of labor**: Human = curate sources, direct analysis, ask questions, think. LLM = everything else (summarizing, cross-references, filing, bookkeeping)
-- **Historical context**: Vannevar Bush's Memex (1945) — same vision but couldn't solve the maintenance problem
-- **This wiki IS an instantiation of this pattern** — meta!
+- **OpenClaw** is an open-source, self-hosted agent gateway.
+- **Security Boundary**: Being self-hosted, it inherits host trust; skills are equivalent to running 3rd-party code on the host.
+- **Sandboxing**: Configurable isolation (Off, Non-main, All) using Docker/Podman.
+- **Tool Policies**: Governed by `tools.allow` explicit allowlists; deny overrides allow.
+- **Memory Poisoning**: Plain-text memory (`MEMORY.md`) is vulnerable to injection attacks that "poison" long-term knowledge.
+- **Supply Chain**: Malicious skills (ClawHub) can harvest API keys and inject keyloggers.
 
-### Prior Ingest: Databricks Semantic Layer (2026-05-05)
-- Platform-native as 4th semantic layer type; AI agent Grounding → Execution pattern; "dangerously plausible" framing
-
-### Earlier Ingest: Best Open-Source Semantic Layer Tools (2026-05-05)
-- 7 tools: Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge
-- 3 patterns: metrics-as-code, headless API, semantic modeling language
+### Prior Ingest: Karpathy LLM Wiki Pattern (2026-05-05)
+- Wiki > RAG; 3 layers; 3 workflows; scale properties; persistent compounding artifact.

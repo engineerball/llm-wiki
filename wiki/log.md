@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | OpenClaw Security: Architecture and Hardening Guide (Nebius)
+
+- Source: `.raw/articles/nebius-openclaw-security-2026-05-05.md`
+- URL: <https://nebius.com/blog/posts/openclaw-security>
+- Summary: [[nebius-openclaw-security]]
+- Pages created: [[nebius-openclaw-security]], [[openclaw]]
+- Pages updated: [[llm-gateway]], [[agentic-protocol-stack]], `index.md`
+- Key insight: OpenClaw as a self-hosted agent gateway inherits the trust of the host machine; tiered sandboxing (Docker/Podman) and explicit tool allowlists are essential for mitigating supply chain risks (malicious skills) and memory poisoning attacks.
+
+---
+
 ## 2026-05-05 | ingest | A Pattern for Building Personal Knowledge Bases using LLMs (Karpathy)
 
 - Source: <https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f>
