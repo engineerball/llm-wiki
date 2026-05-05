@@ -1,8 +1,8 @@
 ---
 title: "Semantic Layer"
-tags: [concept, semantic-layer, data-engineering, metrics, bi]
-date: 2026-05-02
-sources: ["sources/semantic-layer-duckdb-tutorial.md"]
+tags: [concept, semantic-layer, data-engineering, metrics, bi, ai-integration]
+date: 2026-05-05
+sources: ["sources/semantic-layer-duckdb-tutorial.md", "sources/databricks-semantic-layer-architecture.md"]
 ---
 
 # Semantic Layer
@@ -18,10 +18,25 @@ A **semantic layer** (also known as a **metrics layer**) is a virtual translatio
 
 | Component | Description |
 |-----------|-------------|
-| **Dimensions** | Descriptive attributes (e.g., region, date, product category) |
-| **Measures** | Calculated metrics (e.g., total_revenue, avg_trip_time, YoY_growth) |
-| **Logical Data Model** | Abstracted business definitions above physical tables |
+| **Dimensions** | Categorical/temporal analysis axes — "who, what, where, when" |
+| **Measures** | Computed business functions (sums, counts, ratios, rolling windows); grain-independent |
+| **Joins & Relationships** | Declared connections enriching fact tables; supports star and snowflake schemas |
+| **Filters** | Business rules baked into metric definitions ("active contracts only," "last 90 days") |
+| **Metadata & Governance** | Ownership, descriptions, certification, lineage, row/column-level security — travels with each asset |
+| **Performance & Caching** | Materialization strategies; intelligent routing to most efficient pre-computed result |
 | **Query translator** | Translates business-friendly queries into optimized SQL |
+
+## Historical Evolution
+
+Five eras from commercial origins to platform-native AI-ready layers:
+
+| Era | Development |
+|-----|-------------|
+| **1990s** | MicroStrategy, BusinessObjects — first commercial semantic layers |
+| **Late 1990s** | OLAP cubes (Oracle Essbase, Microsoft Analysis Services) with MDX/DAX |
+| **2000s** | Enterprise BI with IT-managed centralized data models |
+| **2012+** | Looker pioneered "semantics as code" with LookML and Git-based version control |
+| **Recent** | Universal and platform-native semantic layers — headless, tool-agnostic, AI-ready |
 
 ## Key Benefits
 
@@ -50,6 +65,18 @@ A **semantic layer** (also known as a **metrics layer**) is a virtual translatio
 - Provides structured business context to LLMs and RAG systems
 - Dimension + fact connections prevent AI hallucination
 - Helps LLMs suggest better SQL or natural language responses
+
+**Without a semantic layer, LLMs generate "dangerously plausible" answers** — coherent-sounding but potentially inconsistent, ungoverned, and incorrect. Pure text-to-SQL against raw tables has no mechanism for consistency.
+
+**What the semantic layer provides for AI agents:**
+- Business-friendly names + synonym mappings (colloquial → canonical field names)
+- Embedded filters and join logic in metric definitions
+- Certification signals indicating trusted definitions
+- Access controls preventing restricted data exposure
+
+**AI agent interaction pattern:**
+1. **Grounding** — agent reads semantic context before query generation (available metrics, definitions, governance rules)
+2. **Execution** — agent queries the semantic layer's API using governed metric definitions, not raw tables
 
 ## When NOT to Use One
 
@@ -87,19 +114,42 @@ The YAML defines the semantic model; Ibis translates it into SQL; DuckDB execute
 
 This is the key insight: **ad-hoc queries need semantic flexibility**. Someone might change granularity from daily → weekly → monthly, add a region, roll up to country — all in seconds. A semantic layer handles this on-the-fly without ETL jobs.
 
+## Traditional vs. Modern Architecture
+
+| Dimension | Traditional (Tool-Bound) | Modern (Platform-Native) |
+|-----------|--------------------------|--------------------------|
+| Location | Inside BI tools (DAX, LookML, MDX) | Within data platform, alongside data |
+| Governance | Reinvented per tool; fragmented | Inherited; automatic policy propagation |
+| AI Readiness | Not designed for LLMs | Synonyms, explanations, guardrails built in |
+| Reuse | Proprietary DSL lock-in | SQL + open APIs (REST, JDBC, GraphQL) |
+| Performance | Per-tool caching silos | Shared materialization across all consumers |
+| Versioning | Manual, ad hoc | Git-versioned; dev→staging→prod pipelines |
+| Lineage | Rarely visible | Automatic, always-on impact analysis |
+
+**Root cause of tool-bound failure:** when organizations run multiple BI tools with proprietary modeling languages, definitions diverge across tools and governance gets reinvented per tool — "the correct answer depends on where you ask the question."
+
 ## Metric Drift
 
 The failure mode that makes semantic layers non-optional at scale: the same business metric produces different values across systems because logic is embedded inside individual BI tools instead of centralized. Metric drift is the primary motivation for adopting a semantic layer.
 
 ## Architectural Patterns
 
-Three dominant open-source approaches:
+Four patterns covering open-source and platform-native approaches:
 
 | Pattern | How | Examples |
 |---------|-----|---------|
 | **Metrics-as-code** | YAML/config in Git, compiled to SQL by dedicated engine | dbt Semantic Layer (MetricFlow), MetriQL |
-| **Headless semantic layer** | Standalone API service between warehouse and all consumers | [[cube]] |
+| **Headless / Universal** | Standalone API service between warehouse and all consumers | [[cube]], AtScale |
 | **Semantic modeling language** | New DSL above SQL for higher-abstraction model definitions | Malloy |
+| **Platform-Native** | Semantics embedded inside data platform with governance co-location | Databricks Unity Catalog Business Semantics |
+
+### Core-Edge Architecture Pattern
+
+For large organizations, a **core-edge split** manages the tension between stability and agility:
+
+- **Core** — authoritative metrics, certified measures, enterprise-wide policies; slow-changing
+- **Edge** — team-specific knowledge, local synonyms, experimental metrics; fast-moving with promotion pathways to core
+- Principle: *"Author anywhere, govern centrally; learn locally, promote globally"*
 
 ## Open-Source Tool Landscape (2026)
 
@@ -114,7 +164,19 @@ Three dominant open-source approaches:
 | DataForge | Logical DWH modeling | Semantic-layer-first platform design |
 | BSL (Boring Semantic Layer) | Lightweight / DuckDB | Simple Python-based implementation; see [[semantic-layer-duckdb-tutorial]] |
 
-Commercial: Looker (Google), Tableau, Power BI, AtScale, GoodData.
+Commercial: Looker (Google), Tableau, Power BI, AtScale, GoodData, [[databricks]] Unity Catalog Business Semantics (platform-native).
+
+## Implementation Principles
+
+Five principles from Databricks for building a durable semantic layer:
+
+1. **Author Once, Reuse Everywhere** — platform-native definitions serve every dashboard, notebook, and interface
+2. **Proximity to Governance** — access controls and traceability travel with assets, not separate
+3. **Openness by Design** — prefer standard APIs (REST, JDBC, GraphQL); avoid proprietary DSL lock-in
+4. **One Source for Humans and AI** — identical metric definitions serve dashboards and conversational agents
+5. **Semantics as Code** — version control, CI/CD pipelines, formal review and deployment
+
+**Recommended rollout:** Start small (one high-stakes metric + key dimensions) → use in dashboards and AI → observe gaps → certify mature logic → optimize materialization. Avoid big-bang adoption.
 
 ## Relationship to Other Concepts
 

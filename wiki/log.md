@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Databricks: Semantic Layer Architecture, Components, Design Patterns, and AI Integration
+
+- Source: fetched from URL (no raw file)
+- URL: <https://www.databricks.com/blog/semantic-layer-architecture-components-design-patterns-and-ai-integration>
+- Summary: [[databricks-semantic-layer-architecture]]
+- Pages created: [[databricks-semantic-layer-architecture]], [[databricks]]
+- Pages updated: [[semantic-layer]], `index.md`
+- Key insight: Databricks introduces "platform-native" as a distinct 4th semantic layer type (beyond metrics-as-code and headless API) — semantics co-located with governance inside the data platform. Also introduces the two-step AI agent pattern (Grounding → Execution) and the "dangerously plausible" framing: pure text-to-SQL against raw tables generates coherent but ungoverned results; a semantic layer is what makes AI analytics trustworthy vs merely plausible.
+
+---
+
 ## 2026-05-05 | ingest | Best Open-Source Semantic Layer Tools in 2026
 
 - Source: `.raw/articles/best-open-source-semantic-layer-tools-in-2026-2026-05-05.md`

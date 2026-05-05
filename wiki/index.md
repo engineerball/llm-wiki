@@ -40,6 +40,7 @@ Catalog of all pages, organized by category.
 | [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
 | [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
 | [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
+| [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer components, 5-era history, traditional vs. platform-native comparison, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
 
 ---
 
@@ -83,6 +84,7 @@ Catalog of all pages, organized by category.
 
 | Page | Type |
 |------|------|
+| [[databricks]] | Data + AI company; Lakehouse architecture, Unity Catalog, platform-native semantic layer |
 | [[openai]] | AI research lab |
 | [[anthropic]] | AI safety research lab, creator of Claude |
 | [[stripe]] | Payments infrastructure company; operator of Minions coding agent system |
