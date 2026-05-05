@@ -60,3 +60,4 @@ The LLM-wiki pattern is itself a **harness**: the schema (AGENTS.md, CLAUDE.md) 
 - [[guides-and-sensors]] — the schema = guides; index/log = sensors for wiki health
 - [[agentic-ai-system]] — the wiki is the knowledge layer in an agentic system; the LLM is the planning/execution layer
 - [[context-management-for-agents]] — the wiki solves context degradation: instead of stuffing raw documents into a limited context window, the LLM maintains external knowledge
+- [[karpathy-llm-wiki-pattern]] — original Karpathy gist introducing the pattern

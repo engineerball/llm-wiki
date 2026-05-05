@@ -82,4 +82,4 @@ Skip entirely if: <50 indexed pages, regulated vertical, content isn't citable.
 
 **Strategic choice:** If budget allows only one commerce protocol, UCP wins on portability; ACP wins on distribution.
 
-See [[ucp]] for protocol detail. See [[agentic-protocol-stack]] for the full layer context.
+See [[ucp]] for protocol detail. See [[agentic-protocol-stack]] for the full layer context. See [[fountain-city]] for readiness guidance on implementing agentic protocols.

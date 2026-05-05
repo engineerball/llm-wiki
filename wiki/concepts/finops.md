@@ -35,13 +35,13 @@ Six north-star principles ([[finops-framework-principles|source]]):
 ## FinOps Framework Components
 
 From the [[finops-framework-principles|FinOps Framework]]:
-- **[[finops-principles]]** — six guiding principles
-- **[[finops-personas]]** — roles and responsibilities
-- **[[finops-phases]]** — inform → optimize → operate
-- **[[finops-maturity-model]]** — crawl → walk → run progression
-- **[[finops-domains]]** — spheres of activity
-- **[[finops-capabilities]]** — functional areas within domains
-- **[[finops-scopes]]** — defined segments of technology spending
+- **Principles** — six guiding principles
+- **Personas** — roles and responsibilities
+- **Phases** — inform → optimize → operate
+- **Maturity Model** — crawl → walk → run progression
+- **Domains** — spheres of activity
+- **Capabilities** — functional areas within domains
+- **Scopes** — defined segments of technology spending
 
 ## Implementation: GCP Example
 
@@ -71,3 +71,4 @@ Key cultural enablers from Google's practice:
 - **[[guides-and-sensors]]** — budgets/policies as feedforward guides; cost data/alerts as feedback sensors
 - **[[initializer-coding-agent-architecture]]** — similar pattern: initializer sets up constraints and tracking, agents/teams work incrementally within them
 - **[[semantic-layer]]** — semantic layer as a guide pattern for business metrics across tools
+- **[[finops-foundation]]** — nonprofit that governs the FinOps Framework; source of principles, personas, and maturity model

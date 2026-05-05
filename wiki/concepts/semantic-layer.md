@@ -79,12 +79,12 @@ To prevent [[semantic-mistrust]]—where the semantic layer inherits and masks q
 3. **Application Layer (Data APIs):** Exposing semantics via GraphQL/REST to power apps and LLMs.
 
 ### Graph-Powered Architectures (Graph-RAG)
-Combining semantic layers with graph technology creates "knowledge-enabled data fabrics." By linking disparate entities (e.g., CRM "opportunities" to ERP "purchase orders") through explicit business relationships, systems can leverage [[Graph-RAG]] to retrieve contextually precise information for AI, grounded in explicit relationships rather than statistical word associations.
+Combining semantic layers with graph technology creates "knowledge-enabled data fabrics." By linking disparate entities (e.g., CRM "opportunities" to ERP "purchase orders") through explicit business relationships, systems can leverage [[graph-rag|Graph-RAG]] to retrieve contextually precise information for AI, grounded in explicit relationships rather than statistical word associations.
 
 ### Real-Time Processing & Streaming
 Modern semantic layers now support high-velocity data environments through:
 - **Streaming Materialization:** Executing semantic definitions directly on streaming platforms (e.g., calculating real-time inventory turnover).
-- **Event-Driven Synchronization:** Using Change Data Capture (CDC) to maintain synchronization as source schemas evolve (supported by tools like [[Airbyte]]).
+- **Event-Driven Synchronization:** Using Change Data Capture (CDC) to maintain synchronization as source schemas evolve (supported by tools like [[airbyte|Airbyte]]).
 - **Hybrid Architectures:** Seamlessly combining live transactional data with historical warehouses.
 
 ## When NOT to Use One

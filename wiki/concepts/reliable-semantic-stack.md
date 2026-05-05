@@ -1,3 +1,10 @@
+---
+title: "Reliable Semantic Stack"
+tags: [concept, semantic-layer, data-architecture, data-products]
+date: 2026-05-05
+sources: ["sources/the-semantic-movement-modern-data-101-2026-05-05.md"]
+---
+
 # Reliable Semantic Stack
 
 A vertical architectural framework proposed by [[animesh-kumar]] to ensure the success and trust of a [[semantic-layer]] implementation.

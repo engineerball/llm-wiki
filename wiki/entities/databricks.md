@@ -23,3 +23,4 @@ Key claim: when semantics reside in the platform alongside data and policies, ev
 ## Relationship to Wiki
 
 - [[semantic-layer]] — Databricks publishes authoritative architectural guidance; Unity Catalog Business Semantics is canonical example of platform-native semantic layer type
+- [[databricks-semantic-layer-architecture]] — source article: 5-era history, traditional vs platform-native semantic layers, AI agent grounding pattern

@@ -1,6 +1,13 @@
+---
+title: "UCP Interoperability with MCP / A2A / AP2"
+tags: [source, ucp, mcp, a2a, agentic-protocols, agentic-commerce]
+date: 2026-05-05
+sources: ["https://www.linkedin.com/pulse/what-ucp-how-does-interoperate-mcpa2aa2p-agentic-ai-vijayaraghavan-zeyfc"]
+---
+
 # UCP Interoperability with MCP / A2A / AP2
 
-> **Source:** LinkedIn — V. Vijayaraghavan
+> **Source:** LinkedIn — [[vijayaraghavan-v|V. Vijayaraghavan]]
 > <https://www.linkedin.com/pulse/what-ucp-how-does-interoperate-mcpa2aa2p-agentic-ai-vijayaraghavan-zeyfc>
 > **Cross-ref:** Google UCP blog → `ucp-universal-commerce-protocol.md` | Fountain City agentic protocols → `agentic-protocols-for-websites-2026.md`
 

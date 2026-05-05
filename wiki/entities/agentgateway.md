@@ -49,3 +49,7 @@ Kubernetes-native via Helm/ArgoCD/FluxCD, conformant to Kubernetes Gateway API. 
 
 - Docs: https://agentgateway.dev/docs/kubernetes/latest/
 - Full docs index: https://agentgateway.dev/docs/llms.txt
+
+## Source
+
+- [[agentgateway-kubernetes-docs]] — official Kubernetes deployment documentation

@@ -1,3 +1,10 @@
+---
+title: "Universal Commerce Protocol (UCP)"
+tags: [source, ucp, agentic-commerce, agentic-protocols]
+date: 2026-05-05
+sources: ["https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/"]
+---
+
 # Universal Commerce Protocol (UCP)
 
 > **Source:** Google Developers Blog, Jan 11, 2026 — Amit Handa & Ashish Gupta

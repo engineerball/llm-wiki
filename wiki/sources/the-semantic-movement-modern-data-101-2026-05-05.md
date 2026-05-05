@@ -1,3 +1,10 @@
+---
+title: "The Semantic Layer Movement: The Rise & Current State"
+tags: [source, semantic-layer, data-architecture, data-products]
+date: 2026-05-05
+sources: ["https://moderndata101.substack.com/p/the-semantic-movement-the-story-of"]
+---
+
 # The Semantic Layer Movement: The Rise & Current State
 
 > **Source:** Modern Data 101 — <https://moderndata101.substack.com/p/the-semantic-movement-the-story-of>

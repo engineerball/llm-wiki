@@ -1,3 +1,10 @@
+---
+title: "Agentic Protocols for Your Website in 2026"
+tags: [source, agentic-protocols, mcp, a2a, ucp, agentic-commerce]
+date: 2026-05-05
+sources: ["https://fountaincity.tech/resources/blog/agentic-protocols-for-your-website-2026/"]
+---
+
 # Agentic Protocols for Your Website in 2026
 
 > **Source:** Fountain City Tech — <https://fountaincity.tech/resources/blog/agentic-protocols-for-your-website-2026/>

@@ -1,3 +1,10 @@
+---
+title: "Data Products"
+tags: [concept, semantic-layer, data-architecture, data-products]
+date: 2026-05-05
+sources: ["sources/the-semantic-movement-modern-data-101-2026-05-05.md"]
+---
+
 # Data Products
 
 A "model-first" approach to data management where data is treated as a product with defined purpose, quality standards (SLOs), and access controls.

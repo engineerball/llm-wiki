@@ -9,7 +9,7 @@ sources: ["sources/agentic-ai-reference-architecture.md"]
 
 A comprehensive 9-layer reference architecture for building **goal-driven, multi-agent, orchestrated, observable, reliable** AI systems.
 
-This page documents the architecture shown in [[sources/agentic-ai-reference-architecture]], sourced from an internal reference diagram.
+This page documents the architecture shown in [[agentic-ai-reference-architecture]], sourced from an internal reference diagram.
 
 ## Design Qualities
 

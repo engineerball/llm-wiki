@@ -15,6 +15,13 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | Page | Summary | Since | Sources |
 |------|---------|-------|---------|
 | [[llm-wiki-pattern]] | LLM incrementally builds and maintains a persistent wiki from raw sources instead of retrieving from documents at query time — wiki is a persistent, compounding artifact vs RAG | 2026-05-05 | 1 |
+| [[rag]] | Retrieval-Augmented Generation — technique where LLM retrieves relevant document chunks at query time; contrast with LLM-wiki pattern | 2026-05-05 | 0 |
+| [[generative-ai]] | AI systems generating novel content (text, code, images); semantic layers and harness engineering exist to make generative AI reliable and grounded | 2026-05-05 | 0 |
+| [[graph-rag]] | Graph-enhanced RAG using explicit business relationships and entity links instead of pure vector similarity; reduces hallucination via structured context | 2026-05-05 | 1 |
+| [[headless-bi]] | BI architecture where semantic metric definitions are decoupled from visualization layer; exposed via APIs to any downstream consumer | 2026-05-05 | 1 |
+| [[data-products]] | Model-first data management treating data as a product with SLOs; foundation layer of the Reliable Semantic Stack | 2026-05-05 | 1 |
+| [[reliable-semantic-stack]] | Three-layer framework (data products, catalog, data APIs) ensuring semantic layer credibility and trust (Animesh Kumar) | 2026-05-05 | 1 |
+| [[semantic-mistrust]] | State where semantic layer loses credibility by inheriting data quality issues from physical layer; prevented by model-first data products | 2026-05-05 | 1 |
 | [[two-tower-architecture]] | Neural retrieval pattern: queries and candidates mapped to shared embedding space via separate towers; dot product similarity serves as candidate relevance ranking | 2026-05-05 | 8 |
 | [[ucp-payment-handlers]] | UCP payment architecture decouples credential acquisition from commerce logic; handlers are specs (not entities) defining how platforms acquire payment tokens | 2026-05-05 | 2 |
 | [[ucp-negotiation-protocol]] | Dynamic capability negotiation between UCP platforms and businesses; intersection algorithm replaces static API contracts with version-aware matching | 2026-05-05 | 2 |
@@ -50,6 +57,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | Page | Date | Topic |
 |------|------|-------|
 | [[the-semantic-movement-modern-data-101-2026-05-05]] | 2026-05-05 | The Semantic Layer Movement: Rise, workarounds (Cubes/BI-traps), semantic mistrust, and the Reliable Semantic Stack (Animesh Kumar) |
+| [[rise-of-semantic-layer-airbyte-2026-05-05]] | 2026-05-05 | Airbyte's analysis: semantic layers as non-negotiable for AI, headless BI, Graph-RAG, real-time streaming, key tools (Cube, AtScale, Snowflake, dbt) |
 | [[running-openclaw-safely]] | 2026-05-05 | Microsoft security analysis of OpenClaw — identity isolation, three primary risks, runtime vs platform (Moltbook), end-to-end attack scenario, minimum safe operating posture (Microsoft) |
 | [[nebius-openclaw-security]] | 2026-05-05 | OpenClaw security: architecture, sandboxing tiers, skill supply chain risk, memory poisoning, hardening checklist (Nebius) |
 | [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer 5-era history, traditional vs platform-native, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
@@ -137,6 +145,4 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |
 | [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH, up to 1B vectors, incremental updates |
 | [[cube]] | Open-source headless semantic layer; API-first (REST/GraphQL/SQL); pre-aggregation engine |
-| [[airbyte]] | Open-source data integration; 600+ connectors; CDC for real-time semantic layers |
- (REST/GraphQL/SQL); pre-aggregation engine |
 | [[airbyte]] | Open-source data integration; 600+ connectors; CDC for real-time semantic layers |

@@ -118,7 +118,7 @@ See [[one-shot-agent]] and [[blueprints]].
 
 ## Böckeler's Framework (ThoughtWorks, 2026)
 
-[[birgitta-bockeler]] extended harness engineering into a structured taxonomy in [[harness-engineering-coding-agent-users]] (martinfowler.com, 2026):
+[[birgitta-bockeler]] ([[thoughtworks|ThoughtWorks]]) extended harness engineering into a structured taxonomy in [[harness-engineering-coding-agent-users]] (martinfowler.com, 2026):
 
 **Control types by timing:**
 - **Guides (feedforward)** — steer agents before action (AGENTS.md, rules, templates)

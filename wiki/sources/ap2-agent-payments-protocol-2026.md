@@ -1,3 +1,10 @@
+---
+title: "AP2 — Agent Payments Protocol"
+tags: [source, agentic-commerce, agentic-protocols, payments, a2a]
+date: 2026-05-05
+sources: ["https://ap2-protocol.net/en/"]
+---
+
 # AP2 — Agent Payments Protocol
 
 > **Source:** AP2 Protocol official website — <https://ap2-protocol.net/en/>

@@ -96,4 +96,4 @@ Alongside payment credentials, UCP defines a **signals** flow for fraud and risk
 - Business can request signals via `signal` message type
 - Enforcement level: `error` (required) vs `info` (advisory)
 
-See also: [[ucp]], [[ucp-negotiation-protocol]], [[ap2-agent-payments-protocol]], [[agentic-commerce]]
+See also: [[ucp]], [[ucp-negotiation-protocol]], [[ap2-agent-payments-protocol]], [[agentic-commerce]], [[ucp-specification-overview]]

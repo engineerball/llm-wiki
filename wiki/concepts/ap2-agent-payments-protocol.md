@@ -92,3 +92,7 @@ AP2 competes with Stripe's **Agent Checkout Protocol (ACP)**:
 **Strategic choice:** AP2 for portability and multi-platform reach; ACP for ChatGPT distribution advantage.
 
 See [[agentic-commerce]] for competitive landscape.
+
+## Source
+
+- [[ap2-agent-payments-protocol-2026]] — official AP2 Protocol website documentation

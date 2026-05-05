@@ -168,12 +168,12 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
-## 2026-05-02 | ingest | fowler-harness-engineering
+## 2026-05-02 | ingest | harness-engineering-coding-agent-users
 
 **Source:** https://martinfowler.com/articles/harness-engineering.html
 **Author:** Birgitta Böckeler (ThoughtWorks), published on martinfowler.com
 **Pages created:**
-- `sources/fowler-harness-engineering.md` — full source summary
+- `sources/harness-engineering-coding-agent-users.md` — full source summary (previously logged as `fowler-harness-engineering.md`; file was renamed)
 - `concepts/guides-and-sensors.md` — new concept: feedforward guides vs feedback sensors in harness design
 - `concepts/harnessability.md` — new concept: codebase property enabling effective harness controls
 - `entities/birgitta-bockeler.md` — entity: Böckeler (author, ThoughtWorks)
@@ -427,6 +427,38 @@ Chronological record of ingests, queries, and maintenance.
 - `concepts/ap2-agent-payments-protocol.md` — concept page distilled from source + existing UCP/AP2 interop page: why AP2 exists, VC types, role architecture diagram, payment methods (current vs roadmap), AP2 vs ACP comparison
 
 **Key topics ingested:** Verifiable Intent vs Inferred Action, non-repudiable cryptographic signatures, 3 VC types with distinct scenarios/contents, 6 roles (User/UA/CP/ME/MPP/Network+Issuer), human-present vs human-not-present flows, pull vs push payments, AP2 vs ACP strategic comparison, Google samples (cards/x402/Android DPC)
+
+---
+
+## 2026-04-30 | ingest | The Definitive Guide to Harness Engineering (Trae)
+
+**Source:** https://x.com/Trae_ai/status/2047145274200768969
+**Author:** Trae (ByteDance)
+**Pages created:**
+- `sources/trae-definitive-guide-harness-engineering.md` — full source summary
+- `entities/trae.md` — Trae AI coding agent
+- `entities/bytedance.md` — ByteDance parent company
+- `entities/mitchell-hashimoto.md` — HashiCorp co-founder; coined "Harness Engineering" term
+
+**Pages updated:**
+- `concepts/harness-engineering.md` — R.E.S.T. framework, PPAF loop, six design principles, sandboxing levels, policy gateway
+- `index.md` — added Trae, ByteDance, Mitchell Hashimoto entries
+
+**Key topics:** Horse & Reins metaphor, R.E.S.T. framework (Reasoning/Execution/Sensing/Trust), PPAF loop, REPL container, sandboxing tiers, policy gateway, agent harnessability extensions
+
+---
+
+## 2026-02-11 | ingest | Harness Engineering — Leveraging Codex in an Agent-First World (OpenAI)
+
+**Source:** https://openai.com/index/harness-engineering/
+**Author:** OpenAI
+**Pages created:**
+- `sources/harness-engineering-leveraging-codex.md` — OpenAI's original Harness Engineering article introducing the concept
+
+**Pages updated:**
+- `concepts/harness-engineering.md` — foundational concept first established from this source
+
+**Key topics:** Harness Engineering origin, Codex agent framework, agent-first software development principles
 
 ---
 

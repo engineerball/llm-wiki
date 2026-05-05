@@ -10,7 +10,7 @@ sources: ["raw/text/anthropic-effective-harnesses.md"]
 # Effective harnesses for long-running agents
 
 **Source:** Anthropic Engineering Blog
-**Authors:** Justin Young (writer), with contributions from David Hershey, Prithvi Rajasakeran, Jeremy Hadfield, et al.
+**Authors:** [[justin-young|Justin Young]] (writer), with contributions from David Hershey, [[prithvi-rajasekaran|Prithvi Rajasakeran]], Jeremy Hadfield, et al.
 **Published:** ~2026
 
 ## Overview

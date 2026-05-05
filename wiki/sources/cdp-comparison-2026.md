@@ -8,7 +8,7 @@ sources: ["https://medium.com/@community_md101/9-best-customer-data-platforms-cd
 # 9 Best Customer Data Platforms (CDPs) in 2026: In-depth Look
 
 **Source:** Medium — Modern Data 101
-**Author:** Swami Achari
+**Author:** [[swami-achari|Swami Achari]]
 **Published:** Dec 30, 2025
 
 ## Core CDP Functions

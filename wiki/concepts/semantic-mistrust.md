@@ -1,3 +1,10 @@
+---
+title: "Semantic Mistrust"
+tags: [concept, semantic-layer, data-quality, data-architecture]
+date: 2026-05-05
+sources: ["sources/the-semantic-movement-modern-data-101-2026-05-05.md"]
+---
+
 # Semantic Mistrust
 
 A state where the [[semantic-layer]] loses credibility because it inherits and masks quality, governance, and reliability issues from the underlying physical data layer.
