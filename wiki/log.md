@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | A Pattern for Building Personal Knowledge Bases using LLMs (Karpathy)
+
+- Source: <https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f>
+- Summary: [[karpathy-llm-wiki-pattern]]
+- Pages created: [[karpathy-llm-wiki-pattern]], [[llm-wiki-pattern]], [[andrej-karpathy]]
+- Pages updated: [[harness-engineering]], [[context-management-for-agents]], `index.md`
+- Key insight: The wiki-vs-RAG distinction: raw sources → LLM maintains persistent wiki (compounding) vs RAG retrieving from scratch each query (no accumulation). Three layers (sources, wiki, schema), three workflows (ingest, query, lint). Human curates + directs; LLM does bookkeeping.
+
+---
+
 ## 2026-05-05 | ingest | Databricks: Semantic Layer Architecture, Components, Design Patterns, and AI Integration
 
 - Source: fetched from URL (no raw file)

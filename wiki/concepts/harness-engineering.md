@@ -170,5 +170,6 @@ Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering
 - [[harnessability]] — codebase property determining how effective harness controls can be
 - [[one-shot-agent]] — contrasted with Anthropic's incremental agent architecture
 - [[finops]] — shared patterns: centralized enablement + decentralized execution; cost as a first-class metric is a harness constraint
+- [[llm-wiki-pattern]] — the wiki itself is an agentic knowledge-management harness; schema = guides, index/log = sensors
 - Repository legibility (making codebases navigable by agents)
 - Progressive disclosure (knowledge architecture for agents)

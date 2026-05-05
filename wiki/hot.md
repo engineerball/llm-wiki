@@ -10,32 +10,32 @@ Last ingest context for fast session resumption.
 
 ---
 
-## Last Ingest: Best Open-Source Semantic Layer Tools in 2026 (2026-05-05)
+## Last Ingest: A Pattern for Building Personal Knowledge Bases using LLMs (Karpathy)
 
-**Source:** <https://levelup.gitconnected.com/best-open-source-semantic-layer-tools-in-2026-f99565169ccc>
-**Raw file:** `.raw/articles/best-open-source-semantic-layer-tools-in-2026-2026-05-05.md`
-**Author:** Sergey Gromov | Level Up Coding
+**Source:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+**Pages created:**
+- `wiki/sources/karpathy-llm-wiki-pattern.md` — the full gist summary: wiki > RAG, 3 layers, 3 workflows (ingest/query/lint), index.md + log.md pattern
+- `wiki/concepts/llm-wiki-pattern.md` — concept page: wiki vs RAG comparison, design philosophy, harness engineering relationship, scale properties
+- `wiki/entities/andrej-karpathy.md` — entity page for Andrej Karpathy
 
-### Pages Created
-- `wiki/sources/best-open-source-semantic-layer-tools-2026.md` — survey of 7 tools + 3 patterns
-- `wiki/entities/cube.md` — headless semantic layer entity page
-
-### Pages Updated
-- `wiki/concepts/semantic-layer.md` — added Metric Drift section, Architectural Patterns table, expanded tool landscape (8 tools)
-- `wiki/index.md` — added 1 source entry, 1 entity entry
+**Pages updated:**
+- `wiki/concepts/harness-engineering.md` — added llm-wiki-pattern reference to Related Concepts
+- `wiki/concepts/context-management-for-agents.md` — added llm-wiki-pattern reference (externalizing knowledge outside context window)
+- `wiki/index.md` — added concept, source, entity, person entries
 - `wiki/log.md` — prepended ingest entry
 
-### Key Facts to Remember
-- **Metric drift**: same metric → different values across systems; root cause = semantic logic embedded in individual BI tools
-- **3 patterns**: metrics-as-code (dbt SL, MetriQL), headless API layer (Cube), semantic modeling language (Malloy)
-- **Cube**: headless/API-first; best for AI agent consumption; REST/GraphQL/SQL; pre-aggregation engine
-- **dbt SL**: metrics-as-code; Git-native; generates SQL only; no standalone API — weaker for agent access
-- **Malloy**: Google DSL; positioned for AI-assisted query generation
-- **Lightdash/Evidence**: NOT standalone semantic layers — BI tool and app framework respectively
-- **AI direction**: semantic layers → "data interpretation contracts" for agents, not just BI; API-first wins
+### Key Facts
+- **Wiki > RAG**: persistent compounding artifact vs retrieval-from-scratch; cross-references, contradictions, synthesis are pre-computed
+- **3 layers**: Raw sources (immutable), Wiki (LLM-owned), Schema (config for LLM conventions)
+- **3 workflows**: Ingest (touch 10-15 pages), Query (synthesize answers, file back as wiki pages), Lint (health check)
+- **Scale**: index.md works at ~100 sources; beyond that use qmd or similar local search
+- **Division of labor**: Human = curate sources, direct analysis, ask questions, think. LLM = everything else (summarizing, cross-references, filing, bookkeeping)
+- **Historical context**: Vannevar Bush's Memex (1945) — same vision but couldn't solve the maintenance problem
+- **This wiki IS an instantiation of this pattern** — meta!
 
-### Prior Ingest: UCP Official Specification (2026-05-05)
-- Raw: `.raw/articles/ucp-specification-overview-2026-05-05.md`
-- Pages: `ucp-specification-overview`, `ucp-negotiation-protocol`, `ucp-payment-handlers`; updated `ucp.md`
-- Handler model: handlers are specs not entities; platform executes to acquire tokens
-- Scenario C: AP2 mandate, signed VC as credential, no token needed
+### Prior Ingest: Databricks Semantic Layer (2026-05-05)
+- Platform-native as 4th semantic layer type; AI agent Grounding → Execution pattern; "dangerously plausible" framing
+
+### Earlier Ingest: Best Open-Source Semantic Layer Tools (2026-05-05)
+- 7 tools: Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge
+- 3 patterns: metrics-as-code, headless API, semantic modeling language

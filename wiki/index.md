@@ -14,6 +14,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Summary | Since | Sources |
 |------|---------|-------|---------|
+| [[llm-wiki-pattern]] | LLM incrementally builds and maintains a persistent wiki from raw sources instead of retrieving from documents at query time — wiki is a persistent, compounding artifact vs RAG | 2026-05-05 | 1 |
 | [[two-tower-architecture]] | Neural retrieval pattern: queries and candidates mapped to shared embedding space via separate towers; dot product similarity serves as candidate relevance ranking | 2026-05-05 | 8 |
 | [[ucp-payment-handlers]] | UCP payment architecture decouples credential acquisition from commerce logic; handlers are specs (not entities) defining how platforms acquire payment tokens | 2026-05-05 | 2 |
 | [[ucp-negotiation-protocol]] | Dynamic capability negotiation between UCP platforms and businesses; intersection algorithm replaces static API contracts with version-aware matching | 2026-05-05 | 2 |
@@ -41,10 +42,8 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[blueprints]] | Stripe's structured documentation system encoding service contracts, architectural rules, and interface specs; primary feedforward guides for Minions agents | 2026-05-02 | 0 |
 | [[agentic-ai-system]] | 9-layer reference architecture for goal-driven, multi-agent, orchestrated, observable, reliable AI systems (Orchestrator, Agents, Tools, Memory, etc.) | 2026-05-02 | 4 |
 | [[sprint-contracts]] | Pre-negotiated explicit success criteria between Generator and Evaluator agents; defines measurably "done" before implementation begins | 2026-03-24 | 3 |
+| [[context-management-for-agents]] | How long-running AI agent tasks handle finite context window; two failure modes (context degradation, context anxiety) and two mitigation strategies | 2026-03-24 | 3 |
 | [[generator-evaluator-architecture]] | Multi-agent pattern: separate agent generates output, another evaluates it; addresses LLM self-evaluation blindness with clean role separation | 2026-03-24 | 2 |
-| [[context-management-for-agents]] | How long-running AI agent tasks handle finite context window; two failure modes (context degradation, context anxiety) and two mitigation strategies | 2026-03-24 | 2 |
-
----
 
 ## Sources
 
@@ -60,6 +59,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[two-towers-deep-retrieval-google-cloud]] | 2026-05-05 | Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine — architecture, training, serving (Google Cloud blog) |
 | [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
 | [[trae-definitive-guide-harness-engineering]] | 2026-04-30 | Definitive guide to Harness Engineering — horse & reins metaphor, R.E.S.T. framework, PPAF loop, REPL container, six design principles, sandboxing levels, policy gateway (Trae/ByteDance) |
+| [[karpathy-llm-wiki-pattern]] | 2026-05-05 | A Pattern for Building Personal Knowledge Bases using LLMs — wiki vs RAG, 3 layers, ingest/query/lint workflows, human curates + LLM does bookkeeping (Karpathy gist) |
 | [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
 | [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
 | [[cdp-comparison-2026]] | 2026-05-03 | 9 Best Customer Data Platforms (CDPs) in 2026 — market review and comparison (Medium / Modern Data 101) |
@@ -113,6 +113,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 | [[vijayaraghavan-v]] | LinkedIn author; UCP 4-layer protocol stack analysis |
 | [[swami-achari]] | Modern Data 101 author; 2026 CDP comparison (9 platforms) |
 | [[mitchell-hashimoto]] | HashiCorp co-founder; coined "Harness Engineering" term |
+| [[andrej-karpathy]] | AI researcher; former OpenAI Director of AI, former Tesla AI Director; creator of the llm-wiki pattern |
 
 ---
 

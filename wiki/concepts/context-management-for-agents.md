@@ -59,3 +59,4 @@ Effective handoffs for context resets include:
 - [[generator-evaluator-architecture]] — context management is critical within long generator-evaluator loops
 - [[harness-engineering]] — context management is a key harness design concern
 - [[sprint-contracts]] — sprint boundaries are natural reset points
+- [[llm-wiki-pattern]] — cross-wiki knowledge solves context degradation by externalizing knowledge outside the context window
