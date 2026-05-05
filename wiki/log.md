@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Two-Tower Movie Recommender in PyTorch (Greenquist)
+
+- Source: `.raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md`
+- Summary: [[two-tower-movie-recommender-pytorch]]
+- Pages created: [[two-tower-movie-recommender-pytorch]], [[cold-start-problem]]
+- Pages updated: [[two-tower-architecture]], `index.md`
+- Key insight: Splitting the item side into feature tower + ID tower (three-tower variant) solves cold start while retaining item-specific expressivity; representing users as feature vectors (watch history + debiased genre ratings) instead of ID embeddings enables immediate generalization to new users.
+
+---
+
 ## 2026-05-05 | ingest | Scaling Deep Retrieval — Two Towers (Google Cloud)
 
 - Source: `.raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md`

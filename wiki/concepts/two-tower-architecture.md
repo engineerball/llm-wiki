@@ -2,7 +2,7 @@
 title: "Two-Tower Architecture"
 type: concept
 tags: [concept, ml, retrieval, embeddings, recommendation-systems, neural-networks]
-sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md"]
+sources: [".raw/articles/scaling-deep-retrieval-tensorflow-two-towers-architecture-2026-05-05.md", ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md"]
 date: 2026-05-05
 ---
 
@@ -100,16 +100,48 @@ Deployment pattern:
 3. Deploy query tower as online inference endpoint
 4. Serving: query → embedding → ANN lookup → top-N candidates
 
+## Three-Tower Variant
+
+The candidate side can itself be split into multiple towers — one for content features, one for the item ID. This pattern:
+
+```
+User Tower → user_emb (50-dim)
+                                   ↘
+                              dot product → score
+                                   ↗
+Item Feature Tower → feature_emb (25-dim) ─┐
+                                            concat → item_combined_emb (50-dim)
+Item ID Tower → id_emb (25-dim) ───────────┘
+```
+
+**Why:** Feature tower captures genre/category semantics (generalizes to new items); ID tower captures item-specific patterns features can't explain. Combining gives both recall and precision.
+
+**Cold start benefit:** If an item is new (no ID history), the feature tower still contributes. See [[cold-start-problem]].
+
+Source: [[two-tower-movie-recommender-pytorch]]
+
+## User Representation: Features vs IDs
+
+Standard two-tower uses a user ID embedding. Feature-based alternative represents users as observable signals:
+- Watch/purchase history (binary vector over known items)
+- Per-category debiased rating averages (`actual_rating - user_mean`)
+- Session/contextual signals
+
+**Trade-off:** ID embeddings give higher accuracy for known users; feature vectors generalize to new users ([[cold-start-problem]]). Three-tower approach on both sides captures both benefits.
+
 ## Known Implementations
 
 - **TensorFlow Recommenders (TFRS)** — `tfrs.models.Model` base class with `tfrs.tasks.Retrieval` loss; see [[tensorflow-recommenders]]
+- **PyTorch (raw)** — see [[two-tower-movie-recommender-pytorch]] for a three-tower MovieLens implementation
 - **YouTube DNN** ("Deep Neural Networks for YouTube Recommendations", 2016) — early large-scale production two-tower system
 - **Google Play, Spotify, Pinterest** — production systems using this pattern
 
 ## Related Pages
 
 - [[recommendation-systems]] — broader context
+- [[cold-start-problem]] — how user/item representation choice affects cold start
 - [[approximate-nearest-neighbors]] — how to serve two-tower embeddings at scale
 - [[vertex-ai-matching-engine]] — Google's managed ANN service
 - [[tensorflow-recommenders]] — TFRS library for training two-tower models
-- [[two-towers-deep-retrieval-google-cloud]] — source article
+- [[two-towers-deep-retrieval-google-cloud]] — Google Cloud source article
+- [[two-tower-movie-recommender-pytorch]] — PyTorch three-tower implementation

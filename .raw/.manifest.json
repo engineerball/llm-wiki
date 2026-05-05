@@ -31,6 +31,19 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/two-tower-deep-learning-movie-recommender-system-2026-05-05.md": {
+      "hash": "6164e5eab42754460e8196651bcdd3b1",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/two-tower-movie-recommender-pytorch.md",
+        "wiki/concepts/cold-start-problem.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/two-tower-architecture.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}
