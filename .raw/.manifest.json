@@ -1,0 +1,20 @@
+{
+  "sources": {
+    ".raw/articles/agentgateway-kubernetes-latest-2026-05-05.md": {
+      "hash": "ca0d6c358851b7f62371496891f80ae3",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/agentgateway-kubernetes-docs.md",
+        "wiki/entities/agentgateway.md",
+        "wiki/entities/linux-foundation.md",
+        "wiki/concepts/llm-gateway.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/agentic-protocol-stack.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
+    }
+  },
+  "address_map": {}
+}

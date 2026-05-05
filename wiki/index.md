@@ -32,6 +32,7 @@ Catalog of all pages, organized by category.
 | [[ucp-interoperability-mcp-a2a-ap2]] | 2026-01-11 | UCP interoperability with MCP/A2A/AP2 — 4-layer protocol stack, end-to-end use case (LinkedIn/Vijayaraghavan) |
 | [[agentic-protocols-for-websites-2026]] | 2026-05-03 | Agentic protocols readiness guide for websites — MCP, A2A, UCP, what to build for vs watch (Fountain City Tech) |
 | [[ap2-agent-payments-protocol-2026]] | 2026-05-04 | AP2 Protocol official website — what is AP2, core principles, VCs, role architecture, samples, integration |
+| [[agentgateway-kubernetes-docs]] | 2026-05-05 | Agent Gateway official Kubernetes docs — LLM/MCP/A2A gateway, Rust, Linux Foundation, unified agentic proxy |
 
 ---
 
@@ -55,6 +56,7 @@ Catalog of all pages, organized by category.
 | [[customer-data-platform]] | Managed database that unifies customer data across touchpoints — system of intelligence for identity, segmentation, and activation |
 | [[one-shot-agent]] | Agent pattern that completes a task in a single step without iteration or feedback loop |
 | [[agentic-protocol-stack]] | 4-layer protocol architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments) |
+| [[llm-gateway]] | Proxy layer for unified LLM provider routing — API translation, load balancing, inference routing |
 | [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
 | [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
 | [[ap2-agent-payments-protocol]] | Agent Payments Protocol (Google) — cryptographic proof of intent, 3 VCs, role architecture, payment methods |
@@ -74,6 +76,7 @@ Catalog of all pages, organized by category.
 | [[microsoft]] | Tech company; Microsoft Fabric semantic layers, MCP co-governance, WebMCP |
 | [[dbt-labs]] | Data transformation company; creator of dbt and dbt Semantic Layer |
 | [[fountain-city]] | AI agents company; agentic protocol readiness guidance |
+| [[linux-foundation]] | Non-profit; governs MCP, A2A, Agent Gateway (Apache 2.0) |
 
 ---
 
@@ -95,3 +98,4 @@ Catalog of all pages, organized by category.
 |------|------|
 | [[codex]] | AI coding agent (OpenAI, GPT-5) |
 | [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
+| [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |

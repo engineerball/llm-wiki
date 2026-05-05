@@ -111,9 +111,16 @@ From [[sources/agentic-protocols-for-websites-2026]]:
 
 See [[agentic-commerce]] for the commerce-specific context. See [[agentic-ai-system]] for how this fits the broader 9-layer system architecture.
 
+## Gateway Infrastructure
+
+Running this protocol stack in production requires a gateway that understands stateful JSON-RPC, SSE push, session fan-out, and per-session authorization — capabilities traditional API gateways lack. [[agentgateway]] is the reference open-source implementation: a single Rust proxy that handles MCP (L2), A2A (L1), and LLM routing under unified security and observability policies.
+
+See [[llm-gateway]] for the LLM routing layer that sits beneath this stack.
+
 ## Links
 
 - MCP spec: <https://modelcontextprotocol.io/>
 - A2A spec: <https://a2a-protocol.org/>
 - UCP spec: <https://ucp.dev/>
 - AP2 spec: <https://ap2-protocol.org/>
+- Agent Gateway: <https://agentgateway.dev/>

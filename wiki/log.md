@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Agent Gateway — Kubernetes Docs
+
+- Source: `.raw/articles/agentgateway-kubernetes-latest-2026-05-05.md`
+- Summary: [[agentgateway-kubernetes-docs]]
+- Pages created: [[agentgateway-kubernetes-docs]], [[agentgateway]], [[linux-foundation]], [[llm-gateway]]
+- Pages updated: [[agentic-protocol-stack]], `index.md`
+- Key insight: Agent Gateway is the missing network-layer implementation of the agentic protocol stack — a single Rust proxy that handles MCP/A2A/LLM routing with enterprise security, answering "how do you actually run MCP+A2A at scale in Kubernetes."
+
+---
+
 ## 2026-05-02 | lint | fix warnings W1–W5
 
 **Issues fixed:**
