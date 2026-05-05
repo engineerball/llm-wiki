@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Best Open-Source Semantic Layer Tools in 2026
+
+- Source: `.raw/articles/best-open-source-semantic-layer-tools-in-2026-2026-05-05.md`
+- URL: <https://levelup.gitconnected.com/best-open-source-semantic-layer-tools-in-2026-f99565169ccc>
+- Summary: [[best-open-source-semantic-layer-tools-2026]]
+- Pages created: [[best-open-source-semantic-layer-tools-2026]], [[cube]]
+- Pages updated: [[semantic-layer]], `index.md`
+- Key insight: Cube's headless API-first model is structurally better suited for AI agent metric consumption than metrics-as-code approaches (dbt SL) that generate SQL without a universal API — an architecture choice that matters as semantic layers become "data interpretation contracts" for agents, not just BI tools.
+
+---
+
 ## 2026-05-05 | ingest | UCP Official Specification Overview
 
 - Source: `.raw/articles/ucp-specification-overview-2026-05-05.md`

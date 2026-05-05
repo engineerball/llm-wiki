@@ -100,6 +100,19 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/best-open-source-semantic-layer-tools-in-2026-2026-05-05.md": {
+      "hash": "1f923706aee9168b73b28b6302683756",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/best-open-source-semantic-layer-tools-2026.md",
+        "wiki/entities/cube.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/semantic-layer.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}

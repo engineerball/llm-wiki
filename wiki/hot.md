@@ -10,29 +10,32 @@ Last ingest context for fast session resumption.
 
 ---
 
-## Last Ingest: UCP Official Specification (2026-05-05)
+## Last Ingest: Best Open-Source Semantic Layer Tools in 2026 (2026-05-05)
 
-**Source:** <https://ucp.dev/latest/specification/overview/>
-**Raw file:** `.raw/articles/ucp-specification-overview-2026-05-05.md`
+**Source:** <https://levelup.gitconnected.com/best-open-source-semantic-layer-tools-in-2026-f99565169ccc>
+**Raw file:** `.raw/articles/best-open-source-semantic-layer-tools-in-2026-2026-05-05.md`
+**Author:** Sergey Gromov | Level Up Coding
 
 ### Pages Created
-- `wiki/sources/ucp-specification-overview.md` — full spec summary
-- `wiki/concepts/ucp-negotiation-protocol.md` — intersection algorithm, profile structure, permissionless discovery
-- `wiki/concepts/ucp-payment-handlers.md` — trust triangle, 3 payment scenarios, PCI-DSS scope
+- `wiki/sources/best-open-source-semantic-layer-tools-2026.md` — survey of 7 tools + 3 patterns
+- `wiki/entities/cube.md` — headless semantic layer entity page
 
 ### Pages Updated
-- `wiki/concepts/ucp.md` — added Technical Specification section with namespace, negotiation, payment, security, error codes, versioning
-- `wiki/index.md` — added 3 new entries (1 source, 2 concepts)
+- `wiki/concepts/semantic-layer.md` — added Metric Drift section, Architectural Patterns table, expanded tool landscape (8 tools)
+- `wiki/index.md` — added 1 source entry, 1 entity entry
 - `wiki/log.md` — prepended ingest entry
 
 ### Key Facts to Remember
-- **Handler model**: handlers are specs not entities; platform executes handler logic to acquire tokens — raw credentials never touch platform
-- **Intersection algorithm**: 4-step, convergent, handles version + extension dependencies
-- **Scenario C (AP2 mandate)**: no token needed; agent presents signed VC as credential — enabled by `dev.ucp.shopping.ap2_mandate` extension
-- **Permissionless onboarding**: business at `/.well-known/ucp`, platform via `UCP-Agent` header — no pre-registration
-- **`continue_url`**: used for both SCA escalation (Scenario B) and negotiation failure fallback
-- **Namespace**: `dev.ucp.*` reserved; vendors use own reverse-domain (`com.example.*`)
-- **Error codes**: discovery=424/-32001, signature=401/-32000, negotiation=200+`ucp.status`
+- **Metric drift**: same metric → different values across systems; root cause = semantic logic embedded in individual BI tools
+- **3 patterns**: metrics-as-code (dbt SL, MetriQL), headless API layer (Cube), semantic modeling language (Malloy)
+- **Cube**: headless/API-first; best for AI agent consumption; REST/GraphQL/SQL; pre-aggregation engine
+- **dbt SL**: metrics-as-code; Git-native; generates SQL only; no standalone API — weaker for agent access
+- **Malloy**: Google DSL; positioned for AI-assisted query generation
+- **Lightdash/Evidence**: NOT standalone semantic layers — BI tool and app framework respectively
+- **AI direction**: semantic layers → "data interpretation contracts" for agents, not just BI; API-first wins
 
-### UCP Concept Page Status
-`wiki/concepts/ucp.md` now covers: architecture, capability model, transport agnosticism, technical spec (namespace/negotiation/payment/security/errors/versioning), relation to MCP/A2A/AP2/ACP, strategic context.
+### Prior Ingest: UCP Official Specification (2026-05-05)
+- Raw: `.raw/articles/ucp-specification-overview-2026-05-05.md`
+- Pages: `ucp-specification-overview`, `ucp-negotiation-protocol`, `ucp-payment-handlers`; updated `ucp.md`
+- Handler model: handlers are specs not entities; platform executes to acquire tokens
+- Scenario C: AP2 mandate, signed VC as credential, no token needed

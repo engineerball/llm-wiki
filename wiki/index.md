@@ -39,6 +39,7 @@ Catalog of all pages, organized by category.
 | [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
 | [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
 | [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
+| [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
 
 ---
 
@@ -118,3 +119,4 @@ Catalog of all pages, organized by category.
 | [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for two-tower retrieval models — tfrs.tasks.Retrieval, FactorizedTopK, Keras integration |
 | [[vertex-ai-matching-engine]] | Google Cloud managed ANN service — Tree-AH algorithm, up to 1B vectors, incremental updates, autoscaling |
+| [[cube]] | Open-source headless semantic layer — API-first standalone service (REST/GraphQL/SQL); pre-aggregation engine; best for multi-consumer and AI agent metric access |

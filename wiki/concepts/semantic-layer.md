@@ -87,12 +87,34 @@ The YAML defines the semantic model; Ibis translates it into SQL; DuckDB execute
 
 This is the key insight: **ad-hoc queries need semantic flexibility**. Someone might change granularity from daily → weekly → monthly, add a region, roll up to country — all in seconds. A semantic layer handles this on-the-fly without ETL jobs.
 
-## Industry Tools
+## Metric Drift
 
-| Category | Tools |
-|----------|-------|
-| **Open source / simple** | Boring Semantic Layer (BSL) |
-| **Enterprise** | Cube, dbt SL, GoodData, AtScale |
+The failure mode that makes semantic layers non-optional at scale: the same business metric produces different values across systems because logic is embedded inside individual BI tools instead of centralized. Metric drift is the primary motivation for adopting a semantic layer.
+
+## Architectural Patterns
+
+Three dominant open-source approaches:
+
+| Pattern | How | Examples |
+|---------|-----|---------|
+| **Metrics-as-code** | YAML/config in Git, compiled to SQL by dedicated engine | dbt Semantic Layer (MetricFlow), MetriQL |
+| **Headless semantic layer** | Standalone API service between warehouse and all consumers | [[cube]] |
+| **Semantic modeling language** | New DSL above SQL for higher-abstraction model definitions | Malloy |
+
+## Open-Source Tool Landscape (2026)
+
+| Tool | Type | Best For |
+|------|------|----------|
+| [[cube]] | Headless / API-first | Embedded analytics, multi-consumer, AI agent access |
+| dbt Semantic Layer (MetricFlow) | Metrics-as-code | dbt-native orgs; see [[dbt-semantic-layer-introduction]] |
+| MetriQL | Lightweight declarative | Lakehouse setups, minimal infra |
+| Malloy | Analytical DSL (Google) | AI-assisted query environments |
+| Lightdash | dbt-integrated BI tool | dbt teams wanting simple BI (not standalone SL) |
+| Evidence | Analytics app framework | Internal data portals |
+| DataForge | Logical DWH modeling | Semantic-layer-first platform design |
+| BSL (Boring Semantic Layer) | Lightweight / DuckDB | Simple Python-based implementation; see [[semantic-layer-duckdb-tutorial]] |
+
+Commercial: Looker (Google), Tableau, Power BI, AtScale, GoodData.
 
 ## Relationship to Other Concepts
 
