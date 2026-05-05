@@ -135,8 +135,32 @@ See [[guides-and-sensors]].
 
 **Critical limit:** High-impact problems (misdiagnosis, overengineering) remain hard to automate. Human engineers carry implicit harnesses — experience, accountability, organizational awareness — that are currently irreplaceable.
 
+## Trae's Framework (2026)
+
+Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering beyond coding agents into a general agent engineering philosophy:
+
+**Horse and Reins metaphor:**
+- AI Agent = SOTA Model (Wild Horse) + Harness (Control System)
+- The harness is every piece of infrastructure *other than the LLM*
+- Not about better prompts — it's about engineering the environment
+
+**R.E.S.T. framework:** Reliability (fault recovery, idempotency), Efficiency (resource budgets), Security (least privilege, sandboxing), Traceability (end-to-end, auditable state)
+
+**PPAF cognitive loop:** Perception → Planning → Action → Feedback/Reflection
+
+**Agent maturity matrix:** Cognitive Loop (Reactive → Proactive) × Context Efficiency (Manual → Automated)
+
+**REPL container architecture:** Deterministic shell wrapping non-deterministic LLM — Read, Eval, Print, Loop
+
+**Six design principles:** Design for Failure, Contract-First, Secure by Default, Separation of Concerns, Everything Measurable, Data-Driven Evolution
+
+**Sandboxing levels:** Process → Container → MicroVM → Full VM
+
+**Core philosophy:** When a model hits a wall, implement an engineered mechanism so the same class of failure never happens again.
+
 ## Related Concepts
 
+- [[trae-definitive-guide-harness-engineering]] — Trae's definitive guide (horse & reins, R.E.S.T., PPAF loop, REPL container, sandboxing)
 - [[generator-evaluator-architecture]] — multi-agent pattern for quality via separation of roles
 - [[sprint-contracts]] — pre-negotiated success criteria between generator and evaluator
 - [[context-management-for-agents]] — handling context degradation in long-running agent tasks

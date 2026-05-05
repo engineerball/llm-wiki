@@ -51,5 +51,6 @@ Guides and sensors operate at different delivery phases:
 ## Relation to Other Concepts
 
 - [[harness-engineering]] — the broader discipline these controls belong to
+- [[trae-definitive-guide-harness-engineering]] — Trae's six design principles and R.E.S.T. framework map closely to guides (Design for Failure, Contract-First, Secure by Default = Guides) and sensors (Traceability, Measurable = Sensors)
 - [[harnessability]] — how amenable a codebase is to effective guides/sensors
 - [[generator-evaluator-architecture]] — the evaluator role is a sensor in a multi-agent context; the sprint contract acts as a guide

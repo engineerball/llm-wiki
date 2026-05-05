@@ -4,11 +4,12 @@ tags: [source, harness-engineering, agent-engineering, frameworks, guides]
 sources: [https://x.com/Trae_ai/status/2047145274200768969]
 date: 2026-04-30
 author: Trae (bytedance)
+related: [harness-engineering, agentic-ai-system, guides-and-sensors, initializer-coding-agent-architecture, one-shot-agent, harnessability]
 ---
 
 # The Definitive Guide to Harness Engineering
 
-Summary of the definitive guide by Trae, introducing Harness Engineering as a pillar of software engineering alongside Prompt and Context Engineering.
+Trae's comprehensive guide extending the [[harness-engineering]] discipline beyond coding agents into general agent engineering. Introduces the Horse & Reins metaphor and the R.E.S.T. framework as a broader lens for managing [[agentic-ai-system]] reliability. See also: [[harness-engineering-coding-agent-users]] (Böckeler's Guides vs Sensors), [[initializer-coding-agent-architecture]] (two-role split), [[one-shot-agent]] (execution models).
 
 **URL:** https://x.com/Trae_ai/status/2047145274200768969
 
@@ -182,6 +183,15 @@ The ultimate goal of these "reins" was never to restrict, but to enable a safer,
 - [[harness-engineering-leveraging-codex]] — OpenAI's layered harness implementation
 - [[harness-engineering-claude-code-book]] — Anthropic's approach to harness engineering
 - [[anthropic-effective-harnesses]] — Anthropic's multi-agent harness patterns
+
+## Connections to Concept Pages
+
+- **[[harness-engineering]]** — foundational concept; this guide extends it beyond coding agents
+- **[[agentic-ai-system]]** — agent architecture and cognitive loops described here complement the agentic system patterns
+- **[[guides-and-sensors]]** — Trae's R.E.S.T. and design principles overlap with Böckeler's Guides (feedforward) vs Sensors (feedback) taxonomy
+- **[[initializer-coding-agent-architecture]]** — state separation principle aligns with splitting responsibilities across roles
+- **[[one-shot-agent]]** — REPL loop and planning models contrast with one-shot vs incremental execution models
+- **[[harnessability]]** — Trae's sandboxing levels address a subset of harnessability (runtime isolation)
 
 ## Key Entities
 

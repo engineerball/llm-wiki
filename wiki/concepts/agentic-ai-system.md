@@ -179,3 +179,8 @@ This reference architecture is a concrete instantiation of harness engineering p
 | Layer 6 Observability | [[guides-and-sensors|Sensors]] — feedback for self-correction |
 | Layer 5 Memory & Knowledge | [[context-management-for-agents]] — bridges context gaps across sessions |
 | Layer 7 Reliability | Circuit breakers + human-in-the-loop = harness for failure recovery |
+
+## See Also
+
+- [[trae-definitive-guide-harness-engineering]] — Trae's PPAF loop and REPL container architecture complement this reference architecture's cognitive loop patterns
+- [[harness-engineering]] — the overarching discipline governing agent reliability

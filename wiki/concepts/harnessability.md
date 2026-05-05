@@ -30,4 +30,5 @@ Before investing heavily in harness engineering, assess whether the codebase has
 ## Related Concepts
 
 - [[harness-engineering]] — the discipline that depends on harnessability
+- [[trae-definitive-guide-harness-engineering]] — Trae's sandboxing levels and security constraints address a subset of harnessability concerns
 - [[guides-and-sensors]] — the controls that harnessability enables
