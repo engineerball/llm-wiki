@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | Running OpenClaw safely: identity, isolation, and runtime risk (Microsoft)
+
+- Source: `raw/text/running-openclaw-safely.md`
+- URL: <https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely-identity-isolation-runtime-risk/>
+- Summary: [[running-openclaw-safely]]
+- Pages created: [[running-openclaw-safely]], [[moltbook]]
+- Pages updated: [[openclaw]], [[microsoft]], `index.md`
+- Key insight: Self-hosted agents combine untrusted code and untrusted instructions into a single execution loop, shifting the security boundary to the runtime environment. Microsoft recommends treating OpenClaw as untrusted code execution with persistent credentials, requiring strict isolation (dedicated VMs), dedicated identities, and regular state rebuilds to mitigate risks of credential exposure and memory manipulation.
+
+---
+
 ## 2026-05-05 | ingest | OpenClaw Security: Architecture and Hardening Guide (Nebius)
 
 - Source: `.raw/articles/nebius-openclaw-security-2026-05-05.md`

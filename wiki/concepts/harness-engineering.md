@@ -144,7 +144,9 @@ Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering
 - The harness is every piece of infrastructure *other than the LLM*
 - Not about better prompts — it's about engineering the environment
 
-**R.E.S.T. framework:** Reliability (fault recovery, idempotency), Efficiency (resource budgets), Security (least privilege, sandboxing), Traceability (end-to-end, auditable state)
+**R.E.S.T. framework:** Reliability (fault recovery, idempotency), Efficiency (resource budgets), Security (least privilege, sandboxing, isolation), Traceability (end-to-end, auditable state).
+
+- **Security (Harnessing Risk):** Self-hosted agents (like [[openclaw]]) shift the security boundary to the runtime environment. Microsoft's [[running-openclaw-safely]] (2026) recommends treating the runtime as untrusted code execution with persistent credentials, requiring strict isolation (dedicated VMs), dedicated identities, and regular state rebuilds as a core part of the harness.
 
 **PPAF cognitive loop:** Perception → Planning → Action → Feedback/Reflection
 

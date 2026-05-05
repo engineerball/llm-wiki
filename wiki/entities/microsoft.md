@@ -20,3 +20,7 @@ Technology company. Relevant to this wiki across semantic layers (Microsoft Fabr
 
 - **MCP co-governance** — Microsoft is a major adopter of the Model Context Protocol (MCP), which is now Linux Foundation governed. See [[agentic-protocol-stack]].
 - **WebMCP** — W3C Community Group proposal (Google + Microsoft); Chrome early preview Feb 2026; pre-standard. See [[agentic-protocols-for-websites-2026]].
+
+### Security Research
+
+- **Agent Runtime Security** — [[running-openclaw-safely]] — Microsoft Defender Security Research analysis of OpenClaw and self-hosted agent runtimes. Highlights risks of credential exposure and memory manipulation in unisolated environments.

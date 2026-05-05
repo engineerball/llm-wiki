@@ -29,8 +29,11 @@ OpenClaw is designed as a single gateway process with a WebSocket API. Its secur
 - Pairing-based access control for direct messages.
 - Containerized tool execution via Docker/Podman.
 
+Recent security analysis by [[microsoft]] highlights that OpenClaw should be treated as **untrusted code execution with persistent credentials** and recommends strict isolation in dedicated VMs or separate physical devices ([[running-openclaw-safely]]).
+
 ## Related Pages
 
 - [[nebius-openclaw-security]] — security hardening guide
+- [[running-openclaw-safely]] — Microsoft security analysis (2026)
 - [[llm-gateway]] — class of software OpenClaw belongs to
 - [[agentic-protocol-stack]] — OpenClaw implements the gateway/orchestration layer

@@ -49,6 +49,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 
 | Page | Date | Topic |
 |------|------|-------|
+| [[running-openclaw-safely]] | 2026-05-05 | Microsoft security analysis of OpenClaw — identity isolation, three primary risks, runtime vs platform (Moltbook), end-to-end attack scenario, minimum safe operating posture (Microsoft) |
 | [[nebius-openclaw-security]] | 2026-05-05 | OpenClaw security: architecture, sandboxing tiers, skill supply chain risk, memory poisoning, hardening checklist (Nebius) |
 | [[databricks-semantic-layer-architecture]] | 2026-05-05 | Semantic layer 5-era history, traditional vs platform-native, 3 modern types, AI agent grounding/execution pattern, core-edge architecture (Databricks) |
 | [[best-open-source-semantic-layer-tools-2026]] | 2026-05-05 | 7 open-source semantic layer tools compared — Cube, dbt SL, MetriQL, Malloy, Lightdash, Evidence, DataForge; 3 architectural patterns; metric drift problem (Gromov) |
@@ -124,6 +125,7 @@ Catalog of all wiki pages, organized by category. Concepts sorted newest-first.
 |------|------|
 | [[agentgateway]] | Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native |
 | [[openclaw]] | Open-source self-hosted agent gateway; messaging platform integration; transparent memory |
+| [[moltbook]] | Agent-focused platform and identity layer; instruction propagation and authentication hub |
 | [[codex]] | AI coding agent (OpenAI, GPT-5); autonomous software engineering |
 | [[claude]] | AI model family (Anthropic); Sonnet 4.5, Opus 4.6 |
 | [[tensorflow-recommenders]] | TensorFlow library (Google) for building two-tower retrieval models |
