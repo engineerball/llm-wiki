@@ -86,6 +86,20 @@
         "wiki/index.md",
         "wiki/log.md"
       ]
+    },
+    ".raw/articles/ucp-specification-overview-2026-05-05.md": {
+      "hash": "e2d041e6236046014e6f1601980e56b9",
+      "ingested_at": "2026-05-05",
+      "pages_created": [
+        "wiki/sources/ucp-specification-overview.md",
+        "wiki/concepts/ucp-negotiation-protocol.md",
+        "wiki/concepts/ucp-payment-handlers.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/ucp.md",
+        "wiki/index.md",
+        "wiki/log.md"
+      ]
     }
   },
   "address_map": {}

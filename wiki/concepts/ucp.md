@@ -2,7 +2,7 @@
 title: "Universal Commerce Protocol (UCP)"
 tags: [concept, agentic-commerce, protocol, e-commerce, ucp]
 date: 2026-05-04
-sources: ["sources/ucp-universal-commerce-protocol.md", "sources/ucp-interoperability-mcp-a2a-ap2.md", "sources/agentic-protocols-for-websites-2026.md"]
+sources: ["sources/ucp-universal-commerce-protocol.md", "sources/ucp-interoperability-mcp-a2a-ap2.md", "sources/agentic-protocols-for-websites-2026.md", "sources/ucp-specification-overview.md"]
 ---
 
 # Universal Commerce Protocol (UCP)
@@ -63,6 +63,43 @@ UCP business logic runs unchanged over REST, JSON-RPC, GraphQL, MCP, or A2A. The
 > Market projection: $500B annual agentic commerce sales by 2030.
 
 Near term, UCP becomes the standard for Google/Shopify-ecosystem agentic retail. Medium term (2027-28), value shifts from merchant data (commoditized) to agent platforms owning customer intent. Long term, standalone shopping websites decline as checkout becomes an undifferentiated utility inside AI interfaces.
+
+## Technical Specification
+
+### Namespace Governance
+Capabilities use **reverse-domain naming**: `[reverse-domain].{service}.{capability}`. No central registry. `dev.ucp.*` is reserved for sanctioned capabilities; vendors use their own domain (`com.example.*`).
+
+### Capability Negotiation
+The **intersection algorithm** produces the active capability set from two profiles:
+1. Find mutual capability support
+2. Select highest compatible shared version
+3. Prune extensions whose parent capability isn't in the intersection
+4. Repeat until convergence
+
+See [[ucp-negotiation-protocol]] for full detail.
+
+### Payment Handlers
+Handlers are **specifications** (not entities) authored by payment providers. Business advertises them; platform executes them to acquire tokens; tokens route to business for settlement. Three scenarios:
+- **Scenario A** — Digital Wallet (Google Pay, Apple Pay encrypted bundle)
+- **Scenario B** — Direct tokenization + optional SCA via `requires_escalation` / `continue_url`
+- **Scenario C** — AP2 mandate (signed VC, no token needed)
+
+See [[ucp-payment-handlers]] for trust triangle, PCI-DSS scope, and scenario details.
+
+### Security
+- Auth: API keys, OAuth 2.0, mTLS, RFC 9421 HTTP Message Signatures
+- Signals: env data (IP, user agent, attestations) with reverse-domain namespacing; `error` = required, `info` = advisory
+- AP2 Mandates extension (`dev.ucp.shopping.ap2_mandate`) for cryptographic non-repudiation
+
+### Error Codes
+| Failure | REST | JSON-RPC |
+|---|---|---|
+| Discovery | 424 | -32001 |
+| Signature | 401 | -32000 |
+| Negotiation | 200 + `ucp.status` | 200 + `ucp.status` |
+
+### Versioning
+Date-based (`YYYY-MM-DD`). `supported_versions` map lets businesses support multiple vintages. Extension `requires` constraints declare min/max version compatibility.
 
 See [[agentic-commerce]] for the broader concept. See [[agentic-protocol-stack]] for full protocol layer context.
 

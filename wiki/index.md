@@ -38,6 +38,7 @@ Catalog of all pages, organized by category.
 | [[shaped-ai-two-tower-deep-dive]] | 2026-05-05 | Two-tower deep dive — loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai) |
 | [[reachsumit-two-tower-model]] | 2026-05-05 | Two-tower DNN taxonomy, SDE vs ADE, DAT + IntTower research extensions, ColBERT late-interaction comparison (Sumit Kumar) |
 | [[moe-for-recsys-reachsumit]] | 2026-05-05 | MoE variants (HME/DMoE/Sparsely-Gated/MMoE), YouTube engagement vs satisfaction, Gmail MoSE, Kuaishou cold start (Sumit Kumar) |
+| [[ucp-specification-overview]] | 2026-05-05 | UCP official spec — namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning |
 
 ---
 
@@ -63,6 +64,8 @@ Catalog of all pages, organized by category.
 | [[agentic-protocol-stack]] | 4-layer protocol architecture: MCP (tools), A2A (agents), UCP (commerce), AP2 (payments) |
 | [[llm-gateway]] | Proxy layer for unified LLM provider routing — API translation, load balancing, inference routing |
 | [[ucp]] | Universal Commerce Protocol — open-source standard for agentic commerce; merchant capability negotiation and checkout |
+| [[ucp-negotiation-protocol]] | Intersection algorithm, profile structure, extension pruning, permissionless discovery, version resolution |
+| [[ucp-payment-handlers]] | Trust triangle, handler model (spec not entity), 3 payment scenarios (wallet/SCA/AP2), PCI-DSS scope management |
 | [[agentic-commerce]] | AI agents executing purchases on behalf of users; $500B market projection by 2030 |
 | [[ap2-agent-payments-protocol]] | Agent Payments Protocol (Google) — cryptographic proof of intent, 3 VCs, role architecture, payment methods |
 | [[two-tower-architecture]] | Two-tower DNN retrieval: separate query + candidate towers, shared embedding space, dot product similarity, decoupled serving |

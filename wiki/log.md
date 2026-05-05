@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-05 | ingest | UCP Official Specification Overview
+
+- Source: `.raw/articles/ucp-specification-overview-2026-05-05.md`
+- URL: <https://ucp.dev/latest/specification/overview/>
+- Summary: [[ucp-specification-overview]]
+- Pages created: [[ucp-specification-overview]], [[ucp-negotiation-protocol]], [[ucp-payment-handlers]]
+- Pages updated: [[ucp]], `index.md`
+- Key insight: The handler model — handlers are specifications not entities, authored by payment providers — is what enables PCI-DSS scope isolation: platforms execute handler logic to acquire tokens without ever touching raw credentials.
+
+---
+
 ## 2026-05-05 | ingest | MoE for Recommendation Systems (Sumit Kumar / reachsumit)
 
 - Source: `.raw/articles/moe-for-recsys-2026-05-05.md`
