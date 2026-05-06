@@ -2,7 +2,7 @@
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management]
 date: 2026-05-02
-sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md"]
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md"]
 ---
 
 # FinOps
@@ -64,6 +64,19 @@ Key cultural enablers from Google's practice:
 - **Blamelessness** — postmortems for cost spikes, not finger-pointing
 - **Democratization of data** — single source of truth, open visibility into spend
 - **Agility** — iterative improvement, don't wait for perfection
+
+## GCP FinOps Hub
+
+Google's opinionated implementation of the Inform and Optimize phases in a single dashboard ([[gcp-finops-hub|FinOps Hub docs]]):
+
+- **Optimization Summary** — realized savings (CUDs, right-sizing, idle removal), active recommendation count, potential savings/month, CUD coverage rate
+- **FinOps Score** — maturity metric across six dimensions: spend monitoring, tagging, optimization activities, commitments, budgets, automation
+- **Peer benchmarking** — compares score against industry-aggregated data (opt-in, daily updated)
+- **25+ integrated recommenders** — Compute Engine, GKE, Cloud SQL, Cloud Run, CUD recommenders
+- **Wasted Usage widget** (Preview) — underutilized resource identification across compute services
+- **Carbon Footprint** (Preview) — GHG emissions estimate from cloud usage
+
+Access: `console.cloud.google.com/billing/optimize` (requires Billing Account Viewer or Administrator)
 
 ## Relationship to Other Concepts
 

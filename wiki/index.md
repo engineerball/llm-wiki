@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, and FinOps
 updated: 2026-05-06
-total_pages: 105
+total_pages: 106
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -119,6 +119,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[thoughtworks-five-differences-cloud-cost-finops|Five Differences: Cloud Cost Management vs FinOps]] — Why cloud cost management and FinOps are not the same; cultural and operational distinctions (ThoughtWorks)
 - [[finops-framework-principles|FinOps Framework Principles]] — Six north-star principles of the FinOps Framework (FinOps Foundation)
 - [[finops-getting-started-gcp|Getting Started with FinOps on GCP]] — Google Cloud FinOps implementation: organizational structure, epics, Inform/Optimize/Operate with GCP-specific tooling
+- [[gcp-finops-hub|GCP FinOps Hub]] — Google Cloud Billing cost optimization dashboard: FinOps Score, peer benchmarking, 25+ recommenders, wasted usage detection, CUD optimization rate
 
 ### Data & Knowledge
 

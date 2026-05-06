@@ -10,6 +10,15 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-06 | ingest | GCP FinOps Hub (Google Cloud Docs)
+
+- Source: `https://docs.cloud.google.com/billing/docs/how-to/finops-hub`
+- Pages created: [[gcp-finops-hub]]
+- Pages updated: [[finops]], `index.md`
+- Key insight: FinOps Hub is GCP's opinionated single-pane-of-glass for the Inform + Optimize phases — FinOps Score with peer benchmarking, 25+ integrated recommenders, and wasted usage detection surface maturity gaps the [[finops-getting-started-gcp]] paper describes structurally. The Score's six dimensions map directly to FinOps Foundation capabilities.
+
+---
+
 ## 2026-05-05 | ingest | THE SEMANTIC LAYER MOVEMENT: THE RISE & CURRENT STATE (Modern Data 101)
 
 - Source: `raw/articles/the-semantic-movement-modern-data-101-2026-05-05.md`
