@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-07 | ingest | Shopify Universal Commerce Protocol (UCP) Deep-Dive
+
+- Source: `raw/articles/shopify-universal-commerce-protocol-ucp-2026.md`
+- URL: <https://shopify.engineering/ucp>
+- Summary: [[shopify-universal-commerce-protocol-ucp-2026]]
+- Pages created: [[shopify-universal-commerce-protocol-ucp-2026]], [[shopify]]
+- Pages updated: [[ucp-interoperability-mcp-a2a-ap2]] (cross-ref addition), `index.md`
+- Key insight: Shopify's engineering post reveals UCP's **TCP/IP-style layered architecture** — core primitives → capabilities (independently versioned) → extensions. The **reverse-domain namespace** model (`dev.ucp.shopping.*`, `com.loyaltyprovider.*`) enables an open bazaar of capabilities without central approval. **Graceful handoff** via the Embedded Checkout Protocol (ECP) ensures no transaction is stranded when agents hit capability gaps — the `continue_url` mechanism routes around the gap. This complements the existing 4-layer stack view from [[ucp-interoperability-mcp-a2a-ap2]] with deeper engineering rationale.**
+
+---
+
 ## 2026-05-06 | ingest | GCP FinOps Hub (Google Cloud Docs)
 
 - Source: `https://docs.cloud.google.com/billing/docs/how-to/finops-hub`

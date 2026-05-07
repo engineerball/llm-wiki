@@ -9,7 +9,7 @@ sources: ["https://www.linkedin.com/pulse/what-ucp-how-does-interoperate-mcpa2aa
 
 > **Source:** LinkedIn — [[vijayaraghavan-v|V. Vijayaraghavan]]
 > <https://www.linkedin.com/pulse/what-ucp-how-does-interoperate-mcpa2aa2p-agentic-ai-vijayaraghavan-zeyfc>
-> **Cross-ref:** Google UCP blog → `ucp-universal-commerce-protocol.md` | Fountain City agentic protocols → `agentic-protocols-for-websites-2026.md`
+> **Cross-ref:** Google UCP blog → `ucp-universal-commerce-protocol.md` | Shopify UCP engineering deep-dive → `shopify-universal-commerce-protocol-ucp-2026.md` | Fountain City agentic protocols → `agentic-protocols-for-websites-2026.md`
 
 ---
 
@@ -162,6 +162,7 @@ UCP runs on: **REST API** (primary), **JSON-RPC**, **GraphQL**, **MCP**, **A2A**
 ## Key References
 
 - Google UCP blog: [[ucp-universal-commerce-protocol]]
+- Shopify engineering post: [[shopify-universal-commerce-protocol-ucp-2026]]
 - Fountain City overview: [[agentic-protocols-for-websites-2026]]
 - Google Developer Blog: <https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/>
 - AP2 Protocol: <https://ap2-protocol.org/>

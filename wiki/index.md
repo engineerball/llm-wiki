@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, and FinOps
-updated: 2026-05-06
-total_pages: 106
+updated: 2026-05-07
+total_pages: 108
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -75,6 +75,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 
 - [[ucp-universal-commerce-protocol|Universal Commerce Protocol (UCP)]] — Google's open-source standard for agentic commerce; architecture, trust triangle, and functional primitives (Google Developers Blog, Jan 2026)
 - [[ucp-interoperability-mcp-a2a-ap2|UCP Interoperability with MCP / A2A / AP2]] — 4-layer protocol stack analysis, end-to-end travel commerce use case, $500B 2030 projection (LinkedIn / V. Vijayaraghavan)
+- [[shopify-universal-commerce-protocol-ucp-2026|Shopify Universal Commerce Protocol (UCP)]] — Shopify engineering deep-dive: layered capabilities+extensions architecture, reverse-domain namespace, graceful handoff via ECP, two-sided payment negotiation (Ilya Grigorik, 2026)
 - [[ucp-specification-overview|UCP Official Specification Overview]] — Namespace governance, intersection algorithm, payment handler model, trust triangle, transport bindings, security, versioning
 - [[ap2-agent-payments-protocol-2026|AP2 — Agent Payments Protocol]] — Official AP2 website: verifiable credentials, role architecture, cart/payment mandates, Python + Android samples (Google Agentic Commerce)
 - [[agentic-protocols-for-websites-2026|Agentic Protocols for Your Website in 2026]] — Protocol readiness guide: MCP, A2A, UCP — what to build now vs watch; 97M MCP downloads, 10k+ servers live (Fountain City Tech)
@@ -161,6 +162,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[atscale|AtScale]] — Enterprise semantic layer platform; introduced the open-source Semantic Modeling Language (SML)
 - [[snowflake|Snowflake]] — Cloud data platform; semantic views for AI-powered conversational interfaces
 - [[airbyte|Airbyte]] — Open-source data integration (ELT + CDC); 600+ connectors; foundation for real-time semantic layers
+- [[shopify|Shopify]] — Global e-commerce platform; UCP co-developer with Google; Checkout Kit → open ECP protocol; millions of merchants
 
 ### Tools & Models
 
