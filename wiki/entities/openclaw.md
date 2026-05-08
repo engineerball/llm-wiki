@@ -1,8 +1,9 @@
 ---
 title: "OpenClaw"
-tags: [entity, tool, agent-gateway, open-source]
+tags: [entity, tool, agent-gateway, open-source, multi-user]
 type: tool
 date: 2026-05-05
+updated: 2026-05-08
 ---
 
 # OpenClaw
@@ -31,9 +32,27 @@ OpenClaw is designed as a single gateway process with a WebSocket API. Its secur
 
 Recent security analysis by [[microsoft]] highlights that OpenClaw should be treated as **untrusted code execution with persistent credentials** and recommends strict isolation in dedicated VMs or separate physical devices ([[running-openclaw-safely]]).
 
+## Multi-User & Team Deployment
+
+- Multiple agents under `agents.list`, each with own workspace, tool policy, model
+- Gateway on private-cloud VM behind VPN, binding to private interface
+- Skills centrally managed via `clawhub` CLI; agents auto-load from shared workspace
+- **Sandboxing must be on** (`non-main` or `all`) for public-facing agents
+- Partition **RAG agents** (search + read only) from **messaging agents** (broader permissions, tighter Docker scope)
+- Each agent carries its own tool policy — least privilege per role
+
+## Anti-Patterns to Avoid
+
+1. Binding Gateway to `0.0.0.0` on untrusted network — direct attack vector
+2. `dmPolicy: "open"` — anyone can message the bot
+3. Full tool access for all agents — breaks least privilege
+4. Installing unaudited ClawHub skills — supply-chain compromise
+5. Running on public interface without token + firewall
+
 ## Related Pages
 
-- [[nebius-openclaw-security]] — security hardening guide
+- [[nebius-openclaw-security]] — comprehensive security hardening guide (Nebius)
 - [[running-openclaw-safely]] — Microsoft security analysis (2026)
 - [[llm-gateway]] — class of software OpenClaw belongs to
 - [[agentic-protocol-stack]] — OpenClaw implements the gateway/orchestration layer
+- [[harness-engineering]] — sandboxing and tool policies as harness controls

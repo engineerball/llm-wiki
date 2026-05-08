@@ -10,6 +10,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-08 | ingest | OpenClaw Security Full Architecture (Nebius, Multi-User Focus)
+
+- Source: `raw/articles/nebius-openclaw-security-2026.md`
+- URL: <https://nebius.com/blog/posts/openclaw-security>
+- Summary: Updated existing [[nebius-openclaw-security]] with full multi-user & security focus
+- Pages created: (none — merged into existing source page)
+- Pages updated: [[nebius-openclaw-security]] (full rewrite with ClawHavoc campaign, hardening checklist, sandboxing hierarchy, multi-user deployment, memory poisoning vectors, access control, adversarial testing), [[openclaw]] (multi-user section + anti-patterns), `index.md`, `log.md`
+- Key insight: OpenClaw should be treated as **"untrusted code execution with persistent credentials"**. The ClawHavoc campaign (Jan 2026) proved that malicious ClawHub skills can inject keyloggers, poison MEMORY.md/SOUL.md for persistent cross-session effects, and steal crypto wallets. Multi-user deployments MUST use `sandbox.mode: "non-main"` or `"all"`, per-agent tool allowlists, and `dmPolicy: "pairing"` or `"allowlist"`. Never bind to 0.0.0.0 without token + firewall.
+
+---
+
 ## 2026-05-07 | ingest | Shopify Universal Commerce Protocol (UCP) Deep-Dive
 
 - Source: `raw/articles/shopify-universal-commerce-protocol-ucp-2026.md`

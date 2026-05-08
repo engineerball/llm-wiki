@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, and FinOps
-updated: 2026-05-07
+updated: 2026-05-08
 total_pages: 108
 ---
 
@@ -95,7 +95,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### Agent Security
 
 - [[running-openclaw-safely|Running OpenClaw Safely]] — Microsoft security analysis: identity isolation, three primary risks, runtime vs platform (Moltbook), end-to-end attack scenario, minimum safe operating posture
-- [[nebius-openclaw-security|OpenClaw Security: Architecture and Hardening Guide]] — OpenClaw architecture, configurable sandboxing tiers (Off/Non-main/All), skill supply chain risk, memory poisoning, hardening checklist (Nebius)
+- [[nebius-openclaw-security|OpenClaw Security: Architecture and Hardening Guide]] — Nebius security deep-dive, updated 2026-05-08 with multi-user focus: Gateway as single boundary, sandboxing hierarchy (Off/Non-main/All), per-agent tool allowlists, ClawHavoc campaign (Jan 2026), memory poisoning via MEMORY.md/SOUL.md, access control best practices, hardening checklist (OpenClaw = untrusted code execution with persistent credentials)
 
 ### Semantic Layers & Data Architecture
 
