@@ -10,6 +10,15 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-10 | ingest | What is FinOps, and Why Do We Need It? (Atlassian)
+
+- Source: https://www.atlassian.com/blog/platform/what-is-finops
+- Pages created: `sources/finops-atlassian-what-is-finops.md`
+- Pages updated: `concepts/finops.md` — added Atlassian best practices section, added source to frontmatter
+- Key topics: FinOps definition (value over cost), 5 best practices (plan before migration, value > savings, calculate actual TCO/ROI, ongoing practice, clear ownership), Inform → Optimize → Operate cycle — top teams iterate, don't stay in operate
+
+---
+
 ## 2026-05-08 | ingest | OpenClaw Security Full Architecture (Nebius, Multi-User Focus)
 
 - Source: `raw/articles/nebius-openclaw-security-2026.md`

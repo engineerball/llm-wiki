@@ -121,6 +121,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[finops-framework-principles|FinOps Framework Principles]] — Six north-star principles of the FinOps Framework (FinOps Foundation)
 - [[finops-getting-started-gcp|Getting Started with FinOps on GCP]] — Google Cloud FinOps implementation: organizational structure, epics, Inform/Optimize/Operate with GCP-specific tooling
 - [[gcp-finops-hub|GCP FinOps Hub]] — Google Cloud Billing cost optimization dashboard: FinOps Score, peer benchmarking, 25+ recommenders, wasted usage detection, CUD optimization rate
+- [[finops-atlassian-what-is-finops|What is FinOps (Atlassian)]] — Introductory guide: definition, 5 best practices, Inform/Optimize/Operate lifecycle (Atlassian Blog)
 
 ### Data & Knowledge
 

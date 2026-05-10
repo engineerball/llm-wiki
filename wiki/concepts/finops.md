@@ -2,7 +2,7 @@
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management]
 date: 2026-05-02
-sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md"]
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md"]
 ---
 
 # FinOps
@@ -77,6 +77,18 @@ Google's opinionated implementation of the Inform and Optimize phases in a singl
 - **Carbon Footprint** (Preview) — GHG emissions estimate from cloud usage
 
 Access: `console.cloud.google.com/billing/optimize` (requires Billing Account Viewer or Administrator)
+
+## FinOps Best Practices (Atlassian)
+
+From the [[finops-atlassian-what-is-finops|Atlassian FinOps guide]], five concrete best practices:
+
+1. **Plan before migration** — design FinOps strategy *before* cloud migration; cloud billing differs fundamentally from on-prem (buy-what-you-need, auto-expire licenses)
+2. **Don't sacrifice value for savings** — balance trade-offs; cheapest doesn't equal best value
+3. **Calculate actual costs** — TCO and ROI are harder than expected in siloed orgs; forecast regularly
+4. **Build it as ongoing practice** — not one-time; set ongoing roles, audits, forecasting
+5. **Set clear responsibilities** — If nobody owns it, it goes by the wayside; freed-up IT capacity is a great starting point
+
+The lifecycle (Inform → Optimize → Operate) is iterative — top teams cycle back, they don't just stay in operate.
 
 ## Relationship to Other Concepts
 
