@@ -10,6 +10,15 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-10 | ingest | FinOps Personas (FinOps Foundation)
+
+- Source: https://www.finops.org/framework/personas/
+- Pages created: `sources/finops-personas-finops-foundation.md`
+- Pages updated: `concepts/finops.md` — added FinOps Personas section (6 Core + 5 Allied), updated sources
+- Key topics: Core personas (Engineering, Finance, Procurement, IT Ops, Product, Executive) vs Allied personas (ITAM, ITFM, Sustainability, ITSM/ITIL, Security); personas = stakeholder groups not individuals; Intersecting Disciplines framework capability
+
+---
+
 ## 2026-05-10 | ingest | What is FinOps, and Why Do We Need It? (Atlassian)
 
 - Source: https://www.atlassian.com/blog/platform/what-is-finops

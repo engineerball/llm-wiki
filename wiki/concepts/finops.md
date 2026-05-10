@@ -2,7 +2,7 @@
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management]
 date: 2026-05-02
-sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md"]
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md"]
 ---
 
 # FinOps
@@ -77,6 +77,27 @@ Google's opinionated implementation of the Inform and Optimize phases in a singl
 - **Carbon Footprint** (Preview) — GHG emissions estimate from cloud usage
 
 Access: `console.cloud.google.com/billing/optimize` (requires Billing Account Viewer or Administrator)
+
+## FinOps Personas
+
+From the [[finops-personas-finops-foundation|FinOps Foundation Framework]], personas are broad stakeholder groups (not individuals) who collaborate in FinOps practice.
+
+### Core Personas (always involved)
+- **Engineering** — build, deploy, operate cloud services; need cost as first-class metric alongside performance
+- **Finance** — budget planning, forecasting, cost allocation; need predictability and accountability
+- **Procurement** — vendor contracts, rate negotiations, commitments; need optimal pricing terms
+- **IT Operations** — infrastructure management, capacity planning; balance reliability vs cost trade-offs
+- **Product / Business** — define strategy, manage P&L; connect cloud costs to unit economics
+- **Executive / CCoE** — set strategic direction, allocate budget; translate FinOps to business impact
+
+### Allied Personas (intersect as needed)
+- **ITAM** — asset discovery, auditing, license management
+- **ITFM** — budgeting support, cost accounting, financial analysis
+- **Sustainability** — environmental optimization, waste reduction
+- **ITSM / ITIL** — service design, SLI/SLO management, change management
+- **Security** — anomaly monitoring, policy compliance, identity/access management
+
+The **Intersecting Disciplines** framework capability formalizes where allied personas connect with FinOps.
 
 ## FinOps Best Practices (Atlassian)
 
