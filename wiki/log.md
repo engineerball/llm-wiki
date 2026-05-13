@@ -10,6 +10,21 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-13] ingest | Red Hat: Understanding the Recommender System's Two-Tower Model
+
+- Source: https://developers.redhat.com/articles/2026/01/26/understanding-recommender-systems-two-tower-model
+- Pages created:
+  - `sources/redhat-two-tower-model-openshift-2026.md` — source summary: KFP pipeline on OpenShift AI, EntityTower dual encoder architecture, MSE loss with interaction magnitude scoring, cold start via category preferences + encoder generalization
+  - `concepts/kubeflow-pipelines.md` — KFP component model, pipeline orchestration, pod architecture, data sharing patterns
+  - `concepts/feast.md` — feature store for training data and online recommendation caching
+  - `concepts/argo-workflows.md` — container-native workflow engine for Kubernetes
+  - `concepts/kubernetes.md` — container orchestration, pod isolation, eviction management
+  - `entities/red-hat.md` — organization page
+  - `entities/hadar-cohen.md` — lead author entity
+- Pages updated:
+  - `wiki/index.md` — added source entry + 7 concept/entity pages
+- Key topics: KFP + Argo Workflows, EntityTower architecture (64-D embeddings), magnitude scoring, cold start, pod-based ML pipelines
+
 ## [2026-05-13] ingest | Implement Two-Tower Retrieval for Large-Scale Candidate Generation (GCP)
 
 - Source: https://docs.cloud.google.com/architecture/implement-two-tower-retrieval-large-scale-candidate-generation

@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-12
-total_pages: 118
+total_pages: 125
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -123,6 +123,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[two-tower-movie-recommender-pytorch|Two-Tower Movie Recommender in PyTorch]] — Three-tower PyTorch recommender on MovieLens: feature-based users, debiased ratings, cold start solution (Greenquist)
 - [[two-towers-deep-retrieval-google-cloud|Scaling Deep Retrieval: Two Towers (Google Cloud)]] — Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine: architecture, training, serving (Google Cloud)
 - [[implement-two-tower-retrieval-gcp-2025|Implement Two-Tower Retrieval for Large-Scale Candidate Generation]] — Google Cloud Architecture Center reference architecture (Jan 2025): full Vertex AI pipeline, VPC security, performance profiling, recall-vs-latency ANN evaluation (Totten, Wortz, Sethu, Kaz Sato)
+- [[redhat-two-tower-model-openshift-2026|Understanding the Recommender System's Two-Tower Model (Red Hat)]] — OpenShift AI + KFP pipeline: EntityTower dual encoder, MSE loss with interaction magnitude scoring, cold start strategy (Red Hat Developer, Jan 2026)
 
 ### FinOps
 
@@ -175,6 +176,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[stripe|Stripe]] — Payments infrastructure; runs Minions one-shot coding agent system at production scale
 - [[thoughtworks|ThoughtWorks]] — Global tech consultancy; harness engineering and FinOps research; publisher of martinfowler.com
 - [[youtube|YouTube]] — Google-owned video platform; pioneered MMoE for next-video recommendation at scale
+- [[red-hat|Red Hat]] — Open source infrastructure and AI platform; OpenShift AI with KFP integration
 - [[atscale|AtScale]] — Enterprise semantic layer platform; introduced the open-source Semantic Modeling Language (SML)
 - [[snowflake|Snowflake]] — Cloud data platform; semantic views for AI-powered conversational interfaces
 - [[airbyte|Airbyte]] — Open-source data integration (ELT + CDC); 600+ connectors; foundation for real-time semantic layers
@@ -193,3 +195,9 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[vertex-ai-matching-engine|Vertex AI Matching Engine]] — Google Cloud managed ANN service; Tree-AH algorithm; up to 1B vectors with incremental updates
 - [[jordan-totten|Jordan Totten]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
 - [[jeremy-wortz|Jeremy Wortz]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
+- [[hadar-cohen|Hadar Cohen]] — Red Hat author; two-tower recommender on OpenShift AI
+- [[kubeflow-pipelines|KFP — Kubeflow Pipelines]] — Python-decorated ML workflow components on Kubernetes; S3-based data sharing
+- [[feast|Feast]] — Feature store for ML training data and online recommendation caching
+- [[openshift-ai|Red Hat OpenShift AI]] — Kubernetes-native AI/ML platform with KFP integration
+- [[argo-workflows|Argo Workflows]] — Container-native workflow engine for Kubernetes orchestration
+- [[kubernetes|Kubernetes]] — Container orchestration; pod isolation, eviction management
