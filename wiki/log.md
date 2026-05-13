@@ -10,6 +10,23 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-13] ingest | RecSysML: Two Tower Models for Retrieval of Recommendations
+
+- Source: https://recsysml.substack.com/p/two-tower-models-for-retrieval-of
+- Pages created:
+  - `sources/recsysml-two-tower-models-retrieval.md` — source summary: user/item encoder design, dot product training objective, random vs negative impression sampling, snapshot-based positive example training, matrix factorization → two tower evolution, StarSpace connection
+  - `entities/gaurav-chakravorty.md` — author entity
+  - `concepts/matrix-factorization.md` — historical predecessor to two towers; low-rank decomposition of user-item matrix
+  - `concepts/weighted-alternating-least-squares.md` — improved matrix factorization optimization
+  - `concepts/starspace.md` — general-purpose embedding model (Facebook Research)
+  - `concepts/youtube-dnn.md` — seminal two-stage recommendation paper
+  - `concepts/deepwalk.md` — graph embedding via random walks
+  - `concepts/graphsage.md` — inductive graph representation learning
+  - `concepts/netflix-prize.md` — 2006 competition that popularized latent factor embeddings
+- Pages updated:
+  - `wiki/index.md` — added source entry + author entity
+- Key topics: two-stage retrieval/ranking, positive/negative example training, feature snapshots for training, side information advantage over matrix factorization
+
 ## [2026-05-13] ingest | Red Hat: Understanding the Recommender System's Two-Tower Model
 
 - Source: https://developers.redhat.com/articles/2026/01/26/understanding-recommender-systems-two-tower-model

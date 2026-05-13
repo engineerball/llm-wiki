@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-12
-total_pages: 125
+total_pages: 134
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -124,6 +124,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[two-towers-deep-retrieval-google-cloud|Scaling Deep Retrieval: Two Towers (Google Cloud)]] — Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine: architecture, training, serving (Google Cloud)
 - [[implement-two-tower-retrieval-gcp-2025|Implement Two-Tower Retrieval for Large-Scale Candidate Generation]] — Google Cloud Architecture Center reference architecture (Jan 2025): full Vertex AI pipeline, VPC security, performance profiling, recall-vs-latency ANN evaluation (Totten, Wortz, Sethu, Kaz Sato)
 - [[redhat-two-tower-model-openshift-2026|Understanding the Recommender System's Two-Tower Model (Red Hat)]] — OpenShift AI + KFP pipeline: EntityTower dual encoder, MSE loss with interaction magnitude scoring, cold start strategy (Red Hat Developer, Jan 2026)
+- [[recsysml-two-tower-models-retrieval|Two Tower Models for Retrieval (RecSysML)]] — Practical two-tower insights: user/item encoder design, dot product training objective, random vs negative impression sampling, matrix factorization → two tower evolution, StarSpace connection (Gaurav Chakravorty)
 
 ### FinOps
 
