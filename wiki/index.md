@@ -1,13 +1,13 @@
 ---
 title: Wiki Index
-description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, and FinOps
-updated: 2026-05-08
-total_pages: 108
+description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
+updated: 2026-05-12
+total_pages: 118
 ---
 
 # LLM Wiki — Personal Knowledge Base
 
-An LLM-generated knowledge base covering **agentic AI engineering**, **semantic layers**, **recommendation systems**, **agent security**, and **FinOps**. Built incrementally with Claude Code using the [[llm-wiki-pattern|LLM-Wiki Pattern]] — sourced from articles, papers, docs, and specs; cross-linked and maintained as a persistent, compounding artifact rather than a retrieval index.
+An LLM-generated knowledge base covering **agentic AI engineering**, **semantic layers**, **recommendation systems**, **LLM architecture**, **agent security**, and **FinOps**. Built incrementally with Claude Code using the [[llm-wiki-pattern|LLM-Wiki Pattern]] — sourced from articles, papers, docs, and specs; cross-linked and maintained as a persistent, compounding artifact rather than a retrieval index.
 
 Start with the [[overview]] for the big picture, or pick any topic below. Everything is cross-linked — follow the graph.
 
@@ -51,6 +51,14 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[rag|RAG — Retrieval-Augmented Generation]] — Technique where an LLM retrieves relevant document chunks from a vector store at query time; contrast with the LLM-wiki pattern
 - [[generative-ai|Generative AI]] — AI systems generating novel content (text, code, images); semantic layers and harness engineering exist to make generative AI reliable and grounded
 - [[llm-wiki-pattern|LLM-Wiki Pattern]] — LLM incrementally builds a persistent wiki from raw sources instead of retrieving at query time; a compounding knowledge artifact vs RAG
+
+### Transformer Architecture & Attention
+
+- [[transformer-architecture|Transformer Architecture]] — Sequence model built entirely on attention (Vaswani et al., 2017); eliminated recurrence; foundation of all modern LLMs
+- [[attention-mechanism|Attention Mechanism]] — Neural mechanism allowing models to dynamically focus on relevant input parts; the core innovation of modern deep learning
+- [[self-attention|Self-Attention]] — Attention within a single sequence; each token attends to all others, creating direct connections regardless of distance
+- [[multi-head-attention|Multi-Head Attention]] — Multiple self-attention operations in parallel with different learned projections; each head captures a different relational view
+- [[positional-encoding|Positional Encoding]] — Injects order information into Transformers since attention is permutation-invariant; sinusoidal, learned, rotary (RoPE) variants
 
 ### Recommendation Systems
 
@@ -114,9 +122,11 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[shaped-ai-two-tower-deep-dive|Two-Tower Deep Dive]] — Loss functions taxonomy, negative sampling strategies, BPR, InfoNCE, in-batch negatives, ranker models (Shaped.ai)
 - [[two-tower-movie-recommender-pytorch|Two-Tower Movie Recommender in PyTorch]] — Three-tower PyTorch recommender on MovieLens: feature-based users, debiased ratings, cold start solution (Greenquist)
 - [[two-towers-deep-retrieval-google-cloud|Scaling Deep Retrieval: Two Towers (Google Cloud)]] — Two-tower retrieval with TensorFlow Recommenders + Vertex AI Matching Engine: architecture, training, serving (Google Cloud)
+- [[implement-two-tower-retrieval-gcp-2025|Implement Two-Tower Retrieval for Large-Scale Candidate Generation]] — Google Cloud Architecture Center reference architecture (Jan 2025): full Vertex AI pipeline, VPC security, performance profiling, recall-vs-latency ANN evaluation (Totten, Wortz, Sethu, Kaz Sato)
 
 ### FinOps
 
+- [[gcp-align-cloud-spending-business-value|GCP: Align Cloud Spending with Business Value]] — Well-Architected Framework principle: TCO framework (4 cost factors), 5 recommendations (managed services, SRE/DORA, self-service, FinOps adoption, value-driven mindset)
 - [[thoughtworks-five-differences-cloud-cost-finops|Five Differences: Cloud Cost Management vs FinOps]] — Why cloud cost management and FinOps are not the same; cultural and operational distinctions (ThoughtWorks)
 - [[finops-framework-principles|FinOps Framework Principles]] — Six north-star principles of the FinOps Framework (FinOps Foundation)
 - [[finops-getting-started-gcp|Getting Started with FinOps on GCP]] — Google Cloud FinOps implementation: organizational structure, epics, Inform/Optimize/Operate with GCP-specific tooling
@@ -128,6 +138,10 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 
 - [[cdp-comparison-2026|9 Best Customer Data Platforms (CDPs) in 2026]] — Market review and comparison of 9 CDP platforms: identity resolution, segmentation, omnichannel activation (Modern Data 101 / Swami Achari)
 - [[karpathy-llm-wiki-pattern|A Pattern for Building Personal Knowledge Bases Using LLMs]] — Wiki vs RAG distinction, 3 layers, ingest/query/lint workflows, human-curates + LLM-does-bookkeeping model (Andrej Karpathy gist)
+
+### LLM Architecture
+
+- [[attention-is-all-you-need-adnanmasood-2026-01-13|Attention Is All You Need — Adnan Masood (2026)]] — Distillation of Vaswani et al.'s 2017 Transformer paper for technical audiences; self-attention, multi-head attention, parallelism, encoder/decoder architecture (Medium, Jan 2026)
 
 ---
 
@@ -177,3 +191,5 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[tensorflow-recommenders|TensorFlow Recommenders]] — TensorFlow library (Google) for building two-tower retrieval models
 - [[trae|Trae]] — AI coding agent by ByteDance; published the Definitive Guide to Harness Engineering; introduced R.E.S.T. framework
 - [[vertex-ai-matching-engine|Vertex AI Matching Engine]] — Google Cloud managed ANN service; Tree-AH algorithm; up to 1B vectors with incremental updates
+- [[jordan-totten|Jordan Totten]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
+- [[jeremy-wortz|Jeremy Wortz]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures

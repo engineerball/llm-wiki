@@ -10,6 +10,33 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-13] ingest | Implement Two-Tower Retrieval for Large-Scale Candidate Generation (GCP)
+
+- Source: https://docs.cloud.google.com/architecture/implement-two-tower-retrieval-large-scale-candidate-generation
+- Pages created:
+  - `sources/implement-two-tower-retrieval-gcp-2025.md` — source summary page: reference architecture, performance optimization (profiling, accelerator utilization, scale-up-before-scale-out), cold-start support, recall-vs-latency ANN evaluation
+  - `entities/jordan-totten.md` — author entity
+  - `entities/jeremy-wortz.md` — author entity
+- Pages updated:
+  - `wiki/index.md` — added source entry + author entities
+- Key topics: Vertex AI Training, Vertex AI Vector Search, two-stage recommender, decoupled inference, cold-start problem, Cloud Profiler, brute-force vs ANN recall evaluation
+
+## [2026-05-12] ingest | Attention Is All You Need — Adnan Masood (2026)
+
+- Source: https://medium.com/@adnanmasood/attention-is-all-you-need-explained-like-youre-smart-and-busy-2a3d7436144f
+- Pages created:
+  - `concepts/transformer-architecture.md` — the full encoder-decoder design, why it replaced RNNs, impact and evolution
+  - `concepts/attention-mechanism.md` — general attention concept, types, advantages, limitations
+  - `concepts/self-attention.md` — attention within a single sequence, short paths, contextual understanding
+  - `concepts/multi-head-attention.md` — parallel attention heads, diversity of relational views
+  - `concepts/positional-encoding.md` — sinusoidal, learned, RoPE variants to inject order information
+  - `sources/attention-is-all-you-need-adnanmasood-2026-01-13.md` — source summary page
+  - `raw/articles/attention-is-all-you-need-adnanmasood-2026-01-13.md` — raw article ingestion
+- Pages updated:
+  - `entities/google.md` — added Transformers & LLMs section (Google Brain origin, Transformer authors)
+  - `wiki/index.md` — added LLM Architecture section with 5 concept pages
+- Key topics: Transformer architecture, self-attention, multi-head attention, positional encoding, parallelization vs RNNs, long-range dependencies
+
 ## 2026-05-10 | ingest | FinOps Personas (FinOps Foundation)
 
 - Source: https://www.finops.org/framework/personas/
@@ -522,3 +549,20 @@ Chronological record of ingests, queries, and maintenance.
 - Updated `index.md` — added all 3 UCP pages, added missing `[[one-shot-agent]]` concept, updated date
 - Fixed cross-references in `ucp-interoperability-mcp-a2a-ap2.md` — raw paths → wikilinks
 - Verified: no broken wikilinks (only false positives from code blocks), no orphan pages in wiki/ directory
+
+## 2026-05-11 — ingest: GCP Well-Architected cost optimization
+
+**Source acquired:**
+- `raw/articles/gcp-align-cloud-spending-business-value-2024-09.md` — Google Cloud Well-Architected Framework: Align cloud spending with business value (2024-09)
+
+**2 new pages created:**
+- `sources/gcp-align-cloud-spending-business-value.md` — Source summary: TCO framework (4 cost factors), 5 recommendations for aligning cloud spending with business value
+
+**3 pages updated:**
+- `concepts/finops.md` — Added source to sources list; added "GCP TCO Framework for Resource Decisions" section with cost factor table and key insight
+- `wiki/index.md` — Added new source entry to FinOps section, updated timestamp and total pages
+
+**Connections added:**
+- Cross-linked to [[finops]], [[finops-best-practices-atlassian]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
+
+**Key insight:** Formalizes the FinOps principle "business value drives decisions" with Google's explicit TCO decision framework — provisioning + management + indirect costs + business impact.
