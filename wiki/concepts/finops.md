@@ -1,8 +1,8 @@
 ---
 title: "FinOps"
-tags: [concept, finops, cloud, cost-management]
-date: 2026-05-02
-sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md"]
+tags: [concept, finops, cloud, cost-management, thai-government]
+date: 2026-05-14
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md", "sources/cdv-government-cloud-usage-guideline.md"]
 ---
 
 # FinOps
@@ -111,6 +111,31 @@ From the [[finops-atlassian-what-is-finops|Atlassian FinOps guide]], five concre
 
 The lifecycle (Inform → Optimize → Operate) is iterative — top teams cycle back, they don't just stay in operate.
 
+## FinOps in Thai Government Context (DGS 9-2:2568)
+
+[[dga|DGA Thailand's Digital Government Standard DGS 9-2:2568]] mandates FinOps as the required operating model for all Thai government agencies using cloud under the **"Go Cloud First" (นโยบายการใช้คลาวด์เป็นหลัก)** policy declared by Cabinet on 11 September 2023.
+
+The standard frames FinOps as bridging **IT/DevOps** and **Finance** teams, with four principles adapted from the FinOps Foundation framework for government adoption:
+
+| Thai Government Principle | Description |
+|---|---|
+| **Visibility & Transparency (การมองเห็น)** | Real-time cost dashboards accessible to all teams; identify unnecessary spend immediately |
+| **Collaboration (การทำงานร่วมกัน)** | IT owns resource management; Finance owns budgeting/planning; shared understanding essential |
+| **Optimization (การเพิ่มประสิทธิภาพ)** | Remove idle resources, use Spot/Reserved Instances, architect for Auto-scaling |
+| **Measure & Plan (การวัดผล)** | KPIs to track savings; forecast future usage from historical data |
+
+**Government-specific constraints on FinOps:**
+- Policy mandates **Pay-per-use pricing as the first choice** — agencies must evaluate Pay-per-use before committing to reserved/subscription models. This creates tension with the FinOps Foundation's commitment-based optimisation strategy (Reserved Instances / CUDs), requiring agencies to justify any deviation
+- Cloud budget requests submitted via the national **DGA portal** (https://kb.dga.or.th/cloud/) under the Digital Government Integration Budget Programme — each cloud project's costs must be separately itemised
+- **TCO analysis** (Total Cost of Ownership) is mandatory for any Private Cloud exception requests, covering full lifecycle from acquisition through decommissioning
+- **Not-To-Exceed (NTE) Ceiling** must be established using CSP Pricing Calculators as part of procurement documentation
+
+**Applicable laws:**
+- พระราชบัญญัติการบริหารงานและการให้บริการภาครัฐผ่านระบบดิจิทัล พ.ศ. 2562 (Digital Government Administration Act 2019)
+- พระราชบัญญัติการจัดซื้อจัดจ้างและการบริหารพัสดุภาครัฐ พ.ศ. 2560 (Government Procurement Act 2017)
+
+→ Details: [[cdv-government-cloud-usage-guideline]]
+
 ## Relationship to Other Concepts
 
 - **[[harness-engineering]]** — FinOps principles parallel harness design: centralized enablement + decentralized execution, [[guides-and-sensors]] pattern (budgets as guides, reports as sensors), cost as a first-class metric
@@ -118,3 +143,4 @@ The lifecycle (Inform → Optimize → Operate) is iterative — top teams cycle
 - **[[initializer-coding-agent-architecture]]** — similar pattern: initializer sets up constraints and tracking, agents/teams work incrementally within them
 - **[[semantic-layer]]** — semantic layer as a guide pattern for business metrics across tools
 - **[[finops-foundation]]** — nonprofit that governs the FinOps Framework; source of principles, personas, and maturity model
+- **[[dga]]** — Digital Government Development Agency (Thailand); mandates FinOps under Go Cloud First policy
