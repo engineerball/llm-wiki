@@ -6,41 +6,41 @@
       <description>Last 10 notes on TK Personal Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Agent Gateway — Kubernetes Docs</title>
-    <link>https://https://engineerball.github.io/llm-wiki/sources/agentgateway-kubernetes-docs</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/sources/agentgateway-kubernetes-docs</guid>
-    <description><![CDATA[ Agent Gateway — Kubernetes Docs Source: agentgateway.dev/docs/kubernetes/latest/ Type: Official product documentation Organization: linux-foundation (hosted) Summary agentgateway is an open-source gateway control plane + proxy data plane built in Rust and hosted by the linux-foundation. ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>data-products</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/data-products</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/data-products</guid>
+    <description><![CDATA[ Data Products A “model-first” approach to data management where data is treated as a product with defined purpose, quality standards (SLOs), and access controls. ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
-    <title>Agent Gateway</title>
-    <link>https://https://engineerball.github.io/llm-wiki/entities/agentgateway</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/entities/agentgateway</guid>
-    <description><![CDATA[ Agent Gateway Open-source gateway control plane + proxy data plane, hosted by the linux-foundation. ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>reliable-semantic-stack</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/reliable-semantic-stack</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/reliable-semantic-stack</guid>
+    <description><![CDATA[ Reliable Semantic Stack A vertical architectural framework proposed by animesh-kumar to ensure the success and trust of a semantic-layer implementation. ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
-    <title>Linux Foundation</title>
-    <link>https://https://engineerball.github.io/llm-wiki/entities/linux-foundation</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/entities/linux-foundation</guid>
-    <description><![CDATA[ Linux Foundation Non-profit organization that hosts and supports open-source projects through shared infrastructure, collaborative development, and neutral governance. ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>semantic-mistrust</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/semantic-mistrust</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/semantic-mistrust</guid>
+    <description><![CDATA[ Semantic Mistrust A state where the semantic-layer loses credibility because it inherits and masks quality, governance, and reliability issues from the underlying physical data layer. ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
-    <title>LLM Gateway</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/llm-gateway</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/llm-gateway</guid>
-    <description><![CDATA[ LLM Gateway Proxy layer that provides a unified API for routing LLM requests across multiple providers. ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>animesh-kumar</title>
+    <link>https://https://engineerball.github.io/llm-wiki/entities/animesh-kumar</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/entities/animesh-kumar</guid>
+    <description><![CDATA[ Animesh Kumar Data strategist and author; contributor to modern-data-101. ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
-    <title>Scaling Deep Retrieval with TensorFlow Recommenders and Vertex AI Matching Engine</title>
-    <link>https://https://engineerball.github.io/llm-wiki/sources/two-towers-deep-retrieval-google-cloud</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/sources/two-towers-deep-retrieval-google-cloud</guid>
-    <description><![CDATA[ Scaling Deep Retrieval with TensorFlow Recommenders and Vertex AI Matching Engine Google Cloud blog post (Apr 2023) by Jeremy Wortz and Jordan Totten. ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>modern-data-101</title>
+    <link>https://https://engineerball.github.io/llm-wiki/entities/modern-data-101</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/entities/modern-data-101</guid>
+    <description><![CDATA[ Modern Data 101 Substack publication and community focused on modern data stack architectures, semantic-layer evolution, and data engineering best practices. ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
-    <title>Two-Tower Architecture</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/two-tower-architecture</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/two-tower-architecture</guid>
-    <description><![CDATA[ Two-Tower Architecture A neural retrieval pattern that maps queries and candidates to a shared embedding space using two separate neural networks (towers). ]]></description>
-    <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
+    <title>the-semantic-movement-modern-data-101-2026-05-05</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/the-semantic-movement-modern-data-101-2026-05-05</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/the-semantic-movement-modern-data-101-2026-05-05</guid>
+    <description><![CDATA[ The Semantic Layer Movement: The Rise &amp; Current State Source: Modern Data 101 — moderndata101.substack.com/p/the-semantic-movement-the-story-of Author: animesh-kumar Date: 2024-05-02 (Ingested: 2026-05-05) Thesis The semantic layer has transitioned from a technical component to a “movement” driv... ]]></description>
+    <pubDate>Tue, 05 May 2026 15:12:23 GMT</pubDate>
   </item><item>
     <title>Approximate Nearest Neighbors (ANN)</title>
     <link>https://https://engineerball.github.io/llm-wiki/concepts/approximate-nearest-neighbors</link>
@@ -48,22 +48,22 @@
     <description><![CDATA[ Approximate Nearest Neighbors (ANN) Algorithm class for finding vectors similar to a query vector in a large corpus — trading exactness for speed. ]]></description>
     <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
   </item><item>
-    <title>Recommendation Systems</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/recommendation-systems</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/recommendation-systems</guid>
-    <description><![CDATA[ Recommendation Systems ML systems that predict what items (products, content, tracks, documents) are most relevant to a user or query at a given moment. ]]></description>
+    <title>Cold Start Problem</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/cold-start-problem</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/cold-start-problem</guid>
+    <description><![CDATA[ Cold Start Problem In recommendation systems: difficulty making accurate recommendations for new users or items with no (or very little) interaction history. ]]></description>
     <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
   </item><item>
-    <title>TensorFlow Recommenders (TFRS)</title>
-    <link>https://https://engineerball.github.io/llm-wiki/entities/tensorflow-recommenders</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/entities/tensorflow-recommenders</guid>
-    <description><![CDATA[ TensorFlow Recommenders (TFRS) Open-source TensorFlow library by google for building recommendation system models. ]]></description>
+    <title>Graph-RAG</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/graph-rag</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/graph-rag</guid>
+    <description><![CDATA[ Graph-RAG Graph-RAG is an advanced Retrieval-Augmented Generation (RAG) pattern that leverages graph technology and semantic relationships to provide contextually precise information to AI models. ]]></description>
     <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
   </item><item>
-    <title>Vertex AI Matching Engine</title>
-    <link>https://https://engineerball.github.io/llm-wiki/entities/vertex-ai-matching-engine</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/entities/vertex-ai-matching-engine</guid>
-    <description><![CDATA[ Vertex AI Matching Engine Google Cloud’s managed approximate-nearest-neighbors (ANN) service for large-scale vector similarity search. ]]></description>
+    <title>Headless BI</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/headless-bi</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/headless-bi</guid>
+    <description><![CDATA[ Headless BI Headless BI is an architectural pattern where the semantic-layer (metric definitions, joins, and governance) is decoupled from the visualization layer (dashboards and reports). ]]></description>
     <pubDate>Mon, 04 May 2026 17:00:00 GMT</pubDate>
   </item>
     </channel>
