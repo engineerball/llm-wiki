@@ -135,7 +135,6 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[gcp-finops-hub|GCP FinOps Hub]] — Google Cloud Billing cost optimization dashboard: FinOps Score, peer benchmarking, 25+ recommenders, wasted usage detection, CUD optimization rate
 - [[finops-atlassian-what-is-finops|What is FinOps (Atlassian)]] — Introductory guide: definition, 5 best practices, Inform/Optimize/Operate lifecycle (Atlassian Blog)
 - [[finops-personas-finops-foundation|FinOps Personas (FinOps Foundation)]] — 6 Core personas (Engineering, Finance, Procurement, IT Ops, Product, Executive) + 5 Allied personas (ITAM, ITFM, Sustainability, ITSM/ITIL, Security); Intersecting Disciplines framework
-- [[cdv-government-cloud-usage-guideline|Thailand Digital Government Standard — Government Cloud Usage Guideline (DGS 9-2:2568)]] — Thai government "Go Cloud First" policy implementation: cloud type selection by data classification, FinOps as mandated operating model, pricing models, migration 6Rs, procurement, security, backup/recovery (DGA / สพร., 2025)
 
 ### Data & Knowledge
 
@@ -167,7 +166,6 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[bytedance|ByteDance]] — Chinese tech company; parent of Trae and TikTok; active in agent engineering research
 - [[databricks|Databricks]] — Data + AI company; Lakehouse architecture, Unity Catalog, platform-native semantic layer
 - [[dbt-labs|dbt Labs]] — Data transformation company; creator of dbt and the dbt Semantic Layer (MetricFlow)
-- [[dga|DGA — Digital Government Development Agency (Thailand)]] — Thai government body issuing DGS cloud standards; mandates FinOps under Go Cloud First policy; operates cloud budget portal
 - [[finops-foundation|FinOps Foundation]] — Vendor-neutral nonprofit; governs the FinOps Framework, principles, personas, and maturity model
 - [[fountain-city|Fountain City]] — AI agents company; publishes agentic protocol readiness guidance for websites
 - [[google|Google]] — Tech company; UCP + A2A creator, AP2 protocol, GCP FinOps, TensorFlow Recommenders, Vertex AI Matching Engine

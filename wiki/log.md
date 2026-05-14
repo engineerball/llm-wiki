@@ -601,23 +601,17 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
-## 2026-05-14 | Ingest: Thailand Digital Government Standard — Government Cloud Usage Guideline (DGS 9-2:2568)
+**Source acquired:**
+- `raw/articles/gcp-align-cloud-spending-business-value-2024-09.md` — Google Cloud Well-Architected Framework: Align cloud spending with business value (2024-09)
 
-**Source:** `raw/articles/cdv-government-cloud-usage-guideline.md`  
-**Original file:** `CDV_Government_Cloud_Usage_Guideline_v1.0.docx`  
-**Domain:** FinOps / Thai Government Cloud / Government Cloud First Policy
+**2 new pages created:**
+- `sources/gcp-align-cloud-spending-business-value.md` — Source summary: TCO framework (4 cost factors), 5 recommendations for aligning cloud spending with business value
 
-**New pages created:**
-- `wiki/sources/cdv-government-cloud-usage-guideline.md` — full source summary covering cloud type selection, pricing models (Pay-per-use vs Subscription), IaaS/PaaS/SaaS guidance, migration 6Rs, cloud exit strategy, FinOps 4 principles, TCO, budget request process, procurement, security, backup/recovery
-- `wiki/entities/dga.md` — DGA (Digital Government Development Agency / สพร.) entity page; issuing authority for DGS standards, operator of Cloud First policy portal
+**3 pages updated:**
+- `concepts/finops.md` — Added source to sources list; added "GCP TCO Framework for Resource Decisions" section with cost factor table and key insight
+- `wiki/index.md` — Added new source entry to FinOps section, updated timestamp and total pages
 
-**Pages updated:**
-- `wiki/concepts/finops.md` — Added "FinOps in Thai Government Context" section covering DGS 9-2:2568's 4 FinOps principles, Pay-per-use first policy constraint, NTE ceiling requirement, TCO mandate, applicable Thai laws
-- `wiki/index.md` — Added source entry under FinOps Sources, added DGA entity entry, incremented total_pages to 110
+**Connections added:**
+- Cross-linked to [[finops]], [[finops-best-practices-atlassian]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
 
-**Key content added to wiki:**
-- Thailand's Cloud First Policy (Cabinet announcement 11 Sep 2023) and its FinOps mandate
-- Government data classification → cloud type mapping (Public/Internal/Confidential → Public Cloud; Secret and above → Community/Sovereign Cloud)
-- Thai government's 4 FinOps principles: Visibility, Collaboration, Optimization, Measure & Plan
-- Government-specific FinOps constraints: Pay-per-use first, NTE ceiling pricing, DGA budget portal, TCO for exceptions
-- Cloud migration 6Rs, cloud exit strategy, shared responsibility model, backup/recovery (RPO/RTO)
+**Key insight:** Formalizes the FinOps principle "business value drives decisions" with Google's explicit TCO decision framework — provisioning + management + indirect costs + business impact.
