@@ -10,6 +10,16 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-18] recompile | FinOps section
+
+- Expanded `sources/finops-getting-started-gcp.md` — full 49-page GCP guide now captured: labeling strategy details, effort/savings matrix, incentivize patterns (showback, gamification, savings reinvestment), unit economics framework, funding epic, closing the loop, GCP tool reference table
+- Rewrote `concepts/finops-lifecycle.md` — now covers all 8 Epics across 3 phases with implementation detail, guardrails table, prioritization framework, metric-setting guidance, and maturity progression
+- Created `concepts/unit-economics-finops.md` — new concept page: unit economics as a FinOps measurement tool, two types of value metrics (centralized vs team-based), TCO framework from GCP Well-Architected, maturity stages, connection to value stream and DORA metrics
+- Updated `concepts/finops.md` — added links to `unit-economics-finops` and `finops-lifecycle`
+- Updated `index.md` — expanded FinOps lifecycle entry and added unit-economics-finops entry
+
+---
+
 ## [2026-05-18] ingest | Meta: How We Built an AI Second Brain for 60K Knowledge Workers
 
 - Source: https://medium.com/@AnalyticsAtMeta/how-we-built-an-ai-second-brain-for-60k-knowledge-workers-78c507dd795b

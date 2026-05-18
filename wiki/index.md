@@ -76,7 +76,8 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### FinOps
 
 - [[finops|FinOps]] — Financial Operations for cloud; practice and operating model bringing financial accountability to variable cloud spend; not about reducing cost but maximizing value per dollar
-- [[finops-lifecycle|FinOps Lifecycle]] — Three-stage iterative process: Inform (visibility) → Optimize (cost reduction) → Operate (automation)
+- [[finops-lifecycle|FinOps Lifecycle]] — Three-stage iterative cycle: Inform (allocation, reporting, forecasting) → Optimize (product efficiency, pricing, guardrails) → Operate (onboard, educate, incentivize, measure value, fund) → repeat
+- [[unit-economics-finops|Unit Economics in FinOps]] — Expressing cloud costs in business-meaningful units (cost per user, per transaction); TCO framework with 4 cost factors; centralized vs team-based value metrics
 
 ---
 

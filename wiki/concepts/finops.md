@@ -1,7 +1,7 @@
 ---
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management, thai-government]
-date: 2026-05-14
+date: 2026-05-18
 sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md", "sources/cdv-government-cloud-usage-guideline.md", "sources/gcp-align-cloud-spending-business-value.md"]
 ---
 
@@ -153,6 +153,8 @@ The standard frames FinOps as bridging **IT/DevOps** and **Finance** teams, with
 
 ## Relationship to Other Concepts
 
+- **[[finops-lifecycle]]** — the iterative Inform → Optimize → Operate cycle that operationalizes these principles
+- **[[unit-economics-finops]]** — the Measure Value technique: expressing cloud costs in business-meaningful units rather than raw dollars
 - **[[harness-engineering]]** — FinOps principles parallel harness design: centralized enablement + decentralized execution, [[guides-and-sensors]] pattern (budgets as guides, reports as sensors), cost as a first-class metric
 - **[[guides-and-sensors]]** — budgets/policies as feedforward guides; cost data/alerts as feedback sensors
 - **[[initializer-coding-agent-architecture]]** — similar pattern: initializer sets up constraints and tracking, agents/teams work incrementally within them
