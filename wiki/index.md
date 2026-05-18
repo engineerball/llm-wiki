@@ -140,6 +140,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[finops-atlassian-what-is-finops|What is FinOps (Atlassian)]] — Introductory guide: definition, 5 best practices, Inform/Optimize/Operate lifecycle (Atlassian Blog)
 - [[finops-personas-finops-foundation|FinOps Personas (FinOps Foundation)]] — 6 Core personas (Engineering, Finance, Procurement, IT Ops, Product, Executive) + 5 Allied personas (ITAM, ITFM, Sustainability, ITSM/ITIL, Security); Intersecting Disciplines framework
 - [[cdv-government-cloud-usage-guideline|Thailand Digital Government Standard — Government Cloud Usage Guideline (DGS 9-2:2568)]] — Thai government "Go Cloud First" policy implementation: cloud type selection by data classification, FinOps as mandated operating model, pricing models, migration 6Rs, procurement, security, backup/recovery (DGA / สพร., 2025)
+- [[vestbee-gcp-finops-tips-tools|Google Cloud FinOps: Tips and Tools (Vestbee)]] — Five success metrics lens: Accountability & Enablement, Measurement & Realization, Cost Optimization (CUDs/SUDs/Preemptible), Planning & Forecasting, Active Assist recommenders (Vestbee Insights)
 
 ### Data & Knowledge
 

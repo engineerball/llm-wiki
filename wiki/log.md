@@ -10,6 +10,15 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-19] ingest | Vestbee GCP FinOps tips and tools
+
+- Created `raw/articles/vestbee-gcp-finops-tips-tools.md` — fetched from Vestbee Insights
+- Created `sources/vestbee-gcp-finops-tips-tools.md` — five success metrics lens: Accountability & Enablement, Measurement & Realization, Cost Optimization (CUDs/SUDs/Preemptibles), Planning & Forecasting, Active Assist recommenders
+- New elements surfaced: Sustained Use Discounts (SUDs), Active Assist brand name, BigQuery Slot Recommender
+- Updated `index.md`
+
+---
+
 ## [2026-05-18] recompile | FinOps section
 
 - Expanded `sources/finops-getting-started-gcp.md` — full 49-page GCP guide now captured: labeling strategy details, effort/savings matrix, incentivize patterns (showback, gamification, savings reinvestment), unit economics framework, funding epic, closing the loop, GCP tool reference table
