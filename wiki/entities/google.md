@@ -2,7 +2,7 @@
 title: "Google"
 type: organization
 tags: [entity, organization, tech, ai, cloud]
-sources: []
+sources: ["attention-is-all-you-need-adnanmasood-2026-01-13"]
 date: 2026-05-04
 ---
 
@@ -31,7 +31,13 @@ Technology company (Alphabet subsidiary). Major AI platform, cloud provider, and
 - **Vertex AI Matching Engine** — Managed ANN service for serving two-tower embeddings at scale (up to 1B vectors). Uses Tree-AH algorithm. See [[vertex-ai-matching-engine]].
 - **Vertex AI** — ML platform on GCP; includes Model Registry, Batch Prediction, Training, and Matching Engine.
 
+### Transformers & Large Language Models
+
+- **Transformer architecture** — Google Brain/Google Research introduced the Transformer in 2017 ("Attention Is All You Need", Vaswani et al.). The architecture that underpins all modern LLMs (GPT, Claude, Gemini, etc.). See [[transformer-architecture]], [[self-attention]], [[multi-head-attention]], [[positional-encoding]].
+- **Gemini** — Google's flagship LLM family, built on Transformer architecture.
+
 ## Key People
 
 - **Amit Handa** — co-author of the UCP Google Developers Blog post (Jan 2026)
 - **Ashish Gupta** — co-author of the UCP Google Developers Blog post (Jan 2026)
+- **Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin** — authors of "Attention Is All You Need" (NeurIPS 2017), inventors of the Transformer architecture

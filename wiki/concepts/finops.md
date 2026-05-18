@@ -2,7 +2,7 @@
 title: "FinOps"
 tags: [concept, finops, cloud, cost-management, thai-government]
 date: 2026-05-14
-sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md", "sources/cdv-government-cloud-usage-guideline.md"]
+sources: ["sources/finops-framework-principles.md", "sources/finops-getting-started-gcp.md", "sources/gcp-finops-hub.md", "sources/finops-atlassian-what-is-finops.md", "sources/finops-personas-finops-foundation.md", "sources/cdv-government-cloud-usage-guideline.md", "sources/gcp-align-cloud-spending-business-value.md"]
 ---
 
 # FinOps
@@ -110,6 +110,21 @@ From the [[finops-atlassian-what-is-finops|Atlassian FinOps guide]], five concre
 5. **Set clear responsibilities** — If nobody owns it, it goes by the wayside; freed-up IT capacity is a great starting point
 
 The lifecycle (Inform → Optimize → Operate) is iterative — top teams cycle back, they don't just stay in operate.
+
+## GCP TCO Framework for Resource Decisions
+
+From [[gcp-align-cloud-spending-business-value|GCP Well-Architected: Align cloud spending with business value]], Google defines a TCO decision framework with four cost factors:
+
+| Factor | Description | Example |
+|--------|------------|---------|
+| **Provisioning & usage** | Purchase, provisioning, consumption | VM hourly rate, storage costs |
+| **Management** | Recurring ops overhead | Patching, monitoring, scaling labor |
+| **Indirect** | Risk consequences | Downtime revenue loss, breach remediation |
+| **Business impact** | Potential upside | Faster launches, better UX → revenue |
+
+**Key insight**: A cheaper resource may have higher TCO. VMs appear cost-effective on provisioning alone, but serverless (Cloud Run, GKE Autopilot) often wins when management costs and agility are factored in.
+
+This formalizes the FinOps principle that "Business value drives decisions" — teams should evaluate not just what a resource costs, but what it enables.
 
 ## FinOps in Thai Government Context (DGS 9-2:2568)
 
