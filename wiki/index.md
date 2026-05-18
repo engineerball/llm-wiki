@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
-updated: 2026-05-12
-total_pages: 134
+updated: 2026-05-18
+total_pages: 142
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -18,6 +18,9 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### Agentic AI & Harness Engineering
 
 - [[harness-engineering|Harness Engineering]] — Software engineering discipline shifted from writing code to designing environments, feedback loops, and scaffolding that make AI coding agents do reliable work
+- [[para-method|PARA Method]] — Folder taxonomy (Projects, Areas, Resources, Archives) adapted as a context architecture for AI agents; root CLAUDE.md always loaded, per-project CLAUDE.md on demand
+- [[skills-as-markdown|Skills as Markdown]] — Reusable agent workflows as plain markdown + scripts; no compilation or deployment; community-extensible; 3,000+ skills built at Meta in 3 months
+- [[progressive-disclosure|Progressive Disclosure]] — Context loading strategy: lean root context always in scope; detailed task-specific content loaded on demand; prevents quality degradation from context dumping
 - [[harnessability|Harnessability]] — Degree to which a codebase enables effective harness controls; increases with strong typings, clear boundaries, defined service topologies
 - [[guides-and-sensors|Guides and Sensors]] — Harness control taxonomy: Guides (feedforward) steer before action; Sensors (feedback) observe after and enable self-correction
 - [[agentic-ai-system|Agentic AI System]] — 9-layer reference architecture for goal-driven, multi-agent, orchestrated, observable, reliable AI systems
@@ -141,6 +144,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 
 - [[cdp-comparison-2026|9 Best Customer Data Platforms (CDPs) in 2026]] — Market review and comparison of 9 CDP platforms: identity resolution, segmentation, omnichannel activation (Modern Data 101 / Swami Achari)
 - [[karpathy-llm-wiki-pattern|A Pattern for Building Personal Knowledge Bases Using LLMs]] — Wiki vs RAG distinction, 3 layers, ingest/query/lint workflows, human-curates + LLM-does-bookkeeping model (Andrej Karpathy gist)
+- [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta|How We Built an AI Second Brain for 60K Knowledge Workers (Meta)]] — PARA workspace + MCP infrastructure + skills-as-markdown harness; 0 → 63K installs in 3 months; progressive disclosure as validated context strategy (Meta Analytics, 2026)
 
 ### LLM Architecture
 
@@ -164,6 +168,8 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### Organizations
 
 - [[anthropic|Anthropic]] — AI safety research lab; creator of Claude model family and Effective Harnesses research
+- [[meta|Meta]] — Meta Platforms; analytics team built the AI Second Brain harness (63K users, 3 months); PARA + MCP + skills-as-markdown architecture
+- [[tiago-forte|Tiago Forte]] — Productivity author; creator of the PARA Method; *Building a Second Brain* (2022)
 - [[bytedance|ByteDance]] — Chinese tech company; parent of Trae and TikTok; active in agent engineering research
 - [[databricks|Databricks]] — Data + AI company; Lakehouse architecture, Unity Catalog, platform-native semantic layer
 - [[dbt-labs|dbt Labs]] — Data transformation company; creator of dbt and the dbt Semantic Layer (MetricFlow)

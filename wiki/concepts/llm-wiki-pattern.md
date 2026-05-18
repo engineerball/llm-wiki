@@ -54,6 +54,22 @@ The `index.md` approach works surprisingly well at moderate scale (~100 sources,
 
 The LLM-wiki pattern is itself a **harness**: the schema (AGENTS.md, CLAUDE.md) acts as the [[guides-and-sensors|guides]] constraining the LLM's wiki-writing behavior; the index, log, and page structure act as [[guides-and-sensors|sensors]] providing feedback on completeness and consistency.
 
+## Relationship to Personal Agent Harnesses
+
+[[meta|Meta]]'s "AI Second Brain" (2026) is a close sibling pattern:
+
+| LLM-Wiki | Meta Second Brain |
+|----------|-------------------|
+| LLM writes persistent wiki pages from raw sources | LLM writes structured workspace from work history |
+| Schema (CLAUDE.md) as guides | PARA workspace (CLAUDE.md per project) as guides |
+| Index + log as sensors | Meeting notes, task status as sensors |
+| Humans curate sources | Agent scans internal tools for sources |
+| Knowledge compounds via cross-links | Knowledge compounds via skills + shared layers |
+
+Both patterns externalize knowledge outside the LLM's finite context window; both use [[progressive-disclosure]] to keep context lean; both compound over time rather than re-deriving knowledge from scratch on each query.
+
+See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]] and [[para-method]].
+
 ## Related Concepts
 
 - [[harness-engineering]] — the LLM-wiki pattern is a harness that constrains and directs LLM behavior for knowledge management
@@ -61,3 +77,6 @@ The LLM-wiki pattern is itself a **harness**: the schema (AGENTS.md, CLAUDE.md) 
 - [[agentic-ai-system]] — the wiki is the knowledge layer in an agentic system; the LLM is the planning/execution layer
 - [[context-management-for-agents]] — the wiki solves context degradation: instead of stuffing raw documents into a limited context window, the LLM maintains external knowledge
 - [[karpathy-llm-wiki-pattern]] — original Karpathy gist introducing the pattern
+- [[progressive-disclosure]] — the index.md + individual pages structure is a form of progressive disclosure
+- [[para-method]] — PARA workspace is a parallel compounding-knowledge structure for active work
+- [[skills-as-markdown]] — skills compound like wiki pages: community-built, reusable, composable

@@ -60,3 +60,5 @@ Effective handoffs for context resets include:
 - [[harness-engineering]] — context management is a key harness design concern
 - [[sprint-contracts]] — sprint boundaries are natural reset points
 - [[llm-wiki-pattern]] — cross-wiki knowledge solves context degradation by externalizing knowledge outside the context window
+- [[progressive-disclosure]] — preventative strategy: load only what the current task needs from the start, rather than waiting for context to fill
+- [[para-method]] — PARA workspace implements progressive disclosure structurally via root vs per-project CLAUDE.md files

@@ -10,6 +10,25 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-05-18] ingest | Meta: How We Built an AI Second Brain for 60K Knowledge Workers
+
+- Source: https://medium.com/@AnalyticsAtMeta/how-we-built-an-ai-second-brain-for-60k-knowledge-workers-78c507dd795b
+- Pages created:
+  - `sources/how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta.md` — source summary: PARA workspace, MCP infrastructure layer, skills-as-markdown, progressive disclosure, 0→63K growth
+  - `concepts/para-method.md` — Tiago Forte's PARA taxonomy adapted as agent context architecture
+  - `concepts/skills-as-markdown.md` — reusable agent workflows as plain markdown; no compilation/deployment; composable; community-extensible
+  - `concepts/progressive-disclosure.md` — context loading strategy: lean root context always in scope; task-specific depth on demand
+  - `entities/meta.md` — Meta Platforms; AI Second Brain case study
+  - `entities/tiago-forte.md` — PARA method author
+- Pages updated:
+  - `concepts/harness-engineering.md` — added "Meta's AI Second Brain" section documenting four-piece harness architecture
+  - `concepts/context-management-for-agents.md` — added links to progressive-disclosure and para-method as complementary strategies
+  - `concepts/llm-wiki-pattern.md` — added comparison table (LLM-Wiki vs Second Brain) and links to para-method, progressive-disclosure, skills-as-markdown
+  - `wiki/index.md` — added 3 concepts, 1 source, 2 entities; updated page count 134→142
+- Key topics: PARA workspace for agents, skills-as-markdown, progressive disclosure vs context dumping, enterprise viral adoption (0→63K in 3 months), infrastructure-first principle, community composability
+
+---
+
 ## [2026-05-13] ingest | RecSysML: Two Tower Models for Retrieval of Recommendations
 
 - Source: https://recsysml.substack.com/p/two-tower-models-for-retrieval-of

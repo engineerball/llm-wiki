@@ -160,6 +160,22 @@ Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering
 
 **Core philosophy:** When a model hits a wall, implement an engineered mechanism so the same class of failure never happens again.
 
+## Meta's "AI Second Brain" (2026)
+
+[[meta|Meta]]'s analytics team applied harness principles to personal knowledge management at enterprise scale. Their system reached 63,000+ installs and ~10,000 DAU within 3 months.
+
+**Four-piece harness architecture:**
+1. **[[para-method|PARA Workspace]]** — folder taxonomy (Projects, Areas, Resources, Archives) adapted as agent context architecture; root CLAUDE.md always loaded, per-project CLAUDE.md on demand
+2. **Infrastructure layer** — MCP servers + CLIs giving agents authenticated, scoped access to internal tools (meetings, tasks, wikis, docs)
+3. **Execution engine** — Claude Code as the agent runtime; harness-agnostic by design
+4. **[[skills-as-markdown|Skills]]** — reusable workflows as plain markdown + scripts; no compilation, no deployment; community built 3,000+ skills in 3 months
+
+Key lesson mirroring Trae's framework: **infrastructure (the harness) must come before agent workflows**. An agent is only as useful as the systems it can reach.
+
+[[progressive-disclosure]] emerged as the validated context strategy: root CLAUDE.md lean + project context on demand. Loading everything degrades output quality — the harness must manage what the agent sees.
+
+See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
+
 ## Related Concepts
 
 - [[trae-definitive-guide-harness-engineering]] — Trae's definitive guide (horse & reins, R.E.S.T., PPAF loop, REPL container, sandboxing)
@@ -173,5 +189,6 @@ Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering
 - [[one-shot-agent]] — contrasted with Anthropic's incremental agent architecture
 - [[finops]] — shared patterns: centralized enablement + decentralized execution; cost as a first-class metric is a harness constraint
 - [[llm-wiki-pattern]] — the wiki itself is an agentic knowledge-management harness; schema = guides, index/log = sensors
-- Repository legibility (making codebases navigable by agents)
-- Progressive disclosure (knowledge architecture for agents)
+- [[progressive-disclosure]] — context strategy: lean root context always in scope; project depth on demand
+- [[para-method]] — PARA workspace as a feedforward guide structure for personal agent harnesses
+- [[skills-as-markdown]] — reusable workflows as markdown guides; composable, community-extensible
