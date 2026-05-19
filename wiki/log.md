@@ -653,3 +653,20 @@ Chronological record of ingests, queries, and maintenance.
 - Cross-linked to [[finops]], [[finops-best-practices-atlassian]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
 
 **Key insight:** Formalizes the FinOps principle "business value drives decisions" with Google's explicit TCO decision framework — provisioning + management + indirect costs + business impact.
+
+---
+
+## 2026-05-19 | Ingest: NVIDIA NemoClaw Overview
+
+**Source acquired:**
+- `raw/articles/nvidia-nemoclaw-overview.md` — NVIDIA NemoClaw official overview doc (https://docs.nvidia.com/nemoclaw/latest/about/overview.html)
+
+**2 new pages created:**
+- `sources/nvidia-nemoclaw-overview.md` — Source summary: NemoClaw as OpenClaw hardening layer, three-primitive isolation model (Landlock + seccomp + network namespaces), credential-isolated inference routing via `inference.local`
+- `entities/nemoclaw.md` — NemoClaw entity page: NVIDIA's open-source reference stack, OpenShell sandbox, supported providers, alpha status
+
+**2 pages updated:**
+- `entities/openclaw.md` — Added link to [[nemoclaw]] in Related Pages
+- `wiki/index.md` — Added NemoClaw to Agent Security sources and Tools & Models entities; total_pages 142 → 144
+
+**Key insight:** NemoClaw is the official NVIDIA deployment wrapper for OpenClaw. It codifies the isolation pattern (Landlock + seccomp + network namespaces) as a reproducible blueprint, and solves credential exposure by routing all inference through `inference.local` so provider keys never enter the container. Complements the community-authored Nebius hardening guide.
