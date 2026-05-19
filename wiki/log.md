@@ -670,3 +670,27 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/index.md` — Added NemoClaw to Agent Security sources and Tools & Models entities; total_pages 142 → 144
 
 **Key insight:** NemoClaw is the official NVIDIA deployment wrapper for OpenClaw. It codifies the isolation pattern (Landlock + seccomp + network namespaces) as a reproducible blueprint, and solves credential exposure by routing all inference through `inference.local` so provider keys never enter the container. Complements the community-authored Nebius hardening guide.
+
+---
+
+## 2026-05-19 | Ingest: NemoClaw How-It-Works, Ecosystem, Security Best Practices
+
+**3 sources acquired:**
+- `raw/articles/nvidia-nemoclaw-how-it-works.md` — https://docs.nvidia.com/nemoclaw/latest/about/how-it-works.html
+- `raw/articles/nvidia-nemoclaw-ecosystem.md` — https://docs.nvidia.com/nemoclaw/latest/about/ecosystem.html
+- `raw/articles/nvidia-nemoclaw-security-best-practices.md` — https://docs.nvidia.com/nemoclaw/latest/security/best-practices.html
+
+**3 new source pages:**
+- `sources/nvidia-nemoclaw-how-it-works.md` — 7-component architecture, CLI/Plugin/Blueprint components, `nemoclaw onboard` flow, inference routing, four protection layers
+- `sources/nvidia-nemoclaw-ecosystem.md` — Three-layer stack (NemoClaw → OpenShell → OpenClaw), two deployment paths, NemoClaw vs community sandbox comparison
+- `sources/nvidia-nemoclaw-security-best-practices.md` — Four-layer deny-by-default model, binary-scoped + L7 network controls, capability drops, posture profiles, 6 common mistakes, 3 known limitations
+
+**2 new wiki pages:**
+- `entities/openShell.md` — NVIDIA's sandbox execution environment; middle layer; enforces all four security layers; operator approval TUI
+- `concepts/agent-sandbox-security.md` — Synthesis of NemoClaw security model, Nebius guide, and Microsoft analysis; four-layer model reference; posture profiles; common mistakes; known limitations
+
+**1 page updated:**
+- `entities/nemoclaw.md` — Expanded with full architecture detail (7 components, 3 integration components, design principles, 4-layer security table, NemoClaw vs OpenShell-direct comparison); added links to new sources and openShell entity
+- `wiki/index.md` — Added 3 sources + openShell entity + agent-sandbox-security concept; total_pages 144 → 149
+
+**Key insight:** The security best practices doc reveals a sophisticated network control model — binary-scoped endpoint rules (SHA256 hash of `/proc/<pid>/exe`) + L7 HTTP inspection per request. This is materially more precise than the Nebius community guide. The user/gateway separation preventing "fake-HOME" attacks is a non-obvious invariant not covered elsewhere. The six common mistakes section is directly actionable for any OpenClaw deployment.

@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-19
-total_pages: 144
+total_pages: 149
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -32,6 +32,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[feature-list-pattern|Feature List Pattern]] — JSON enumeration of all project features with pass/fail status; prevents premature task completion in long-running agents
 - [[blueprints|Blueprints]] — Stripe's structured documentation encoding service contracts and interface specs; primary feedforward guides for Minions agents
 - [[llm-gateway|LLM Gateway]] — Unified API proxy for routing LLM requests across multiple providers; handles translation, load balancing, inference routing, and cost optimization
+- [[agent-sandbox-security|Agent Sandbox Security]] — Four-layer deny-by-default security model for AI agent sandboxes: network egress (binary-scoped + L7), filesystem (Landlock), process (capability drops, user separation), inference routing; synthesizes NemoClaw + community hardening guides
 
 ### Agentic Commerce & Protocols
 
@@ -107,6 +108,9 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### Agent Security
 
 - [[nvidia-nemoclaw-overview|NVIDIA NemoClaw Overview]] — Official NVIDIA reference stack for deploying OpenClaw safely: hardened OpenShell blueprint, three-primitive isolation (Landlock + seccomp + network namespaces), credential-isolated inference routing via `inference.local`, declarative YAML egress policies (alpha, 2026-05-19)
+- [[nvidia-nemoclaw-how-it-works|NVIDIA NemoClaw — How It Works]] — Architecture doc: 7-component gateway-mediated design, three integration components (CLI/Plugin/Blueprint), `nemoclaw onboard` three-step flow, inference routing through `inference.local`, four protection layers with hot-reload split
+- [[nvidia-nemoclaw-ecosystem|NVIDIA NemoClaw — Ecosystem]] — Three-layer stack (NemoClaw → OpenShell → OpenClaw), two deployment paths (NemoClaw reference vs OpenShell-direct), NemoClaw vs community sandbox feature comparison
+- [[nvidia-nemoclaw-security-best-practices|NVIDIA NemoClaw — Security Best Practices]] — Four-layer deny-by-default model; binary-scoped + L7 network rules; capability drops; user separation; gateway auth; memory secret scanner; posture profiles; 6 common mistakes; 3 known limitations
 - [[running-openclaw-safely|Running OpenClaw Safely]] — Microsoft security analysis: identity isolation, three primary risks, runtime vs platform (Moltbook), end-to-end attack scenario, minimum safe operating posture
 - [[nebius-openclaw-security|OpenClaw Security: Architecture and Hardening Guide]] — Nebius security deep-dive, updated 2026-05-08 with multi-user focus: Gateway as single boundary, sandboxing hierarchy (Off/Non-main/All), per-agent tool allowlists, ClawHavoc campaign (Jan 2026), memory poisoning via MEMORY.md/SOUL.md, access control best practices, hardening checklist (OpenClaw = untrusted code execution with persistent credentials)
 
@@ -201,7 +205,8 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[codex|Codex]] — OpenAI's AI coding agent (GPT-5); autonomous software engineering; central to Harness Engineering research
 - [[cube|Cube]] — Open-source headless semantic layer; API-first (REST/GraphQL/SQL); pre-aggregation engine; leader in headless BI
 - [[moltbook|Moltbook]] — Agent-focused platform and identity layer; instruction propagation and authentication hub
-- [[nemoclaw|NemoClaw]] — NVIDIA's hardened reference stack for deploying OpenClaw: OpenShell sandbox, Landlock + seccomp + network namespaces, credential-isolated inference routing (alpha)
+- [[nemoclaw|NemoClaw]] — NVIDIA's hardened reference stack for deploying OpenClaw: CLI + Plugin + Blueprint orchestration over OpenShell; four-layer security model; credential-isolated inference routing via `inference.local` (alpha)
+- [[openShell|OpenShell]] — NVIDIA's sandbox execution environment; middle layer of the NemoClaw stack; enforces network egress, filesystem, process, and inference policies; operator approval TUI for blocked requests
 - [[openclaw|OpenClaw]] — Open-source self-hosted agent gateway; messaging platform integration; transparent memory (MEMORY.md)
 - [[tensorflow-recommenders|TensorFlow Recommenders]] — TensorFlow library (Google) for building two-tower retrieval models
 - [[trae|Trae]] — AI coding agent by ByteDance; published the Definitive Guide to Harness Engineering; introduced R.E.S.T. framework
