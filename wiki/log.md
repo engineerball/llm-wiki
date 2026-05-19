@@ -694,3 +694,12 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/index.md` — Added 3 sources + openShell entity + agent-sandbox-security concept; total_pages 144 → 149
 
 **Key insight:** The security best practices doc reveals a sophisticated network control model — binary-scoped endpoint rules (SHA256 hash of `/proc/<pid>/exe`) + L7 HTTP inspection per request. This is materially more precise than the Nebius community guide. The user/gateway separation preventing "fake-HOME" attacks is a non-obvious invariant not covered elsewhere. The six common mistakes section is directly actionable for any OpenClaw deployment.
+
+---
+
+## 2026-05-19 | recompile | Agent Sandbox Security section
+
+**Pages updated:**
+- `wiki/overview.md` — expanded section 1 (Agentic AI & Harness Engineering) with NemoClaw / OpenShell / OpenClaw 3-layer stack, four-layer deny-by-default security table, updated domain map; date updated to 2026-05-19
+
+**Motivation:** Four NemoClaw docs ingested today elevated agent sandbox security from a footnote to a distinct sub-domain. Overview.md now maps the full NemoClaw stack and links to the new [[agent-sandbox-security]] synthesis page.

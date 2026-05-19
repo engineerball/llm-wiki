@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 tags: [meta, overview, synthesis]
-date: 2026-05-06
+date: 2026-05-19
 ---
 
 # Wiki Overview
@@ -22,9 +22,27 @@ Key ideas:
 - **[[context-management-for-agents]]** — long-running agents face context degradation and context anxiety; the wiki pattern (external persistent knowledge) is one mitigation.
 - **[[agentic-ai-system]]** — a 9-layer reference architecture spanning User, Orchestration, Agent, Tools, Memory, Knowledge, Gateway, Security, and Observability layers.
 
-Security dimension: **[[openclaw]]** and the OpenClaw security research ([[running-openclaw-safely]], [[nebius-openclaw-security]]) show what breaks when agents run on third-party skills — supply chain attacks, memory poisoning, API key harvesting — and how to mitigate via sandboxing and explicit allowlists.
+**Agent sandbox security** has become a distinct sub-domain. The reference implementation is the NemoClaw / OpenShell / OpenClaw stack (NVIDIA, alpha 2026):
+
+```
+NemoClaw (orchestration: CLI + Plugin + Blueprint)
+  └── OpenShell (isolation: gateway + policy enforcement)
+        └── OpenClaw (agent: tools + memory + behavior)
+```
+
+**[[agent-sandbox-security]]** synthesizes the full threat model and mitigation pattern across four deny-by-default layers:
+
+| Layer | Key Mechanism | Insight |
+|---|---|---|
+| **Network** | Binary-scoped + L7 rules | SHA256 hash of `/proc/<pid>/exe`; L7 terminates TLS and inspects HTTP method/path per request |
+| **Filesystem** | Landlock LSM | Kernel allow-list; read-only system paths; only `/sandbox` and `/tmp` writable |
+| **Process** | Capability drops + user separation | `CAP_SYS_ADMIN`, `CAP_NET_RAW`, etc. dropped; gateway/sandbox user split blocks "fake-HOME" attack |
+| **Inference** | Credential isolation via `inference.local` | Provider keys never enter container; adding provider hosts to network policy bypasses this |
+
+The Nebius community guide ([[nebius-openclaw-security]]) and Microsoft analysis ([[running-openclaw-safely]]) frame the same threat from the operator perspective — supply chain attacks, memory poisoning via `MEMORY.md`, API key harvesting. Both sources agree: treat agents as **untrusted code execution with persistent credentials**.
 
 → Start with [[harness-engineering]], then [[guides-and-sensors]], then [[harnessability]].
+→ For the security sub-domain: [[agent-sandbox-security]] → [[nemoclaw]] → [[openShell]] → [[openclaw]].
 
 ---
 
@@ -115,7 +133,8 @@ Agentic AI & Harness Eng.
   ├── harness-engineering        ├── guides-and-sensors
   ├── harnessability             ├── agentic-ai-system
   ├── generator-evaluator        ├── context-management-for-agents
-  └── (security) openclaw, moltbook, agentgateway
+  ├── (security) agent-sandbox-security → nemoclaw → openShell → openclaw
+  └── (security) nebius-openclaw-security, running-openclaw-safely, moltbook, agentgateway
 
 Agentic Commerce
   ├── agentic-protocol-stack     ├── ucp → ucp-negotiation-protocol
