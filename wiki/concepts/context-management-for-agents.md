@@ -54,6 +54,20 @@ Effective handoffs for context resets include:
 - Constraints discovered during implementation
 - Known bugs or issues deferred
 
+## Thinking Room (Team OS Extension)
+
+Hannah Stulberg (2026) adds a fourth concept — **thinking room** — to the standard context discussion:
+
+> "Thinking room is the difference between how much information you have in the conversation and how big the context window is. That is where the model can think and reason. The more information you have, the less room there is to think and reason."
+
+This reframes context management not just as avoiding overflow, but as actively *maximising reasoning headroom*. In a well-structured [[Team OS]] repository, a cross-customer synthesis query uses ~3% of the context window — leaving 97% as thinking room. In a poorly structured setup, Claude loads irrelevant files and burns most of the window before doing any work.
+
+## Context Rot (Team OS Extension)
+
+**Context rot** = stale context in the repository that causes Claude to work from outdated information. Unlike context degradation (which happens within a session) or context anxiety (which is a model behaviour), context rot is an *organisational hygiene problem* — it accumulates between sessions when team members fail to update repository docs alongside their deliverables.
+
+Mitigation: treat context currency as a launch gate. The Team OS approach: "The feature is not rolled out until the repository is updated."
+
 ## Related
 
 - [[generator-evaluator-architecture]] — context management is critical within long generator-evaluator loops
@@ -62,3 +76,4 @@ Effective handoffs for context resets include:
 - [[llm-wiki-pattern]] — cross-wiki knowledge solves context degradation by externalizing knowledge outside the context window
 - [[progressive-disclosure]] — preventative strategy: load only what the current task needs from the start, rather than waiting for context to fill
 - [[para-method]] — PARA workspace implements progressive disclosure structurally via root vs per-project CLAUDE.md files
+- [[team-os]] — the Team OS architecture is built entirely around maximising thinking room via progressive doc index loading and structured summaries

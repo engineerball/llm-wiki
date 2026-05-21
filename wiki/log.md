@@ -722,3 +722,24 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/index.md` — added institutional-ai to Concepts (Agentic AI & Harness Engineering section) and source to Agent Engineering & Harness Engineering section; total_pages 149 → 151
 
 **Motivation:** Sivulka's essay articulates why 10× individual AI productivity has not translated into enterprise value — the electrification analogy. The seven pillars (coordination, signal, objectivity, edge, outcomes, enablement, unprompted) map cleanly onto existing wiki concepts (Agentic AI System, Harness Engineering, Generator-Evaluator, Context Management for Agents, A2A/MCP protocols). Created a new [[institutional-ai]] concept page as a synthesis hub connecting these threads.
+
+---
+
+## 2026-05-21 | ingest | team-os-claude-code-hannah-stulberg-2026
+
+**Source:** https://www.aakashg.com/hannah-stulberg-podcast/  
+**Author:** Hannah Stulberg (guest), Aakash Gupta (host)  
+**Published:** April 6, 2026  
+**Format:** ~90-min podcast transcript
+
+**New files:**
+- `raw/articles/team-os-claude-code-hannah-stulberg-2026.md` — full transcript
+- `wiki/sources/team-os-claude-code-hannah-stulberg-2026.md` — source summary with architecture, context theory, plan mode, parallel agents, PR workflow
+- `wiki/concepts/team-os.md` — new concept page for Team OS
+
+**Pages updated:**
+- `wiki/concepts/context-management-for-agents.md` — added "thinking room" and "context rot" as new concept extensions from Stulberg
+- `wiki/concepts/progressive-disclosure.md` — added Team OS as the team-scale instantiation; quantified thinking room (3% vs 60–80% context use)
+- `wiki/index.md` — added team-os to Concepts section and source to Agent Engineering section; total_pages 151 → 153
+
+**Motivation:** The podcast is the most concrete practitioner-level description of harness engineering applied at team scale. It introduces thinking room (maximising reasoning headspace via lean context) and context rot (organisational hygiene risk from stale repo docs) as useful additions to [[context-management-for-agents]]. The Team OS architecture is also a direct implementation path for [[institutional-ai]] Pillars 1 and 6, connecting the Sivulka (previous ingest) and Stulberg frameworks.

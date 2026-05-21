@@ -69,8 +69,11 @@ The same principle appears across levels of granularity:
 - **Harness level**: AGENTS.md ~100 lines (lean) + `docs/` for details (on demand) — see [[harness-engineering]]
 - **Workspace level**: Root CLAUDE.md (portfolio) + per-project CLAUDE.md (detail) — see [[para-method]]
 - **Wiki level**: `index.md` as entry point + individual pages as depth — see [[llm-wiki-pattern]]
+- **Team level**: Root CLAUDE.md (roster + doc index) + nested per-folder CLAUDE.md files (doc indexes) + summary files + raw transcripts — see [[team-os]]
 
 In each case: a lightweight index or summary always in scope; deep content fetched only when relevant.
+
+The Team OS implementation adds a measurable outcome: a well-structured query uses ~3% of the context window versus 60–80% in a poorly structured repo. The ratio gap is thinking room — the space available for actual reasoning.
 
 ## Related
 
@@ -80,3 +83,4 @@ In each case: a lightweight index or summary always in scope; deep content fetch
 - [[llm-wiki-pattern]] — index.md + page-by-page depth is the same pattern
 - [[skills-as-markdown]] — skills can implement progressive loading within a task
 - [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]] — Meta case study
+- [[team-os]] — Team OS at team scale: nested CLAUDE.md doc indexes as progressive disclosure across a cross-functional shared repo
