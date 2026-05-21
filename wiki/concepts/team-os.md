@@ -47,7 +47,7 @@ Nothing else. Everything else belongs in nested CLAUDE.md files within subfolder
 
 Every subfolder has its own lean `CLAUDE.md` describing what's in that folder. These load progressively only when Claude navigates into the folder. Without them, Claude runs explore agents over the whole repo (expensive, slow, and context-burning).
 
-This is a direct implementation of [[Progressive Disclosure]] at team scale.
+This is a direct implementation of [[progressive-disclosure]] at team scale.
 
 ## The Four Context Principles
 
@@ -118,16 +118,16 @@ Writing is token-expensive. Single-agent long-form writing degrades when the age
 
 ## Storing Plan Files
 
-Natural Claude Code plan files are ephemeral (wiped every 24–72 hours). For complex, reusable plans, save them explicitly to the repo. Plan files are kept verbatim — not summarised — so future sessions can build on them in full. This is the "plan files as first-class repo artefacts" principle from OpenAI's harness engineering work (see [[Harness Engineering Leveraging Codex]]).
+Natural Claude Code plan files are ephemeral (wiped every 24–72 hours). For complex, reusable plans, save them explicitly to the repo. Plan files are kept verbatim — not summarised — so future sessions can build on them in full. This is the "plan files as first-class repo artefacts" principle from OpenAI's harness engineering work (see [[harness-engineering-leveraging-codex]]).
 
 ## Connections to Other Concepts
 
-- [[Harness Engineering]] — Team OS is the team-scale harness: repo = harness environment, CLAUDE.md doc indexes = guides (feedforward), analytics queries = sensors (feedback)
-- [[Progressive Disclosure]] — nested CLAUDE.md / doc index architecture is progressive disclosure applied to team knowledge
-- [[Skills as Markdown]] — shared team skills are the same pattern; Team OS extends it to enforce format consistency across contributors
-- [[Context Management for Agents]] — Team OS extends this framework with two new concepts: *thinking room* (active headroom management, not just overflow avoidance) and *context rot* (organisational staleness between sessions); the complete four-principle model is documented there
-- [[Institutional AI]] — Team OS is a concrete implementation path for Institutional AI Pillar 6 (process engineering + change management) and Pillar 1 (coordination)
-- [[Generator-Evaluator Architecture]] — the parallel agent writing pattern implements generator-evaluator at document-section granularity
+- [[harness-engineering]] — Team OS is the team-scale harness: repo = harness environment, CLAUDE.md doc indexes = guides (feedforward), analytics queries = sensors (feedback)
+- [[progressive-disclosure]] — nested CLAUDE.md / doc index architecture is progressive disclosure applied to team knowledge
+- [[skills-as-markdown]] — shared team skills are the same pattern; Team OS extends it to enforce format consistency across contributors
+- [[context-management-for-agents]] — Team OS extends this framework with two new concepts: *thinking room* (active headroom management, not just overflow avoidance) and *context rot* (organisational staleness between sessions); the complete four-principle model is documented there
+- [[institutional-ai]] — Team OS is a concrete implementation path for Institutional AI Pillar 6 (process engineering + change management) and Pillar 1 (coordination)
+- [[generator-evaluator-architecture]] — the parallel agent writing pattern implements generator-evaluator at document-section granularity
 
 ## Open Questions
 
