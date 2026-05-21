@@ -17,7 +17,7 @@ url: https://www.aakashg.com/hannah-stulberg-podcast/
 
 As roles merge (PMs shipping code, engineers making product decisions, non-technical partners contributing context), the central challenge is **scaling shared context** across the whole organisation. The answer is a **Team OS** — a structured, version-controlled knowledge repository where every team member reads and writes shared context, and where Claude (and other AI agents) use that context to produce work at dramatically higher quality and lower token cost.
 
-This is a concrete, practitioner-level instantiation of [[Harness Engineering]] and [[Progressive Disclosure]] applied at team scale.
+This is a concrete, practitioner-level instantiation of [[harness-engineering]] and [[progressive-disclosure]] applied at team scale.
 
 ## The Team OS Architecture
 
@@ -52,7 +52,7 @@ Every subfolder has its own `CLAUDE.md` acting as a doc index. These files are l
 
 **The principle:** *minimise the context consumed, not just the total context stored.*
 
-This is a direct implementation of [[Progressive Disclosure]] — root context always loaded, detailed content loaded on demand.
+This is a direct implementation of [[progressive-disclosure]] — root context always loaded, detailed content loaded on demand.
 
 ## Structured Summaries and Skills
 
@@ -123,7 +123,7 @@ Natural plan files (in `.claude/`) are ephemeral — wiped every 24–72 hours. 
 - Historical context for similar future tasks
 - Plan files are *not* summarised — they're kept verbatim so future sessions can build off them in full
 
-This mirrors the recommendation in the [[Harness Engineering Leveraging Codex]] article (OpenAI's harness engineering piece on plan files as first-class repo artefacts).
+This mirrors the recommendation in the [[harness-engineering-leveraging-codex]] article (OpenAI's harness engineering piece on plan files as first-class repo artefacts).
 
 ## Context Rot
 
@@ -131,19 +131,19 @@ This mirrors the recommendation in the [[Harness Engineering Leveraging Codex]] 
 
 ## Connections to Existing Wiki
 
-- **[[Harness Engineering]]** — Team OS is the team-scale manifestation of harness engineering: the repo is the harness, CLAUDE.md files are guides, doc indexes are feedforward controls, and analytics queries are sensors
-- **[[Progressive Disclosure]]** — nested CLAUDE.md files and doc indexes are a direct implementation of progressive context loading
-- **[[Skills as Markdown]]** — shared team skills are the same pattern described in the Meta/Anthropic skills-as-markdown work; the team extends it to enforce cross-member format consistency
-- **[[Context Management for Agents]]** — the four concepts (context, context window, compaction, thinking room) align directly with and extend the existing wiki page
-- **[[Institutional AI]]** — Team OS is a concrete implementation path for institutional AI Pillar 6 (process engineering + enablement); it solves the "how do you encode firm processes into agents" problem
-- **[[Generator-Evaluator Architecture]]** — parallel agent pattern for long-form docs implements generator-evaluator at writing scale
+- **[[harness-engineering]]** — Team OS is the team-scale manifestation of harness engineering: the repo is the harness, CLAUDE.md files are guides, doc indexes are feedforward controls, and analytics queries are sensors
+- **[[progressive-disclosure]]** — nested CLAUDE.md files and doc indexes are a direct implementation of progressive context loading
+- **[[skills-as-markdown]]** — shared team skills are the same pattern described in the Meta/Anthropic skills-as-markdown work; the team extends it to enforce cross-member format consistency
+- **[[context-management-for-agents]]** — the four concepts (context, context window, compaction, thinking room) align directly with and extend the existing wiki page
+- **[[institutional-ai]]** — Team OS is a concrete implementation path for institutional AI Pillar 6 (process engineering + enablement); it solves the "how do you encode firm processes into agents" problem
+- **[[generator-evaluator-architecture]]** — parallel agent pattern for long-form docs implements generator-evaluator at writing scale
 
 ## New Concepts Introduced
 
 - **Team OS** — new concept page created: `wiki/concepts/team-os.md`
-- **Context rot** — added to [[Context Management for Agents]]
-- **Thinking room** — added to [[Context Management for Agents]]
-- **Plan mode** — added to [[Harness Engineering]] as a guide pattern
+- **Context rot** — added to [[context-management-for-agents]]
+- **Thinking room** — added to [[context-management-for-agents]]
+- **Plan mode** — added to [[harness-engineering]] as a guide pattern
 
 ## Contradictions / Open Questions
 
