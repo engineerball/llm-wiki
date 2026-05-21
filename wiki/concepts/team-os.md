@@ -80,7 +80,10 @@ Claude never reads 50 hour-long transcripts in a single query. The two-tier stru
 Separate files for metric definitions, SQL queries, and table schemas. Retrieval granularity matches query granularity: asking "what metrics track feature X?" should not force loading all related SQL.
 
 ### Feature Launch Gate
-**"The feature is not rolled out until the repository is updated."** Context currency is treated as a first-class launch requirement. This prevents context rot — stale information in the repo that causes Claude to work from outdated context.
+**"The feature is not rolled out until the repository is updated."** Context currency is treated as a first-class launch requirement.
+
+### Context Rot
+**Context rot** = stale repository context that causes Claude to work from outdated information. Unlike session-level context degradation, context rot is an *organisational hygiene problem* — it accumulates between sessions when team members fail to update docs alongside deliverables. The feature launch gate is the primary mitigation: every PR that adds a deliverable must also update related repository context.
 
 ## The PR Workflow
 
@@ -122,7 +125,7 @@ Natural Claude Code plan files are ephemeral (wiped every 24–72 hours). For co
 - [[Harness Engineering]] — Team OS is the team-scale harness: repo = harness environment, CLAUDE.md doc indexes = guides (feedforward), analytics queries = sensors (feedback)
 - [[Progressive Disclosure]] — nested CLAUDE.md / doc index architecture is progressive disclosure applied to team knowledge
 - [[Skills as Markdown]] — shared team skills are the same pattern; Team OS extends it to enforce format consistency across contributors
-- [[Context Management for Agents]] — the four principles (context, context window, compaction, thinking room) and the context rot concept originate here
+- [[Context Management for Agents]] — Team OS extends this framework with two new concepts: *thinking room* (active headroom management, not just overflow avoidance) and *context rot* (organisational staleness between sessions); the complete four-principle model is documented there
 - [[Institutional AI]] — Team OS is a concrete implementation path for Institutional AI Pillar 6 (process engineering + change management) and Pillar 1 (coordination)
 - [[Generator-Evaluator Architecture]] — the parallel agent writing pattern implements generator-evaluator at document-section granularity
 
