@@ -703,3 +703,22 @@ Chronological record of ingests, queries, and maintenance.
 - `wiki/overview.md` — expanded section 1 (Agentic AI & Harness Engineering) with NemoClaw / OpenShell / OpenClaw 3-layer stack, four-layer deny-by-default security table, updated domain map; date updated to 2026-05-19
 
 **Motivation:** Four NemoClaw docs ingested today elevated agent sandbox security from a footnote to a distinct sub-domain. Overview.md now maps the full NemoClaw stack and links to the new [[agent-sandbox-security]] synthesis page.
+
+---
+
+## 2026-05-21 | ingest | institutional-ai-vs-individual-ai-sivulka-2026
+
+**Source:** https://www.a16z.news/p/institutional-ai-vs-individual-ai  
+**Author:** George Sivulka (Hebbia / a16z)  
+**Published:** March 12, 2026
+
+**New files:**
+- `raw/articles/institutional-ai-vs-individual-ai-sivulka-2026.md` — full article text
+- `wiki/sources/institutional-ai-vs-individual-ai-sivulka-2026.md` — source summary with seven pillars, key quotes, implications
+- `wiki/concepts/institutional-ai.md` — new concept page for Institutional AI / Institutional Intelligence
+
+**Pages updated:**
+- `wiki/concepts/agentic-ai-system.md` — added cross-reference to [[institutional-ai]] in See Also
+- `wiki/index.md` — added institutional-ai to Concepts (Agentic AI & Harness Engineering section) and source to Agent Engineering & Harness Engineering section; total_pages 149 → 151
+
+**Motivation:** Sivulka's essay articulates why 10× individual AI productivity has not translated into enterprise value — the electrification analogy. The seven pillars (coordination, signal, objectivity, edge, outcomes, enablement, unprompted) map cleanly onto existing wiki concepts (Agentic AI System, Harness Engineering, Generator-Evaluator, Context Management for Agents, A2A/MCP protocols). Created a new [[institutional-ai]] concept page as a synthesis hub connecting these threads.

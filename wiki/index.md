@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-19
-total_pages: 149
+total_pages: 151
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -24,6 +24,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[harnessability|Harnessability]] — Degree to which a codebase enables effective harness controls; increases with strong typings, clear boundaries, defined service topologies
 - [[guides-and-sensors|Guides and Sensors]] — Harness control taxonomy: Guides (feedforward) steer before action; Sensors (feedback) observe after and enable self-correction
 - [[agentic-ai-system|Agentic AI System]] — 9-layer reference architecture for goal-driven, multi-agent, orchestrated, observable, reliable AI systems
+- [[institutional-ai|Institutional AI]] — Seven-pillar framework for organisational AI: coordination, signal extraction, objectivity (anti-sycophancy), domain edge, revenue outcomes, process engineering, and unprompted action; contrasts with individual AI tools that boost personal productivity without firm-level impact
 - [[one-shot-agent|One-Shot Agent]] — Coding agent pattern: agent receives a single task and autonomously completes the full dev cycle when harness and harnessability are sufficient
 - [[initializer-coding-agent-architecture|Initializer + Coding Agent Architecture]] — Anthropic's two-role split for cross-session continuity: one-time environment setup + incremental per-session progress
 - [[generator-evaluator-architecture|Generator–Evaluator Architecture]] — Multi-agent pattern with clean role separation; addresses LLM self-evaluation blindness
@@ -104,6 +105,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[harness-engineering-claude-code-book|Harness Engineering: The Claude Code Book]] — Comprehensive design analysis of Claude Code as a harness specimen
 - [[agentgateway-kubernetes-docs|Agent Gateway: Kubernetes Docs]] — Official Kubernetes deployment docs: LLM/MCP/A2A gateway, Rust, Linux Foundation, Helm/ArgoCD, RBAC, OpenTelemetry
 - [[agentic-ai-reference-architecture|Agentic AI Reference Architecture]] — 9-layer reference architecture for goal-driven multi-agent AI systems
+- [[institutional-ai-vs-individual-ai-sivulka-2026|Institutional AI vs Individual AI]] — George Sivulka (Hebbia/a16z): seven pillars of institutional intelligence, electrification historical analogy, why individual AI productivity hasn't moved enterprise value, the "agentic management" and "process engineering" categories (Mar 2026)
 
 ### Agent Security
 
