@@ -10,6 +10,27 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-22 | ingest | obsidian-ai-second-brain-nxcode-2026
+
+**Source:** https://www.nxcode.io/resources/news/obsidian-ai-second-brain-complete-guide-2026
+**Author:** nxcode.io
+**Published:** 2026
+**Format:** Web article
+
+**New files:**
+- `raw/articles/obsidian-ai-second-brain-nxcode-2026.md` — full article text
+- `wiki/sources/obsidian-ai-second-brain-nxcode-2026.md` — source summary with plugin comparison table, MCP integration, context engineering principles, Obsidian vs Notion
+- `wiki/entities/obsidian.md` — new entity page for Obsidian as a PKM tool
+
+**Pages updated:**
+- `wiki/concepts/rag.md` — added "Personal Vault RAG (Obsidian)" section; Smart Connections as RAG-on-vault implementation; coexistence with LLM-wiki pattern
+- `wiki/concepts/llm-wiki-pattern.md` — added "Obsidian + Claude Code + MCP Implementation" section; frames Obsidian + MCP as the native individual-scale implementation of the pattern
+- `wiki/index.md` — added Obsidian source and entity; total_pages 153 → 155
+
+**Motivation:** The article concretely positions Obsidian as the primary platform for AI-augmented personal knowledge work in 2026. The Claude Code + MCP integration is the most direct individual-scale instantiation of the [[llm-wiki-pattern]]; this bridges the abstract pattern to a specific toolchain. Smart Connections (RAG) vs Claude Code + MCP (LLM-wiki) is a clean contrast already in the wiki that the article validates from a practitioner perspective.
+
+---
+
 ## [2026-05-19] ingest | Vestbee GCP FinOps tips and tools
 
 - Created `raw/articles/vestbee-gcp-finops-tips-tools.md` — fetched from Vestbee Insights

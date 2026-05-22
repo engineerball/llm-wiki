@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-19
-total_pages: 153
+total_pages: 155
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -156,6 +156,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[cdp-comparison-2026|9 Best Customer Data Platforms (CDPs) in 2026]] — Market review and comparison of 9 CDP platforms: identity resolution, segmentation, omnichannel activation (Modern Data 101 / Swami Achari)
 - [[karpathy-llm-wiki-pattern|A Pattern for Building Personal Knowledge Bases Using LLMs]] — Wiki vs RAG distinction, 3 layers, ingest/query/lint workflows, human-curates + LLM-does-bookkeeping model (Andrej Karpathy gist)
 - [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta|How We Built an AI Second Brain for 60K Knowledge Workers (Meta)]] — PARA workspace + MCP infrastructure + skills-as-markdown harness; 0 → 63K installs in 3 months; progressive disclosure as validated context strategy (Meta Analytics, 2026)
+- [[obsidian-ai-second-brain-nxcode-2026|Obsidian AI Second Brain: Complete Guide 2026 (nxcode.io)]] — Obsidian as AI knowledge platform: Smart Connections (vault RAG), Claude Code + MCP for direct vault read/write, 5 context-engineering principles, Obsidian vs Notion; 1.5M users, 22% YoY growth (nxcode.io, 2026)
 
 ### LLM Architecture
 
@@ -179,6 +180,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### Organizations
 
 - [[anthropic|Anthropic]] — AI safety research lab; creator of Claude model family and Effective Harnesses research
+- [[obsidian|Obsidian]] — Local-first Markdown PKM tool; 1.5M users (2026), 2,700+ plugins; primary platform for AI-augmented personal knowledge management via Smart Connections (RAG) and Claude Code + MCP
 - [[meta|Meta]] — Meta Platforms; analytics team built the AI Second Brain harness (63K users, 3 months); PARA + MCP + skills-as-markdown architecture
 - [[tiago-forte|Tiago Forte]] — Productivity author; creator of the PARA Method; *Building a Second Brain* (2022)
 - [[bytedance|ByteDance]] — Chinese tech company; parent of Trae and TikTok; active in agent engineering research

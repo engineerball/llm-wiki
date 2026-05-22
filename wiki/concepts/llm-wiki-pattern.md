@@ -70,6 +70,16 @@ Both patterns externalize knowledge outside the LLM's finite context window; bot
 
 See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]] and [[para-method]].
 
+## Obsidian + Claude Code + MCP Implementation (2026)
+
+The most direct individual-scale implementation of the LLM-wiki pattern uses [[obsidian]] as the vault and Claude Code connected via [[model-context-protocol|MCP]] as the LLM agent. The MCP server gives Claude Code direct read/write access to the Obsidian vault — no copy-paste, no file management by the human. The human curates sources; the LLM does the bookkeeping.
+
+Contrast: the popular **Smart Connections** Obsidian plugin takes the [[rag]] approach instead — it retrieves from raw note chunks at query time rather than maintaining synthesized wiki pages. Both work; they solve different problems (fast lookup vs deep synthesis).
+
+The vault structuring principles that maximize AI effectiveness — atomic notes, YAML frontmatter, explicit wikilinks, consistent naming — are the Obsidian-native expression of [[context-management-for-agents]].
+
+See [[obsidian]] and [[obsidian-ai-second-brain-nxcode-2026]].
+
 ## Related Concepts
 
 - [[harness-engineering]] — the LLM-wiki pattern is a harness that constrains and directs LLM behavior for knowledge management

@@ -23,8 +23,15 @@ A technique where an LLM retrieves relevant document chunks from a vector store 
 | No accumulation — same raw docs every time | Compounding artifact — wiki grows richer with each ingest |
 | Rediscovers context from scratch each query | Persistent cross-referenced knowledge base |
 
+## Personal Vault RAG (Obsidian)
+
+RAG applied to a personal knowledge vault rather than a document corpus. The [[obsidian]] plugin **Smart Connections** is the most widely used implementation (2026): indexes the entire vault into vector embeddings, enables conversational Q&A with source citations. A fully local variant (**Smart Second Brain** plugin) runs the pipeline on-device with Ollama.
+
+Key difference from [[llm-wiki-pattern]]: Smart Connections retrieves from raw note chunks at query time; the LLM-wiki pre-processes notes into synthesized pages that compound over time. Both can coexist — RAG for fast lookup, LLM-wiki for deep synthesis.
+
 ## See Also
 
-- [[llm-wiki-pattern]] — an alternative to RAG for personal knowledge bases
+- [[llm-wiki-pattern]] — alternative to RAG for personal knowledge bases; compounding vs retrieval
 - [[graph-rag]] — graph-enhanced variant of RAG
 - [[semantic-layer]] — provides structured context that RAG systems can query
+- [[obsidian]] — primary platform for personal vault RAG (Smart Connections plugin)
