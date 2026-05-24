@@ -6,65 +6,65 @@
       <description>Last 10 notes on TK Personal Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Argo Workflows</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/argo-workflows</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/argo-workflows</guid>
-    <description><![CDATA[ Argo Workflows A container-native workflow engine for orchestrating parallel jobs on Kubernetes. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Wiki Index</title>
+    <link>https://https://engineerball.github.io/llm-wiki/</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/</guid>
+    <description><![CDATA[ Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps ]]></description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>DeepWalk</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/deepwalk</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/deepwalk</guid>
-    <description><![CDATA[ DeepWalk A graph embedding algorithm that uses random walks to learn node representations. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>AI Coding Agents &amp; Software Engineering</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/ai-coding-agents-software-engineering-andrew-ng-aidev26</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/ai-coding-agents-software-engineering-andrew-ng-aidev26</guid>
+    <description><![CDATA[ AI Coding Agents &amp; Software Engineering Speaker: Andrew Ng Event: AI Dev 26 Source: YouTube Core Thesis AI coding agents กำลังเปลี่ยนแปลง software engineering อย่างลึกซึ้ง โดยการสร้างโค้ดเร็วขึ้นมากจน bottleneck ย้ายไปอยู่ที่ส่วนอื่น และความต้องการ engineer ยังสูงแต่ skill set ต้องเปลี่ยน Key Ta... ]]></description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Feast</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/feast</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/feast</guid>
-    <description><![CDATA[ Feast — Feature Store An open-source machine learning feature store for serving, discovering, and managing features. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Software Engineering at the Tipping Point</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/software-engineering-tipping-point-bender-gcp-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/software-engineering-tipping-point-bender-gcp-2026</guid>
+    <description><![CDATA[ Software Engineering at the Tipping Point Speaker: Adam Bender (Principal Software Engineer, Google) Event: Google I/O 2026 Source: YouTube Core Thesis AI กำลังเพิ่มปริมาณโค้ดที่สร้างได้อย่างรวดเร็ว (10x - 100x หรือมากกว่านั้น) แต่มันกำลังผลักให้ระบบวิศวกรรมซอฟต์แวร์ทั้งหมดเข้าสู่ “จุดเปลี่ยน” (tipp... ]]></description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>GraphSage</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/graphsage</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/graphsage</guid>
-    <description><![CDATA[ GraphSage An inductive representation learning method for large graphs by Hamilton et al. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Obsidian</title>
+    <link>https://https://engineerball.github.io/llm-wiki/entities/obsidian</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/entities/obsidian</guid>
+    <description><![CDATA[ Obsidian A local-first, Markdown-based personal knowledge management (PKM) tool. ]]></description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>KFP — Kubeflow Pipelines</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/kubeflow-pipelines</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/kubeflow-pipelines</guid>
-    <description><![CDATA[ KFP — Kubeflow Pipelines A platform for building, deploying, and managing end-to-end machine learning workflows on Kubernetes. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Obsidian AI Second Brain: Complete Guide 2026 (nxcode.io)</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/obsidian-ai-second-brain-nxcode-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/obsidian-ai-second-brain-nxcode-2026</guid>
+    <description><![CDATA[ Obsidian AI Second Brain: Complete Guide 2026 Source: www.nxcode.io/resources/news/obsidian-ai-second-brain-complete-guide-2026 Published: 2026 | Author: nxcode.io A practitioner guide to building an AI-powered personal knowledge management system using Obsidian. ]]></description>
+    <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Kubernetes</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/kubernetes</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/kubernetes</guid>
-    <description><![CDATA[ Kubernetes Open-source container orchestration platform. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Institutional AI</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/institutional-ai</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/institutional-ai</guid>
+    <description><![CDATA[ Institutional AI Institutional AI (also: Institutional Intelligence) is a class of AI system designed to deliver organisational outcomes — coordination, signal extraction, objectivity, domain edge, revenue uplift, process enablement, and unprompted action — as distinct from Individual AI, which opti... ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Matrix Factorization</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/matrix-factorization</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/matrix-factorization</guid>
-    <description><![CDATA[ Matrix Factorization A foundational recommendation technique that decomposes a user-item interaction matrix into low-dimensional latent factor vectors (called embeddings) for users and items. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Team OS</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/team-os</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/team-os</guid>
+    <description><![CDATA[ Team OS Team OS (Team Operating System) is a shared, version-controlled knowledge repository used by an entire cross-functional team as the primary working environment for Claude (and other AI agents). ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Netflix Prize</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/netflix-prize</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/netflix-prize</guid>
-    <description><![CDATA[ Netflix Prize A 2006 competition by Netflix offering a $1M prize for improving collaborative filtering accuracy by 10%. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Institutional AI vs Individual AI</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/institutional-ai-vs-individual-ai-sivulka-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/institutional-ai-vs-individual-ai-sivulka-2026</guid>
+    <description><![CDATA[ Institutional AI vs Individual AI Author: George Sivulka (Hebbia / a16z) Published: March 12, 2026 Key question: Why hasn’t enterprise AI productivity translated into enterprise value? Core Thesis The productivity paradox of AI mirrors the electricity paradox of the 1890s: electrified textile mills ... ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Red Hat OpenShift AI</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/openshift-ai</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/openshift-ai</guid>
-    <description><![CDATA[ Red Hat OpenShift AI A Kubernetes-native AI/ML platform by Red Hat. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Build a Team OS with Claude Code — Hannah Stulberg</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/team-os-claude-code-hannah-stulberg-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/team-os-claude-code-hannah-stulberg-2026</guid>
+    <description><![CDATA[ Build a Team OS with Claude Code — Hannah Stulberg Format: Podcast (~90 min), transcript at aakashg.com Key framing: Claude Code is not a coding tool — it is the IDE for team knowledge work. ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>StarSpace</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/starspace</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/starspace</guid>
-    <description><![CDATA[ StarSpace A general-purpose embedding model by Chopra et al. ]]></description>
-    <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+    <title>Agent Sandbox Security</title>
+    <link>https://https://engineerball.github.io/llm-wiki/concepts/agent-sandbox-security</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/concepts/agent-sandbox-security</guid>
+    <description><![CDATA[ Agent Sandbox Security Security model for running AI agents in isolated sandbox environments. ]]></description>
+    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
-updated: 2026-05-19
-total_pages: 155
+updated: 2026-05-24
+total_pages: 157
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -150,6 +150,11 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[finops-personas-finops-foundation|FinOps Personas (FinOps Foundation)]] — 6 Core personas (Engineering, Finance, Procurement, IT Ops, Product, Executive) + 5 Allied personas (ITAM, ITFM, Sustainability, ITSM/ITIL, Security); Intersecting Disciplines framework
 - [[cdv-government-cloud-usage-guideline|Thailand Digital Government Standard — Government Cloud Usage Guideline (DGS 9-2:2568)]] — Thai government "Go Cloud First" policy implementation: cloud type selection by data classification, FinOps as mandated operating model, pricing models, migration 6Rs, procurement, security, backup/recovery (DGA / สพร., 2025)
 - [[vestbee-gcp-finops-tips-tools|Google Cloud FinOps: Tips and Tools (Vestbee)]] — Five success metrics lens: Accountability & Enablement, Measurement & Realization, Cost Optimization (CUDs/SUDs/Preemptible), Planning & Forecasting, Active Assist recommenders (Vestbee Insights)
+
+### AI & Software Engineering
+
+- [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI เพิ่มโค้ด 10-100x แต่ระบบรอบข้างทนไม่ไหว; software ecology thinking, shared fate ที่ล้มเหลว, call to action สำหรับปรับ infrastructure
+- [[ai-coding-agents-software-engineering-andrew-ng-aidev26|AI Coding Agents & Software Engineering (AI Dev 26)]] — Andrew Ng: software = building blocks assembly; bottleneck ย้ายไป product/design/legal/marketing; ยุค generalist; ปิดกั้น AI job apocalypse
 
 ### Data & Knowledge
 

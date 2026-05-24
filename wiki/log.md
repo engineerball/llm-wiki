@@ -10,6 +10,25 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-24 | ingest | software-engineering-tipping-point + ai-coding-agents
+
+**Sources:**
+1. Software Engineering at the Tipping Point — Adam Bender (Google I/O 2026) https://youtu.be/2n41YjR5QfU
+2. AI Coding Agents & Software Engineering — Andrew Ng (AI Dev 26) https://youtu.be/g8um2AEf5ZA
+
+**New files:**
+- `raw/articles/software-engineering-tipping-point-bender-gcp-2026.md` — full article text
+- `raw/articles/ai-coding-agents-software-engineering-andrew-ng-aidev26.md` — full article text
+- `wiki/sources/software-engineering-tipping-point-bender-gcp-2026.md` — source summary
+- `wiki/sources/ai-coding-agents-software-engineering-andrew-ng-aidev26.md` — source summary
+
+**Pages updated:**
+- `wiki/index.md` — added 2 new sources under "AI & Software Engineering" section; total_pages 155 → 157
+
+**Themes:** AI-driven code acceleration (10-100x), shifting bottlenecks, software ecology, shared fate under pressure, rise of generalist engineers, AI job apocalypse myth
+
+---
+
 ## 2026-05-22 | ingest | obsidian-ai-second-brain-nxcode-2026
 
 **Source:** https://www.nxcode.io/resources/news/obsidian-ai-second-brain-complete-guide-2026
