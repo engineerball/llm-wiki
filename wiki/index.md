@@ -2,7 +2,7 @@
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
 updated: 2026-05-24
-total_pages: 157
+total_pages: 158
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -155,6 +155,10 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 
 - [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI เพิ่มโค้ด 10-100x แต่ระบบรอบข้างทนไม่ไหว; software ecology thinking, shared fate ที่ล้มเหลว, call to action สำหรับปรับ infrastructure
 - [[ai-coding-agents-software-engineering-andrew-ng-aidev26|AI Coding Agents & Software Engineering (AI Dev 26)]] — Andrew Ng: software = building blocks assembly; bottleneck ย้ายไป product/design/legal/marketing; ยุค generalist; ปิดกั้น AI job apocalypse
+
+### Claude Skills & Prompt Engineering
+
+- [[claude-skill-creator-vibecodingthailand-2026|Claude Skill Creator — A Practical Handbook (2026)]] — Vibe Coding Thailand: คู่มือภาษาไทย 97 หน้า สอนสร้าง Claude Skills ด้วย Prompt-First approach; 12 หน่วย + 10 copy-ready prompts; 6 skill ตัวอย่าง (Brand Voice Rewriter, YouTube Extractor, Facebook Launch Pack, Meeting-to-Action, Research-to-Carousel, SOP Builder); Skill Creator, testing, packaging
 
 ### Data & Knowledge
 

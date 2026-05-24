@@ -18,6 +18,12 @@
     <description><![CDATA[ AI Coding Agents &amp; Software Engineering Speaker: Andrew Ng Event: AI Dev 26 Source: YouTube Core Thesis AI coding agents กำลังเปลี่ยนแปลง software engineering อย่างลึกซึ้ง โดยการสร้างโค้ดเร็วขึ้นมากจน bottleneck ย้ายไปอยู่ที่ส่วนอื่น และความต้องการ engineer ยังสูงแต่ skill set ต้องเปลี่ยน Key Ta... ]]></description>
     <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>Claude Skill Creator — A Practical Handbook (2026)</title>
+    <link>https://https://engineerball.github.io/llm-wiki/sources/claude-skill-creator-vibecodingthailand-2026</link>
+    <guid>https://https://engineerball.github.io/llm-wiki/sources/claude-skill-creator-vibecodingthailand-2026</guid>
+    <description><![CDATA[ Claude Skill Creator — A Practical Handbook (2026) Author: Vibe Coding Thailand (TK) Format: PDF (97 pages) — scanned, OCR-extracted Source: vibecodingthailand.com/downloads/claude-skill-creator.pdf Series: Prompt-First Series, Vol. ]]></description>
+    <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Software Engineering at the Tipping Point</title>
     <link>https://https://engineerball.github.io/llm-wiki/sources/software-engineering-tipping-point-bender-gcp-2026</link>
     <guid>https://https://engineerball.github.io/llm-wiki/sources/software-engineering-tipping-point-bender-gcp-2026</guid>
@@ -59,12 +65,6 @@
     <guid>https://https://engineerball.github.io/llm-wiki/sources/team-os-claude-code-hannah-stulberg-2026</guid>
     <description><![CDATA[ Build a Team OS with Claude Code — Hannah Stulberg Format: Podcast (~90 min), transcript at aakashg.com Key framing: Claude Code is not a coding tool — it is the IDE for team knowledge work. ]]></description>
     <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Agent Sandbox Security</title>
-    <link>https://https://engineerball.github.io/llm-wiki/concepts/agent-sandbox-security</link>
-    <guid>https://https://engineerball.github.io/llm-wiki/concepts/agent-sandbox-security</guid>
-    <description><![CDATA[ Agent Sandbox Security Security model for running AI agents in isolated sandbox environments. ]]></description>
-    <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

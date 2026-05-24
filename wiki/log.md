@@ -10,6 +10,25 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-24 | ingest | claude-skill-creator-vibecodingthailand-2026
+
+**Source:** Claude Skill Creator — A Practical Handbook (2026 Edition)
+**Author:** Vibe Coding Thailand (TK)
+**URL:** https://vibecodingthailand.com/downloads/claude-skill-creator.pdf
+**Format:** PDF (97 pages), scanned/image-based, OCR-extracted with Tesseract (tha+eng)
+
+**New files:**
+- `raw/assets/claude-skill-creator-vibecodingthailand-2026.pdf` — original PDF
+- `raw/text/claude-skill-creator-vibecodingthailand-2026.md` — OCR-extracted text
+- `wiki/sources/claude-skill-creator-vibecodingthailand-2026.md` — source summary
+
+**Pages updated:**
+- `wiki/index.md` — added source under new "Claude Skills & Prompt Engineering" section; total_pages 157 → 158
+
+**Content coverage:** Prompt-First approach to Claude Skills; Skill anatomy (SKILL.md + references + assets + scripts); Skill Creator workflow; 6 practical skills (Brand Voice Rewriter, YouTube Content Extractor, Facebook Launch Pack, Meeting-to-Action Pack, Research-to-Carousel Planner, Personal SOP Builder); testing & grading; packaging as Skill Pack; 10 copy-ready prompts; glossary; official sources map
+
+---
+
 ## 2026-05-24 | ingest | software-engineering-tipping-point + ai-coding-agents
 
 **Sources:**
