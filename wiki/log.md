@@ -10,6 +10,18 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-25 | synthesis | ai-engineering-shift + software-ecology
+
+**Type:** Concept synthesis (Phase 10 Plan → execute)
+**New pages:**
+- `concepts/software-ecology.md` — Bender's systems-thinking framework: software engineering as socio-technical ecosystem, Shared Fate breakdown, system health metrics
+- `concepts/ai-engineering-shift.md` — synthesis of Bender (Google I/O 2026) + Andrew Ng (AI Dev 26): bottleneck migration, generalist engineer, Shared Fate under stress
+
+**Updated:** `index.md` (+2 concepts, total 160), `overview.md` (+section 6: AI & Software Engineering, domain map)
+**Sources:** [[software-engineering-tipping-point-bender-gcp-2026]], [[ai-coding-agents-software-engineering-andrew-ng-aidev26]]
+
+---
+
 ## 2026-05-24 | ingest | claude-skill-creator-vibecodingthailand-2026
 
 **Source:** Claude Skill Creator — A Practical Handbook (2026 Edition)

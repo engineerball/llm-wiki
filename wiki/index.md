@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
-updated: 2026-05-24
-total_pages: 158
+updated: 2026-05-25
+total_pages: 160
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -35,6 +35,8 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[blueprints|Blueprints]] — Stripe's structured documentation encoding service contracts and interface specs; primary feedforward guides for Minions agents
 - [[llm-gateway|LLM Gateway]] — Unified API proxy for routing LLM requests across multiple providers; handles translation, load balancing, inference routing, and cost optimization
 - [[agent-sandbox-security|Agent Sandbox Security]] — Four-layer deny-by-default security model for AI agent sandboxes: network egress (binary-scoped + L7), filesystem (Landlock), process (capability drops, user separation), inference routing; synthesizes NemoClaw + community hardening guides
+- [[software-ecology|Software Ecology]] — Systems-thinking framework treating software engineering as a holistic socio-technical ecosystem; when AI accelerates code velocity 10–100x, bottlenecks migrate to testing/review/architecture and Shared Fate breaks down (Bender, Google I/O 2026)
+- [[ai-engineering-shift|AI Engineering Shift]] — Structural transformation when coding velocity increases 10–100x: bottleneck migration from code to product/design/legal, rise of the generalist engineer, Shared Fate under stress; synthesis of Bender (systemic risk) and Andrew Ng (opportunity)
 
 ### Agentic Commerce & Protocols
 

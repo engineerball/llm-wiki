@@ -1,12 +1,12 @@
 ---
 title: "Overview"
 tags: [meta, overview, synthesis]
-date: 2026-05-19
+date: 2026-05-25
 ---
 
 # Wiki Overview
 
-High-level synthesis of this wiki's five knowledge domains. Each domain has its own concept pages, source summaries, and entity pages — linked throughout. This page is the map.
+High-level synthesis of this wiki's seven knowledge domains. Each domain has its own concept pages, source summaries, and entity pages — linked throughout. This page is the map.
 
 ---
 
@@ -113,7 +113,25 @@ Structural parallel to harness engineering: budgets and policies are **guides** 
 
 ---
 
-## 6. Knowledge Management (Meta)
+## 6. AI & Software Engineering
+
+AI coding tools are increasing code production velocity by **10–100x**. This is not just faster code — it restructures the entire engineering discipline.
+
+Two perspectives (2026) converge on the same premise and disagree only in emphasis:
+
+- **[[software-ecology]] (Adam Bender, Google I/O 2026):** systemic risk lens. Writing code is one step in a long pipeline: code → test → review → deploy → monitor → maintain. When only the first step accelerates, bottlenecks migrate downstream. Google's **Shared Fate** principle — the author is accountable for their code's consequences — breaks structurally when AI generates volumes of code that no single engineer fully understands. Engineering must be measured by **system health**, not coding velocity.
+
+- **[[ai-engineering-shift]] (Andrew Ng, AI Dev 26):** opportunity lens. Bottlenecks migrate from coding to **product management, design, legal, and marketing**. The new high-value engineer is a **generalist**: orchestrates AI agents, assembles building blocks, switches roles fluidly. Demand for engineers stays high; the skill set changes.
+
+**Shared thesis:** Both dismiss the "AI job apocalypse" for engineers. Both agree that engineers who treat hand-written code as their core identity will fall behind — not because AI replaces them, but because that skill has been commoditized.
+
+**Connection to harness engineering:** Software ecology explains *why* harness engineering exists. The shift creates the need for [[guides-and-sensors]] (feedforward constraints + feedback loops that govern agents when the human author isn't present) and [[harnessability]] (codebases structured so agents can be reliably controlled).
+
+→ Start with [[software-ecology]], then [[ai-engineering-shift]].
+
+---
+
+## 7. Knowledge Management (Meta)
 
 This wiki is itself an instance of the **[[llm-wiki-pattern]]** — originated in an Andrej Karpathy gist and extended here. Rather than re-deriving knowledge from raw documents at query time (RAG), an LLM reads sources and writes persistent, cross-linked wiki pages. Knowledge accumulates: contradictions get flagged once, cross-references are pre-computed, synthesis persists across sessions.
 
@@ -152,6 +170,10 @@ Recommendation Systems
 
 FinOps
   └── finops → finops-lifecycle
+
+AI & Software Engineering
+  ├── software-ecology (Bender: Shared Fate, system health)
+  └── ai-engineering-shift (Bender + Ng: bottleneck migration, generalist engineer)
 
 Knowledge Management (meta)
   └── llm-wiki-pattern → rag (contrast)
