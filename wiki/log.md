@@ -10,6 +10,34 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-05-28 | add | skill-md-specification
+
+**New pages:**
+- `concepts/skill-md-specification.md` — SKILL.md file format and structural spec (OpenClaw/Claude Code): frontmatter, directory structure, writing principles, progressive disclosure, creation process, packaging
+
+**Updated:** `index.md` (+1 concept, total 161)
+
+---
+
+## 2026-05-27 | ingest | software-engineering-kab-harness-engineering-10x-technical-debt
+
+**Source:** Software Engineering กับ Harness Engineering: 10x หรือ Technical Debt
+**Author:** ODDS Team Blog
+**URL:** https://blog.odds.team/software-engineering-kab-harness-engineering-10x-hruue-technical-debt/
+**Language:** ภาษาไทย
+
+**New files:**
+- `raw/articles/software-engineering-kab-harness-engineering-10x-technical-debt-odds-team-2026.md` — raw article
+- `wiki/sources/software-engineering-kab-harness-engineering-10x-technical-debt-odds-team-2026.md` — source summary
+
+**Pages updated:**
+- `wiki/concepts/harness-engineering.md` — added "Harness Decay — Industry Evidence" section (Manus, LangChain, Vercel examples)
+- `wiki/index.md` — added source under "AI & Software Engineering" section; total_pages 158 → 159
+
+**Content coverage:** Software Ecology (Socio-Technical Ecosystem), 10x Release Cadence bottlenecks (Deploy/Release/Output/Outcome), cross-functional team pain points (Dev/QA/DevOps/Designer), Harness Engineering (OpenAI Environment-First, Anthropic Multi-Agent), Trade-offs (Cost $9→$200, Test-Passing Illusion, Harness Decay), Decision Framework (Solo/Enterprise/Regulated), Harness Decay examples (Manus 5 รอบ/6 เดือน, LangChain 3 รอบ/ปี, Vercel ลบ Tools 80%)
+
+---
+
 ## 2026-05-25 | synthesis | ai-engineering-shift + software-ecology
 
 **Type:** Concept synthesis (Phase 10 Plan → execute)
@@ -18,7 +46,7 @@ Chronological record of ingests, queries, and maintenance.
 - `concepts/ai-engineering-shift.md` — synthesis of Bender (Google I/O 2026) + Andrew Ng (AI Dev 26): bottleneck migration, generalist engineer, Shared Fate under stress
 
 **Updated:** `index.md` (+2 concepts, total 160), `overview.md` (+section 6: AI & Software Engineering, domain map)
-**Sources:** [[software-engineering-tipping-point-bender-gcp-2026]], [[ai-coding-agents-software-engineering-andrew-ng-aidev26]]
+**Sources:** [[software-engineering-tipping-point-bender-gcp-2026]], [[ai-coding-agents-software-engineering-andrew-ng-aidev26]] (ingest: Software Engineering กับ Harness Engineering 10x หรือ Technical Debt (ODDS Team))
 
 ---
 

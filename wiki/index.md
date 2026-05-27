@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
-updated: 2026-05-25
-total_pages: 160
+updated: 2026-05-28
+total_pages: 161
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -156,6 +156,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 ### AI & Software Engineering
 
 - [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI เพิ่มโค้ด 10-100x แต่ระบบรอบข้างทนไม่ไหว; software ecology thinking, shared fate ที่ล้มเหลว, call to action สำหรับปรับ infrastructure
+- [[software-engineering-kab-harness-engineering-10x-technical-debt-odds-team-2026|Software Engineering กับ Harness Engineering: 10x หรือ Technical Debt (ODDS Team)]] — บทความภาษาไทยสังเคราะห์ Adam Bender + OpenAI/Anthropic Harness Engineering; release cadence bottlenecks, cross-functional team pain points, Harness Decay examples (Manus/LangChain/Vercel), decision framework ตามสเกลองค์กร
 - [[ai-coding-agents-software-engineering-andrew-ng-aidev26|AI Coding Agents & Software Engineering (AI Dev 26)]] — Andrew Ng: software = building blocks assembly; bottleneck ย้ายไป product/design/legal/marketing; ยุค generalist; ปิดกั้น AI job apocalypse
 
 ### Claude Skills & Prompt Engineering

@@ -176,6 +176,17 @@ Key lesson mirroring Trae's framework: **infrastructure (the harness) must come 
 
 See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 
+## Harness Decay — Industry Evidence
+
+บทความจาก [[software-engineering-kab-harness-engineering-10x-technical-debt-odds-team-2026|ODDS Team]] รวบรวมตัวอย่าง Harness Decay จากหลายองค์กร:
+
+- **Anthropic (Opus progression):** Opus 4.5→4.6: ลบ task-splitting system (เปลือง Cost 40%); Opus 4.7: Self-evaluation harness ไม่ช่วย Quality แต่สูบ Token
+- **Manus:** รื้อ System ใหม่ 5 รอบใน 6 เดือน เพราะ AI Model อัปเดตเร็วเกิน
+- **LangChain:** รื้อ 3 รอบใน 1 ปี ด้วยเหตุผลเดียวกัน
+- **Vercel:** ลบ AI Tools 80% แล้ว AI ทำงานแม่นขึ้น — over-engineered harness สร้าง burden มากกว่า value
+
+สอดคล้องกับหลักการจาก [[harness-design-long-running-apps]]: "Every component in a harness encodes an assumption about what the model can't do on its own, and those assumptions are worth stress testing."
+
 ## Related Concepts
 
 - [[trae-definitive-guide-harness-engineering]] — Trae's definitive guide (horse & reins, R.E.S.T., PPAF loop, REPL container, sandboxing)
