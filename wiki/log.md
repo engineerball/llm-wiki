@@ -10,6 +10,24 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## 2026-06-01 | ingest | ralph-wiggum-technique-ghuntley-2025
+
+**Source:** Ralph Wiggum as a "software engineer"
+**Author:** Geoffrey Huntley
+**URL:** https://ghuntley.com/ralph/
+
+**New files:**
+- `raw/articles/ralph-wiggum-technique-ghuntley-2025.md` — raw article
+- `wiki/sources/ralph-wiggum-technique-ghuntley-2025.md` — source summary
+- `wiki/concepts/ralph-wiggum-technique.md` — concept page
+- `wiki/entities/geoffrey-huntley.md` — entity page
+
+**Updated:** `wiki/index.md` (+1 concept, +1 source, +1 entity, total 161 → 164)
+
+**Content coverage:** Ralph Wiggum Technique — autonomous agentic loop coding methodology; one item per loop; deterministic stack allocation (specs + fix_plan); subagents extend context; monolithic not multi-agent; backpressure via type systems/tests/static analyzers; anti-placeholder enforcement; TODO generation via 500 parallel subagents; specifications over prompts; deliberate intentional practice philosophy; CURSED programming language (LLM-built, not in training data)
+
+---
+
 ## 2026-05-28 | add | skill-md-specification
 
 **New pages:**

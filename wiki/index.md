@@ -1,8 +1,8 @@
 ---
 title: Wiki Index
 description: Catalog of all pages in TK's personal LLM wiki on agentic AI, semantic layers, recommendation systems, LLM architecture, and FinOps
-updated: 2026-05-28
-total_pages: 161
+updated: 2026-06-01
+total_pages: 164
 ---
 
 # LLM Wiki — Personal Knowledge Base
@@ -38,6 +38,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[agent-sandbox-security|Agent Sandbox Security]] — Four-layer deny-by-default security model for AI agent sandboxes: network egress (binary-scoped + L7), filesystem (Landlock), process (capability drops, user separation), inference routing; synthesizes NemoClaw + community hardening guides
 - [[software-ecology|Software Ecology]] — Systems-thinking framework treating software engineering as a holistic socio-technical ecosystem; when AI accelerates code velocity 10–100x, bottlenecks migrate to testing/review/architecture and Shared Fate breaks down (Bender, Google I/O 2026)
 - [[ai-engineering-shift|AI Engineering Shift]] — Structural transformation when coding velocity increases 10–100x: bottleneck migration from code to product/design/legal, rise of the generalist engineer, Shared Fate under stress; synthesis of Bender (systemic risk) and Andrew Ng (opportunity)
+- [[ralph-wiggum-technique|Ralph Wiggum Technique]] — Agentic coding loop methodology: autonomous single-process loop performing one task per iteration using specs + fix plan as context stack; operator tunes environment, not code (Geoffrey Huntley, 2025)
 
 ### Agentic Commerce & Protocols
 
@@ -162,7 +163,8 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 
 ### Claude Skills & Prompt Engineering
 
-- [[claude-skill-creator-vibecodingthailand-2026|Claude Skill Creator — A Practical Handbook (2026)]] — Vibe Coding Thailand: คู่มือภาษาไทย 97 หน้า สอนสร้าง Claude Skills ด้วย Prompt-First approach; 12 หน่วย + 10 copy-ready prompts; 6 skill ตัวอย่าง (Brand Voice Rewriter, YouTube Extractor, Facebook Launch Pack, Meeting-to-Action, Research-to-Carousel, SOP Builder); Skill Creator, testing, packaging
+- [[claude-skill-creator-vibecodingthailand-2026|Claude Skill Creator — A Practical Handbook (2026)]]
+- [[ralph-wiggum-technique-ghuntley-2025|Ralph Wiggum Technique — Agentic Loop Coding (Geoffrey Huntley)]] — Autonomous bash loop coding methodology: one item per loop, specs + fix_plan as deterministic stack, subagents extend context, backpressure via type systems/tests, anti-placeholder enforcement, TODO generation via 500 parallel subagents (ghuntley.com, Jul 2025) — Vibe Coding Thailand: คู่มือภาษาไทย 97 หน้า สอนสร้าง Claude Skills ด้วย Prompt-First approach; 12 หน่วย + 10 copy-ready prompts; 6 skill ตัวอย่าง (Brand Voice Rewriter, YouTube Extractor, Facebook Launch Pack, Meeting-to-Action, Research-to-Carousel, SOP Builder); Skill Creator, testing, packaging
 
 ### Data & Knowledge
 
@@ -232,6 +234,7 @@ Start with the [[overview]] for the big picture, or pick any topic below. Everyt
 - [[vertex-ai-matching-engine|Vertex AI Matching Engine]] — Google Cloud managed ANN service; Tree-AH algorithm; up to 1B vectors with incremental updates
 - [[jordan-totten|Jordan Totten]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
 - [[jeremy-wortz|Jeremy Wortz]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
+- [[geoffrey-huntley|Geoffrey Huntley]] — Australian software engineer; creator of the Ralph Wiggum Technique for autonomous agentic coding loops; built CURSED esoteric language entirely with LLM agents
 - [[hadar-cohen|Hadar Cohen]] — Red Hat author; two-tower recommender on OpenShift AI
 - [[kubeflow-pipelines|KFP — Kubeflow Pipelines]] — Python-decorated ML workflow components on Kubernetes; S3-based data sharing
 - [[feast|Feast]] — Feature store for ML training data and online recommendation caching

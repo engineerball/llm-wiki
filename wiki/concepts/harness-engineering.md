@@ -203,3 +203,4 @@ See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 - [[progressive-disclosure]] — context strategy: lean root context always in scope; project depth on demand
 - [[para-method]] — PARA workspace as a feedforward guide structure for personal agent harnesses
 - [[skills-as-markdown]] — reusable workflows as markdown guides; composable, community-extensible
+- [[ralph-wiggum-technique]] — pure harness-engineering expression: autonomous loop where operator designs specs/stdlib/backpressure, not code
