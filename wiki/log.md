@@ -26,16 +26,16 @@ New entities: [[Adam Bender]]. New concepts: [[Software Ecology]], [[AI 10x Mome
 
 ## [2026-06-01] ingest | Start With Why — Panasm Thai Summary
 Processed "[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md". Created 8 new pages, updated 6 existing.
-New entities: [[Punksood]], [[Steve Jobs]], [[Walt Disney]], [[Southwest Airlines]], [[Samuel Pierpont Langley]].
-New concepts: [[Celery Test]], [[Why-HOW Split]].
-Updated: [[Apple]] (Jobs ouster), [[Walmart]] (employee care + metric drift), [[Simon Sinek]] (CDC, new examples), [[Golden Circle]] (CDC section), [[Purpose-Driven Leadership]] (WHY-HOW split, metric drift), [[Diffusion of Innovation]] (16% combined threshold).
+New entities: [[punksood|Punksood]], [[steve-jobs|Steve Jobs]], [[walt-disney|Walt Disney]], [[southwest-airlines|Southwest Airlines]], [[samuel-pierpont-langley|Samuel Pierpont Langley]].
+New concepts: [[celery-test|Celery Test]], [[why-how-split|Why-HOW Split]].
+Updated: [[apple|Apple]] (Jobs ouster), [[walmart|Walmart]] (employee care + metric drift), [[simon-sinek|Simon Sinek]] (CDC, new examples), [[golden-circle|Golden Circle]] (CDC section), [[purpose-driven-leadership|Purpose-Driven Leadership]] (WHY-HOW split, metric drift), [[diffusion-of-innovation|Diffusion of Innovation]] (16% combined threshold).
 
 ---
 
 ## [2026-06-01] ingest | Start With Why — Thai Summary
 Processed "สรุปหนังสือ START WITH WHY ทำไมต้องเริ่มด้วยทำไม.md". Created 9 new pages, updated 0 existing.
-New entities: [[Simon Sinek]], [[Apiwat Tavesirivate]], [[Apple]], [[Harley-Davidson]], [[Walmart]].
-New concepts: [[Golden Circle]], [[Purpose-Driven Leadership]], [[Manipulation vs Inspiration]], [[Diffusion of Innovation]].
+New entities: [[simon-sinek|Simon Sinek]], [[apiwat-tavesirivate|Apiwat Tavesirivate]], [[apple|Apple]], [[Harley-Davidson]], [[walmart|Walmart]].
+New concepts: [[golden-circle|Golden Circle]], [[purpose-driven-leadership|Purpose-Driven Leadership]], [[manipulation-vs-inspiration|Manipulation vs Inspiration]], [[diffusion-of-innovation|Diffusion of Innovation]].
 
 ---
 
