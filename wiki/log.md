@@ -10,6 +10,35 @@ Chronological record of ingests, queries, and maintenance.
 
 ---
 
+## [2026-06-03] ingest | Building a Semantic Layer: Lessons Learned
+Processed "Building a Semantic Layer_ Lessons Learned.md". Created 7 new pages, updated 1 existing.
+New entities: [[Christian Edensor Arbon]], [[Airbnb]], [[SQLGlot]], [[StarRocks]].
+New concepts: [[Airbnb Minerva]], [[Pre-computation Trap]], [[Metrics as Code]].
+Updated: [[Semantic Layer]] (Minerva era row, simplified four-component architecture section, updated sources).
+
+---
+
+## [2026-06-01] ingest | Software Engineering at the Tipping Point
+Processed "Software Engineering at the Tipping Point Navigating Second-Order Impacts of the AI 10x Moment.md". Created 9 new pages, updated 0 existing.
+New entities: [[Adam Bender]]. New concepts: [[Software Ecology]], [[AI 10x Moment]], [[Code As Liability]], [[Agentic Chaos]], [[Statistical Integration Testing]], [[Architecture Diagram Test]], [[Robust Abstractions]].
+
+---
+
+## [2026-06-01] ingest | Start With Why — Panasm Thai Summary
+Processed "[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md". Created 8 new pages, updated 6 existing.
+New entities: [[Punksood]], [[Steve Jobs]], [[Walt Disney]], [[Southwest Airlines]], [[Samuel Pierpont Langley]].
+New concepts: [[Celery Test]], [[Why-HOW Split]].
+Updated: [[Apple]] (Jobs ouster), [[Walmart]] (employee care + metric drift), [[Simon Sinek]] (CDC, new examples), [[Golden Circle]] (CDC section), [[Purpose-Driven Leadership]] (WHY-HOW split, metric drift), [[Diffusion of Innovation]] (16% combined threshold).
+
+---
+
+## [2026-06-01] ingest | Start With Why — Thai Summary
+Processed "สรุปหนังสือ START WITH WHY ทำไมต้องเริ่มด้วยทำไม.md". Created 9 new pages, updated 0 existing.
+New entities: [[Simon Sinek]], [[Apiwat Tavesirivate]], [[Apple]], [[Harley-Davidson]], [[Walmart]].
+New concepts: [[Golden Circle]], [[Purpose-Driven Leadership]], [[Manipulation vs Inspiration]], [[Diffusion of Innovation]].
+
+---
+
 ## 2026-06-01 | ingest | ralph-wiggum-technique-ghuntley-2025
 
 **Source:** Ralph Wiggum as a "software engineer"

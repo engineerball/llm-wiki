@@ -2,7 +2,7 @@
 title: "Semantic Layer"
 tags: [concept, semantic-layer, data-engineering, metrics, bi, ai-integration]
 date: 2026-05-05
-sources: ["sources/semantic-layer-duckdb-tutorial.md", "sources/databricks-semantic-layer-architecture.md"]
+sources: ["sources/semantic-layer-duckdb-tutorial.md", "sources/databricks-semantic-layer-architecture.md", "sources/building-a-semantic-layer-lessons-learned.md"]
 ---
 
 # Semantic Layer
@@ -36,6 +36,7 @@ Five eras from commercial origins to platform-native AI-ready layers:
 | **Late 1990s** | OLAP cubes (Oracle Essbase, Microsoft Analysis Services) with MDX/DAX. Rigidity later led to obsolescence as compute power grew and analytical innovation stalled. |
 | **2000s** | Enterprise BI with IT-managed centralized data models. Created "vendor traps" where semantics were locked within specific BI tools. |
 | **2012+** | Looker pioneered "semantics as code" with LookML and Git-based version control |
+| **2010s** | [[Airbnb Minerva]] — internal metrics platform managing 12,000+ metrics; pioneered [[Metrics as Code]] at scale; v2 migrated from Druid (pre-aggregation) to [[StarRocks]] (on-the-fly joins) to escape the [[Pre-computation Trap]] |
 | **Recent** | Universal and platform-native semantic layers — the **Semantic Movement** ([[animesh-kumar]]). Headless, tool-agnostic, AI-ready layers decoupled from BI. |
 
 ## Key Benefits
@@ -154,6 +155,21 @@ This is the key insight: **ad-hoc queries need semantic flexibility**. Someone m
 ## Metric Drift
 
 The failure mode that makes semantic layers non-optional at scale: the same business metric produces different values across systems because logic is embedded inside individual BI tools instead of centralized. Metric drift is the primary motivation for adopting a semantic layer.
+
+## Simplified Four-Component Implementation
+
+From [[Airbnb Minerva]] 2.0, distilled by [[Christian Edensor Arbon]] into a small-team-accessible pattern:
+
+| Component | Role | Example Tech |
+|-----------|------|-------------|
+| **Definition Layer** | Version-controlled YAML/Python in Git; single source of truth — if a metric isn't here, it doesn't exist | dbt MetricFlow, custom YAML |
+| **Semantic Engine** | SQL generator; resolves join paths and transpiles to target dialect | [[SQLGlot]] |
+| **Execution Engine** | Fast on-the-fly OLAP; avoids [[Pre-computation Trap]] | [[StarRocks]] (large), [[ClickHouse]] (mid), DuckDB (small) |
+| **Interface** | Standard SQL API proxy; BI tools see it as a normal database | Cube, custom API |
+
+The key principle: separate **definitions** (governance, version control) from **execution** (speed, flexibility). This stops dashboard inconsistency without requiring a large team.
+
+See also: [[Pre-computation Trap]] — why pre-aggregated cube approaches (Druid-style) break on ratios and distinct counts.
 
 ## Architectural Patterns
 
