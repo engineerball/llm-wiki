@@ -1,4 +1,5 @@
 ---
+title: "Southwest Airlines"
 tags: [organization, aviation, leadership, business]
 sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
 created: 2026-06-01

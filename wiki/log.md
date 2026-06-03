@@ -779,7 +779,7 @@ New concepts: [[golden-circle|Golden Circle]], [[purpose-driven-leadership|Purpo
 - `wiki/index.md` — Added new source entry to FinOps section, updated timestamp and total pages
 
 **Connections added:**
-- Cross-linked to [[finops]], [[finops-best-practices-atlassian]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
+- Cross-linked to [[finops]], [[finops-atlassian-what-is-finops]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
 
 **Key insight:** Formalizes the FinOps principle "business value drives decisions" with Google's explicit TCO decision framework — provisioning + management + indirect costs + business impact.
 
@@ -796,7 +796,7 @@ New concepts: [[golden-circle|Golden Circle]], [[purpose-driven-leadership|Purpo
 - `wiki/index.md` — Added new source entry to FinOps section, updated timestamp and total pages
 
 **Connections added:**
-- Cross-linked to [[finops]], [[finops-best-practices-atlassian]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
+- Cross-linked to [[finops]], [[finops-atlassian-what-is-finops]], [[finops-framework-principles]], [[gcp-finops-hub]], [[semantic-layer]], [[headless-bi]]
 
 **Key insight:** Formalizes the FinOps principle "business value drives decisions" with Google's explicit TCO decision framework — provisioning + management + indirect costs + business impact.
 

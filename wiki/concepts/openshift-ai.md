@@ -42,7 +42,7 @@ Each stage is a KFP component wired together with `after()` for execution orderi
 
 ## Related Pages
 
-- [[red-hat-two-tower-model-openshift-2026|Red Hat's two-tower recommender]] — concrete implementation example
+- [[redhat-two-tower-model-openshift-2026|Red Hat's two-tower recommender]] — concrete implementation example
 - [[kubeflow-pipelines|KFP]] — pipeline framework
 - [[feast|Feast]] — feature store
 - [[argo-workflows|Argo Workflows]] — orchestrator alternative

@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git mv *)",
       "WebFetch(domain:agentgateway.dev)",
-      "WebFetch(domain:blog.reachsumit.com)"
+      "WebFetch(domain:blog.reachsumit.com)",
+      "WebFetch(domain:www.nxcode.io)"
     ]
   }
 }

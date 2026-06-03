@@ -1,4 +1,5 @@
 ---
+title: "Samuel Pierpont Langley"
 tags: [person, history, leadership, cautionary-tale]
 sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
 created: 2026-06-01

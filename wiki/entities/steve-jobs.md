@@ -1,4 +1,5 @@
 ---
+title: "Steve Jobs"
 tags: [person, tech, leadership, vision]
 sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
 created: 2026-06-01

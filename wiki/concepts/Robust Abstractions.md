@@ -1,4 +1,5 @@
 ---
+title: "Robust Abstractions"
 tags: [software-engineering, ai-agents, data-engineering]
 sources: [Software Engineering at the Tipping Point Navigating Second-Order Impacts of the AI "10x Moment".md]
 created: 2026-06-01

@@ -47,7 +47,7 @@ Example: VMs on Compute Engine may have lower provisioning cost, but when mainte
 ## Connections to Existing Wiki
 
 - **[[finops]]** — Directly supports the "Business value drives decisions" FinOps principle; recommendation #4 explicitly calls for adopting FinOps
-- **[[finops-best-practices-atlassian|FinOps best practices (Atlassian)]]** — Overlap on "don't sacrifice value for savings" and TCO-aware thinking
+- **[[finops-atlassian-what-is-finops|FinOps best practices (Atlassian)]]** — Overlap on "don't sacrifice value for savings" and TCO-aware thinking
 - **[[finops-framework-principles]]** — The TCO framework here expands on the principle that teams should consider long-term cost implications
 - **[[gcp-finops-hub]]** — Google's tooling for implementing this principle in practice (FinOps Score, optimization recommendations)
 - **[[semantic-layer]]** — Self-service optimization connects to semantic layer providing business metric visibility without manual engineering

@@ -54,8 +54,8 @@ Agentic commerce is the execution of commercial transactions — discovery, nego
 |-------|----------|------|
 | Tools | MCP | Agent ↔ tool/data access |
 | Agents | A2A | Agent ↔ agent communication |
-| Commerce | [[ucp\|UCP]] | Agent ↔ merchant checkout |
-| Payments | [[ap2-agent-payments-protocol\|AP2]] | Agent ↔ payment network |
+| Commerce | [[ucp|UCP]] | Agent ↔ merchant checkout |
+| Payments | [[ap2-agent-payments-protocol|AP2]] | Agent ↔ payment network |
 
 **[[ucp]]** (Universal Commerce Protocol, Google/Shopify/Walmart coalition, NRF 2026) handles merchant capability discovery, negotiation via the intersection algorithm, and session management. **[[ap2-agent-payments-protocol]]** adds cryptographic proof of user intent via Verifiable Credentials — agents pay without sharing raw card data.
 

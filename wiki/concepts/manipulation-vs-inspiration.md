@@ -1,4 +1,5 @@
 ---
+title: "Manipulation vs Inspiration"
 tags: [leadership, business, marketing, behavior-change, psychology]
 sources: [สรุปหนังสือ START WITH WHY ทำไมต้องเริ่มด้วยทำไม.md]
 created: 2026-06-01

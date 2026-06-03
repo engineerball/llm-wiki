@@ -1,4 +1,5 @@
 ---
+title: "SQLGlot"
 tags: [entity, tool, data-engineering, semantic-layer, sql, open-source]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03

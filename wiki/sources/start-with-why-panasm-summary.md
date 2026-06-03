@@ -1,4 +1,5 @@
 ---
+title: "Start With Why — Panasm Thai Summary"
 tags: [leadership, purpose, business, inspiration, thai-summary]
 sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
 created: 2026-06-01

@@ -1,4 +1,5 @@
 ---
+title: "Pre-computation Trap"
 tags: [concept, data-engineering, semantic-layer, anti-pattern, olap]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03
