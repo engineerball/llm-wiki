@@ -1,7 +1,8 @@
 ---
 title: "Software Ecology"
-tags: [concept, software-engineering, ai, systems-thinking, google]
+tags: [concept, software-engineering, ai, systems-thinking, google, ai-agents]
 date: 2026-05-25
+updated: 2026-06-15
 sources: ["sources/software-engineering-tipping-point-bender-gcp-2026.md"]
 ---
 
@@ -46,6 +47,18 @@ Bender's call to action at Google I/O 2026 translates the framework into concret
 | **Redesign accountability** | Shared Fate needs reimplementation when code authorship is distributed across humans and agents. |
 | **Invest in system metrics** | New measurements: time-to-test, review throughput, rollback rate, architectural coherence — not just velocity. |
 | **Act before it breaks** | AI-driven code growth creates pressure that is invisible until it causes a cascade. Don't wait for the tipping point. |
+
+## Scope of Analysis
+
+Software ecology's "system health" unit of analysis extends beyond the code → test → review → deploy → monitor → maintain pipeline to include:
+
+- Team dynamics and knowledge distribution
+- Token and compute economics
+- Cultural mentorship patterns
+
+## Diagnostic Tool
+
+The [[architecture-diagram-test|Architecture Diagram Test]] — ask every engineer to independently draw the system architecture; the number of different pictures produced measures how much intellectual control over the ecosystem has already been lost — is a concrete way to measure ecosystem health under software ecology.
 
 ## Relationship to Harness Engineering
 

@@ -1,5 +1,4 @@
 ---
-title: "Apiwat Tavesirivate"
 tags: [person, thai-author, business, summary]
 sources: [สรุปหนังสือ START WITH WHY ทำไมต้องเริ่มด้วยทำไม.md]
 created: 2026-06-01

@@ -1,8 +1,9 @@
 ---
 title: "SKILL.md Specification"
 tags: [concept, agent-engineering, composability, knowledge-management, harness, openclaw]
-sources: [https://github.com/openclaw/openclaw, https://claude.ai/skills]
+sources: [https://github.com/openclaw/openclaw, https://claude.ai/skills, https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf]
 date: 2026-05-28
+updated: 2026-06-15
 ---
 
 # SKILL.md Specification
@@ -26,12 +27,24 @@ description: |            # Required. Primary trigger mechanism.
 
 ### Frontmatter Fields
 
-Only two fields are valid:
+> **Update (2026-06-15):** The original OpenClaw/Claude Code-derived note below said "only two fields are valid" (`name`, `description`). [[anthropic-complete-guide-building-skills-2026|Anthropic's official guide]] documents a larger set of optional fields. Both can be true depending on harness: `name`/`description` are the only fields every implementation is guaranteed to read, but Claude.ai/Claude Code/API also recognize the optional fields below. When targeting Claude specifically, the fuller table applies.
 
 | Field | Required | Purpose |
 |-------|----------|---------|
-| `name` | Yes | Skill identifier. Lowercase letters, digits, hyphens. Max 64 chars. Prefer short, verb-led phrases (e.g. `gh-issues`, `plan-mode`). Namespace by tool when it improves clarity (e.g. `gh-address-comments`). |
-| `description` | Yes | **Primary trigger mechanism.** The agent reads this to decide whether to load the skill. Must include: (1) what the skill does, (2) specific use cases and trigger phrases, (3) when NOT to use it. The body is only loaded AFTER triggering, so "when to use" information belongs here, not in the body. |
+| `name` | Yes | Skill identifier. Lowercase letters, digits, hyphens. Max 64 chars. Prefer short, verb-led phrases (e.g. `gh-issues`, `plan-mode`). Namespace by tool when it improves clarity (e.g. `gh-address-comments`). Must match folder name. |
+| `description` | Yes | **Primary trigger mechanism.** The agent reads this to decide whether to load the skill. Must include: (1) what the skill does, (2) specific use cases and trigger phrases, (3) when NOT to use it. Under 1024 characters. The body is only loaded AFTER triggering, so "when to use" information belongs here, not in the body. |
+| `license` | No | License identifier for open-source skills (e.g. `MIT`, `Apache-2.0`). |
+| `compatibility` | No | 1-500 characters. Environment requirements: intended product, required system packages, network access needs. Authors can use this to flag platform-specific capabilities for an otherwise-portable skill. |
+| `allowed-tools` | No | Restricts tool access, e.g. `"Bash(python:*) Bash(npm:*) WebFetch"`. |
+| `metadata` | No | Free-form key-value block. Suggested keys: `author`, `version`, `mcp-server`, `category`, `tags`, `documentation`, `support`. |
+
+### Security Restrictions (Frontmatter)
+
+Frontmatter content appears in Claude's system prompt, so it is constrained to prevent prompt injection:
+
+- **No XML angle brackets (`<` `>`)** anywhere in frontmatter — applies to all fields, not just `description`.
+- **Reserved names:** skill names containing "claude" or "anthropic" are reserved and cannot be used.
+- YAML is parsed safely — no code execution via YAML.
 
 ## Directory Structure
 
@@ -102,11 +115,11 @@ Not: "You should extract text using pdfplumber..."
 
 Match specificity to task fragility:
 
-| Freedom Level | Form | When to Use |
-|---------------|------|-------------|
-| High | Text instructions | Multiple valid approaches, context-dependent decisions, heuristic guidance |
-| Medium | Pseudocode or scripts with parameters | Preferred pattern exists, some variation acceptable |
-| Low | Specific scripts, few parameters | Fragile operations, consistency is critical, exact sequence required |
+| Freedom Level | Form                                  | When to Use                                                                |
+| ------------- | ------------------------------------- | -------------------------------------------------------------------------- |
+| High          | Text instructions                     | Multiple valid approaches, context-dependent decisions, heuristic guidance |
+| Medium        | Pseudocode or scripts with parameters | Preferred pattern exists, some variation acceptable                        |
+| Low           | Specific scripts, few parameters      | Fragile operations, consistency is critical, exact sequence required       |
 
 Think of it as a path: a narrow bridge needs guardrails (low freedom); an open field allows many routes (high freedom).
 
@@ -202,3 +215,8 @@ The [[progressive-disclosure|progressive disclosure]] principle is baked into th
 - [[progressive-disclosure]] — Three-level loading manages context
 - [[para-method]] — Skills operate within PARA workspace context
 - [[claude-skill-creator-vibecodingthailand-2026]] — Thai-language practical handbook for Claude Skills
+- [[anthropic-complete-guide-building-skills-2026]] — Official Anthropic guide; source of the expanded frontmatter fields and security restrictions above
+- [[skill-planning-and-use-cases]] — Use-case categories and success criteria for skill design
+- [[skill-testing-and-iteration]] — Testing tiers and trigger-tuning feedback loop
+- [[skills-and-mcp]] — Kitchen/recipes analogy and MCP orchestration patterns
+- [[skill-distribution]] — Distribution model, open standard, and API skills

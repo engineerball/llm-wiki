@@ -102,7 +102,7 @@ User never opens any merchant website.
 
 ## What Most Websites Need
 
-From [[sources/agentic-protocols-for-websites-2026]]:
+From [[agentic-protocols-for-websites-2026|Agentic Protocols for Your Website in 2026]]:
 
 - **Content sites** → MCP server (if you have internal data worth exposing) + content recency
 - **E-commerce sites** → `/.well-known/ucp` + structured data baseline

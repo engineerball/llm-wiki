@@ -1,7 +1,6 @@
 ---
-title: "Why-HOW Split"
 tags: [leadership, organization, structure, partnership, purpose]
-sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
+sources: [[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]
 created: 2026-06-01
 updated: 2026-06-01
 ---

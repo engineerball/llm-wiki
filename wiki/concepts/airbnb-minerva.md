@@ -1,5 +1,4 @@
 ---
-title: "Airbnb Minerva"
 tags: [concept, semantic-layer, metrics-as-code, data-engineering, airbnb]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03

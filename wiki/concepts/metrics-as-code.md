@@ -1,5 +1,4 @@
 ---
-title: "Metrics as Code"
 tags: [concept, semantic-layer, data-engineering, metrics, version-control, governance]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03

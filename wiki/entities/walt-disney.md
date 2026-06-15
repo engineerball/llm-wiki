@@ -1,7 +1,6 @@
 ---
-title: "Walt Disney"
 tags: [person, entertainment, leadership, vision]
-sources: "[[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]"
+sources: [[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md]
 created: 2026-06-01
 updated: 2026-06-01
 ---

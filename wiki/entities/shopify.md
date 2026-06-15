@@ -1,7 +1,7 @@
 # Shopify
 
 - **Tags:** organization, e-commerce, platform
-- **Sources:** [[wiki/sources/shopify-universal-commerce-protocol-ucp-2026.md]]
+- **Sources:** [[shopify-universal-commerce-protocol-ucp-2026|Shopify Universal Commerce Protocol (UCP)]]
 
 ## Overview
 

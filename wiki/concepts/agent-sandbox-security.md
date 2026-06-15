@@ -7,7 +7,7 @@ sources: [nvidia-nemoclaw-security-best-practices, nebius-openclaw-security, run
 
 # Agent Sandbox Security
 
-Security model for running AI agents in isolated sandbox environments. Synthesizes the [[nemoclaw]] / [[openShell]] approach (official NVIDIA reference) with community hardening guides ([[nebius-openclaw-security]], [[running-openclaw-safely]]).
+Security model for running AI agents in isolated sandbox environments. Synthesizes the [[nemoclaw]] / [[openshell|OpenShell]] approach (official NVIDIA reference) with community hardening guides ([[nebius-openclaw-security]], [[running-openclaw-safely]]).
 
 The core principle: **agents are untrusted code execution with persistent credentials**. The sandbox is not about trusting the agent — it's about limiting blast radius when the agent misbehaves, gets manipulated via prompt injection, or is used in ways outside its original design.
 
@@ -111,7 +111,7 @@ Both sources agree: treat agents as untrusted code execution with persistent cre
 ## Related Pages
 
 - [[nemoclaw]] — reference implementation of this security model
-- [[openShell]] — enforcement runtime
+- [[openshell|OpenShell]] — enforcement runtime
 - [[openclaw]] — agent runtime being sandboxed
 - [[harness-engineering]] — sandboxing as a harness control pattern
 - [[nebius-openclaw-security]] — community hardening guide

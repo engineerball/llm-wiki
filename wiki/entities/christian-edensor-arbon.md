@@ -1,5 +1,4 @@
 ---
-title: "Christian Edensor Arbon"
 tags: [entity, person, data-engineering, semantic-layer]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03

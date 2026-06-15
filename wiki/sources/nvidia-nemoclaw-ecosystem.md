@@ -31,7 +31,7 @@ Official NVIDIA doc describing the three-layer NemoClaw stack, two deployment pa
 ## Related Wiki Pages
 
 - [[nemoclaw]] — NemoClaw entity page
-- [[openShell]] — middle isolation layer
+- [[openshell|OpenShell]] — middle isolation layer
 - [[openclaw]] — innermost agent runtime
 - [[nvidia-nemoclaw-how-it-works]] — architecture details
 - [[nvidia-nemoclaw-overview]] — capabilities and use cases

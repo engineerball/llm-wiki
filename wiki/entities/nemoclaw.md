@@ -8,7 +8,7 @@ updated: 2026-05-19
 
 # NemoClaw
 
-NVIDIA's open-source reference stack for deploying [[openclaw]] always-on assistants inside hardened [[openShell]] containers. Not a new agent system — the orchestration and blueprint layer that standardizes how OpenClaw is deployed safely.
+NVIDIA's open-source reference stack for deploying [[openclaw]] always-on assistants inside hardened [[openshell|OpenShell]] containers. Not a new agent system — the orchestration and blueprint layer that standardizes how OpenClaw is deployed safely.
 
 ## Stack Position
 
@@ -18,7 +18,7 @@ NemoClaw (orchestration: CLI + Plugin + Blueprint)
         └── OpenClaw (agent: tools + memory + behavior)
 ```
 
-NemoClaw drives [[openShell]] APIs. OpenShell does the actual enforcement. OpenClaw runs inside with no direct access to host credentials or network.
+NemoClaw drives [[openshell|OpenShell]] APIs. OpenShell does the actual enforcement. OpenClaw runs inside with no direct access to host credentials or network.
 
 ## Three Integration Components
 
@@ -57,7 +57,7 @@ See [[agent-sandbox-security]] for full detail, common mistakes, and posture pro
 
 ## Inference Routing
 
-Agents call `inference.local`. [[openShell]] gateway intercepts, routes to configured provider. Credentials stay on host.
+Agents call `inference.local`. [[openshell|OpenShell]] gateway intercepts, routes to configured provider. Credentials stay on host.
 
 Supported providers: NVIDIA Endpoints, OpenAI, Anthropic, Gemini, Ollama, vLLM (experimental).
 
@@ -80,7 +80,7 @@ Alpha as of 2026-05-19. APIs and behavior may change without notice. Not for pro
 
 ## Related Pages
 
-- [[openShell]] — the execution environment NemoClaw orchestrates
+- [[openshell|OpenShell]] — the execution environment NemoClaw orchestrates
 - [[openclaw]] — the agent runtime running inside the sandbox
 - [[agent-sandbox-security]] — four-layer security model detail
 - [[nvidia-nemoclaw-overview]] — overview doc (source)

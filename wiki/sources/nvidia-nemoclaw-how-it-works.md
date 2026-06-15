@@ -12,7 +12,7 @@ Official NVIDIA architecture doc for NemoClaw. Describes the gateway-mediated la
 
 ## Key Takeaways
 
-1. **Seven-component architecture with a central gateway.** NemoClaw control prepares configuration; the [[openShell]] gateway is the policy enforcer between the sandbox, inference providers, and external integrations. State and artifacts (credentials, logs, workspace) live entirely outside the agent process.
+1. **Seven-component architecture with a central gateway.** NemoClaw control prepares configuration; the [[openshell|OpenShell]] gateway is the policy enforcer between the sandbox, inference providers, and external integrations. State and artifacts (credentials, logs, workspace) live entirely outside the agent process.
 
 2. **Three integration components with independent release cycles.** CLI (host-side orchestration), Plugin (thin TypeScript inside sandbox — registers slash commands and context hooks), Blueprint (versioned YAML with image + policy + inference profile). The thin-plugin design means the sandbox contract stays stable while blueprints evolve.
 
@@ -39,7 +39,7 @@ Users/Operators
 ## Related Wiki Pages
 
 - [[nemoclaw]] — entity page (expanded with architecture details)
-- [[openShell]] — the execution environment NemoClaw orchestrates
+- [[openshell|OpenShell]] — the execution environment NemoClaw orchestrates
 - [[openclaw]] — the agent runtime running inside the sandbox
 - [[llm-gateway]] — inference routing is structurally analogous
 - [[harness-engineering]] — protection layers as harness controls

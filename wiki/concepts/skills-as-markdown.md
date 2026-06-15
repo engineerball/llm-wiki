@@ -1,8 +1,9 @@
 ---
 title: "Skills as Markdown"
 tags: [concept, agent-engineering, composability, knowledge-management, harness]
-sources: [https://medium.com/@AnalyticsAtMeta/how-we-built-an-ai-second-brain-for-60k-knowledge-workers-78c507dd795b]
+sources: [https://medium.com/@AnalyticsAtMeta/how-we-built-an-ai-second-brain-for-60k-knowledge-workers-78c507dd795b, https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf]
 date: 2026-05-18
+updated: 2026-06-15
 ---
 
 # Skills as Markdown
@@ -32,6 +33,8 @@ skill.md
 **Composable** — skills call other skills. A complex workflow is a chain of simpler skills.
 
 **Harness-agnostic** — skills don't encode which model runs them. The harness (Claude Code, OpenAI Codex, custom agent) can change without rewriting skills.
+
+> **Update (2026-06-15):** Anthropic has since published [[skill-distribution|Agent Skills as an open standard]], explicitly formalizing this "harness-agnostic" property — the stated goal is that the same skill works across Claude and other AI platforms, mirroring how MCP standardized connectivity. See [[anthropic-complete-guide-building-skills-2026]].
 
 ## Examples from Meta
 
@@ -82,3 +85,6 @@ This mirrors the [[llm-wiki-pattern|LLM-wiki pattern]]: the value compounds beca
 - [[progressive-disclosure]] — skills can implement progressive disclosure (load root context, then project context)
 - [[llm-wiki-pattern]] — parallel composability pattern: wiki pages compound like skills compound
 - [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]] — Meta case study
+- [[skill-md-specification]] — concrete file format for this pattern
+- [[skill-distribution]] — the open Agent Skills standard that formalizes harness-agnosticism
+- [[anthropic-complete-guide-building-skills-2026]] — official Anthropic guide

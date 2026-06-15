@@ -1,5 +1,4 @@
 ---
-title: "Airbnb"
 tags: [entity, organization, data-engineering, semantic-layer, metrics-as-code]
 sources: [Building a Semantic Layer_ Lessons Learned.md]
 created: 2026-06-03

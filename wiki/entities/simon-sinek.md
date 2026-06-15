@@ -1,5 +1,4 @@
 ---
-title: "Simon Sinek"
 tags: [person, leadership, business, author]
 sources: [สรุปหนังสือ START WITH WHY ทำไมต้องเริ่มด้วยทำไม.md, "[สรุปหนังสือ] Start With Why _ How Great Leaders Inspire Everyone to Take Action.md"]
 created: 2026-06-01

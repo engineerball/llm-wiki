@@ -4,7 +4,7 @@
 - **Source URL:** https://shopify.engineering/ucp
 - **Author:** Ilya Grigorik, Distinguished Engineer at Shopify
 - **Date Published:** 2026
-- **Raw File:** [[raw/articles/shopify-universal-commerce-protocol-ucp-2026.md]]
+- **Raw File:** raw/articles/shopify-universal-commerce-protocol-ucp-2026.md
 - **Tags:** [protocol, commerce, AI-agents, Shopify, capability-negotiation, extensibility]
 
 ## Summary

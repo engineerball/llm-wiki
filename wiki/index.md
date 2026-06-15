@@ -6,8 +6,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### AI & Software Engineering
 
-- [[Software Engineering at the Tipping Point]] — Adam Bender (Google I/O): second-order impacts of AI coding velocity on engineering teams
-- [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI increases code 10-100x; software ecology thinking, shared fate failure
+- [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI increases code 10-100x; software ecology, shared fate, four architectural pillars, Architecture Diagram Test
 - [[software-engineering-kab-harness-engineering-10x-technical-debt-odds-team-2026|Software Engineering กับ Harness Engineering: 10x หรือ Technical Debt (ODDS Team)]] — Thai synthesis of Bender + Harness Engineering; release cadence bottlenecks, Harness Decay examples
 - [[ai-coding-agents-software-engineering-andrew-ng-aidev26|AI Coding Agents & Software Engineering (AI Dev 26)]] — Andrew Ng: software = building blocks; bottleneck shifts to product/design/legal; generalist era
 
@@ -24,6 +23,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[agentic-ai-reference-architecture|Agentic AI Reference Architecture]] — 9-layer reference architecture for goal-driven multi-agent AI systems
 - [[institutional-ai-vs-individual-ai-sivulka-2026|Institutional AI vs Individual AI]] — George Sivulka: seven pillars of institutional intelligence, electrification analogy
 - [[team-os-claude-code-hannah-stulberg-2026|Build a Team OS with Claude Code — Hannah Stulberg]] — Team OS architecture, context management theory, nested CLAUDE.md indexes, parallel agents
+- [[google-cloud-agent-gateway|Google Cloud Agent Gateway Overview]] — Official GCP docs: networking component of Gemini Enterprise Agent Platform, governs user↔agent/agent↔tool/agent↔agent traffic
 
 ### Agent Security
 
@@ -81,6 +81,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 - [[start-with-why-thai-summary|Start With Why — Thai Summary]] — Apiwat Tavesirivate's Thai summary of Simon Sinek's *Start With Why*; Golden Circle, WHY-first leadership, purpose decay
 - [[start-with-why-panasm-summary|Start With Why — Panasm Thai Summary]] — Punksood's Thai summary; CDC framework, Celery Test, Langley vs Wright Brothers, WHY-HOW split
+- [[radical-candor-naluri-2026|Radical Candor: วิธีการให้ฟีดแบคอย่างมีประสิทธิภาพ (Naluri, 2026)]] — Thai summary of Kim Scott's Radical Candor: 4 feedback quadrants, 5-step application, SBI + Feedforward
 
 ### Data & Knowledge
 
@@ -92,6 +93,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 ### Claude Skills & Prompt Engineering
 
 - [[claude-skill-creator-vibecodingthailand-2026|Claude Skill Creator — A Practical Handbook (2026)]] — Vibe Coding Thailand: คู่มือ 97 หน้า สอนสร้าง Claude Skills ด้วย Prompt-First approach
+- [[anthropic-complete-guide-building-skills-2026|The Complete Guide to Building Skills for Claude (Anthropic, 2026)]] — Official Anthropic guide: fundamentals, planning, testing, distribution, open Agent Skills standard
 - [[ralph-wiggum-technique-ghuntley-2025|Ralph Wiggum Technique — Agentic Loop Coding (Geoffrey Huntley)]] — Autonomous bash loop coding methodology; specs + fix_plan as deterministic stack
 
 ### LLM Architecture
@@ -104,7 +106,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### People
 
-- [[Adam Bender]] — Google engineer; software ecology framework; AI 10x moment thesis
+- [[adam-bender|Adam Bender]] — Google engineer; software ecology framework; AI 10x moment thesis
 - [[andrej-karpathy|Andrej Karpathy]] — AI researcher; former OpenAI Director of AI, former Tesla AI Director; LLM-Wiki pattern originator
 - [[animesh-kumar|Animesh Kumar]] — Data strategist; author of the Semantic Movement and Reliable Semantic Stack frameworks
 - [[birgitta-bockeler|Birgitta Böckeler]] — ThoughtWorks principal technologist; Guides/Sensors taxonomy and harness engineering framework
@@ -115,9 +117,11 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[vijayaraghavan-v|V. Vijayaraghavan]] — LinkedIn author; UCP 4-layer protocol stack analysis
 - [[jordan-totten|Jordan Totten]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
 - [[jeremy-wortz|Jeremy Wortz]] — Customer Engineer at Google; co-author of two-tower retrieval reference architectures
+- [[gaurav-chakravorty|Gaurav Chakravorty]] — ML engineer; author of RecSysML newsletter series on recommendation system architecture
 - [[geoffrey-huntley|Geoffrey Huntley]] — Australian software engineer; creator of the Ralph Wiggum Technique for agentic coding loops
 - [[hadar-cohen|Hadar Cohen]] — Red Hat author; two-tower recommender on OpenShift AI
 - [[christian-edensor-arbon|Christian Edensor Arbon]] — Data engineering practitioner; simplified Minerva 2.0 architecture; Building a Semantic Layer series
+- [[kim-scott|Kim Scott]] — Former Google/Apple exec; creator of the Radical Candor feedback framework
 
 ### Organizations
 
@@ -165,7 +169,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[cube|Cube]] — Open-source headless semantic layer; API-first (REST/GraphQL/SQL); leader in headless BI
 - [[moltbook|Moltbook]] — Agent-focused platform and identity layer; instruction propagation and authentication hub
 - [[nemoclaw|NemoClaw]] — NVIDIA's hardened reference stack for deploying OpenClaw; four-layer security model
-- [[openShell|OpenShell]] — NVIDIA's sandbox execution environment; enforces network egress, filesystem, process policies
+- [[openshell|OpenShell]] — NVIDIA's sandbox execution environment; enforces network egress, filesystem, process policies
 - [[openclaw|OpenClaw]] — Open-source self-hosted agent gateway; messaging platform integration; transparent memory
 - [[tensorflow-recommenders|TensorFlow Recommenders]] — TensorFlow library (Google) for building two-tower retrieval models
 - [[trae|Trae]] — AI coding agent by ByteDance; published Definitive Guide to Harness Engineering; R.E.S.T. framework
@@ -184,11 +188,16 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Agentic AI & Harness Engineering
 
+- [[google-cloud-agent-gateway|Google Cloud Agent Gateway]] — GCP's managed proprietary agent gateway (Gemini Enterprise Agent Platform); contrast with open-source [[agentgateway|Agent Gateway]]
 - [[harness-engineering|Harness Engineering]] — Software engineering discipline shifted to designing environments, feedback loops, and scaffolding for reliable AI agents
 - [[para-method|PARA Method]] — Folder taxonomy (Projects, Areas, Resources, Archives) adapted as context architecture for AI agents
 - [[skills-as-markdown|Skills as Markdown]] — Reusable agent workflows as plain markdown + scripts; no compilation; 3,000+ skills built at Meta in 3 months
 - [[skill-md-specification|SKILL.md Specification]] — File format and structural spec for agent skills: frontmatter, directory structure, progressive disclosure three-level loading
 - [[progressive-disclosure|Progressive Disclosure]] — Context loading strategy: lean root context always in scope; detailed content loaded on demand
+- [[skill-planning-and-use-cases|Skill Planning and Use Case Categories]] — Use-case definition, 3 categories (Document & Asset Creation, Workflow Automation, MCP Enhancement), success criteria framework
+- [[skill-testing-and-iteration|Skill Testing and Iteration]] — 3-tier testing (manual/scripted/API), triggering/functional/performance tests, under/over-triggering feedback loop
+- [[skills-and-mcp|Skills and MCP]] — Kitchen/recipes analogy; 5 orchestration patterns for MCP-coordinating skills
+- [[skill-distribution|Skill Distribution]] — Jan 2026 distribution model, open Agent Skills standard, API skills (/v1/skills, container.skills)
 - [[harnessability|Harnessability]] — Degree to which a codebase enables effective harness controls; increases with strong typings, clear boundaries
 - [[guides-and-sensors|Guides and Sensors]] — Harness control taxonomy: Guides (feedforward) steer before action; Sensors (feedback) observe after
 - [[agentic-ai-system|Agentic AI System]] — 9-layer reference architecture for goal-driven, multi-agent, orchestrated, observable AI systems
@@ -206,12 +215,13 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[software-ecology|Software Ecology]] — Systems-thinking framework treating software engineering as a holistic socio-technical ecosystem
 - [[ai-engineering-shift|AI Engineering Shift]] — Structural transformation when coding velocity increases 10–100x: bottleneck migration, generalist engineer rise
 - [[ralph-wiggum-technique|Ralph Wiggum Technique]] — Agentic coding loop: autonomous single-process loop, one task per iteration, specs + fix plan as context stack
-- [[AI 10x Moment]] — coding velocity explosion and its second-order impacts on engineering pipelines
-- [[Agentic Chaos]] — edit wars and unmaintainable code from unconstrained AI agents
-- [[Architecture Diagram Test]] — diagnostic: ask all engineers to draw system independently; divergence = lost control
-- [[Code As Liability]] — more code = more debt; AI-generated code bloat amplifies maintenance burden
-- [[Robust Abstractions]] — opinionated internal frameworks that constrain agent choice space
-- [[Statistical Integration Testing]] — risk-weighted test selection replacing all-or-nothing boolean CI gates
+- [[ai-10x-moment|AI 10x Moment]] — coding velocity explosion and its second-order impacts on engineering pipelines
+- [[agentic-chaos|Agentic Chaos]] — edit wars and unmaintainable code from unconstrained AI agents
+- [[architecture-diagram-test|Architecture Diagram Test]] — diagnostic: ask all engineers to draw system independently; divergence = lost control
+- [[code-as-liability|Code As Liability]] — more code = more debt; AI-generated code bloat amplifies maintenance burden
+- [[code-isolation|Code Isolation]] — strict boundaries between experimental/agentic code and production systems
+- [[robust-abstractions|Robust Abstractions]] — opinionated internal frameworks that constrain agent choice space
+- [[statistical-integration-testing|Statistical Integration Testing]] — risk-weighted test selection replacing all-or-nothing boolean CI gates
 
 ### Agentic Commerce & Protocols
 
@@ -255,6 +265,13 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[mixture-of-experts|Mixture of Experts (MoE)]] — Ensemble combining specialized sub-networks via learned gating; HME, DMoE, Sparsely-Gated, MMoE
 - [[cold-start-problem|Cold-Start Problem]] — Difficulty recommending to new users/items with no interaction history; feature-based representation solves this
 - [[approximate-nearest-neighbors|Approximate Nearest Neighbors (ANN)]] — Algorithm class for fast vector similarity search at scale; Tree-AH, HNSW, PQ trade exactness for speed
+- [[matrix-factorization|Matrix Factorization]] — Decomposes user-item interaction matrix into latent embeddings; foundation of collaborative filtering
+- [[netflix-prize|Netflix Prize]] — 2006 Netflix competition that drove major advances in matrix factorization and embedding-based recommendation
+- [[weighted-alternating-least-squares|Weighted Alternating Least Squares (WALS)]] — Optimization algorithm for matrix factorization; weights observed vs. missing interactions
+- [[deepwalk|DeepWalk]] — Graph embedding algorithm using random walks + word2vec-style learning for node representations
+- [[graphsage|GraphSage]] — Inductive graph representation learning; generates embeddings for unseen nodes via neighborhood aggregation
+- [[starspace|StarSpace]] — General-purpose embedding model (Facebook Research) for entities in a shared vector space via dot product
+- [[youtube-dnn|YouTube DNN]] — Davidson et al.'s seminal two-stage retrieval+ranking architecture for YouTube recommendations
 
 ### FinOps
 
@@ -272,5 +289,8 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[diffusion-of-innovation|Diffusion of Innovation]] — 5 adoption groups; Innovators+Early Adopters = 16%; tipping point to mass market
 - [[celery-test|Celery Test]] — WHY clarity diagnostic; clear WHY makes decisions instant and consistent across team
 - [[why-how-split|WHY-HOW Split]] — Structural pattern: WHY visionary needs HOW operator; Walt/Roy Disney, Jobs/Wozniak
+- [[radical-candor|Radical Candor]] — Kim Scott's feedback framework: Care Personally × Challenge Directly; 4 feedback quadrants; 5-step application
+- [[sbi-feedback-model|SBI Feedback Model]] — Situation–Behavior–Impact structure for direct, non-judgmental feedback
+- [[feedforward-technique|Feedforward Technique]] — Marshall Goldsmith's future-focused alternative to backward-looking feedback
 
 ## Synthesis

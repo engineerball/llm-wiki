@@ -62,7 +62,7 @@ Official NVIDIA security guidance for NemoClaw. The most detailed of the four Ne
 
 - [[agent-sandbox-security]] — concept page synthesizing this doc's four-layer model
 - [[nemoclaw]] — entity page
-- [[openShell]] — the enforcement runtime
+- [[openshell|OpenShell]] — the enforcement runtime
 - [[harness-engineering]] — security layers as harness controls
 - [[nebius-openclaw-security]] — community hardening guide; compare approaches
 - [[nvidia-nemoclaw-how-it-works]] — protection layer architecture

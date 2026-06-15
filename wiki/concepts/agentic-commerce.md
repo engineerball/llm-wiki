@@ -62,7 +62,7 @@ UCP becomes de facto standard for retail agentic commerce in Google/Shopify ecos
 
 ## Protocol Readiness for Websites
 
-For sites considering agentic commerce readiness (from [[sources/agentic-protocols-for-websites-2026]]):
+For sites considering agentic commerce readiness (from [[agentic-protocols-for-websites-2026|Agentic Protocols for Your Website in 2026]]):
 
 1. **Structured data baseline** — Schema.org: Organization, Product, Service, FAQPage, Article
 2. **Content recency** — 50% of AI-cited content is <13 weeks old (Amsive); fix stale content first
