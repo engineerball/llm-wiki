@@ -7,7 +7,7 @@ date: 2026-06-15
 
 # Radical Candor
 
-กรอบแนวคิดการให้ฟีดแบคของ [[Kim Scott]] (อดีตผู้บริหารที่ Google และ Apple) ที่มุ่งสร้างสมดุลระหว่าง **การใส่ใจคนในทีมในระดับบุคคล** กับ **ความตรงไปตรงมาในการพูดถึงปัญหา** จาก [[radical-candor-naluri-2026|บทความ Naluri (ไทย)]]
+กรอบแนวคิดการให้ฟีดแบคของ [[kim-scott|Kim Scott]] (อดีตผู้บริหารที่ Google และ Apple) ที่มุ่งสร้างสมดุลระหว่าง **การใส่ใจคนในทีมในระดับบุคคล** กับ **ความตรงไปตรงมาในการพูดถึงปัญหา** จาก [[radical-candor-naluri-2026|บทความ Naluri (ไทย)]]
 
 ## สองแกนหลัก
 
@@ -40,8 +40,8 @@ Kim Scott สังเกตว่าหัวหน้าทีมส่วน�
 
 ## เทคนิคเสริม
 
-- **[[SBI Feedback Model|โมเดล SBI]]** — โครงสร้างฟีดแบค 3 ส่วน (Situation–Behavior–Impact) ช่วยให้การ "Challenge Directly" เป็นรูปธรรมและไม่กล่าวโทษตัวบุคคล
-- **[[Feedforward Technique|เทคนิค Feedforward]]** (Marshall Goldsmith) — เสริม "Care Personally" ด้วยการโฟกัสที่อนาคตแทนการตอกย้ำอดีต
+- **[[sbi-feedback-model|โมเดล SBI]]** — โครงสร้างฟีดแบค 3 ส่วน (Situation–Behavior–Impact) ช่วยให้การ "Challenge Directly" เป็นรูปธรรมและไม่กล่าวโทษตัวบุคคล
+- **[[feedforward-technique|เทคนิค Feedforward]]** (Marshall Goldsmith) — เสริม "Care Personally" ด้วยการโฟกัสที่อนาคตแทนการตอกย้ำอดีต
 
 ## ผลลัพธ์ของการใช้อย่างต่อเนื่อง
 
@@ -55,8 +55,8 @@ Kim Scott สังเกตว่าหัวหน้าทีมส่วน�
 
 ## Related
 
-- [[Kim Scott]] — ผู้คิดค้นกรอบแนวคิดนี้
-- [[SBI Feedback Model]] — เทคนิคโครงสร้างฟีดแบค
-- [[Feedforward Technique]] — เทคนิคเสริมจาก Marshall Goldsmith
+- [[kim-scott|Kim Scott]] — ผู้คิดค้นกรอบแนวคิดนี้
+- [[sbi-feedback-model|SBI Feedback Model]] — เทคนิคโครงสร้างฟีดแบค
+- [[feedforward-technique|Feedforward Technique]] — เทคนิคเสริมจาก Marshall Goldsmith
 - [[radical-candor-naluri-2026|Radical Candor: วิธีการให้ฟีดแบคอย่างมีประสิทธิภาพ (Naluri, 2026)]] — บทความต้นทาง
 - [[purpose-driven-leadership|Purpose-Driven Leadership]] — แนวคิดผู้นำที่เกี่ยวข้องในหมวด Leadership & Business
