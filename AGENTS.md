@@ -91,7 +91,6 @@ wiki/
 - Use `[[Page Title|display text]]` when the link text should differ from the page title
 - **IMPORTANT:** Only create wikilinks to pages that already exist. Obsidian auto-creates empty stub files when unresolved links are clicked. Use plain text for entities/concepts that don't have pages yet; add links when the target pages are created.
 
-
 ### Tools
 - `pdfimages` (poppler, installed via homebrew) — for image extraction
 - `pdftocairo` (poppler) — fallback for rendering pages with vector-only figures
@@ -99,6 +98,11 @@ wiki/
 
 
 ## Local Skills
+
+**Lint workflow:**
+- **Frequency**: Only when explicitly asked.
+- **Scope**: Focused on recently changed pages.
+- **Auto-fix**: Automatically fix minor issues (broken links, missing cross-refs).
 
 ### Quartz publish skill
 - Added repo-local Codex skill at `.agents/skills/quartz-publish/SKILL.md`
