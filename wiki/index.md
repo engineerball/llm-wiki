@@ -23,6 +23,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[agentic-ai-reference-architecture|Agentic AI Reference Architecture]] — 9-layer reference architecture for goal-driven multi-agent AI systems
 - [[institutional-ai-vs-individual-ai-sivulka-2026|Institutional AI vs Individual AI]] — George Sivulka: seven pillars of institutional intelligence, electrification analogy
 - [[team-os-claude-code-hannah-stulberg-2026|Build a Team OS with Claude Code — Hannah Stulberg]] — Team OS architecture, context management theory, nested CLAUDE.md indexes, parallel agents
+- [[agentic-software-factory-bcg-platinion-2026|The Agentic Software Factory (BCG Platinion, 2026)]] — Enterprise framing of autonomous software delivery: intent thinking, factory assembly lines, five transformation pillars
 - [[google-cloud-agent-gateway|Google Cloud Agent Gateway Overview]] — Official GCP docs: networking component of Gemini Enterprise Agent Platform, governs user↔agent/agent↔tool/agent↔agent traffic
 
 ### Agent Security
@@ -214,7 +215,9 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[agent-sandbox-security|Agent Sandbox Security]] — Four-layer deny-by-default security model for AI agent sandboxes: network, filesystem, process, inference
 - [[software-ecology|Software Ecology]] — Systems-thinking framework treating software engineering as a holistic socio-technical ecosystem
 - [[ai-engineering-shift|AI Engineering Shift]] — Structural transformation when coding velocity increases 10–100x: bottleneck migration, generalist engineer rise
+- [[agentic-software-factory|Agentic Software Factory]] — Enterprise operating-model pattern for autonomous delivery built around harnesses, audit trails, and delivery assembly lines
 - [[ralph-wiggum-technique|Ralph Wiggum Technique]] — Agentic coding loop: autonomous single-process loop, one task per iteration, specs + fix plan as context stack
+- [[intent-thinking|Intent Thinking]] — Human skill of translating business needs into precise, testable desired outcomes for agent-driven delivery
 - [[ai-10x-moment|AI 10x Moment]] — coding velocity explosion and its second-order impacts on engineering pipelines
 - [[agentic-chaos|Agentic Chaos]] — edit wars and unmaintainable code from unconstrained AI agents
 - [[architecture-diagram-test|Architecture Diagram Test]] — diagnostic: ask all engineers to draw system independently; divergence = lost control

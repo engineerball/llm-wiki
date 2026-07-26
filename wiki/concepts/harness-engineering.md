@@ -160,6 +160,19 @@ Trae's [[trae-definitive-guide-harness-engineering]] extends harness engineering
 
 **Core philosophy:** When a model hits a wall, implement an engineered mechanism so the same class of failure never happens again.
 
+## BCG Platinion's Enterprise Factory Framing (2026)
+
+[[agentic-software-factory-bcg-platinion-2026|BCG Platinion's Agentic Software Factory]] extends harness engineering from a coding-agent craft into an **enterprise delivery operating model**.
+
+Key additions in this framing:
+
+- harnesses become **assembly-line specific** — different delivery archetypes (greenfield, brownfield, legacy modernization) should run on different tailored harnesses
+- harness output is not just code quality, but also **auditability**, **stage-gate evidence**, and **compliance-ready documentation**
+- the human bottleneck shifts upstream into [[intent-thinking]] — a harness is only as good as the desired outcome it is built to enforce
+- codified knowledge, CI/CD maturity, and telemetry are treated as prerequisites; without them, autonomous delivery simply automates chaos
+
+This is one of the clearest statements in the wiki that harness engineering is not merely a repo-level tactic. It can be the architectural basis of a whole software-delivery factory.
+
 ## Meta's "AI Second Brain" (2026)
 
 [[meta|Meta]]'s analytics team applied harness principles to personal knowledge management at enterprise scale. Their system reached 63,000+ installs and ~10,000 DAU within 3 months.
@@ -204,3 +217,5 @@ See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 - [[para-method]] — PARA workspace as a feedforward guide structure for personal agent harnesses
 - [[skills-as-markdown]] — reusable workflows as markdown guides; composable, community-extensible
 - [[ralph-wiggum-technique]] — pure harness-engineering expression: autonomous loop where operator designs specs/stdlib/backpressure, not code
+- [[agentic-software-factory]] — enterprise operating-model abstraction built on top of harness engineering
+- [[intent-thinking]] — complementary human competency: specifying precise, testable desired outcomes

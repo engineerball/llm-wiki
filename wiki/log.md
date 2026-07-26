@@ -2,6 +2,13 @@
 
 Chronological record of all operations.
 
+## [2026-07-26] ingest | The Agentic Software Factory (BCG Platinion, 2026)
+Processed BCG Platinion's March 2026 article / PDF on the Agentic Software Factory (aka "Dark Software Factory"). Created 1 new source page and 2 new concept pages; updated 1 existing concept page.
+New source: [[agentic-software-factory-bcg-platinion-2026]].
+New concepts: [[agentic-software-factory]], [[intent-thinking]].
+Updated: [[harness-engineering]] (added enterprise-factory framing: assembly-line-specific harnesses, auditability, compliance, and intent thinking relationship).
+Raw source saved to raw/articles/agentic-software-factory-bcg-platinion-2026.md.
+
 ## [2026-06-01] ingest | Software Engineering at the Tipping Point
 Processed "Software Engineering at the Tipping Point Navigating Second-Order Impacts of the AI 10x Moment.md". Created 9 new pages, updated 0 existing.
 New entities: [[Adam Bender]]. New concepts: [[Software Ecology]], [[AI 10x Moment]], [[Code As Liability]], [[Agentic Chaos]], [[Statistical Integration Testing]], [[Architecture Diagram Test]], [[Robust Abstractions]].
