@@ -100,6 +100,11 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Data & Knowledge
 
+- [[cdp-architecture-aws-2022|Building a Customer Data Platform on AWS]] — Layered CDP architecture: ingestion, processing, storage, governance, cataloging, consumption
+- [[kafka-and-cdps-twilio-2021|Kafka and CDPs: Why you should care]] — Event-driven architecture + CDP control point for validation, identity, traits, and downstream delivery
+- [[identity-resolution-data-warehouse-vs-cdp-amplitude-2023|Identity Resolution: Data Warehouse vs. CDP]] — Why a warehouse alone is not enough without explicit identity logic
+- [[composable-customer-data-platform-databricks-2022|The Emergence of the Composable Customer Data Platform]] — Lakehouse-centered modular CDP pattern replacing proprietary storage silos
+- [[actionable-customer-360-snowflake-hightouch-2023|Build an Actionable Customer 360 in the Data Cloud]] — Warehouse-centered event collection, identity resolution, Customer 360, and activation stack
 - [[cdp-comparison-2026|9 Best Customer Data Platforms (CDPs) in 2026]] — Market review of 9 CDP platforms: identity resolution, segmentation, omnichannel activation
 - [[karpathy-llm-wiki-pattern|A Pattern for Building Personal Knowledge Bases Using LLMs]] — Wiki vs RAG distinction, 3 layers, ingest/query/lint workflows (Andrej Karpathy)
 - [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta|How We Built an AI Second Brain for 60K Knowledge Workers (Meta)]] — PARA + MCP + skills-as-markdown; 0 → 63K installs in 3 months
@@ -256,6 +261,10 @@ Master catalog of all wiki pages. Updated on every ingest.
 ### Semantic Layers & Data Architecture
 
 - [[analytics-engineer|Analytics Engineer]] - Modern data-team role that turns raw warehouse data into trusted, reusable, business-ready analytical assets
+- [[customer-data-platform|Customer Data Platform (CDP)]] — Platform capability that unifies customer data, resolves identity, and activates profiles into downstream systems
+- [[identity-resolution|Identity Resolution]] — Linking fragmented identifiers into persistent customer-level identities; the hardest and most important CDP capability
+- [[customer-360|Customer 360]] — Unified, activation-ready representation of a customer across touchpoints and systems
+- [[composable-cdp|Composable CDP]] — Warehouse- or lakehouse-centered architectural pattern for implementing CDP capabilities without a new silo
 - [[semantic-layer|Semantic Layer]] — Virtual translation layer between physical data warehouse and data consumers; unified business metric definitions
 - [[airbnb-minerva|Airbnb Minerva]] — Airbnb's internal metrics platform; canonical Metrics as Code implementation; 12K+ metrics, v2 uses SQLGlot + StarRocks
 - [[metrics-as-code|Metrics as Code]] — Business logic standardized as version-controlled YAML/Python; foundational principle of modern semantic layers

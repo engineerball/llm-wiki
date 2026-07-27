@@ -2,6 +2,13 @@
 
 Chronological record of all operations.
 
+## [2026-07-27] ingest | Designing data platforms to support CDPs
+Processed 5 web sources on CDP-supporting data platform design.
+Created 5 new source pages and 3 new concept pages.
+Updated: [[customer-data-platform]], [[index]].
+New sources: [[cdp-architecture-aws-2022]], [[kafka-and-cdps-twilio-2021]], [[identity-resolution-data-warehouse-vs-cdp-amplitude-2023]], [[composable-customer-data-platform-databricks-2022]], [[actionable-customer-360-snowflake-hightouch-2023]].
+New concepts: [[composable-cdp]], [[identity-resolution]], [[customer-360]].
+
 ## [2026-07-27] ingest | Loop Engineering and Graph Engineering research
 Processed 5 web sources on loop engineering and graph engineering.
 Created 5 new source pages and 2 new concept pages.

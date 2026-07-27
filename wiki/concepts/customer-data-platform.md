@@ -1,86 +1,77 @@
 ---
 title: "Customer Data Platform (CDP)"
 tags: [concept, cdp, data-engineering, customer-data, identity-resolution, martech]
-date: 2026-05-03
-sources: ["sources/cdp-comparison-2026.md"]
+date: 2026-07-27
+sources: ["sources/cdp-comparison-2026.md", "sources/cdp-architecture-aws-2022.md", "sources/kafka-and-cdps-twilio-2021.md", "sources/identity-resolution-data-warehouse-vs-cdp-amplitude-2023.md", "sources/composable-customer-data-platform-databricks-2022.md", "sources/actionable-customer-360-snowflake-hightouch-2023.md"]
 ---
 
 # Customer Data Platform (CDP)
 
-A **CDP** is a data platform that unifies a business's customer data across all touchpoints. It is where every customer interaction, intent, and behavior is attached to a coherent identity — turning scattered data signals into dynamic customer profiles so teams can design experiences rather than react to data.
-
-> A CDP is a managed database that does three crucial things: **Unification**, **Identity Resolution**, and **Activation**.
+A **CDP** is a data platform capability that unifies customer data across touchpoints, resolves fragmented identities into persistent profiles, and activates those profiles into downstream systems.
+The modern architectural debate is no longer just whether to have a CDP, but whether the CDP should be a proprietary silo or a capability layer built on the organization's main data platform.
 
 ## Three Core Functions
 
 | Function | What It Does | Why It Matters |
 |----------|-------------|---------------|
-| **Unification** | Ingests data from every touchpoint (web, mobile, CRM, email, POS, offline) into one persistent database | Shifts from "collect everything" to "understand deeply and act deliberately" |
-| **Identity Resolution (IDR)** | Stitches together cookies, device IDs, emails, loyalty numbers into a single customer profile | If wrong, personalization is built on a fictional person |
-| **Activation** | Blasts unified profiles and dynamic segments to downstream marketing systems in real-time | Converts insight into action before the moment passes |
+| **Unification** | Ingests data from web, mobile, CRM, support, commerce, POS, and other sources into a coherent foundation | Creates the raw material for a usable customer view |
+| **Identity Resolution** | Links identifiers and records into persistent customer-level profiles | Prevents personalization and attribution from being built on fragmented or fictional identities |
+| **Activation** | Pushes audiences, traits, and profile data into downstream tools and workflows | Turns customer understanding into operational action |
 
-## CDP vs CRM vs DMP
+## CDP as a Platform Problem
 
-| Platform | Data Type | Role |
-|----------|-----------|------|
-| **CDP** | 1st-Party Behavioral Data ("what they did") | System of Intelligence — who the customer is and what they'll do next |
-| **CRM** | 1st-Party Known Contact Data (PII, names, phones) | System of Record — sales interactions and service tickets |
-| **DMP** | 3rd-Party Anonymous Data (dying with cookie death) | The "Expired Scout" — targeted strangers, now being euthanized by privacy regulations |
+A CDP is not just a marketer-facing UI.
+It is also a platform design problem spanning:
+
+- event collection,
+- storage architecture,
+- identity services,
+- profile modeling,
+- governance,
+- and downstream delivery.
+
+This is why many modern teams treat CDP as an extension of the warehouse or lakehouse rather than as a separate product silo.
 
 ## Packaged vs Composable CDP
 
 | Type | Architecture | Pros | Cons |
 |------|-------------|------|------|
-| **Packaged** | All-in-one proprietary storage | Easy to deploy | Creates new data silo, expensive, vendor lock-in |
-| **Composable / Warehouse-Native** | Leverages existing cloud data warehouse | Data stays where it is (governed), pay for intelligence not storage | Requires mature data warehouse |
+| **Packaged** | All-in-one proprietary storage and application stack | Faster initial rollout, simpler for standard use cases | Creates another data silo, limits flexibility, increases lock-in |
+| **Composable / Warehouse-Native** | Uses the existing governed data platform for storage and modeling | Better reuse, governance, extensibility, and cross-team alignment | Requires stronger platform engineering and clearer ownership |
 
-## How to Choose a CDP in 2026
+## What a CDP-Supporting Data Platform Needs
 
-1. **Identity Resolution (IDR) Strength** — the product itself; sloppy IDR = spam with a first name
-2. **Real-Time Capability** — personalization loop < 300ms is real-time; > 300ms is batch
-3. **Architecture (The Silo Test)** — insists on moving data to proprietary storage or warehouse-native?
-4. **Governance & Compliance** — GDPR/CCPA consent and lineage must be native, not bolted on
-5. **AI Readiness** — can it host/run custom ML models on unified profiles?
+Across the sources, the recurring design requirements are:
 
-## Key CDP Platforms (as of 2026)
+1. **Standardized data collection** with schemas or data contracts.
+2. **Immutable raw landing zones** and replay-friendly storage.
+3. **Processing layers** for normalization, enrichment, and segmentation.
+4. **First-class identity resolution** with deterministic identifiers as a core foundation.
+5. **Customer 360 modeling** that exposes usable profiles, traits, and audiences.
+6. **Activation infrastructure** that decouples collection from downstream delivery.
+7. **Governance and privacy controls** for masking, consent, retention, lineage, and deletion.
 
-| Platform | Best For | Core Strength |
-|----------|---------|--------------|
-| **Twilio Segment** | Developer-first, 700+ connectors | Event Data Tracking API + Protocols |
-| **DataOS** | Composable architecture, regulated enterprises | Native Data Product Architecture, PII governance |
-| **Salesforce Data Cloud** | Salesforce-centric enterprises | Seamless native integration with Sales/Service Cloud |
-| **Adobe Real-Time CDP** | Massive B2C brands | Real-time mastery + Adobe Sensei AI/ML |
-| **Tealium** | Multi-vendor MarTech, compliance | Zero-party data governance + tag management |
-| **ActionIQ** | Large data warehouses | HybridCompute, marketer empowerment |
-| **Amperity** | Messy legacy data, retail/travel/hospitality | Patented ML-powered IDR technology |
-| **Treasure Data** | Global enterprises, high scalability | AI/ML at scale, predictive analytics |
-| **Insider** | E-commerce, rapid campaign deployment | CDP + cross-channel campaign automation |
+## Relationship to [[identity-resolution]]
 
-## Trends: 2026 and Beyond
+Identity resolution is not just one feature in the CDP.
+It is the capability that determines whether the entire system is trustworthy.
 
-- **AI & Generative Interfaces** — Copilot-style segment creation in plain English
-- **Embedded Analytics & Activation Loops** — auto-initiate "save" campaigns within 300ms of detecting churn risk
-- **Composability & Convergence** — CDP, warehouse, data platform boundaries dissolving toward modular components
-- **Privacy-First** — Zero-Party Data and Federated Identity models dominate
+## Relationship to [[customer-360]]
 
-## Pitfalls
+A [[customer-360]] is one of the main outputs of a CDP.
+It is the profile layer that downstream tools and teams actually consume.
 
-| Pitfall | Risk |
-|---------|------|
-| **Vendor Lock-In** | Replacing old silos with one expensive new CDP silo |
-| **Garbage In, Garbage Out** | CDP can't fix fundamentally broken data — it's an expensive mirror |
-| **Regulatory Non-Compliance** | Missing consent management and data lineage = massive legal risk |
+## Relationship to [[composable-cdp]]
 
-## Measuring ROI
-
-Success isn't "profiles created" — it's:
-- **Incremental revenue** generated from personalization
-- **Cost reduction** from decommissioning redundant tools
+A [[composable-cdp]] is an implementation style for a CDP where the warehouse or lakehouse remains the source of truth and modular tools provide collection, modeling, and activation capabilities around it.
 
 ## Relationship to [[semantic-layer]]
 
-Both the CDP and [[semantic-layer]] are "translation layers" between raw data and business consumers. The semantic layer translates data warehouse tables into business-friendly metrics; the CDP translates raw customer data into unified customer profiles and activation-ready segments.
+Both the CDP and [[semantic-layer]] translate raw technical data into business-usable form.
+A semantic layer translates raw data into trusted metrics and dimensions.
+A CDP translates fragmented customer data into unified identities, profiles, and activation-ready segments.
 
 ## Relationship to [[agentic-ai-system]]
 
-Layer 5 (Memory & Knowledge) and Layer 3 (Data Agent) in the [[agentic-ai-system|agentic AI architecture]] directly interact with CDP data — unified customer profiles provide the business context that data agents need to answer questions, and CDP profiles can serve as structured memory for AI systems.
+Customer profiles can serve as high-value business context for data and personalization agents within an [[agentic-ai-system]].
+A well-designed CDP therefore becomes part of the knowledge and action substrate for AI-native customer systems.
