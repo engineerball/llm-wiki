@@ -87,6 +87,41 @@ Teams trade short-term margin for long-term product position.
 ### 4. Workflow redesign, not just technical setup
 Especially in AI contexts, the role increasingly includes redesigning how work gets done around agentic systems, not merely plugging APIs together.
 
+## Relationship to Harness Engineering
+
+[[harness-engineering]] and forward deployed engineering solve different parts of the same reliability problem.
+
+- **Harness engineering** focuses on the scaffolding that makes an agent reliable: guides, sensors, observability, constraints, and execution environments.
+- **Forward deployed engineering** focuses on making that system work inside a specific customer’s real operating context.
+
+One way to think about the difference:
+
+- harness engineers make the agent system controllable,
+- forward deployed engineers make the controllable system deliver value in the field.
+
+In AI deployments, the FDE is often the person who discovers which harness assumptions break when they meet messy enterprise data, permissions, workflows, and incentives.
+
+## Relationship to Agent Deployment
+
+The role is especially important for [[agentic-ai-system|agentic AI systems]] because deployment is not just an infrastructure event.
+It usually requires:
+
+- connecting the agent to internal tools and data,
+- shaping permissions and governance boundaries,
+- defining evaluation loops and operational metrics,
+- adapting the workflow around the agent,
+- and iterating after launch when real usage exposes failure modes.
+
+That makes the FDE a deployment owner in the broad sense: not just shipping a binary, but getting an AI system to behave usefully in production.
+
+## Relationship to Services-Led Growth
+
+The a16z framing of [[services-led-growth]] explains why the role has strategic weight.
+FDE work is the implementation layer that helps a company win hard workflows early, even before the product is fully standardized.
+
+This means the FDE is not only a delivery role.
+In many companies, the role is also part of the distribution strategy: learning fast in customer environments, proving ROI, and turning custom deployment knowledge into repeatable product capability.
+
 ## Typical Skill Profile
 
 The role requires a hybrid skill set:

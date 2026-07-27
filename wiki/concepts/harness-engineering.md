@@ -202,6 +202,8 @@ See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 
 ## Related Concepts
 
+- [[forward-deployed-engineer]] — complementary field role: harness engineering makes agents controllable; FDEs make those systems work inside specific customer environments
+- [[services-led-growth]] — organizational model where implementation-heavy technical work becomes a moat rather than a margin leak
 - [[trae-definitive-guide-harness-engineering]] — Trae's definitive guide (horse & reins, R.E.S.T., PPAF loop, REPL container, sandboxing)
 - [[generator-evaluator-architecture]] — multi-agent pattern for quality via separation of roles
 - [[sprint-contracts]] — pre-negotiated success criteria between generator and evaluator

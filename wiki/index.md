@@ -19,6 +19,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Agent Engineering & Harness Engineering
 
+- [[services-led-growth|Services-Led Growth]] — Implementation-heavy go-to-market model where technical services become the wedge and later the moat for complex AI products
 - [[harness-engineering-leveraging-codex|Harness Engineering: Leveraging Codex in an Agent-First World]] — OpenAI's foundational article introducing Harness Engineering and Codex-based agent-first development
 - [[harness-engineering-coding-agent-users|Harness Engineering for Coding Agent Users]] — Guides/sensors framework, harnessability taxonomy, three harness domains (martinfowler.com)
 - [[trae-definitive-guide-harness-engineering|The Definitive Guide to Harness Engineering (Trae)]] — Horse & Reins metaphor, R.E.S.T. framework, PPAF loop, six design principles

@@ -178,6 +178,18 @@ This reference architecture is a concrete instantiation of harness engineering p
 | Layer 2 Guardrails + Layer 8 Governance | [[guides-and-sensors|Guides]] — feedforward constraints |
 | Layer 6 Observability | [[guides-and-sensors|Sensors]] — feedback for self-correction |
 | Layer 5 Memory & Knowledge | [[context-management-for-agents]] — bridges context gaps across sessions |
+
+## Relationship to [[forward-deployed-engineer]]
+
+This architecture explains why forward deployed engineers have become valuable in the AI era.
+An [[forward-deployed-engineer|FDE]] is often the person responsible for making an agentic system survive contact with a customer’s real environment:
+
+- wiring the orchestration layer into actual enterprise workflows,
+- connecting tools and data safely,
+- validating governance and permissions,
+- and iterating on the deployment after real-world failure modes appear.
+
+Where harness engineering makes the architecture controllable in principle, forward deployed engineering makes it usable in practice.
 | Layer 7 Reliability | Circuit breakers + human-in-the-loop = harness for failure recovery |
 
 ## See Also

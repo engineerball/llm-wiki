@@ -2,6 +2,11 @@
 
 Chronological record of all operations.
 
+## [2026-07-27] update | Forward Deployed Engineer connections
+Connected [[forward-deployed-engineer]] to [[harness-engineering]], [[agentic-ai-system]], and new concept [[services-led-growth]].
+New concepts: [[services-led-growth]].
+Updated: [[forward-deployed-engineer]], [[harness-engineering]], [[agentic-ai-system]], [[index]].
+
 ## [2026-07-27] ingest | Forward Deployed Engineer research
 Processed 3 web sources on the Forward Deployed Engineer role and its AI-era expansion. Created 3 new source pages, 1 new concept page, and 1 new entity page.
 New sources: [[forward-deployed-software-engineer-palantir-2020]], [[forward-deployed-engineer-a16z-services-led-growth-2025]], [[forward-deployed-engineer-illinois-tech-2026]].
