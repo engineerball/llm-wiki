@@ -4,6 +4,9 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ## Sources
 
+- [[forward-deployed-software-engineer-palantir-2020|A Day in the Life of a Palantir Forward Deployed Software Engineer]] - First-party definition: one customer across many capabilities, with rigorous engineering in the field
+- [[forward-deployed-engineer-a16z-services-led-growth-2025|Trading Margin for Moat: Why the Forward Deployed Engineer Is the Hottest Job in Startups]] - a16z framing of FDE as the services-led moat builder for complex AI products
+- [[forward-deployed-engineer-illinois-tech-2026|What Is a Forward Deployed Engineer?]] - Broad 2026 synthesis of the role's definition, growth, and skill profile in the AI era
 - [[analytics-engineering-dbt-labs-2019|What is analytics engineering?]] - dbt's foundational framing of the role: transform, test, deploy, document, and make self-service analytics possible
 - [[analytics-engineer-vs-data-analyst-vs-data-engineer-dbt-labs-2025|Analytics engineer vs data analyst vs data engineer]] - Organizational explanation of why the role emerged and how it differs from adjacent jobs
 - [[how-to-build-a-data-team-coalesce-2025|How to Build a Data Team]] - Team-design perspective: when to hire analytics engineers, what they should own, and how the role scales with maturity
@@ -50,6 +53,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Semantic Layers & Data Architecture
 
+- [[forward-deployed-engineer|Forward Deployed Engineer]] - Customer-embedded engineer who makes complex products work in real enterprise environments and feeds lessons back into the core product
 - [[the-semantic-movement-modern-data-101-2026-05-05|The Semantic Layer Movement: Rise & Current State]] — Semantic layer history, semantic mistrust risk, Reliable Semantic Stack framework
 - [[rise-of-semantic-layer-airbyte-2026-05-05|The Rise of the Semantic Layer: Metrics on the Fly]] — Semantic layers for AI; headless BI, Graph-RAG, real-time streaming, key tools
 - [[databricks-semantic-layer-architecture|Databricks: Semantic Layer Architecture]] — 5-era history, AI agent grounding/execution pattern, core-edge architecture
@@ -133,6 +137,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[anthropic|Anthropic]] — AI safety research lab; creator of Claude model family and Effective Harnesses research
 - [[obsidian|Obsidian]] — Local-first Markdown PKM tool; 1.5M users (2026); primary platform for AI-augmented PKM
 - [[meta|Meta]] — Built AI Second Brain harness (63K users, 3 months); PARA + MCP + skills-as-markdown
+- [[palantir|Palantir]] — Enterprise software company that popularized the Forward Deployed Engineer model around Foundry and Gotham deployments
 - [[tiago-forte|Tiago Forte]] — Productivity author; creator of the PARA Method; *Building a Second Brain* (2022)
 - [[simon-sinek|Simon Sinek]] — Author of *Start With Why*; creator of the Golden Circle framework
 - [[apiwat-tavesirivate|Apiwat Tavesirivate]] — Thai author/summarizer at lucid-trader.com

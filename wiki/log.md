@@ -2,6 +2,12 @@
 
 Chronological record of all operations.
 
+## [2026-07-27] ingest | Forward Deployed Engineer research
+Processed 3 web sources on the Forward Deployed Engineer role and its AI-era expansion. Created 3 new source pages, 1 new concept page, and 1 new entity page.
+New sources: [[forward-deployed-software-engineer-palantir-2020]], [[forward-deployed-engineer-a16z-services-led-growth-2025]], [[forward-deployed-engineer-illinois-tech-2026]].
+New concepts: [[forward-deployed-engineer]].
+New entities: [[palantir]].
+
 ## [2026-07-27] ingest | Analytics Engineer research
 Processed 3 web sources on the analytics engineer role and modern data-team design. Created 3 new source pages and 1 new concept page.
 New sources: [[analytics-engineering-dbt-labs-2019]], [[analytics-engineer-vs-data-analyst-vs-data-engineer-dbt-labs-2025]], [[how-to-build-a-data-team-coalesce-2025]].
