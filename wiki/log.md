@@ -2,6 +2,11 @@
 
 Chronological record of all operations.
 
+## [2026-07-27] ingest | Analytics Engineer research
+Processed 3 web sources on the analytics engineer role and modern data-team design. Created 3 new source pages and 1 new concept page.
+New sources: [[analytics-engineering-dbt-labs-2019]], [[analytics-engineer-vs-data-analyst-vs-data-engineer-dbt-labs-2025]], [[how-to-build-a-data-team-coalesce-2025]].
+New concepts: [[analytics-engineer]].
+
 ## [2026-07-26] ingest | The Agentic Software Factory (BCG Platinion, 2026)
 Processed BCG Platinion's March 2026 article / PDF on the Agentic Software Factory (aka "Dark Software Factory"). Created 1 new source page and 2 new concept pages; updated 1 existing concept page.
 New source: [[agentic-software-factory-bcg-platinion-2026]].

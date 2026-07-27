@@ -4,6 +4,10 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ## Sources
 
+- [[analytics-engineering-dbt-labs-2019|What is analytics engineering?]] - dbt's foundational framing of the role: transform, test, deploy, document, and make self-service analytics possible
+- [[analytics-engineer-vs-data-analyst-vs-data-engineer-dbt-labs-2025|Analytics engineer vs data analyst vs data engineer]] - Organizational explanation of why the role emerged and how it differs from adjacent jobs
+- [[how-to-build-a-data-team-coalesce-2025|How to Build a Data Team]] - Team-design perspective: when to hire analytics engineers, what they should own, and how the role scales with maturity
+
 ### AI & Software Engineering
 
 - [[software-engineering-tipping-point-bender-gcp-2026|Software Engineering at the Tipping Point (Google I/O 2026)]] — Adam Bender: AI increases code 10-100x; software ecology, shared fate, four architectural pillars, Architecture Diagram Test
@@ -238,6 +242,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Semantic Layers & Data Architecture
 
+- [[analytics-engineer|Analytics Engineer]] - Modern data-team role that turns raw warehouse data into trusted, reusable, business-ready analytical assets
 - [[semantic-layer|Semantic Layer]] — Virtual translation layer between physical data warehouse and data consumers; unified business metric definitions
 - [[airbnb-minerva|Airbnb Minerva]] — Airbnb's internal metrics platform; canonical Metrics as Code implementation; 12K+ metrics, v2 uses SQLGlot + StarRocks
 - [[metrics-as-code|Metrics as Code]] — Business logic standardized as version-controlled YAML/Python; foundational principle of modern semantic layers
