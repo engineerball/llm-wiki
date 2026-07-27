@@ -194,6 +194,8 @@ Where harness engineering makes the architecture controllable in principle, forw
 
 ## See Also
 
+- [[loop-engineering]] — recurring control cycles that can operate inside or across layers of the system
+- [[graph-engineering]] — explicit topology for orchestrating nodes, transitions, and checkpoints across the system
 - [[trae-definitive-guide-harness-engineering]] — Trae's PPAF loop and REPL container architecture complement this reference architecture's cognitive loop patterns
 - [[harness-engineering]] — the overarching discipline governing agent reliability
 - [[institutional-ai]] — the organisational layer on top of this architecture; the seven pillars of institutional intelligence (coordination, signal, objectivity, edge, outcomes, enablement, unprompted action) map directly to layers 2–8 of this architecture

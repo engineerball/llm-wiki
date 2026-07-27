@@ -202,6 +202,8 @@ See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 
 ## Related Concepts
 
+- [[loop-engineering]] — recurring control cycles built on top of harnessed agent runs
+- [[graph-engineering]] — topology layer that composes many loops, nodes, and transitions into a larger system
 - [[forward-deployed-engineer]] — complementary field role: harness engineering makes agents controllable; FDEs make those systems work inside specific customer environments
 - [[services-led-growth]] — organizational model where implementation-heavy technical work becomes a moat rather than a margin leak
 - [[trae-definitive-guide-harness-engineering]] — Trae's definitive guide (horse & reins, R.E.S.T., PPAF loop, REPL container, sandboxing)

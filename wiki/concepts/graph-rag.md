@@ -20,3 +20,11 @@ Unlike standard RAG, which often relies on statistical word associations (vector
 ## Implementation
 
 Graph-RAG often sits on top of a [[semantic-layer]] that has been enhanced with graph-based ontological definitions, transforming raw data into a "knowledge-enabled" environment for [[generative-ai]] systems.
+
+## Relationship to [[graph-engineering]]
+
+[[graph-engineering]] currently has multiple active meanings.
+Graph-RAG belongs to the knowledge and retrieval branch of that conversation.
+It uses typed entities and relationships to improve how agents find and traverse relevant context.
+
+This is different from orchestration-oriented graph engineering, which structures how agent nodes and workflows interact at runtime.

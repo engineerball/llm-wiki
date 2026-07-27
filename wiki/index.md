@@ -20,6 +20,11 @@ Master catalog of all wiki pages. Updated on every ingest.
 ### Agent Engineering & Harness Engineering
 
 - [[services-led-growth|Services-Led Growth]] — Implementation-heavy go-to-market model where technical services become the wedge and later the moat for complex AI products
+- [[loop-engineering-addy-osmani-2026|Loop Engineering]] — Addy Osmani's framing: replace turn-by-turn prompting with designed loops that schedule, verify, and remember
+- [[art-of-loop-engineering-langchain-2026|The Art of Loop Engineering]] — LangChain's four-loop stack: agent, verification, event-driven, and hill-climbing loops
+- [[graph-engineering-langgraph-2026|3 Years of Graph Engineering with LangGraph]] — Graphs as explicit stateful workflows with deterministic and agentic nodes mixed deliberately
+- [[graph-engineering-multi-agent-systems-truefoundry-2026|Graph Engineering for Multi-Agent Systems]] — Enterprise framing of graph topology, governance, observability, and runtime coordination
+- [[what-is-graph-engineering-field-guide-2026|What Is Graph Engineering? A Field Guide for Builders]] — Survey of competing meanings: orchestration graphs, graphs of loops, and graph-structured retrieval
 - [[harness-engineering-leveraging-codex|Harness Engineering: Leveraging Codex in an Agent-First World]] — OpenAI's foundational article introducing Harness Engineering and Codex-based agent-first development
 - [[harness-engineering-coding-agent-users|Harness Engineering for Coding Agent Users]] — Guides/sensors framework, harnessability taxonomy, three harness domains (martinfowler.com)
 - [[trae-definitive-guide-harness-engineering|The Definitive Guide to Harness Engineering (Trae)]] — Horse & Reins metaphor, R.E.S.T. framework, PPAF loop, six design principles
@@ -201,6 +206,8 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 - [[google-cloud-agent-gateway|Google Cloud Agent Gateway]] — GCP's managed proprietary agent gateway (Gemini Enterprise Agent Platform); contrast with open-source [[agentgateway|Agent Gateway]]
 - [[harness-engineering|Harness Engineering]] — Software engineering discipline shifted to designing environments, feedback loops, and scaffolding for reliable AI agents
+- [[loop-engineering|Loop Engineering]] — Designing recurring agent control cycles with stop conditions, verification, cadence, and persistent state
+- [[graph-engineering|Graph Engineering]] — Designing explicit topology across nodes, transitions, loops, and checkpoints in AI systems
 - [[para-method|PARA Method]] — Folder taxonomy (Projects, Areas, Resources, Archives) adapted as context architecture for AI agents
 - [[skills-as-markdown|Skills as Markdown]] — Reusable agent workflows as plain markdown + scripts; no compilation; 3,000+ skills built at Meta in 3 months
 - [[skill-md-specification|SKILL.md Specification]] — File format and structural spec for agent skills: frontmatter, directory structure, progressive disclosure three-level loading

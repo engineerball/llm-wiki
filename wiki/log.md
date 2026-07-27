@@ -2,6 +2,13 @@
 
 Chronological record of all operations.
 
+## [2026-07-27] ingest | Loop Engineering and Graph Engineering research
+Processed 5 web sources on loop engineering and graph engineering.
+Created 5 new source pages and 2 new concept pages.
+Updated: [[harness-engineering]], [[graph-rag]], [[agentic-ai-system]], [[index]].
+New sources: [[loop-engineering-addy-osmani-2026]], [[art-of-loop-engineering-langchain-2026]], [[graph-engineering-langgraph-2026]], [[graph-engineering-multi-agent-systems-truefoundry-2026]], [[what-is-graph-engineering-field-guide-2026]].
+New concepts: [[loop-engineering]], [[graph-engineering]].
+
 ## [2026-07-27] update | Forward Deployed Engineer connections
 Connected [[forward-deployed-engineer]] to [[harness-engineering]], [[agentic-ai-system]], and new concept [[services-led-growth]].
 New concepts: [[services-led-growth]].
