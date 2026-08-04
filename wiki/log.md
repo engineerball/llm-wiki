@@ -100,3 +100,9 @@ Full lint pass across 219 pages. Findings and fixes:
 - Renamed 8 non-kebab-case files to kebab-case and updated all referencing wikilinks + index.md: [[adam-bender]], [[openshell]], [[architecture-diagram-test]], [[robust-abstractions]], [[agentic-chaos]], [[ai-10x-moment]], [[statistical-integration-testing]], [[code-as-liability]].
 - Deferred: "embeddings" concept page (referenced 11x across recommendation-systems pages) not created — flagged for future ingest.
 
+## [2026-08-04] lint | OpenSearch MCP ingest verification
+Linted 260 wiki pages after the OpenSearch MCP ingest.
+- New pages passed frontmatter, required fields, wikilink, orphan, index, and page-size checks.
+- Raw source drift: 0 files with SHA-256 mismatches.
+- Existing legacy findings remain: 4 pages missing frontmatter, 78 pages missing one or more required fields, 259 unresolved wikilinks, 3 orphan pages, 10 pages absent from the index, and 9 pages over 200 lines.
+- No legacy files were modified by this lint pass.
