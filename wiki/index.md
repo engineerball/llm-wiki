@@ -39,6 +39,13 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[agentic-software-factory-bcg-platinion-2026|The Agentic Software Factory (BCG Platinion, 2026)]] — Enterprise framing of autonomous software delivery: intent thinking, factory assembly lines, five transformation pillars
 - [[google-cloud-agent-gateway|Google Cloud Agent Gateway Overview]] — Official GCP docs: networking component of Gemini Enterprise Agent Platform, governs user↔agent/agent↔tool/agent↔agent traffic
 
+### Agentic Search & Retrieval
+
+- [[nextgen-search-ai-opensearch-mcp|NextGen Search - Where AI Meets OpenSearch through MCP]] — InfoQ source summary: agentic search evolution, MCP architecture, OpenSearch tools, and sales/observability demos
+- [[agentic-search|Agentic Search]] — Natural-language search with agent planning, tool orchestration, correlation, and iteration
+- [[model-context-protocol|Model Context Protocol]] — JSON-RPC-based bridge between AI agents and external services
+- [[opensearch|OpenSearch]] — Open-source search and analytics data layer used in the MCP architecture
+
 ### Agent Security
 
 - [[nvidia-nemoclaw-overview|NVIDIA NemoClaw Overview]] — Official NVIDIA reference stack for deploying OpenClaw safely; three-primitive isolation

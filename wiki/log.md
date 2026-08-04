@@ -81,6 +81,15 @@ New concepts: [[radical-candor]] (Care Personally × Challenge Directly, 4 quadr
 New entity: [[kim-scott]].
 Raw source saved to raw/Radical Candor - Naluri.md. Filed under Leadership & Business alongside existing Start With Why summaries.
 
+## [2026-08-04] ingest | NextGen Search - Where AI Meets OpenSearch through MCP
+Processed InfoQ's article on the evolution from keyword search to agentic search using OpenSearch and Model Context Protocol.
+Created 1 source page, 2 concept pages, and 1 entity page.
+New source: [[nextgen-search-ai-opensearch-mcp]].
+New concepts: [[agentic-search]], [[model-context-protocol]].
+New entity: [[opensearch]].
+Updated: [[index]].
+Raw source saved to `raw/articles/nextgen-search-ai-opensearch-mcp.md`.
+
 ## [2026-06-15] lint | Wiki health check and cleanup
 Full lint pass across 219 pages. Findings and fixes:
 - Fixed 5 broken/raw-path wikilinks: [[shopify-universal-commerce-protocol-ucp-2026]], [[shopify]], [[agentic-commerce]], [[agentic-protocol-stack]], [[gcp-align-cloud-spending-business-value]].
