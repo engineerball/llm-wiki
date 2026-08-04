@@ -1,7 +1,7 @@
 ---
 title: "Agentic Search"
 tags: [concept, agentic-ai, search, opensearch, model-context-protocol, rag, architecture]
-sources: ["sources/nextgen-search-ai-opensearch-mcp.md"]
+sources: ["sources/nextgen-search-ai-opensearch-mcp.md", "sources/query-understanding-llms-opensearch-2025.md"]
 date: 2026-08-04
 ---
 

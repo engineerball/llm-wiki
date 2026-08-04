@@ -42,7 +42,9 @@ Master catalog of all wiki pages. Updated on every ingest.
 ### Agentic Search & Retrieval
 
 - [[nextgen-search-ai-opensearch-mcp|NextGen Search - Where AI Meets OpenSearch through MCP]] — InfoQ source summary: agentic search evolution, MCP architecture, OpenSearch tools, and sales/observability demos
+- [[query-understanding-llms-opensearch-2025|Query Understanding With Large Language Models: Techniques and Optimizations in OpenSearch]] — YouTube session: LLM query expansion, rewriting, personas, context enrichment, caching, and production latency guardrails
 - [[agentic-search|Agentic Search]] — Natural-language search with agent planning, tool orchestration, correlation, and iteration
+- [[query-understanding|Query Understanding]] — Enriching user queries with intent, user/domain/business context, valid filters, and retrieval routing
 - [[model-context-protocol|Model Context Protocol]] — JSON-RPC-based bridge between AI agents and external services
 - [[opensearch|OpenSearch]] — Open-source search and analytics data layer used in the MCP architecture
 

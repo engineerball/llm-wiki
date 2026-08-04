@@ -106,3 +106,11 @@ Linted 260 wiki pages after the OpenSearch MCP ingest.
 - Raw source drift: 0 files with SHA-256 mismatches.
 - Existing legacy findings remain: 4 pages missing frontmatter, 78 pages missing one or more required fields, 259 unresolved wikilinks, 3 orphan pages, 10 pages absent from the index, and 9 pages over 200 lines.
 - No legacy files were modified by this lint pass.
+
+## [2026-08-04] ingest | Query Understanding With Large Language Models
+Processed the OpenSearch YouTube session by Hajer Bouafif and Cédric Pelvet on LLM query understanding and search optimization.
+Created 1 raw transcript, 1 source page, and 1 concept page.
+Updated: [[agentic-search]], [[opensearch]], and [[index]].
+New source: [[query-understanding-llms-opensearch-2025]].
+New concept: [[query-understanding]].
+Raw source saved to `raw/articles/query-understanding-llms-opensearch-2025.md`.

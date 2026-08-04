@@ -1,7 +1,7 @@
 ---
 title: "OpenSearch"
 tags: [entity, opensearch, search, retrieval, vector-search, open-source, aws]
-sources: ["sources/nextgen-search-ai-opensearch-mcp.md"]
+sources: ["sources/nextgen-search-ai-opensearch-mcp.md", "sources/query-understanding-llms-opensearch-2025.md"]
 date: 2026-08-04
 ---
 
