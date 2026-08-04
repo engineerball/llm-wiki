@@ -109,8 +109,11 @@ Linted 260 wiki pages after the OpenSearch MCP ingest.
 
 ## [2026-08-04] ingest | Query Understanding With Large Language Models
 Processed the OpenSearch YouTube session by Hajer Bouafif and Cédric Pelvet on LLM query understanding and search optimization.
+Source URL: https://www.youtube.com/watch?v=oF-LYeTTjfE
 Created 1 raw transcript, 1 source page, and 1 concept page.
 Updated: [[agentic-search]], [[opensearch]], and [[index]].
 New source: [[query-understanding-llms-opensearch-2025]].
 New concept: [[query-understanding]].
+Topics: query expansion, query rewriting, query classification, personas, user/domain/business context, hybrid search, caching, latency fallback, and production evaluation.
 Raw source saved to `raw/articles/query-understanding-llms-opensearch-2025.md`.
+Targeted lint passed and raw transcript SHA-256 was verified.
