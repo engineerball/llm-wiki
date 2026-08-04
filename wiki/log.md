@@ -2,6 +2,33 @@
 
 Chronological record of all operations.
 
+## [2026-08-04] ingest | Query Understanding With Large Language Models
+Processed the OpenSearch YouTube session by Hajer Bouafif and Cédric Pelvet on LLM query understanding and search optimization.
+Source URL: https://www.youtube.com/watch?v=oF-LYeTTjfE
+Created 1 raw transcript, 1 source page, and 1 concept page.
+Updated: [[agentic-search]], [[opensearch]], and [[index]].
+New source: [[query-understanding-llms-opensearch-2025]].
+New concept: [[query-understanding]].
+Topics: query expansion, query rewriting, query classification, personas, user/domain/business context, hybrid search, caching, latency fallback, and production evaluation.
+Raw source saved to `raw/articles/query-understanding-llms-opensearch-2025.md`.
+Targeted lint passed and raw transcript SHA-256 was verified.
+
+## [2026-08-04] lint | OpenSearch MCP ingest verification
+Linted 260 wiki pages after the OpenSearch MCP ingest.
+- New pages passed frontmatter, required fields, wikilink, orphan, index, and page-size checks.
+- Raw source drift: 0 files with SHA-256 mismatches.
+- Existing legacy findings remain: 4 pages missing frontmatter, 78 pages missing one or more required fields, 259 unresolved wikilinks, 3 orphan pages, 10 pages absent from the index, and 9 pages over 200 lines.
+- No legacy files were modified by this lint pass.
+
+## [2026-08-04] ingest | NextGen Search - Where AI Meets OpenSearch through MCP
+Processed InfoQ's article on the evolution from keyword search to agentic search using OpenSearch and Model Context Protocol.
+Created 1 source page, 2 concept pages, and 1 entity page.
+New source: [[nextgen-search-ai-opensearch-mcp]].
+New concepts: [[agentic-search]], [[model-context-protocol]].
+New entity: [[opensearch]].
+Updated: [[index]].
+Raw source saved to `raw/articles/nextgen-search-ai-opensearch-mcp.md`.
+
 ## [2026-07-27] ingest | Designing data platforms to support CDPs
 Processed 5 web sources on CDP-supporting data platform design.
 Created 5 new source pages and 3 new concept pages.
@@ -81,15 +108,6 @@ New concepts: [[radical-candor]] (Care Personally × Challenge Directly, 4 quadr
 New entity: [[kim-scott]].
 Raw source saved to raw/Radical Candor - Naluri.md. Filed under Leadership & Business alongside existing Start With Why summaries.
 
-## [2026-08-04] ingest | NextGen Search - Where AI Meets OpenSearch through MCP
-Processed InfoQ's article on the evolution from keyword search to agentic search using OpenSearch and Model Context Protocol.
-Created 1 source page, 2 concept pages, and 1 entity page.
-New source: [[nextgen-search-ai-opensearch-mcp]].
-New concepts: [[agentic-search]], [[model-context-protocol]].
-New entity: [[opensearch]].
-Updated: [[index]].
-Raw source saved to `raw/articles/nextgen-search-ai-opensearch-mcp.md`.
-
 ## [2026-06-15] lint | Wiki health check and cleanup
 Full lint pass across 219 pages. Findings and fixes:
 - Fixed 5 broken/raw-path wikilinks: [[shopify-universal-commerce-protocol-ucp-2026]], [[shopify]], [[agentic-commerce]], [[agentic-protocol-stack]], [[gcp-align-cloud-spending-business-value]].
@@ -99,21 +117,3 @@ Full lint pass across 219 pages. Findings and fixes:
 - Created new concept page [[code-isolation]] (4th architectural pillar from the Tipping Point source; was referenced 4x with no page).
 - Renamed 8 non-kebab-case files to kebab-case and updated all referencing wikilinks + index.md: [[adam-bender]], [[openshell]], [[architecture-diagram-test]], [[robust-abstractions]], [[agentic-chaos]], [[ai-10x-moment]], [[statistical-integration-testing]], [[code-as-liability]].
 - Deferred: "embeddings" concept page (referenced 11x across recommendation-systems pages) not created — flagged for future ingest.
-
-## [2026-08-04] lint | OpenSearch MCP ingest verification
-Linted 260 wiki pages after the OpenSearch MCP ingest.
-- New pages passed frontmatter, required fields, wikilink, orphan, index, and page-size checks.
-- Raw source drift: 0 files with SHA-256 mismatches.
-- Existing legacy findings remain: 4 pages missing frontmatter, 78 pages missing one or more required fields, 259 unresolved wikilinks, 3 orphan pages, 10 pages absent from the index, and 9 pages over 200 lines.
-- No legacy files were modified by this lint pass.
-
-## [2026-08-04] ingest | Query Understanding With Large Language Models
-Processed the OpenSearch YouTube session by Hajer Bouafif and Cédric Pelvet on LLM query understanding and search optimization.
-Source URL: https://www.youtube.com/watch?v=oF-LYeTTjfE
-Created 1 raw transcript, 1 source page, and 1 concept page.
-Updated: [[agentic-search]], [[opensearch]], and [[index]].
-New source: [[query-understanding-llms-opensearch-2025]].
-New concept: [[query-understanding]].
-Topics: query expansion, query rewriting, query classification, personas, user/domain/business context, hybrid search, caching, latency fallback, and production evaluation.
-Raw source saved to `raw/articles/query-understanding-llms-opensearch-2025.md`.
-Targeted lint passed and raw transcript SHA-256 was verified.
