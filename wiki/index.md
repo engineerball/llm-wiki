@@ -4,6 +4,13 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ## Sources
 
+### AI Governance & Responsible AI
+
+- [[databricks-ai-governance-best-practices|AI Governance Best Practices: How to Build Responsible and Effective AI Programs]] — Databricks guidance on ownership, risk tiers, lifecycle gates, monitoring, incident response, artifacts, and centralized-federated governance
+- [[iso-iec-42001-pecb-2026|ISO/IEC 42001 Artificial Intelligence Management System - PECB overview]] — PECB overview of AIMS, training pathways, and the boundary between individual certification and organizational certification
+- [[nist-ai-rmf-2023|NIST AI Risk Management Framework]] — NIST's voluntary framework for trustworthy AI risk management and the Generative AI Profile
+- [[eu-ai-act-oecd-ai-principles-2026|EU AI Act and OECD AI Principles - governance references]] — Risk-based legal obligations and international values-based principles
+
 - [[forward-deployed-software-engineer-palantir-2020|A Day in the Life of a Palantir Forward Deployed Software Engineer]] - First-party definition: one customer across many capabilities, with rigorous engineering in the field
 - [[forward-deployed-engineer-a16z-services-led-growth-2025|Trading Margin for Moat: Why the Forward Deployed Engineer Is the Hottest Job in Startups]] - a16z framing of FDE as the services-led moat builder for complex AI products
 - [[forward-deployed-engineer-illinois-tech-2026|What Is a Forward Deployed Engineer?]] - Broad 2026 synthesis of the role's definition, growth, and skill profile in the AI era
@@ -215,6 +222,12 @@ Master catalog of all wiki pages. Updated on every ingest.
 ---
 
 ## Concepts
+
+### AI Governance & Responsible AI
+
+- [[ai-governance|AI Governance]] — Organizational decision rights, policies, controls, evidence, and oversight across the AI lifecycle
+- [[iso-iec-42001|ISO/IEC 42001]] — Artificial Intelligence Management System (AIMS) management-system standard and PECB certification boundary
+- [[nist-ai-risk-management-framework|NIST AI Risk Management Framework]] — Voluntary trustworthy-AI risk-management framework and Generative AI Profile
 
 ### Agentic AI & Harness Engineering
 

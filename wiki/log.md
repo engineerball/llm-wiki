@@ -2,6 +2,18 @@
 
 Chronological record of all operations.
 
+## [2026-09-10] ingest | Internal AI Governance, ISO/IEC 42001, and Databricks guidance
+
+Processed official and primary reference pages from Databricks, PECB, NIST, the European Commission, and OECD.
+Created 4 raw source notes, 4 source pages, and 3 concept pages.
+New concepts: [[ai-governance]], [[iso-iec-42001]], and [[nist-ai-risk-management-framework]].
+New sources: [[databricks-ai-governance-best-practices]], [[iso-iec-42001-pecb-2026]], [[nist-ai-rmf-2023]], and [[eu-ai-act-oecd-ai-principles-2026]].
+Updated: [[index]].
+
+The synthesis covers organizational ownership, centralized-federated operating models, risk-tiered lifecycle gates, AI inventories, evidence artifacts, human oversight, monitoring, incident response, continual improvement, ISO/IEC 42001 AIMS, NIST AI RMF, the EU AI Act, and OECD AI Principles.
+The Databricks article is treated as vendor guidance rather than a normative standard.
+The PECB page is treated as a training and certification overview rather than the full ISO/IEC 42001 standard.
+
 ## [2026-08-04] ingest | Query Understanding With Large Language Models
 Processed the OpenSearch YouTube session by Hajer Bouafif and Cédric Pelvet on LLM query understanding and search optimization.
 Source URL: https://www.youtube.com/watch?v=oF-LYeTTjfE
