@@ -40,6 +40,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[harness-design-long-running-apps|Harness Design for Long-Running Apps]] — Multi-agent generator–evaluator harness for long-running app development with Claude
 - [[harness-engineering-claude-code-book|Harness Engineering: The Claude Code Book]] — Comprehensive design analysis of Claude Code as a harness specimen
 - [[agentgateway-kubernetes-docs|Agent Gateway: Kubernetes Docs]] — Official Kubernetes deployment docs: LLM/MCP/A2A gateway, Rust, Linux Foundation
+- [[agentgateway-official-2026-10-09|Agent Gateway - Official Research Snapshot]] — Current primary-source snapshot: v1.6.0, Kubernetes/standalone deployment, LLM/MCP/A2A, security, observability, and distinction from Google Cloud Agent Gateway
 - [[agentic-ai-reference-architecture|Agentic AI Reference Architecture]] — 9-layer reference architecture for goal-driven multi-agent AI systems
 - [[institutional-ai-vs-individual-ai-sivulka-2026|Institutional AI vs Individual AI]] — George Sivulka: seven pillars of institutional intelligence, electrification analogy
 - [[team-os-claude-code-hannah-stulberg-2026|Build a Team OS with Claude Code — Hannah Stulberg]] — Team OS architecture, context management theory, nested CLAUDE.md indexes, parallel agents
@@ -200,7 +201,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Tools & Models
 
-- [[agentgateway|Agent Gateway]] — Open-source Rust gateway for MCP/A2A/LLM traffic; Linux Foundation; Kubernetes-native
+- [[agentgateway|Agent Gateway]] — Open-source Rust gateway for HTTP/gRPC/LLM/MCP/A2A traffic; Kubernetes and standalone deployment models; Linux Foundation project
 - [[claude|Claude]] — Anthropic's AI model family; used across agent and assistant tasks in this wiki
 - [[codex|Codex]] — OpenAI's AI coding agent (GPT-5); autonomous software engineering; central to Harness Engineering
 - [[cube|Cube]] — Open-source headless semantic layer; API-first (REST/GraphQL/SQL); leader in headless BI

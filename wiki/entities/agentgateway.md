@@ -1,55 +1,58 @@
 ---
 title: "Agent Gateway"
-tags: [entity, tool, agent-gateway, mcp, a2a, llm-gateway, kubernetes, infrastructure, open-source]
+tags: [entity, tool, agent-gateway, agentgateway, mcp, a2a, llm-gateway, kubernetes, infrastructure, open-source]
 type: tool
-date: 2026-05-05
-sources: ["sources/agentgateway-kubernetes-docs.md"]
+date: 2026-10-09
+sources: ["sources/agentgateway-official-2026-10-09.md"]
 ---
 
 # Agent Gateway
 
-Open-source gateway control plane + proxy data plane, hosted by the [[linux-foundation]]. Built in Rust for performance and memory safety with stateful, long-lived agentic connections.
+`agentgateway` is an open-source, Rust-based proxy and gateway for AI-native traffic.
+The project provides a common policy and connectivity surface for LLM, MCP, A2A, HTTP, and gRPC traffic.
+The official repository describes it as a next-generation agentic proxy for AI agents and MCP servers.
 
-## What It Does
+## Core capabilities
 
-Unified gateway for three traffic types:
-
-| Gateway | Purpose |
+| Capability | Role |
 |---|---|
-| **LLM Gateway** | Unified OpenAI-compatible API across all major LLM providers |
-| **MCP Gateway** | Aggregates multiple MCP servers; tool federation with auth |
-| **A2A Gateway** | Inter-agent communication per [[agentic-protocol-stack]] L1 |
-
-Also handles traditional API/microservice traffic — eliminates need for separate gateway infrastructure.
-
-## Why Rust
-
-Stateful JSON-RPC sessions with long-lived connections require performance and memory safety that Rust provides. Traditional gateways optimize for stateless REST; Agent Gateway is built for session fan-out, SSE push, and per-session authorization.
-
-## LLM Provider Support
-
-Native passthrough: OpenAI, Azure, Anthropic (Messages API)
-Translation: Amazon Bedrock, Google Gemini, Google Vertex AI
-OpenAI-compatible: Cohere, Mistral, Groq, Together AI, Fireworks, Ollama, vLLM, llama.cpp
-
-For GPU self-hosting: Kubernetes Inference Gateway extensions for routing by GPU utilization, KV cache, LoRA adapters, queue depth.
-
-## Security
-
-- Auth: JWT, API keys, basic auth, MCP auth spec
-- RBAC: CEL policy engine
-- Traffic: rate limiting, CORS, TLS, external authz
-- Observability: OpenTelemetry (metrics, logs, traces)
+| LLM Gateway | Unified provider access, routing, failover, prompt enrichment, and cost controls |
+| MCP Gateway | Tool federation, static/dynamic/virtual routing, sessions, authentication, and access policy |
+| A2A Gateway | Agent-to-agent routing, capability discovery, and task collaboration |
+| Inference routing | Routing to self-hosted models using Kubernetes Inference Gateway signals |
+| General proxy | HTTP and gRPC connectivity in addition to agentic protocols |
 
 ## Deployment
 
-Kubernetes-native via Helm/ArgoCD/FluxCD, conformant to Kubernetes Gateway API. Also available as standalone binary. Control plane manages config; data plane proxies process traffic.
+- **Kubernetes**: control plane plus proxy data plane, Kubernetes Gateway API, Helm, Argo CD, and Flux documentation.
+- **Standalone**: proxy deployment without the full Kubernetes controller, configured through YAML or JSON.
+
+## Security and observability
+
+Documented capabilities include JWT, API keys, OAuth, CEL-based RBAC, rate limiting, TLS, external authorization, guardrails, and OpenTelemetry metrics, logs, and traces.
+These capabilities should not be interpreted as automatic secure-by-default behavior, certification, or regulatory compliance.
+
+## Current version snapshot
+
+Research on 2026-10-09 observed GitHub release `v1.6.0` and Kubernetes documentation track `1.6.x`.
+The project is active development, so feature behavior and configuration should be checked against the selected release documentation before production use.
+
+## Distinction from Google Cloud Agent Gateway
+
+[[google-cloud-agent-gateway]] is a separate managed Google Cloud product in the Gemini Enterprise Agent Platform.
+`agentgateway` is the open-source proxy and gateway project.
+They are related by problem space but are not the same implementation or deployment model.
 
 ## Links
 
-- Docs: https://agentgateway.dev/docs/kubernetes/latest/
-- Full docs index: https://agentgateway.dev/docs/llms.txt
+- Repository: https://github.com/agentgateway/agentgateway
+- Website: https://agentgateway.dev/
+- Documentation index: https://agentgateway.dev/docs/llms.txt
+- Kubernetes docs: https://agentgateway.dev/docs/kubernetes/latest/
+- Standalone docs: https://agentgateway.dev/docs/standalone/latest/
+- Latest release observed: https://github.com/agentgateway/agentgateway/releases/tag/v1.6.0
 
-## Source
+## Source pages
 
-- [[agentgateway-kubernetes-docs]] — official Kubernetes deployment documentation
+- [[agentgateway-official-2026-10-09]]
+- [[agentgateway-kubernetes-docs]]

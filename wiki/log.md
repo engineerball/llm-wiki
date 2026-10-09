@@ -2,6 +2,14 @@
 
 Chronological record of all operations.
 
+## [2026-10-09] ingest | agentgateway official research snapshot
+
+Processed primary sources from the official agentgateway GitHub repository, release `v1.6.0`, official documentation index, Kubernetes documentation, and standalone documentation.
+Created raw source `raw/articles/agentgateway-official-2026-10-09.md` and source page [[agentgateway-official-2026-10-09]].
+Updated entity [[agentgateway]] and [[index]].
+Documented LLM, MCP, A2A, HTTP/gRPC, inference routing, Kubernetes/standalone deployment, security, observability, cost controls, guardrails, and current documentation scope.
+Explicitly distinguished open-source agentgateway from Google Cloud Agent Gateway and marked unsupported SLA, certification, compliance, and maturity claims as unknown.
+
 ## [2026-09-10] ingest | Internal AI Governance, ISO/IEC 42001, and Databricks guidance
 
 Processed official and primary reference pages from Databricks, PECB, NIST, the European Commission, and OECD.
