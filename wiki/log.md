@@ -10,6 +10,15 @@ Updated entity [[agentgateway]] and [[index]].
 Documented LLM, MCP, A2A, HTTP/gRPC, inference routing, Kubernetes/standalone deployment, security, observability, cost controls, guardrails, and current documentation scope.
 Explicitly distinguished open-source agentgateway from Google Cloud Agent Gateway and marked unsupported SLA, certification, compliance, and maturity claims as unknown.
 
+## [2026-10-09] ingest | agentgateway authentication, authorization, and user-to-MCP delegation
+
+Processed official agentgateway Kubernetes and standalone security documentation, MCP authorization specifications, MCP tool authorization, external authorization, and MCP token exchange.
+Created raw research `raw/articles/agentgateway-authn-authz-2026-10-09.md` and source page [[agentgateway-authn-authz-2026-10-09]].
+Updated [[agentgateway]] and [[index]].
+
+The research separates user authentication in the agent runtime, gateway authentication, route/backend authorization, MCP tool authorization, MCP server domain authorization, and backend-scoped token exchange.
+It records the evidence boundary that agentgateway does not automatically authenticate a human user inside an arbitrary agent runtime or prove domain-level authorization inside an MCP server.
+
 ## [2026-09-10] ingest | Internal AI Governance, ISO/IEC 42001, and Databricks guidance
 
 Processed official and primary reference pages from Databricks, PECB, NIST, the European Commission, and OECD.

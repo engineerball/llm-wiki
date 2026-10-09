@@ -3,7 +3,7 @@ title: "Agent Gateway"
 tags: [entity, tool, agent-gateway, agentgateway, mcp, a2a, llm-gateway, kubernetes, infrastructure, open-source]
 type: tool
 date: 2026-10-09
-sources: ["sources/agentgateway-official-2026-10-09.md"]
+sources: ["sources/agentgateway-official-2026-10-09.md", "sources/agentgateway-authn-authz-2026-10-09.md"]
 ---
 
 # Agent Gateway
@@ -42,6 +42,12 @@ The project is active development, so feature behavior and configuration should 
 [[google-cloud-agent-gateway]] is a separate managed Google Cloud product in the Gemini Enterprise Agent Platform.
 `agentgateway` is the open-source proxy and gateway project.
 They are related by problem space but are not the same implementation or deployment model.
+
+## Authentication and authorization
+
+[[agentgateway-authn-authz-2026-10-09]] documents the evidence boundary between user authentication in an agent runtime, gateway authentication, gateway authorization, MCP tool authorization, MCP server authorization, and backend token exchange.
+
+The key design conclusion is that gateway authentication does not automatically authenticate the human user inside an agent or prove domain-level authorization inside an MCP server.
 
 ## Links
 

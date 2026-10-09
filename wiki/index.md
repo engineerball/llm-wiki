@@ -41,6 +41,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[harness-engineering-claude-code-book|Harness Engineering: The Claude Code Book]] — Comprehensive design analysis of Claude Code as a harness specimen
 - [[agentgateway-kubernetes-docs|Agent Gateway: Kubernetes Docs]] — Official Kubernetes deployment docs: LLM/MCP/A2A gateway, Rust, Linux Foundation
 - [[agentgateway-official-2026-10-09|Agent Gateway - Official Research Snapshot]] — Current primary-source snapshot: v1.6.0, Kubernetes/standalone deployment, LLM/MCP/A2A, security, observability, and distinction from Google Cloud Agent Gateway
+- [[agentgateway-authn-authz-2026-10-09|Agentgateway Authentication, Authorization, and User-to-MCP Delegation]] — Evidence-based chain from user and agent runtime to gateway, MCP server, and individual tool authorization
 - [[agentic-ai-reference-architecture|Agentic AI Reference Architecture]] — 9-layer reference architecture for goal-driven multi-agent AI systems
 - [[institutional-ai-vs-individual-ai-sivulka-2026|Institutional AI vs Individual AI]] — George Sivulka: seven pillars of institutional intelligence, electrification analogy
 - [[team-os-claude-code-hannah-stulberg-2026|Build a Team OS with Claude Code — Hannah Stulberg]] — Team OS architecture, context management theory, nested CLAUDE.md indexes, parallel agents
