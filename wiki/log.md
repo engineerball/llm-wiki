@@ -2,6 +2,13 @@
 
 Chronological record of all operations.
 
+## [2026-10-26] ingest | Jev model and model routing
+
+Processed the local `hermes-jev-skills` repository and Hermes Jev model-routing documentation.
+Created raw source `raw/articles/jev-model-routing-2026-10-26.md`, source page [[jev-model-routing-2026-10-26]], entity page [[jev]], and concept page [[model-routing]].
+Updated [[index]].
+Recorded Jev's difficulty/specialty/risk classification, ordered tier and specialty pools, shadow/on/off modes, effort routing, privacy boundary, closed-set validation, fail-open behavior, and the limits of installation, runtime, and billing evidence.
+
 ## [2026-10-09] ingest | agentgateway official research snapshot
 
 Processed primary sources from the official agentgateway GitHub repository, release `v1.6.0`, official documentation index, Kubernetes documentation, and standalone documentation.

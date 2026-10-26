@@ -26,6 +26,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Agent Engineering & Harness Engineering
 
+- [[jev-model-routing-2026-10-26|Jev Model and Model Routing - Research Snapshot]] — Evidence-based snapshot of Jev's bounded classification, tiered model pools, privacy boundary, fail-open behavior, and provenance limits
 - [[services-led-growth|Services-Led Growth]] — Implementation-heavy go-to-market model where technical services become the wedge and later the moat for complex AI products
 - [[loop-engineering-addy-osmani-2026|Loop Engineering]] — Addy Osmani's framing: replace turn-by-turn prompting with designed loops that schedule, verify, and remember
 - [[art-of-loop-engineering-langchain-2026|The Art of Loop Engineering]] — LangChain's four-loop stack: agent, verification, event-driven, and hill-climbing loops
@@ -202,6 +203,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Tools & Models
 
+- [[jev|Jev]] — Hermes decision layer for bounded model routing, skill selection, retrieval screening, compaction, and action choice
 - [[agentgateway|Agent Gateway]] — Open-source Rust gateway for HTTP/gRPC/LLM/MCP/A2A traffic; Kubernetes and standalone deployment models; Linux Foundation project
 - [[claude|Claude]] — Anthropic's AI model family; used across agent and assistant tasks in this wiki
 - [[codex|Codex]] — OpenAI's AI coding agent (GPT-5); autonomous software engineering; central to Harness Engineering
@@ -233,6 +235,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ### Agentic AI & Harness Engineering
 
+- [[model-routing|Model Routing with Jev]] — Tiered, specialty-aware LLM selection with conservative thresholds, shadow validation, privacy boundaries, and fail-open behavior
 - [[google-cloud-agent-gateway|Google Cloud Agent Gateway]] — GCP's managed proprietary agent gateway (Gemini Enterprise Agent Platform); contrast with open-source [[agentgateway|Agent Gateway]]
 - [[harness-engineering|Harness Engineering]] — Software engineering discipline shifted to designing environments, feedback loops, and scaffolding for reliable AI agents
 - [[loop-engineering|Loop Engineering]] — Designing recurring agent control cycles with stop conditions, verification, cadence, and persistent state
