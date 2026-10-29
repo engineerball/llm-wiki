@@ -1,8 +1,8 @@
 ---
 title: "Claude"
 tags: [entity, tool, llm, anthropic]
-sources: [https://www.anthropic.com/engineering/harness-design-long-running-apps]
-date: 2026-03-24
+sources: [https://www.anthropic.com/engineering/harness-design-long-running-apps, https://claude.dev/blog/solving-code-review-at-anthropic/]
+date: 2026-10-29
 ---
 
 # Claude
@@ -32,4 +32,6 @@ When embedded in a [[generator-evaluator-architecture]] with [[sprint-contracts]
 ## See Also
 
 - [[harness-design-long-running-apps]] — source article on harness design for long-running Claude tasks
+- [[claude-code-review-at-anthropic-2026-10-29]] — Anthropic's layered AI code-review and release-control process
+- [[ai-code-review]] — concept page on layered AI code review
 - [[harness-engineering]] — broader agent scaffolding methodology

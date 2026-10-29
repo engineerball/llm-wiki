@@ -153,3 +153,10 @@ Full lint pass across 219 pages. Findings and fixes:
 - Created new concept page [[code-isolation]] (4th architectural pillar from the Tipping Point source; was referenced 4x with no page).
 - Renamed 8 non-kebab-case files to kebab-case and updated all referencing wikilinks + index.md: [[adam-bender]], [[openshell]], [[architecture-diagram-test]], [[robust-abstractions]], [[agentic-chaos]], [[ai-10x-moment]], [[statistical-integration-testing]], [[code-as-liability]].
 - Deferred: "embeddings" concept page (referenced 11x across recommendation-systems pages) not created — flagged for future ingest.
+
+## [2026-10-29] ingest | Claude Code review process at Anthropic
+
+Processed the Anthropic source article [Solving Code Review at Anthropic](https://claude.dev/blog/solving-code-review-at-anthropic/).
+Created raw source `raw/articles/claude-code-review-at-anthropic-2026-10-29.md`, source page [[claude-code-review-at-anthropic-2026-10-29]], and concept page [[ai-code-review]].
+Updated [[anthropic]], [[claude]], [[harness-engineering]], and [[index]].
+Recorded layered verification, AI and security review, risk-based approval, merge queues, feature flags, gradual release, rollback, convergence controls, incident-driven evaluation, and the boundary between source-reported internal results and general conclusions.

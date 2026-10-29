@@ -38,6 +38,8 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[trae-definitive-guide-harness-engineering|The Definitive Guide to Harness Engineering (Trae)]] — Horse & Reins metaphor, R.E.S.T. framework, PPAF loop, six design principles
 - [[stripe-minions-one-shot-coding-agents|Stripe Minions: One-Shot Coding Agents]] — Stripe's production one-shot agents; blueprints as feedforward guides, pre-push hooks as sensors
 - [[anthropic-effective-harnesses|Effective Harnesses for Long-Running Agents]] — Anthropic's two-role architecture: initializer + coding agent; context anxiety and reset strategies
+- [[claude-code-review-at-anthropic-2026-10-29|Solving Code Review at Anthropic]] — layered AI review, risk-based human approval, merge queue, flags, gradual release, rollback, and incident-driven evals
+- [[ai-code-review|AI Code Review as a Layered Control System]] — concept page for convergence-aware review, deterministic controls, human judgment, and staged recovery
 - [[harness-design-long-running-apps|Harness Design for Long-Running Apps]] — Multi-agent generator–evaluator harness for long-running app development with Claude
 - [[harness-engineering-claude-code-book|Harness Engineering: The Claude Code Book]] — Comprehensive design analysis of Claude Code as a harness specimen
 - [[agentgateway-kubernetes-docs|Agent Gateway: Kubernetes Docs]] — Official Kubernetes deployment docs: LLM/MCP/A2A gateway, Rust, Linux Foundation

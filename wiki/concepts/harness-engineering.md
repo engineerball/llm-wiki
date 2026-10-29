@@ -223,3 +223,4 @@ See [[how-we-built-an-ai-second-brain-for-60k-knowledge-workers-meta]].
 - [[ralph-wiggum-technique]] — pure harness-engineering expression: autonomous loop where operator designs specs/stdlib/backpressure, not code
 - [[agentic-software-factory]] — enterprise operating-model abstraction built on top of harness engineering
 - [[intent-thinking]] — complementary human competency: specifying precise, testable desired outcomes
+- [[ai-code-review]] — layered review and release controls for high-volume agent-generated changes
